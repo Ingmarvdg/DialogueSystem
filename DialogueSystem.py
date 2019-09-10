@@ -6,12 +6,7 @@ import time
 
 # global variables
 buttonPressed = True
-amount = 5
-currentAmount = 0
 dataDirectory = "data/"
-
-json_log = "data/dstc2_test/data/Mar13_S2A0/voip-00d76b791d-20130327_005342/log.json"
-json_label = "data/dstc2_test/data/Mar13_S2A0/voip-00d76b791d-20130327_005342/label.json"
 
 # function for reading and parsing json to make the conversation readable
 def readAndParseJson(log_url, label_url):
@@ -56,36 +51,58 @@ def readAndParseJson(log_url, label_url):
 def writeConvoToFile(directory, conversation):
     fileName = conversation[0]
     file = open(""+directory+"/"+fileName+".txt", "x")
-    file.write("\n".join(readAndParseJson(json_log, json_label)))
+    file.write("\n".join(conversation))
     file.close()
     return
 
-
 # write all conversations to files
-def writeAllConvosToFile():
-    file = 0
+def writeAllConvosToFile(conversations):
+    dirName = "conversation" + str(time.time())
+    try:
+        os.mkdir(dataDirectory + dirName)
+    except FileExistsError:
+        print("directory already exists")
+    for conversation in conversations:
+        writeConvoToFile("" + dataDirectory + str(dirName), conversation)
+    return
 
-    return file
+
+def parseAllJson(header):
+    conversations = []
+    entries = os.listdir(header)
+    for parent_directories in entries:
+        if parent_directories.startswith(".") == False:
+            entries_child = os.listdir(header + parent_directories + '/')
+            for child_directories in entries_child:
+                if child_directories.startswith(".") == False:
+                    json_log = header + parent_directories + '/' + child_directories + '/log.json'
+                    json_label = header + parent_directories + '/' + child_directories + '/label.json'
+                    ## Grabs data from data folder. Needs a loop
+                    conversations.append(readAndParseJson(json_log, json_label))
+    print(len(conversations))
+    return conversations
+
+header_test = 'data/dstc2_test/data/'
+header_train = 'data/dstc2_traindev/data/'
+
+test_conversations = parseAllJson(header_test)
+train_conversations = parseAllJson(header_train)
+
+all_conversations = test_conversations + train_conversations
+
+amount = len(all_conversations)
+print(amount)
+currentAmount = 0
 
 while(currentAmount < amount):
     text = input("Press ENTER to print the next item, write SAVE to save all conversations to files, write DONE to exit the program")
     if text == "":
         print ("you pressed enter")
-        print("\n".join(readAndParseJson(json_log, json_label)))
+        print("\n".join(all_conversations[currentAmount]))
         currentAmount+=1
     if text == "DONE":
         break
     if text == "SAVE":
-
-        dirName = "conversations"
-        try:
-            # Create target Directory
-            os.mkdir(dataDirectory + dirName + time.time())
-            print("Directory ", dirName, " Created ")
-        except FileExistsError:
-            print("Directory ", dirName, " already exists")
-
-        writeConvoToFile("" + dataDirectory + str(dirName), readAndParseJson(json_log, json_label))
-        print("created directory in " + dataDirectory + str(dirName))
+        writeAllConvosToFile(all_conversations)
     else:
         print("Dont type anything beforehand if you want to see the next item")
