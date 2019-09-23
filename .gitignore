@@ -1,0 +1,5 @@
+data/
+.DS_Store
+.idea/
+test_data.txt
+train_data.txt
