@@ -1,0 +1,32 @@
+dialog_act:inform, utterance_content:i dont care
+dialog_act:inform, utterance_content:it doesnt matter
+dialog_act:inform, utterance_content:i dont care about price range
+dialog_act:inform, utterance_content:doesnt matter
+dialog_act:inform, utterance_content:it does not matter
+dialog_act:negate, utterance_content:no vietnamese food
+dialog_act:negate, utterance_content:no
+dialog_act:negate, utterance_content:no i would like a cuban restaurant
+dialog_act:negate, utterance_content:no african
+dialog_act:inform, utterance_content:doesnt matter west part of town
+dialog_act:inform, utterance_content:i do not care
+dialog_act:inform, utterance_content:dont care
+dialog_act:negate, utterance_content:no thank you good bye
+dialog_act:negate, utterance_content:no french food
+dialog_act:request, utterance_content:uh no price range whats the
+dialog_act:inform, utterance_content:thats not important
+dialog_act:negate, utterance_content:wait no i wanted portuguese food
+dialog_act:deny, utterance_content:i dont want turkish
+dialog_act:negate, utterance_content:no indian restaurant
+dialog_act:negate, utterance_content:no im looking for a unintelligible swiss food
+dialog_act:negate, utterance_content:uh no
+dialog_act:negate, utterance_content:no caribbean
+dialog_act:negate, utterance_content:no singaporean
+dialog_act:inform, utterance_content:if theres no persian food about about chinese
+dialog_act:negate, utterance_content:no i would like a cuban restaurant
+dialog_act:negate, utterance_content:no im looking for eritrean food
+dialog_act:negate, utterance_content:no gastropub
+dialog_act:negate, utterance_content:no french food
+dialog_act:negate, utterance_content:no chinese
+dialog_act:negate, utterance_content:no australian food
+dialog_act:negate, utterance_content:no lebanese how do you say it
+dialog_act:negate, utterance_content:no thats good because i want um asian oriental

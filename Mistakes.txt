@@ -1,0 +1,22 @@
+dialog_act:negate, utterance_content:no air tran food
+dialog_act:null, utterance_content:sil
+dialog_act:request, utterance_content:addre
+dialog_act:inform, utterance_content:venesian
+dialog_act:null, utterance_content:can i
+dialog_act:reqalts, utterance_content:how about a castro pub
+dialog_act:inform, utterance_content:im looking for an expensive restaurant in the south part of
+dialog_act:reqalts, utterance_content:how about portugeuse food
+dialog_act:hello, utterance_content:halo
+dialog_act:inform, utterance_content:im looking for a moderately priced restaurant in the
+dialog_act:request, utterance_content:what is the phone number and addre
+dialog_act:affirm, utterance_content:ye
+dialog_act:reqalts, utterance_content:what about a modern europene type of food
+dialog_act:null, utterance_content:whats the ph
+dialog_act:reqalts, utterance_content:how about a moderately priced restauran
+dialog_act:inform, utterance_content:isian food
+dialog_act:inform, utterance_content:vegitarian
+dialog_act:thankyou, utterance_content:and i think thatll do it thank you good bye
+dialog_act:request, utterance_content:uh no price range whats the
+dialog_act:inform, utterance_content:looking for a restaurant in the center that serves
+dialog_act:null, utterance_content:um i want
+dialog_act:inform, utterance_content:portugese
