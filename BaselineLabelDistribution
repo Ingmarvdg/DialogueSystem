@@ -54,7 +54,7 @@ def CumulativeDistribution(frequency):
 def LabelsAssigning(distribution):
     
     r = random.random()
-    print(r)
+ 
     for i in range (len(distribution)):
         if r <= distribution[i]:
             labelled = distribution[i]
@@ -69,10 +69,3 @@ def getAct(frequency, distribution, labelled):
     act = list(frequency['Act'])[index_label]
     
     return act
-
-list_of_sentences=["(inform) i want chinese", "(inform) i am looking for food", "(bye) goodbye"]
-f = Frequency (list_of_sentences)
-c = CumulativeDistribution (f)
-l = LabelsAssigning(c)
-a = getAct(f,c,l)
-print(a)
