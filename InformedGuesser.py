@@ -5,12 +5,12 @@ import numpy as np
 def DialogActFreqs(data_labels):
     freqs = pd.DataFrame(columns=['acts', 'frequency'])
     length = len(data_labels)
-    dialog_acts = data_labels.unique()
+    dialog_acts = set(data_labels)
 
     for act in dialog_acts:
         count = data_labels.count(act)
-        act_freq = count / length
-        freqs.append([act, act_freq])
+        freqs = freqs.append({'acts': act, 'frequency': count / length}, ignore_index=True)
+        print(freqs)
 
     # return an array with row 0 having the unique acts and row 1 having their probability of occurring
     return freqs

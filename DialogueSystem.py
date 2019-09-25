@@ -4,6 +4,12 @@ from itertools import chain
 import os
 import time
 import random
+import InformedGuesser as ig
+import MLClassifier as mlc
+import nltk
+
+nltk.download('wordnet')
+nltk.download('averaged_perceptron_tagger')
 
 # global variables
 buttonPressed = True
@@ -172,3 +178,31 @@ elif answer == '2':
                    ', utterance_content:' + test_conversations[i]['utterance_content'] + '\n')
     file.close()
     print('test_data.txt was created successfully!')
+
+# open training and testing data
+train_data_path = r"train_data.txt"
+test_data_path = r"DialogueSystem/test_data.txt"
+
+# open hard case data
+hard_test_data_path =  r"DialogueSystem/Mistakes.txt"
+negation_test_data_path = r"DialogueSystem/Negation.txt"
+
+# pre process all data
+train_data = mlc.preprocess(train_data_path)
+test_data = mlc.preprocess(test_data_path)
+hard_test_data = mlc.preprocess(hard_test_data_path)
+negation_test_data = mlc.preprocess(negation_test_data_path)
+
+# get predictions for baseline random
+#print(train_data)
+
+# get predictions for baseline rulebased
+
+# get predictions machine learning model of testset
+
+# for each of the predictors print classification report
+
+#  show graph that compares weighted f1 scores, recall and precision of baseline 1, baseline 2 and machine learning model
+
+# loop to enter a sentence and let the ml model classify it
+
