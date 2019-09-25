@@ -126,7 +126,7 @@ header_test = 'data/dstc2_test/data/'
 header_train = 'data/dstc2_traindev/data/'
 
 print('Select an option:')
-answer = input('1)Part 1a: domain modelling. \n2)Part 1b: Produce text files.\n3)Part 1b: Train, Test, Evaluate')
+answer = input('1)Part 1a: domain modelling. \n2)Part 1b: Produce text files.\n3)Part 1b: Train, Test, Evaluate.\n')
 
 if answer == '1':
     print('Parsing data...')
@@ -158,33 +158,33 @@ elif answer == '2':
 
     all_conversations = temp_test_conversations + temp_train_conversations
 
-    number_85_training = round(len(all_conversations) * 85 / 100)
-    number_15_test = round(len(all_conversations) * 15 / 100)
+    random.shuffle(all_conversations)
 
-    random.shuffle(temp_test_conversations)
+    number_training = round(len(all_conversations) * 85 / 100)
+    number_test = round(len(all_conversations) * 15 / 100)
+
     test_conversations = []
-    for data_in_one_file in temp_test_conversations:
-        for data in data_in_one_file:
-            test_conversations.append(data)
-
-    random.shuffle(temp_train_conversations)
     train_conversations = []
-    for data_in_one_file in temp_train_conversations:
-        for data in data_in_one_file:
-            train_conversations.append(data)
+    for i in range(len(all_conversations)):
+        if i < number_training:
+            for data in all_conversations[i]:
+                train_conversations.append(data)
+        else:
+            for data in all_conversations[i]:
+                test_conversations.append(data)
 
     selected_train = []
     selected_test = []
 
     file = open("train_data.txt", "w")
-    for i in range(number_85_training):
+    for i in range(len(train_conversations)):
         file.write('dialog_act:' + train_conversations[i]['dialog_act'] +
                    ', utterance_content:' + train_conversations[i]['utterance_content'] + '\n')
     file.close()
     print('train_data.txt was created successfully!')
 
     file = open("test_data.txt", "w")
-    for i in range(number_15_test):
+    for i in range(len(test_conversations)):
         file.write('dialog_act:' + test_conversations[i]['dialog_act'] +
                    ', utterance_content:' + test_conversations[i]['utterance_content'] + '\n')
     file.close()
@@ -201,7 +201,7 @@ elif answer == '3':
 
     # pre process all data
     print("Started processing data, this may take a while...")
-    #train_data = mlc.preprocess(train_data_path)
+    # train_data = mlc.preprocess(train_data_path)
     print("Processing training data complete.")
     test_data = mlc.preprocess(test_data_path)
     print("Processing test data complete.")
@@ -213,6 +213,7 @@ elif answer == '3':
 
     # split to X and Y
     test_Y = test_data['label']
+    test_X = test_data['text_final']
     # get predictions for baseline random
     frequencies = test_Y.value_counts(normalize=True)
     random_preds = np.random.choice(frequencies.index.values, len(test_Y), frequencies.values)
