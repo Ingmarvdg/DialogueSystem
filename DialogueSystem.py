@@ -7,6 +7,7 @@ import random
 import InformedGuesser as ig
 import MLClassifier as mlc
 import nltk
+import numpy as np
 
 import numpy
 
@@ -21,6 +22,11 @@ nltk.download('averaged_perceptron_tagger')
 buttonPressed = True
 dataDirectory = "data/"
 
+# nltk downloads
+nltk.download('wordnet')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('punkt')
+nltk.download('stopwords')
 
 # function for reading and parsing json to make the conversation readable
 def read_and_parse_json_conversation(log_url, label_url):
@@ -120,7 +126,7 @@ header_test = 'data/dstc2_test/data/'
 header_train = 'data/dstc2_traindev/data/'
 
 print('Select an option:')
-answer = input('1)Part 1a data and domain modelling. \n2)Part 1b text classification.\n')
+answer = input('1)Part 1a: domain modelling. \n2)Part 1b: Produce text files.\n3)Part 1b: Train, Test, Evaluate')
 
 if answer == '1':
     print('Parsing data...')
@@ -184,30 +190,46 @@ elif answer == '2':
     file.close()
     print('test_data.txt was created successfully!')
 
-# # open training and testing data
-# train_data_path = r"train_data.txt"
-# test_data_path = r"DialogueSystem/test_data.txt"
-#
-# # open hard case data
-# hard_test_data_path =  r"DialogueSystem/Mistakes.txt"
-# negation_test_data_path = r"DialogueSystem/Negation.txt"
-#
-# # pre process all data
-# train_data = mlc.preprocess(train_data_path)
-# test_data = mlc.preprocess(test_data_path)
-# hard_test_data = mlc.preprocess(hard_test_data_path)
-# negation_test_data = mlc.preprocess(negation_test_data_path)
-#
-# # get predictions for baseline random
-# #print(train_data)
-#
-# # get predictions for baseline rulebased
-#
-# # get predictions machine learning model of testset
-#
-# # for each of the predictors print classification report
-#
-# #  show graph that compares weighted f1 scores, recall and precision of baseline 1, baseline 2 and machine learning model
-#
-# # loop to enter a sentence and let the ml model classify it
+elif answer == '3':
+    # open training and testing data
+    train_data_path = r"train_data.txt"
+    test_data_path = r"test_data.txt"
+
+    # open hard case data
+    hard_test_data_path = r"Mistakes.txt"
+    negation_test_data_path = r"Negation.txt"
+
+    # pre process all data
+    print("Started processing data, this may take a while...")
+    #train_data = mlc.preprocess(train_data_path)
+    print("Processing training data complete.")
+    test_data = mlc.preprocess(test_data_path)
+    print("Processing test data complete.")
+    hard_test_data = mlc.preprocess(hard_test_data_path)
+    print("Processing hard test data complete.")
+    negation_test_data = mlc.preprocess(negation_test_data_path)
+    print("Processing negation test data complete")
+    print("All processing completed.")
+
+    # split to X and Y
+    test_Y = test_data['label']
+    # get predictions for baseline random
+    frequencies = test_Y.value_counts(normalize=True)
+    random_preds = np.random.choice(frequencies.index.values, len(test_Y), frequencies.values)
+
+    # get predictions for baseline rulebased
+
+
+# get predictions for baseline random
+#print(train_data)
+
+# get predictions for baseline rulebased
+
+# get predictions machine learning model of testset
+
+# for each of the predictors print classification report
+
+#  show graph that compares weighted f1 scores, recall and precision of baseline 1, baseline 2 and machine learning model
+
+# loop to enter a sentence and let the ml model classify it
 
