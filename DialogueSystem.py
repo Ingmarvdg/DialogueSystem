@@ -8,6 +8,12 @@ import InformedGuesser as ig
 import MLClassifier as mlc
 import nltk
 
+import numpy
+
+import InformedGuesser as ig
+import MLClassifier as mlc
+import nltk
+
 nltk.download('wordnet')
 nltk.download('averaged_perceptron_tagger')
 
@@ -140,30 +146,30 @@ if answer == '1':
             print("Dont type anything beforehand if you want to see the next item")
 elif answer == '2':
     print('Parsing data...')
+
     temp_test_conversations = parse_all_json(header_test, answer)
     temp_train_conversations = parse_all_json(header_train, answer)
 
-    amount_test = 0
+    all_conversations = temp_test_conversations + temp_train_conversations
+
+    number_85_training = round(len(all_conversations) * 85 / 100)
+    number_15_test = round(len(all_conversations) * 15 / 100)
+
+    random.shuffle(temp_test_conversations)
     test_conversations = []
     for data_in_one_file in temp_test_conversations:
         for data in data_in_one_file:
             test_conversations.append(data)
-            amount_test += 1
 
-    amount_train = 0
+    random.shuffle(temp_train_conversations)
     train_conversations = []
     for data_in_one_file in temp_train_conversations:
         for data in data_in_one_file:
             train_conversations.append(data)
-            amount_train += 1
-
-    number_85_training = round(amount_train * 85/100)
-    number_15_test = round(amount_test * 15/100)
 
     selected_train = []
     selected_test = []
 
-    random.shuffle(train_conversations)
     file = open("train_data.txt", "w")
     for i in range(number_85_training):
         file.write('dialog_act:' + train_conversations[i]['dialog_act'] +
@@ -171,7 +177,6 @@ elif answer == '2':
     file.close()
     print('train_data.txt was created successfully!')
 
-    random.shuffle(test_conversations)
     file = open("test_data.txt", "w")
     for i in range(number_15_test):
         file.write('dialog_act:' + test_conversations[i]['dialog_act'] +
@@ -179,30 +184,30 @@ elif answer == '2':
     file.close()
     print('test_data.txt was created successfully!')
 
-# open training and testing data
-train_data_path = r"train_data.txt"
-test_data_path = r"DialogueSystem/test_data.txt"
-
-# open hard case data
-hard_test_data_path =  r"DialogueSystem/Mistakes.txt"
-negation_test_data_path = r"DialogueSystem/Negation.txt"
-
-# pre process all data
-train_data = mlc.preprocess(train_data_path)
-test_data = mlc.preprocess(test_data_path)
-hard_test_data = mlc.preprocess(hard_test_data_path)
-negation_test_data = mlc.preprocess(negation_test_data_path)
-
-# get predictions for baseline random
-#print(train_data)
-
-# get predictions for baseline rulebased
-
-# get predictions machine learning model of testset
-
-# for each of the predictors print classification report
-
-#  show graph that compares weighted f1 scores, recall and precision of baseline 1, baseline 2 and machine learning model
-
-# loop to enter a sentence and let the ml model classify it
+# # open training and testing data
+# train_data_path = r"train_data.txt"
+# test_data_path = r"DialogueSystem/test_data.txt"
+#
+# # open hard case data
+# hard_test_data_path =  r"DialogueSystem/Mistakes.txt"
+# negation_test_data_path = r"DialogueSystem/Negation.txt"
+#
+# # pre process all data
+# train_data = mlc.preprocess(train_data_path)
+# test_data = mlc.preprocess(test_data_path)
+# hard_test_data = mlc.preprocess(hard_test_data_path)
+# negation_test_data = mlc.preprocess(negation_test_data_path)
+#
+# # get predictions for baseline random
+# #print(train_data)
+#
+# # get predictions for baseline rulebased
+#
+# # get predictions machine learning model of testset
+#
+# # for each of the predictors print classification report
+#
+# #  show graph that compares weighted f1 scores, recall and precision of baseline 1, baseline 2 and machine learning model
+#
+# # loop to enter a sentence and let the ml model classify it
 
