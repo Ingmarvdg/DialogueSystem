@@ -8,6 +8,16 @@ import InformedGuesser as ig
 import MLClassifier as mlc
 import nltk
 import numpy as np
+import RulebasedEstimator as rbe
+
+from sklearn.preprocessing import LabelEncoder
+from collections import defaultdict
+from nltk.corpus import wordnet as wn
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn import model_selection, naive_bayes, svm, tree
+from sklearn.metrics import accuracy_score
+from sklearn.metrics import f1_score
+import sklearn.metrics as metrics
 
 import numpy
 
@@ -27,6 +37,7 @@ nltk.download('wordnet')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('punkt')
 nltk.download('stopwords')
+
 
 # function for reading and parsing json to make the conversation readable
 def read_and_parse_json_conversation(log_url, label_url):
@@ -201,7 +212,7 @@ elif answer == '3':
 
     # pre process all data
     print("Started processing data, this may take a while...")
-    # train_data = mlc.preprocess(train_data_path)
+    train_data = mlc.preprocess(train_data_path)
     print("Processing training data complete.")
     test_data = mlc.preprocess(test_data_path)
     print("Processing test data complete.")
@@ -212,25 +223,41 @@ elif answer == '3':
     print("All processing completed.")
 
     # split to X and Y
+    train_X, train_Y = train_data['text_final'], train_data['label']
     test_Y = test_data['label']
     test_X = test_data['text_final']
+
+    # label encoding
+    Encoder = LabelEncoder()
+    train_Y = Encoder.fit_transform(train_Y)
+    test_Y = Encoder.fit_transform(test_Y)
+
     # get predictions for baseline random
-    frequencies = test_Y.value_counts(normalize=True)
-    random_preds = np.random.choice(frequencies.index.values, len(test_Y), frequencies.values)
+    random_test_y = pd.Series(test_Y)
+    frequencies = random_test_y.value_counts(normalize=True)
+    random_preds = np.random.choice(list(frequencies.index.values), len(test_Y), list(frequencies.values))
 
-    # get predictions for baseline rulebased
+    # get predictions for baseline rule based
+    rule_preds = rbe.Classify(train_X)
+    rule_preds = Encoder.transform(rule_preds)
 
+    # get predictions machine learning model of test set
 
-# get predictions for baseline random
-#print(train_data)
+    Tfidf_vect = TfidfVectorizer(max_features=5000)
+    Tfidf_vect.fit(train_X)
+    Train_X_Tfidf = Tfidf_vect.transform(train_X)
+    Test_X_Tfidf = Tfidf_vect.transform(test_X)
 
-# get predictions for baseline rulebased
+    Model = naive_bayes.MultinomialNB()  # - 58%
+    Model.fit(Train_X_Tfidf, train_Y)
+    predictions_NB = Model.predict(Test_X_Tfidf)
+    print(predictions_NB)
 
-# get predictions machine learning model of testset
+    ml_preds = Encoder.inverse_transform(predictions_NB)
 
-# for each of the predictors print classification report
+    # for each of the predictors print classification report
 
-#  show graph that compares weighted f1 scores, recall and precision of baseline 1, baseline 2 and machine learning model
+    #  show graph that compares weighted f1 scores, recall and precision of baseline 1, baseline 2 and machine learning model
 
-# loop to enter a sentence and let the ml model classify it
+    # loop to enter a sentence and let the ml model classify it
 

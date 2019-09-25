@@ -6,6 +6,7 @@ Created on Tue Sep 17 16:27:50 2019
 @author: elfiakibv
 """
 
+import numpy as np
 
 def Classify_1 (sentence):
     
@@ -67,8 +68,8 @@ def Classify (list_of_sentences):
     
     for sentence in list_of_sentences:
         act = Classify_1 (sentence)
-        print(act)
         list_of_acts.append(act) 
-    
+
+    list_of_acts = np.asarray(list_of_acts)
     return list_of_acts
 

@@ -58,37 +58,6 @@ def preprocess(datapath):
         
     return(Corpus)
 
-# Process both sets	and rename
-#Corpus_train = preprocess(train_data)
-#Corpus_test = preprocess(test_data)
-
-#Train_X, Train_Y, Test_X, Test_Y = Corpus_train['text_final'], Corpus_train['label'], Corpus_test['text_final'], Corpus_test['label']
-
-
-# Encode labels for classification. Unable to revert yet due to missing test cases!
-#Encoder = LabelEncoder()
-#Train_Y = Encoder.fit_transform(Train_Y)
-#output = open('label_encoder.pkl', 'wb')
-#pickle.dump(Encoder, output)
-#output.close()
-#Test_Y = Encoder.fit_transform(Test_Y)
-
-#Tfidf_vect = TfidfVectorizer(max_features=5000)
-#Tfidf_vect.fit(Corpus_train['text_final'])
-#Train_X_Tfidf = Tfidf_vect.transform(Train_X)
-#Test_X_Tfidf = Tfidf_vect.transform(Test_X)
-
-
-# Fit models
-
-#Model = tree.DecisionTreeClassifier() 57%
-#Model = naive_bayes.ComplementNB() - 55%
-#Model = naive_bayes.MultinomialNB() # - 58%
-#Model = svm.SVC(gamma='auto') - 54%
-
-#Model.fit(Train_X_Tfidf, Train_Y)
-# predict the labels on validation dataset
-#predictions_NB = Model.predict(Test_X_Tfidf)
 # Use accuracy_score function to get the accuracy
 #print("Naive Bayes Accuracy Score -> ",accuracy_score(predictions_NB, Test_Y)*100)
 #print("F1 Scores ->                  ",f1_score(Test_Y, predictions_NB, average="micro")*100)
