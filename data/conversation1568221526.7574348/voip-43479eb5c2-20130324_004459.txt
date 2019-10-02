@@ -1,0 +1,47 @@
+voip-43479eb5c2-20130324_004459
+Task 07737: You are looking for a restaurant in the west part of town and it should serve austrian food. If there is no such venue how about indian type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What kind of food would you like?
+user: austrian food in the west part of town
+system: You are looking for a restaurant serving any kind of food right?
+user: no austrian food
+system: I'm sorry but there is no restaurant serving austrian food
+user: how about indian food
+system: I'm sorry but there is no restaurant serving austrian food
+user: indian food
+system: I'm sorry but there is no restaurant serving austrian food
+user: indian food west part of town
+system: Could you please repeat that?
+user: indian food west part of town
+system: You are looking for a austrian restaurant right?
+user: no indian restaurant
+system: I'm sorry but there is no restaurant serving austrian food
+user: i want i want indian food
+system: Could you please repeat that?
+user: unintelligible food
+system: You are looking for a austrian restaurant right?
+user: unintelligible
+system: I'm sorry but there is no restaurant serving austrian food
+user: unintelligible
+system: I'm sorry but there is no restaurant serving austrian food
+user: indian food in the west part of town
+system: Could you please repeat that?
+user: yes indian food
+system: You are looking for a austrian restaurant right?
+user: no no
+system: I'm sorry but there is no restaurant serving austrian food
+user: i want indian food
+system: Could you please repeat that?
+user: indian food west part of town
+system: There are 4 restaurants serving indian in the west of town . What price range would you like?
+user: i dont care
+system: india house is a nice place in the west of town serving tasty indian food
+user: address and phone number
+system: india house is a great restaurant
+user: address
+system: Sure , india house is on 31 Newnham Road Newnham
+user: phone number
+system: The phone number of india house is 01223 461661 .
+user: thank you good bye

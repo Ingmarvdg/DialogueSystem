@@ -1,0 +1,29 @@
+voip-ccf48b9a6a-20130329_041830
+Task 07500: You want to find and it should serve french food. You don't care about the price range. You want to know the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What part of town do you have in mind?
+user: how about french food
+system: What part of town do you have in mind?
+user: center
+system: What part of town do you have in mind?
+user: south
+system: What kind of food would you like?
+user: french
+system: What kind of food would you like?
+user: noise
+system: pizza hut cherry hinton is a nice place in the south of town
+user: noise
+system: nandos is a nice place in the south of town
+user: noise french food
+system: I'm sorry but there is no french restaurant in the south of town
+user: noise center
+system: restaurant two two serves french food
+user: address
+system: Sure , restaurant two two is on 22 Chesterton Road Chesterton
+user: phone number
+system: The phone number of restaurant two two is 01223 351880 .
+user: post code
+system: The post code of restaurant two two is C.B 4, 3 A.X
+user: thank you good bye

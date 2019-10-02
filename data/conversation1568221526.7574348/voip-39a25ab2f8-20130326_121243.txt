@@ -1,0 +1,15 @@
+voip-39a25ab2f8-20130326_121243
+Task 12465: You want to find a moderately priced restaurant and it should be in the north part of town. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What kind of food would you like?
+user: moderately priced restaurant in the north part of town
+system: There are 3 restaurants in the moderate price range and the north of town . What type of food would you like?
+user: noise
+system: You are looking for a restaurant serving any kind of food right?
+user: yes
+system: the nirala is a nice place in the north of town and the prices are moderate
+user: address
+system: Sure , the nirala is on 7 Milton Road Chesterton
+user: thank you good bye

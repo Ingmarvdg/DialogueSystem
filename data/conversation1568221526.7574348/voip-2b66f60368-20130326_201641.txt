@@ -1,0 +1,31 @@
+voip-2b66f60368-20130326_201641
+Task 00042: You want to find an expensive restaurant and it should serve english food. If there is no such venue how about turkish type of food. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for an expensive restaurant
+system: There are 57 restaurants in the expensive price range . What type of food do you want?
+user: sells english food
+system: I'm sorry but there is no restaurant serving english food
+user: i need an expensive restaurant
+system: Could you please repeat that?
+user: im looking for an expensive restaurant
+system: I'm sorry but there is no restaurant serving english food
+user: what about turkey food
+system: I'm sorry but there is no restaurant serving english food
+user: are there any restaurants serving turkish food
+system: Could you please repeat that?
+user: are there any restaurants serving turkish food
+system: Sorry, I can't hear you
+user: noise
+system: I am sorry but there is no other turkish restaurant in the expensive price range
+user: are there any turkish restaurants at all
+system: Can I help you with anything else?
+user: i need to know if there are any restaurants serving turkish food
+system: meze bar restaurant serves turkish food in the expensive price range
+user: whats the address
+system: Sure , meze bar restaurant is on 196 Mill Road City Centre
+user: okay thank you
+system: meze bar restaurant serves turkish food in the expensive price range
+user: thats all i need
+system: I am sorry but there is no other turkish restaurant in the expensive price range
+user: okay good bye

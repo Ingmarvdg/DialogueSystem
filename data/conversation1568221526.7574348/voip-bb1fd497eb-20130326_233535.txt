@@ -1,0 +1,23 @@
+voip-bb1fd497eb-20130326_233535
+Task 11568: You are looking for an expensive restaurant and it should serve irish food. If there is no such venue how about korean type of food. You want to know the address and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for an expensive restaurant that
+system: There are 57 restaurants in the expensive price range . What type of food do you want?
+user: irish food
+system: I'm sorry but there is no restaurant serving irish food
+user: how about korean food
+system: I'm sorry but there is no restaurant serving irish food
+user: how about korean food
+system: little seoul serves korean food in the expensive price range
+user: address and area
+system: Sure , little seoul is on 108 Regent Street City Centre
+user: area
+system: little seoul serves korean food
+user: area
+system: little seoul serves korean food in the expensive price range
+user: of the venue
+system: little seoul serves korean food in the expensive price range
+user: area of the food of the venue
+system: little seoul is a nice place in the centre of town
+user: thank you good bye

@@ -1,0 +1,11 @@
+voip-e0035cc31b-20130326_204429
+Task 05742: You want to find an expensive restaurant and it should serve scandinavian food. If there is no such venue how about turkish type of food. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want a scandinavian restaurant thats expensive
+system: Sorry there is no scandinavian restaurant in the expensive price range
+user: how about a turkish restaurant
+system: meze bar restaurant is a great restaurant serving turkish food and it is in the expensive price range
+user: whats the address
+system: Sure , meze bar restaurant is on 196 Mill Road City Centre
+user: thank you good bye

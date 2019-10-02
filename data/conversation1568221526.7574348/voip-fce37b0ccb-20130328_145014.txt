@@ -1,0 +1,19 @@
+voip-fce37b0ccb-20130328_145014
+Task 10584: You are looking for a restaurant in the west part of town and it should serve basque food. If there is no such venue how about indian type of food. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: yea im looking for a restaurant that serves basque food
+system: I'm sorry but there is no restaurant serving basque food
+user: what about indian
+system: I'm sorry but there is no restaurant serving basque food
+user: how about indian food
+system: You are looking for a indian restaurant right?
+user: correct
+system: What part of town do you have in mind?
+user: the west
+system: maharajah tandoori restaurant is a nice place in the west of town serving tasty indian food
+user: okay whats the phone number
+system: The phone number of maharajah tandoori restaurant is 01223 358399 .
+user: whats the address
+system: Sure , maharajah tandoori restaurant is on 41518 Castle Street City Centre
+user: thank you good bye

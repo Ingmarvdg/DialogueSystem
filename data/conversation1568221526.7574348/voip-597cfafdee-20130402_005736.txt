@@ -1,0 +1,23 @@
+voip-597cfafdee-20130402_005736
+Task 00795: You are looking for a cheap restaurant and it should serve belgian food. If there is no such venue how about italian type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a cheap restaurant serving belgain food
+system: You are looking for a belgian restaurant right?
+user: yes
+system: I'm sorry but there is no restaurant serving belgian food
+user: how about italian type of food
+system: Could you please repeat that?
+user: how about italian type of food
+system: I'm sorry but there is no restaurant serving belgian food
+user: no that is not unintelligible italian type of food
+system: You are looking for a italian restaurant right?
+user: yes
+system: There are 5 restaurants serving italian in the cheap price range . What area would you like?
+user: north
+system: What part of town do you have in mind?
+user: north part of town
+system: da vinci pizzeria is a great restaurant serving cheap italian food in the north of town .
+user: can i have the address and phone number of the venue
+system: The phone number of da vinci pizzeria is 01223 351707 and its postcode is C.B 4, 1 J.Y .
+user: thank you good bye

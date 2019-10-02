@@ -1,0 +1,59 @@
+voip-db80a9e6df-20130328_233914
+Task 03354: You are looking for and it should serve cuban food. You don't care about the price range. If there is no such venue how about asian oriental type of food. You want to know the address and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cuban food
+system: What kind of food would you like?
+user: cuban
+system: You are looking for a restaurant serving any kind of food right?
+user: no
+system: You are looking for a restaurant serving any kind of food right?
+user: cuban
+system: What part of town do you have in mind?
+user: i do not care
+system: There are 109 restaurants if you don't care about the area or the type of food . What price range would you like?
+user: do they serve cuban
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: food
+system: Could you please repeat that?
+user: cuban restauran
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: no i would like a cuban restaurant
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i do not care
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: again i do not care
+system: Ok , a restaurant in any part of town is that right?
+user: ye
+system: Ok , a restaurant in any part of town is that right?
+user: a restaurant that serves
+system: Ok , a restaurant in any part of town is that right?
+user: cuban food
+system: Ok , a restaurant in any part of town is that right?
+user: yes serving cuban food
+system: Ok , a restaurant in any part of town is that right?
+user: breath correct
+system: You are looking for a restaurant serving any kind of food right?
+user: no
+system: You are looking for a restaurant serving any kind of food right?
+user: no cuban food cuban food
+system: You are looking for a restaurant serving any kind of food right?
+user: no asian oriental
+system: You are looking for a restaurant serving any kind of food right?
+user: no
+system: Ok , a restaurant in any part of town is that right?
+user: no
+system: Let me confirm , You are looking for a restaurant and you dont care about the price range right?
+user: yes
+system: Ok , a restaurant in any part of town is that right?
+user: a cuban restaurant cuban restaurant
+system: Ok , a restaurant in any part of town is that right?
+user: ye
+system: You are looking for a restaurant serving any kind of food right?
+user: serving cuban food
+system: I'm sorry but there is no restaurant serving cuban food
+user: how about asian oriental
+system: I'm sorry but there is no restaurant serving cuban food
+user: asian oriental
+system: I'm sorry but there is no restaurant serving cuban food
+user: thank you goodbye

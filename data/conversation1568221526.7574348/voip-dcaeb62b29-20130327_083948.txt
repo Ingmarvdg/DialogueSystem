@@ -1,0 +1,25 @@
+voip-dcaeb62b29-20130327_083948
+Task 05712: You are looking for a restaurant in the west part of town and it should serve moroccan food. If there is no such venue how about indian type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: restaurant in the west part of town serving moroccan food
+system: What kind of food would you like?
+user: moroccan
+system: travellers rest is a nice place in the west of town
+user: what type of food
+system: travellers rest serves british food
+user: how about moroccan food
+system: sala thong is a nice place in the west of town
+user: how about moroccan food
+system: la margherita is a nice place in the west of town
+user: how about moroccan food
+system: maharajah tandoori restaurant is a nice place in the west of town
+user: moroccan food
+system: I'm sorry but there is no restaurant serving moroccan food
+user: how about indian food
+system: travellers rest is a nice place in the west of town
+user: how about indian food
+system: maharajah tandoori restaurant is a nice place in the west of town serving tasty indian food
+user: what is the address and phone number
+system: The phone number of maharajah tandoori restaurant is 01223 358399 and it is on 41518 Castle Street City Centre .
+user: thank you good bye

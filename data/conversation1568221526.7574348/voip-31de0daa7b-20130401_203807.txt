@@ -1,0 +1,29 @@
+voip-31de0daa7b-20130401_203807
+Task 05985: You want to find a restaurant in the centre and it should serve spanish food. You want to know the phone number and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What kind of food would you like?
+user: restaurant center serves spanish food
+system: There are 2 restaurants serving spanish food . What area do you want?
+user: center
+system: There are 2 restaurants serving spanish in the centre of town . What price range would you like?
+user: restaurant center spanish food
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: moderate
+system: la tasca is a great restaurant serving moderate spanish food in the centre of town .
+user: sil
+system: Sorry but there is no other spanish restaurant in the moderate price range and the centre of town
+user: sil
+system: la tasca is a great restaurant serving moderate spanish food in the centre of town .
+user: phone number and post code
+system: Sorry but there is no other spanish restaurant in the moderate price range and the centre of town
+user: phone number
+system: Could you please repeat that?
+user: phone number
+system: la tasca is a great restaurant
+user: food
+system: The post code of la tasca is C.B 2, 1 U.F
+user: phone number
+system: The phone number of la tasca is 01223 464630 .
+user: thank you good bye

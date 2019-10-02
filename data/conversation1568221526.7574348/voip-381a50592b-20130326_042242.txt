@@ -1,0 +1,27 @@
+voip-381a50592b-20130326_042242
+Task 09885: You want to find a restaurant in the east part of town and it should serve italian food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: italian food
+system: What part of town do you have in mind?
+user: east
+system: pizza hut fen ditton is a nice restaurant in the east of town serving italian food
+user: phone number
+system: You are looking for a restaurant is that right?
+user: phone number
+system: Can I help you with anything else?
+user: phone number
+system: Can I help you with anything else?
+user: phone number
+system: Can I help you with anything else?
+user: phone number
+system: Can I help you with anything else?
+user: italian food
+system: pizza hut fen ditton is a nice restaurant in the east of town serving italian food
+user: phone number
+system: Can I help you with anything else?
+user: phone number
+system: Can I help you with anything else?
+user: phone number
+system: Can I help you with anything else?
+user: thank you good bye

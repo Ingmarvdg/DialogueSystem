@@ -1,0 +1,13 @@
+voip-78f497f314-20130324_201800
+Task 10476: You are looking for a cheap restaurant and it should be in the north part of town. Make sure you get the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for a cheap restaurant in the north part of town
+system: There are 2 restaurants in the cheap price range and the north of town . What type of food would you like?
+user: any kind
+system: You are looking for a restaurant serving any kind of food right?
+user: yes
+system: royal spice is a nice place in the north of town and the prices are cheap
+user: can i have the address phone number and post code
+system: The phone number of royal spice is 01733 553355 and its postcode is C.B 4, 1 E.H .
+user: thank you good bye

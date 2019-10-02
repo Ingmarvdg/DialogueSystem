@@ -1,0 +1,19 @@
+voip-0f41c16f2f-20130401_235202
+Task 01974: You want to find a moderately priced restaurant and it should serve corsica food. If there is no such venue how about gastropub type of food. You want to know the address, phone number, and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What kind of food would you like?
+user: corsica food
+system: I'm sorry but there is no restaurant serving corsica food
+user: gastropub food
+system: There are 4 restaurants serving gastropub food . What area do you want?
+user: south
+system: What part of town do you have in mind?
+user: noise
+system: What part of town do you have in mind?
+user: south
+system: I'm sorry but there is no gastropub restaurant in the south of town
+user: north
+system: Could you please repeat that?
+user: thank you good bye

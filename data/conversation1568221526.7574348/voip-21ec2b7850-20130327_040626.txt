@@ -1,0 +1,15 @@
+voip-21ec2b7850-20130327_040626
+Task 04605: You are looking for an expensive restaurant and it should serve swiss food. If there is no such venue how about mediterranean type of food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: expensive restaurant
+system: What kind of food would you like?
+user: swiss food
+system: Sorry there is no swiss restaurant in the expensive price range
+user: mediterranean food
+system: shiraz restaurant is a great restaurant serving mediterranean food and it is in the expensive price range
+user: address
+system: Sure , shiraz restaurant is on 84 Regent Street City Centre
+user: phone number
+system: The phone number of shiraz restaurant is 01223 307581 .
+user: thank you good bye

@@ -1,0 +1,15 @@
+voip-4f069a4136-20130327_204207
+Task 11844: You want to find and it should serve portuguese food. You don't care about the price range. You want to know the address and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: id like to find a restaurant that serves portuguese food
+system: You are looking for a portuguese restaurant right?
+user: yes i dont care about the price range
+system: There are 2 restaurants serving portuguese in any price range . What area would you like?
+user: dont care
+system: nandos serves portuguese food
+user: id like the address and area
+system: Sure , nandos is on Cambridge Leisure Park Clifton Way
+user: and the area
+system: nandos is a nice place in the south of town
+user: thank you good bye

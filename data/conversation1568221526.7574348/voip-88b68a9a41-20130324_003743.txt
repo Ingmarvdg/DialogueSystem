@@ -1,0 +1,19 @@
+voip-88b68a9a41-20130324_003743
+Task 03648: You are looking for a restaurant in any area and it should serve vegetarian food. If there is no such venue how about international type of food. Make sure you get the phone number and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: id like a restaurant in any area that serves vegetarian food
+system: I'm sorry but there is no restaurant serving vegetarian food
+user: how about a restaurant that serves international food
+system: I'm sorry but there is no restaurant serving vegetarian food
+user: international food
+system: Could you please repeat that?
+user: international food
+system: Ok , a restaurant in any part of town is that right?
+user: right
+system: There are 3 restaurants serving international food in any part of town . What price range would you like?
+user: i dont care
+system: bloomsbury restaurant serves international food
+user: could i have the phone number and post code please
+system: The phone number of bloomsbury restaurant is 0871 942 9180 and its postcode is C.B 2, 3 D.T .
+user: thank you good bye

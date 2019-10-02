@@ -1,0 +1,13 @@
+voip-bde2721237-20130325_164032
+Task 08130: You want to find a moderately priced restaurant and it should be in the west part of town. You want to know the address and type of food of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderately priced in the west part of town
+system: What kind of food would you like?
+user: any
+system: prezzo is a nice place in the west of town and the prices are moderate
+user: what type of food
+system: prezzo serves italian food
+user: what is the address
+system: Sure , prezzo is on 21 - 24 Northampton Road
+user: thank you good bye

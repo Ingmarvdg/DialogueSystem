@@ -1,0 +1,25 @@
+voip-d0341706f2-20130329_051849
+Task 09732: You want to find a restaurant in the centre and it should serve vegetarian food. If there is no such venue how about asian oriental type of food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for a restaurant in the center that serves vegetarian food
+system: I'm sorry but there is no restaurant serving vegetarian food
+user: how about asian oriental type of food
+system: Could you please repeat that?
+user: how about asian food
+system: I'm sorry but there is no restaurant serving polynesian food
+user: how about asian food
+system: Could you please repeat that?
+user: how about oriental type of food
+system: I'm sorry but there is no restaurant serving polynesian food
+user: asian oriental type of food
+system: You are looking for a asian oriental restaurant right?
+user: correct
+system: Did you say you are looking for a restaurant in the centre of town?
+user: yes
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i dont care
+system: yippee noodle bar is a nice place in the centre of town serving tasty asian oriental food
+user: what is the phone number
+system: The phone number of yippee noodle bar is 01223 518111 .
+user: thank you good bye

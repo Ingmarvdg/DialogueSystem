@@ -1,0 +1,23 @@
+voip-50af5438f1-20130402_082131
+Task 03150: You want to find a restaurant in the east part of town and it should serve steakhouse food. If there is no such venue how about indian type of food. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: east
+system: There are 9 restaurants in the east of town . What type of food do you want?
+user: unintelligible
+system: You are looking for a restaurant serving any kind of food right?
+user: no steak house
+system: I'm sorry but there is no restaurant serving steakhouse food
+user: indian
+system: You are looking for a indian restaurant right?
+user: yes
+system: Did you say you are looking for a restaurant in the east of town?
+user: yes
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: any
+system: rajmahal is a nice place in the east of town serving tasty indian food
+user: address
+system: Sure , rajmahal is on 7 Barnwell Road Fen Ditton
+user: phone number
+system: The phone number of rajmahal is 01223 244955 .
+user: thank you good bye

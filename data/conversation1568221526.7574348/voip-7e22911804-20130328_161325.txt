@@ -1,0 +1,25 @@
+voip-7e22911804-20130328_161325
+Task 03582: You are looking for a restaurant in the west part of town and it should serve halal food. If there is no such venue how about thai type of food. You want to know the address, phone number, and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the west part of town that serves halo food
+system: I am sorry but there is no world restaurant that matches your request
+user: how about thai food
+system: gourmet burger kitchen serves north american food .
+user: no what about thai food
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i dont care
+system: gourmet burger kitchen is a great restaurant
+user: is it in the west part of town
+system: cambridge lodge restaurant is a nice restaurant in the west of town serving european food
+user: i want a restaurant in the west part of town serving thai food
+system: cambridge lodge restaurant is in the west part of town .
+user: does it serve thai food
+system: sala thong is a nice restaurant in the west of town serving thai food
+user: what is the address phone number and the price range
+system: Sure , sala thong is on 35 Newnham Road Newnham
+user: what is the phone number
+system: The phone number of sala thong is 01223 323178 .
+user: and what is the price range
+system: sala thong is in the expensive price range
+user: thank you good bye

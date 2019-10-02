@@ -1,0 +1,11 @@
+voip-c8ec8c76dd-20130328_205558
+Task 11502: You want to find a moderately priced restaurant and it should be in the west part of town. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced restaurant in the west part
+system: What kind of food would you like?
+user: i dont care
+system: saint johns chop house is a nice place in the west of town and the prices are moderate
+user: what is their address and phone number
+system: The phone number of saint johns chop house is 01223 353110 and it is on 21 - 24 Northampton Street .
+user: thank you good bye

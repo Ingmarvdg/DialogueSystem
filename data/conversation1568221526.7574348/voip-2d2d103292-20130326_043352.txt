@@ -1,0 +1,13 @@
+voip-2d2d103292-20130326_043352
+Task 08049: You want to find and it should serve mediterranean food. You don't care about the price range. Make sure you get the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for mediterranean food
+system: What part of town do you have in mind?
+user: i dont care
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i dont care
+system: the gardenia serves mediterranean food
+user: what is the phone number
+system: The phone number of the gardenia is 01223 356354 .
+user: thank you good bye

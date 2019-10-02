@@ -1,0 +1,13 @@
+voip-96f43326a4-20130323_072452
+Task 08913: You are looking for and it should serve mediterranean food. You don't care about the price range. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant that serves mediterranean food
+system: the gardenia serves mediterranean food .
+user: well i dont care about the price range
+system: the gardenia serves mediterranean food .
+user: whats the price range
+system: the gardenia is in the cheap price range
+user: can i have the address
+system: Sure , the gardenia is on 2 Rose Crescent City Centre
+user: thank you good bye

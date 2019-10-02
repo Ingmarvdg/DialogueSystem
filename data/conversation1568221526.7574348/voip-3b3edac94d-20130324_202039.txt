@@ -1,0 +1,25 @@
+voip-3b3edac94d-20130324_202039
+Task 02700: You are looking for a restaurant in the east part of town and it should serve swiss food. If there is no such venue how about chinese type of food. Make sure you get the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the east part of town serving swiss food
+system: You are looking for a swiss restaurant right?
+user: yes
+system: I'm sorry but there is no restaurant serving swiss food
+user: how about chinese food
+system: I'm sorry but there is no restaurant serving swiss food
+user: im looking for a restaurant in the east part of town serving chinese food
+system: You are looking for a swiss restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving swiss food
+user: chinese
+system: I'm sorry but there is no restaurant serving swiss food
+user: im looking for a restaurant serving chinese food
+system: Could you please repeat that?
+user: im looking for a restaurant in the east part of town serving chinese food
+system: yu garden is a nice place in the east of town serving tasty chinese food
+user: what is the address phone number and post code
+system: The phone number of yu garden is 01223 248882 and it is on 529 Newmarket Road Fen Ditton .
+user: what is the post code
+system: The post code of yu garden is C.B 5, 8 P.A
+user: thank you good bye

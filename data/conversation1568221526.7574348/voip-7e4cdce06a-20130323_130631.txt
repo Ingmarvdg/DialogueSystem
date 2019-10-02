@@ -1,0 +1,23 @@
+voip-7e4cdce06a-20130323_130631
+Task 12297: You are looking for a restaurant in the east part of town and it should serve eritrean food. If there is no such venue how about chinese type of food. Make sure you get the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i am looking for a restaurant in the east part of town
+system: There are 9 restaurants in the east of town . What type of food do you want?
+user: eritrean
+system: I'm sorry but there is no restaurant serving eritrean food
+user: how about chinese food
+system: I'm sorry but there is no restaurant serving eritrean food
+user: what about a restaurant serving chinese food
+system: Could you please repeat that?
+user: what about a restaurant serving chinese food
+system: Did you say you are looking for a restaurant in the east of town?
+user: yes
+system: yu garden is a nice place in the east of town serving tasty chinese food
+user: whats the address
+system: The address of yu garden is 529 Newmarket Road Fen Ditton .
+user: can i get the post code
+system: The post code of yu garden is C.B 5, 8 P.A
+user: and would you be able to tell me the phone number
+system: The phone number of yu garden is 01223 248882 .
+user: thank you goodbye

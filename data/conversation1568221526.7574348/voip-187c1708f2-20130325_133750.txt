@@ -1,0 +1,19 @@
+voip-187c1708f2-20130325_133750
+Task 07266: You are looking for a restaurant in any area and it should serve european food. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: european restaurant
+system: What part of town do you have in mind?
+user: any part
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: any
+system: Let me confirm , You are looking for a restaurant and you dont care about the price range right?
+user: yes
+system: cambridge lodge restaurant serves european food
+user: any more
+system: eraina serves european food
+user: address
+system: Sure , eraina is on Free School Lane City Centre
+user: phone number
+system: The phone number of eraina is 01223 368786 .
+user: thank you good bye

@@ -1,0 +1,35 @@
+voip-7e22911804-20130328_204351
+Task 04008: You want to find a cheap restaurant and it should be in the north part of town. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address, phone number, and type of food of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: ye
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i want a cheap restaurant in the north
+system: You are looking for a restaurant is that right?
+user: yes
+system: The price range at royal spice is cheap .
+user: in the north part of town
+system: The price range at royal spice is cheap .
+user: i want a restaurant in the north part of town
+system: royal spice is in the cheap price range
+user: i want a restaurant in the north
+system: royal spice is a nice restaurant in the north of town in the cheap price range
+user: anything else
+system: royal spice is a nice restaurant in the north of town in the cheap price range
+user: is there anything else
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: what is the address phone number
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: what is the address
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: what is the address
+system: Sure , da vinci pizzeria is on 20 Milton Road Chesterton
+user: what is the phone number
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: what is the phone number
+system: The phone number of da vinci pizzeria is 01223 351707 .
+user: what type of food does it serve
+system: da vinci pizzeria serves italian food
+user: thank you goodbye
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: thank you goodbye

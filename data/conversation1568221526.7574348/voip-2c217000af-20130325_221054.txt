@@ -1,0 +1,17 @@
+voip-2c217000af-20130325_221054
+Task 08334: You are looking for a cheap restaurant and it should serve chinese food. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a cheap restaurant that serves chinese food
+system: There are 4 restaurants serving chinese in the cheap price range . What area would you like?
+user: in the east
+system: the missing sock is a nice place in the east of town and the prices are cheap
+user: sil
+system: I'm sorry but there is no chinese restaurant in the east of town and the cheap price range
+user: sil
+system: I'm sorry but there is no chinese restaurant in the east of town and the cheap price range
+user: sil
+system: the missing sock is a nice place in the east of town and the prices are cheap
+user: can i have the address and phone number
+system: The phone number of the missing sock is 01223 812660 and it is on Finders Corner Newmarket Road .
+user: thank you good bye

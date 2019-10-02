@@ -1,0 +1,17 @@
+voip-0fa32b1e78-20130328_151140
+Task 09300: You are looking for a restaurant in the south part of town and it should serve steakhouse food. If there is no such venue how about indian type of food. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: hello welcome
+system: What part of town do you have in mind?
+user: south
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: would you like something
+system: nandos is in the south part of town .
+user: steak house
+system: Sorry there is no steakhouse restaurant in the south of town
+user: indian
+system: taj tandoori is a nice restaurant in the south of town serving indian food
+user: and whats the phone number
+system: The phone number of taj tandoori is 01223 412299 .
+user: thank you good bye

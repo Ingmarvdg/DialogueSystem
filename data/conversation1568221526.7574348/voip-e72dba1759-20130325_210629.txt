@@ -1,0 +1,11 @@
+voip-e72dba1759-20130325_210629
+Task 11037: You want to find a cheap restaurant and it should be in the north part of town. Make sure you get the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a cheap restaurant on the north side of town
+system: What kind of food would you like?
+user: unintelligible
+system: the lucky star is a nice place in the south of town and the prices are cheap
+user: whats the phone number
+system: The phone number of the lucky star is 01223 244277 .
+user: thank you good bye

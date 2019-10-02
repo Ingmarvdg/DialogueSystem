@@ -1,0 +1,15 @@
+voip-78f497f314-20130324_203218
+Task 10269: You are looking for a restaurant in the west part of town and it should serve canapes food. If there is no such venue how about thai type of food. Make sure you get the address, phone number, and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: uh looking for a restaurant in the west part of town that serves canapes food
+system: I'm sorry but there is no restaurant serving canapes food
+user: okay is there a restaurant that serves thai food
+system: You are looking for a thai restaurant right?
+user: yes
+system: sala thong is a nice place in the west of town serving tasty thai food
+user: and can i have the address phone number and price range of the restaurant please
+system: The phone number of sala thong is 01223 323178 and it is on 35 Newnham Road Newnham .
+user: okay whats the price range
+system: sala thong is in the expensive price range
+user: thank you good bye

@@ -1,0 +1,13 @@
+voip-f32f2cfdae-20130328_194348
+Task 05982: You are looking for a cheap restaurant and it should serve spanish food. Make sure you get the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a cheap spanish restaurant
+system: la raza serves spanish food in the cheap price range
+user: the adra
+system: Sure , la raza is on 4 - 6 Rose Crescent
+user: whats the phone number
+system: The phone number of la raza is 01223 464550 .
+user: the postcode
+system: The post code of la raza is C.B 2, 3 L.L
+user: thank you goodbye

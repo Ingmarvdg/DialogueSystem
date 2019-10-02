@@ -1,0 +1,15 @@
+voip-0fa32b1e78-20130402_140739
+Task 07740: You are looking for a restaurant in the west part of town and it should serve polish food. If there is no such venue how about indian type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the west part of town serving
+system: What kind of food would you like?
+user: polish food
+system: Sorry there is no polish restaurant in the west of town
+user: what about indian foods
+system: cocum is a nice restaurant in the west of town serving indian food
+user: whats their address
+system: Sure , cocum is on 71 Castle Street City Centre
+user: and their phone number
+system: The phone number of cocum is 01223 366668 .
+user: thank you good bye

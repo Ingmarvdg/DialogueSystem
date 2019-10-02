@@ -1,0 +1,19 @@
+voip-f246dfe0f2-20130328_161556
+Task 05859: You want to find an expensive restaurant and it should be in the east part of town. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i would like to find an expensive restaurant in the south part
+system: What kind of food would you like?
+user: does not matter
+system: There are  restaurants in the expensive price range and the south of town . What type of food would you like?
+user: any type of food is okay
+system: taj tandoori is a nice restaurant in the south of town serving indian food
+user: what is the address
+system: Sure , taj tandoori is on 64 Cherry Hinton Road Cherry Hinton
+user: what is the phone number
+system: The phone number of taj tandoori is 01223 412299 .
+user: what type of food
+system: taj tandoori serves indian food
+user: okay thank
+system: taj tandoori is a nice restaurant in the south of town in the expensive price range
+user: thank you good bye

@@ -1,0 +1,25 @@
+voip-b20968d1ea-20130323_111539
+Task 09507: You are looking for and it should serve french food. You don't care about the price range. You want to know the address and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: food
+system: What part of town do you have in mind?
+user: any type
+system: What part of town do you have in mind?
+user: any part
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: What kind of food would you like?
+user: french
+system: You are looking for a french restaurant right?
+user: yes
+system: cote serves french food
+user: address
+system: cote is a great restaurant
+user: price range
+system: cote is a great restaurant
+user: so i dont care whats the address
+system: Sure , cote is on Bridge Street City Centre
+user: what area of town is it
+system: cote is a nice place in the centre of town
+user: alright thank you good bye

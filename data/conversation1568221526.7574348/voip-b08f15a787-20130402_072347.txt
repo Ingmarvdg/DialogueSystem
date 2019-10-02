@@ -1,0 +1,23 @@
+voip-b08f15a787-20130402_072347
+Task 06579: You want to find an expensive restaurant and it should serve bistro food. If there is no such venue how about european type of food. Make sure you get the address, phone number, and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: bistro
+system: I'm sorry but there is no restaurant serving bistro food
+user: european food
+system: What part of town do you have in mind?
+user: dont care expensive
+system: Let me confirm , You are looking for a restaurant in the expensive price range right?
+user: yes
+system: cambridge lodge restaurant serves european food in the expensive price range
+user: address
+system: cambridge lodge restaurant is a great restaurant
+user: address
+system: Sure , cambridge lodge restaurant is on Cambridge Lodge Hotel 139 Huntingdon Road City Centre
+user: phone number
+system: The phone number of cambridge lodge restaurant is 01223 355166 .
+user: area
+system: cambridge lodge restaurant is a great restaurant
+user: area
+system: cambridge lodge restaurant is a nice place in the west of town
+user: thank you good bye

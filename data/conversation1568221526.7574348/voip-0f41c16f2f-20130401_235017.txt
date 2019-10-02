@@ -1,0 +1,19 @@
+voip-0f41c16f2f-20130401_235017
+Task 01782: You want to find a restaurant in the centre and it should serve thai food. Make sure you get the address, phone number, and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: thai food
+system: What part of town do you have in mind?
+user: center
+system: Did you say you are looking for a restaurant in the centre of town?
+user: yes
+system: bangkok city is a nice place in the centre of town serving tasty thai food
+user: noise
+system: I am sorry but there is no other thai restaurant in the centre of town
+user: noise
+system: bangkok city is a nice place in the centre of town serving tasty thai food
+user: whats the address phone number and price
+system: The phone number of bangkok city is 01223 354382 and it is on 24 Green Street City Centre .
+user: whats the price range
+system: bangkok city is in the expensive price range
+user: thank you good bye

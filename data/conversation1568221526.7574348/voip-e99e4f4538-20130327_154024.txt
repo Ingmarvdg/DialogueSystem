@@ -1,0 +1,19 @@
+voip-e99e4f4538-20130327_154024
+Task 06825: You are looking for a restaurant in the north part of town and it should serve indian food. Make sure you get the phone number and address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the north
+system: You are looking for a restaurant is that right?
+user: part of town
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i dont care
+system: tandoori palace is a nice restaurant in the north of town in the expensive price range
+user: indian food
+system: tandoori palace is a nice restaurant in the north of town serving indian food
+user: phone number
+system: tandoori palace is a nice restaurant in the north of town serving indian food
+user: whats the phone number
+system: The phone number of tandoori palace is 01223 506055 .
+user: address
+system: Sure , tandoori palace is on 68 Histon Road Chesterton
+user: thank you good bye

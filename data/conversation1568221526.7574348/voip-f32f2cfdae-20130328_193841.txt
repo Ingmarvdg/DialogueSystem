@@ -1,0 +1,29 @@
+voip-f32f2cfdae-20130328_193841
+Task 11490: You want to find a restaurant in any area and it should serve turkish food. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the address and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: goodbye
+system: What part of town do you have in mind?
+user: sil
+system: sesame restaurant and bar is a great restaurant
+user: im looking for turkish food
+system: sesame restaurant and bar is a great restaurant
+user: what kind of food does it serve
+system: sesame restaurant and bar serves chinese food
+user: im looking for turkish food
+system: sesame restaurant and bar is a great restaurant
+user: turkish
+system: the copper kettle serves british food .
+user: turkish
+system: anatolia serves turkish food .
+user: is there anything else
+system: meze bar restaurant serves turkish food .
+user: whats the address
+system: Sure , meze bar restaurant is on 196 Mill Road City Centre
+user: whats the price range
+system: meze bar restaurant is in the expensive price range
+user: unintelligible
+system: meze bar restaurant serves turkish food .
+user: whats the price range
+system: meze bar restaurant is in the expensive price range
+user: thank you good bye

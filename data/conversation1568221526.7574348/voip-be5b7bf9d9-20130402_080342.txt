@@ -1,0 +1,17 @@
+voip-be5b7bf9d9-20130402_080342
+Task 09255: You are looking for a moderately priced restaurant and it should be in the north part of town. Make sure you get the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a cheap restaurant that serves german food
+system: I'm sorry but there is no restaurant serving german food
+user: what about asian oriental
+system: I'm sorry but there is no restaurant serving german food
+user: is there any restaurant serving asian oriental food
+system: Sorry would you like asian oriental or german food?
+user: asian oriental
+system: dojo noodle bar serves asian oriental food in the cheap price range
+user: what is the phone number
+system: The phone number of dojo noodle bar is 01223 363471 .
+user: and the address
+system: Sure , dojo noodle bar is on 40210 Millers Yard City Centre
+user: thank you good bye

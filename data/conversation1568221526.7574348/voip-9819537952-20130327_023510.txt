@@ -1,0 +1,19 @@
+voip-9819537952-20130327_023510
+Task 00402: You want to find an expensive restaurant and it should serve polish food. If there is no such venue how about north american type of food. You want to know the phone number and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: polish food
+system: I'm sorry but there is no restaurant serving polish food
+user: north american
+system: Did you say you are looking for a restaurant in the north of town?
+user: north american food
+system: I'm sorry but there is no north american restaurant in the north of town
+user: food type
+system: I'm sorry but there is no north american restaurant in the north of town
+user: expensive restaurant
+system: You are looking for a north american restaurant right?
+user: expensive restaurant
+system: Did you say you are looking for a restaurant in the north of town?
+user: no
+system: I'm sorry but there is no north american restaurant in the north of town
+user: good bye

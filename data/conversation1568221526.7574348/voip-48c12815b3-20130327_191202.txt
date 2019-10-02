@@ -1,0 +1,15 @@
+voip-48c12815b3-20130327_191202
+Task 08904: You are looking for a moderately priced restaurant and it should serve world food. If there is no such venue how about asian oriental type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type .
+user: noise
+system: What kind of food would you like?
+user: im looking for a moderately priced restaurant serving world food
+system: I'm sorry but there is no restaurant serving world food
+user: im looking for asian oriental type food
+system: You are looking for a asian oriental restaurant right?
+user: yea
+system: yippee noodle bar serves asian oriental food in the moderate price range
+user: what is the address and phone number
+system: The phone number of yippee noodle bar is 01223 518111 and it is on 40428 King Street City Centre .
+user: thank you good bye

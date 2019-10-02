@@ -1,0 +1,23 @@
+voip-7e07d8f0f5-20130328_185314
+Task 08694: You want to find a restaurant in the east part of town and it should serve indonesian food. If there is no such venue how about indian type of food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: indonesian food east part of town
+system: What kind of food would you like?
+user: indonesian food
+system: I'm sorry but there is no restaurant serving indonesian food
+user: indian food
+system: Could you please repeat that?
+user: indian
+system: There are 22 restaurants serving indian food . What area do you want?
+user: east part of town
+system: There are 4 restaurants serving indian in the east of town . What price range would you like?
+user: any
+system: pipasha restaurant is a nice place in the east of town serving tasty indian food
+user: address and phone number
+system: pipasha restaurant is a great restaurant
+user: address and phone number
+system: The phone number of pipasha restaurant is 01223 577786 .
+user: address
+system: rajmahal is a nice place in the east of town serving tasty indian food
+user: thank you goodbye noise

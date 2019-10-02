@@ -1,0 +1,25 @@
+voip-50af5438f1-20130402_084822
+Task 00300: You want to find a cheap restaurant and it should be in the north part of town. You want to know the phone number and type of food.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap
+system: There are 22 restaurants in the cheap price range . What type of food do you want?
+user: any
+system: You are looking for a restaurant serving any kind of food right?
+user: north
+system: What part of town do you have in mind?
+user: north
+system: What part of town do you have in mind?
+user: north
+system: da vinci pizzeria is a nice place in the north of town and the prices are cheap
+user: phone number
+system: da vinci pizzeria is a great restaurant
+user: phone number
+system: The phone number of da vinci pizzeria is 01223 351707 .
+user: food
+system: royal spice is a nice place in the north of town and the prices are cheap
+user: type of food
+system: royal spice is a great restaurant
+user: type of food
+system: royal spice serves indian food
+user: thank you good bye

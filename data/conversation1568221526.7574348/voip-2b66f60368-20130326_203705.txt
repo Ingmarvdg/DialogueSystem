@@ -1,0 +1,49 @@
+voip-2b66f60368-20130326_203705
+Task 04938: You want to find a moderately priced restaurant and it should serve fusion food. If there is no such venue how about chinese type of food. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i need a moderately priced restaurant serving fusion food
+system: I'm sorry but there is no restaurant serving fusion food
+user: breath can i get a restaurant serving chinese food
+system: I'm sorry but there is no restaurant serving german food
+user: i need a restaurant serving chinese food
+system: You are looking for a english restaurant right?
+user: no chinese
+system: Sorry would you like chinese or english food?
+user: chinese food
+system: Let me confirm , You are looking for a restaurant in the moderate price range right?
+user: yes
+system: I'm sorry but there is no chinese restaurant in the east of town and the moderate price range
+user: i dont care what part of town
+system: Did you say you are looking for a restaurant in the east of town?
+user: no
+system: You are looking for a chinese restaurant right?
+user: yes
+system: I'm sorry but there is no chinese restaurant in the east of town and the moderate price range
+user: is there a chinese food
+system: I'm sorry but there is no chinese restaurant in the east of town and the moderate price range
+user: anywhere
+system: Let me confirm , You are looking for a restaurant in the moderate price range right?
+user: yes
+system: I'm sorry but there is no chinese restaurant in the east of town and the moderate price range
+user: sil
+system: I'm sorry but there is no chinese restaurant in the east of town and the moderate price range
+user: sil
+system: I'm sorry but there is no chinese restaurant in the east of town and the moderate price range
+user: what about other parts of town
+system: Did you say you are looking for a restaurant in the east of town?
+user: no
+system: You are looking for a halal restaurant right?
+user: no
+system: Let me confirm , You are looking for a restaurant in the moderate price range right?
+user: yes
+system: I'm sorry but there is no restaurant serving halal food
+user: chinese food
+system: I'm sorry but there is no chinese restaurant in the east of town and the moderate price range
+user: what about other parts of town
+system: I'm sorry but there is no chinese restaurant in the east of town and the moderate price range
+user: what about the west part of town
+system: graffiti is a nice place in the west of town
+user: can i get the phone number
+system: The phone number of graffiti is 01223 277977 and its postcode is C.B 3, 0 L.X .
+user: thank you goodbye

@@ -1,0 +1,15 @@
+voip-b27a230d2e-20130323_050551
+Task 00870: You want to find a restaurant in the north part of town and it should serve korean food. If there is no such venue how about any area. You want to know the address and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the north part of town that serves korean food
+system: Sorry there is no korean restaurant in the north of town
+user: what about any area
+system: Sorry there is no korean restaurant in the north of town
+user: what about any area
+system: little seoul is a nice restaurant in the centre of town serving korean food
+user: whats the address
+system: Sure , little seoul is on 108 Regent Street City Centre
+user: whats the price range
+system: little seoul is in the expensive price range
+user: thank you good bye

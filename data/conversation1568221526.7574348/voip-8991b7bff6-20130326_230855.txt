@@ -1,0 +1,27 @@
+voip-8991b7bff6-20130326_230855
+Task 05574: You want to find an expensive restaurant and it should serve japanese food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: lebanese food
+system: What part of town do you have in mind?
+user: unintelligible
+system: What part of town do you have in mind?
+user: dont care
+system: What part of town do you have in mind?
+user: dont care dont care dont care
+system: What kind of food would you like?
+user: japanese
+system: I'm sorry but there is no restaurant serving moderate japanese food
+user: expensive
+system: Let me confirm , You are looking for a restaurant in the expensive price range right?
+user: no
+system: wagamama serves japanese food in the expensive price range
+user: sil
+system: wagamama is a great restaurant
+user: phone number
+system: I am sorry but there is no other japanese restaurant in the expensive price range
+user: phone number
+system: wagamama serves japanese food
+user: phone number
+system: wagamama is a great restaurant
+user: thank you good bye

@@ -1,0 +1,25 @@
+voip-f32f2cfdae-20130328_192506
+Task 05535: You want to find an expensive restaurant and it should be in the east part of town. You want to know the address, phone number, and type of food.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What part of town do you have in mind?
+user: sil
+system: What part of town do you have in mind?
+user: im looking for an expensive restaurant in the east part of town
+system: What kind of food would you like?
+user: i dont care
+system: yu garden is a nice place in the east of town and the prices are expensive
+user: what type of food
+system: The post code of yu garden is C.B 5, 8 P.A
+user: what
+system: grafton hotel restaurant is a nice place in the east of town and the prices are expensive
+user: type of food does it serve
+system: grafton hotel restaurant is a great restaurant
+user: what type of food does it serve
+system: grafton hotel restaurant serves british food
+user: whats the address
+system: Sure , grafton hotel restaurant is on Grafton Hotel 619 Newmarket Road Fen Ditton
+user: whats the phone number
+system: The phone number of grafton hotel restaurant is 01223 241387 .
+user: thank you good bye

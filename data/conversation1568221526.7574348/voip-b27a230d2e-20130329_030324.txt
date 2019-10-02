@@ -1,0 +1,25 @@
+voip-b27a230d2e-20130329_030324
+Task 02619: You want to find a cheap restaurant and it should serve christmas food. If there is no such venue how about asian oriental type of food. You want to know the phone number and address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a cheap restaurant that serves christmas food
+system: the river bar steakhouse and grill is in the cheap price range
+user: what type of food do they serve
+system: the river bar steakhouse and grill serves modern european food
+user: i want christmas food
+system: the gardenia is in the cheap price range
+user: food do they serve
+system: royal spice is in the cheap price range
+user: type of food
+system: royal spice is a great restaurant
+user: christmas food
+system: You are looking for a christmas restaurant right?
+user: yes
+system: I'm sorry but there is no restaurant serving christmas food
+user: what about asian oriental
+system: the river bar steakhouse and grill is in the cheap price range
+user: asian oriental food
+system: j restaurant serves asian oriental food in the cheap price range
+user: phone number and address
+system: The phone number of j restaurant is 01223 307581 and it is on 86 Regent Street City Centre .
+user: thank you good bye

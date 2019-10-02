@@ -1,0 +1,15 @@
+voip-e9b53d6ace-20130324_221046
+Task 00762: You are looking for a restaurant in the west part of town and it should serve hungarian food. If there is no such venue how about indian type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: a restaurant in the west part of town that serves hungarian food
+system: Sorry there is no hungarian restaurant in the west of town
+user: how about indian food
+system: india house is a nice restaurant in the west of town serving indian food
+user: address and phone number
+system: Sure , india house is on 31 Newnham Road Newnham
+user: phone number
+system: The phone number of india house is 01223 461661 .
+user: thank you good bye

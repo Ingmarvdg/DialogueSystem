@@ -1,0 +1,25 @@
+voip-583e7cede5-20130323_055709
+Task 12129: You are looking for an expensive restaurant and it should serve venetian food. If there is no such venue how about asian oriental type of food. You want to know the phone number and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i would like an expensive restaurant
+system: There are 57 restaurants in the expensive price range . What type of food do you want?
+user: venesian
+system: I'm sorry but there is no restaurant serving venetian food
+user: how about asian oriental
+system: I'm sorry but there is no restaurant serving venetian food
+user: asian oriental food
+system: Could you please repeat that?
+user: asian oriental food
+system: There are 2 restaurants serving asian oriental in the expensive price range . What area would you like?
+user: doesnt matter
+system: Sorry, I can't hear you
+user: center
+system: Let me confirm , You are looking for a restaurant in the expensive price range right?
+user: yes
+system: kymmoy is a great restaurant serving expensive asian oriental food in the centre of town .
+user: what is the phone number
+system: The phone number of kymmoy is 01223 311911 .
+user: what is the area
+system: kymmoy is a nice place in the centre of town
+user: thank you good bye

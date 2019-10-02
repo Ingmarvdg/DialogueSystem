@@ -1,0 +1,31 @@
+voip-31de0daa7b-20130402_132633
+Task 06492: You are looking for and it should serve corsica food. You don't care about the price range. If there is no such venue how about gastropub type of food. Make sure you get the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: corsica food
+system: What part of town do you have in mind?
+user: inaudible
+system: What kind of food would you like?
+user: corsica
+system: I'm sorry but there is no restaurant serving corsica food
+user: gastropub
+system: I'm sorry but there is no restaurant serving corsica food
+user: gastropub restaurant
+system: I'm sorry but there is no restaurant serving corsica food
+user: gastropub
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: You are looking for a corsica restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving corsica food
+user: noise
+system: I'm sorry but there is no restaurant serving corsica food
+user: gastropub
+system: I'm sorry but there is no restaurant serving corsica food
+user: anything else gastropub
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: You are looking for a corsica restaurant right?
+user: gastropub
+system: I'm sorry but there is no restaurant serving corsica food
+user: thank you goodbye

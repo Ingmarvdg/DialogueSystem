@@ -1,0 +1,17 @@
+voip-fdf8b50918-20130329_014041
+Task 10122: You are looking for a moderately priced restaurant and it should serve bistro food. If there is no such venue how about asian oriental type of food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced restaurant that serves bistro
+system: What kind of food would you like?
+user: bistro
+system: What kind of food would you like?
+user: bistro
+system: The price range at restaurant alimentum is moderate .
+user: what is the address
+system: Sure , restaurant alimentum is on 152 - 154 Hills Road
+user: what type of food
+system: restaurant alimentum serves modern european food
+user: what is the phone number
+system: The phone number of restaurant alimentum is 01223 413000 .
+user: thank you good bye

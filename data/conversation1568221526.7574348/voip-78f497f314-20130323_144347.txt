@@ -1,0 +1,27 @@
+voip-78f497f314-20130323_144347
+Task 04122: You want to find a moderately priced restaurant and it should serve canapes food. If there is no such venue how about indian type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for a moderately priced restaurant that serves cancun
+system: What part of town do you have in mind?
+user: test food
+system: Did you say you are looking for a restaurant in the east of town?
+user: no
+system: Did you say you are looking for a restaurant in the east of town?
+user: no im looking for a moderately priced restaurant that
+system: Did you say you are looking for a restaurant in the east of town?
+user: no
+system: Did you say you are looking for a restaurant in the east of town?
+user: no
+system: What kind of food would you like?
+user: canapes food
+system: What kind of food would you like?
+user: canapes
+system: pizza hut fen ditton is a nice place in the east of town and the prices are moderate
+user: are there any
+system: ali baba is in the moderate price range
+user: uh is there any restaurant that serves indian food
+system: ali baba is a great restaurant
+user: can i have the address and phone number please
+system: The phone number of ali baba is 01462 432565 and it is on 59 Hills Road City Centre .
+user: thank you good bye

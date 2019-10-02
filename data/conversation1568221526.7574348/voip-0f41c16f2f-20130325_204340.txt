@@ -1,0 +1,13 @@
+voip-0f41c16f2f-20130325_204340
+Task 06552: You are looking for a restaurant in the east part of town and it should serve persian food. If there is no such venue how about indian type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: persian food
+system: I'm sorry but there is no restaurant serving persian food
+user: indian food
+system: What part of town do you have in mind?
+user: east
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: cheap
+system: I'm sorry but there is no indian restaurant in the east of town and the cheap price range
+user: thank you good bye

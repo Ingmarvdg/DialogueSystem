@@ -1,0 +1,39 @@
+voip-4c0d36762a-20130327_223800
+Task 06471: You are looking for a restaurant in the centre and it should serve barbeque food. If there is no such venue how about modern european type of food. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i am searching for a restaurant in the center that serves
+system: There are 69 restaurants in the centre of town . What type of food do you want?
+user: barbecue food
+system: I'm sorry but there is no restaurant serving barbeque food
+user: is there a restaurant that serves modern european
+system: Could you please repeat that?
+user: is there a restaurant that serves modern european
+system: I'm sorry but there is no restaurant serving barbeque food
+user: i dont care
+system: Could you please repeat that?
+user: is there a modern european
+system: You are looking for a barbeque restaurant right?
+user: restaurant
+system: I'm sorry but there is no restaurant serving barbeque food
+user: i dont care
+system: Could you please repeat that?
+user: i dont care
+system: I'm sorry but there is no restaurant serving barbeque food
+user: i dont care
+system: Could you please repeat that?
+user: dont care
+system: You are looking for a barbeque restaurant right?
+user: wrong
+system: I'm sorry but there is no restaurant serving barbeque food
+user: is there a restaurant serving modern european food
+system: Could you please repeat that?
+user: is there a restaurant serving modern european food
+system: There are 5 restaurants serving modern european food . What price range do you want?
+user: cheap
+system: the river bar steakhouse and grill serves modern european food in the cheap price range
+user: what is its address
+system: Sure , the river bar steakhouse and grill is on Quayside Off Bridge Street
+user: is it in the center
+system: the river bar steakhouse and grill is a nice place in the centre of town
+user: thank you good bye

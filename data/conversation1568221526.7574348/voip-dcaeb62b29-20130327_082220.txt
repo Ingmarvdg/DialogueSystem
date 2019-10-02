@@ -1,0 +1,15 @@
+voip-dcaeb62b29-20130327_082220
+Task 00561: You want to find a cheap restaurant and it should serve scandinavian food. If there is no such venue how about asian oriental type of food. Make sure you get the phone number and address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap restaurant serving scandinavian food
+system: I'm sorry but there is no restaurant serving scandinavian food
+user: cheap restaurant serving asian oriental
+system: You are looking for a asian oriental restaurant right?
+user: yes
+system: dojo noodle bar serves asian oriental food in the cheap price range
+user: what is the phone number
+system: The phone number of dojo noodle bar is 01223 363471 .
+user: what is the address
+system: Sure , dojo noodle bar is on 40210 Millers Yard City Centre
+user: thank you good bye

@@ -1,0 +1,15 @@
+voip-b27a230d2e-20130329_030940
+Task 02640: You want to find a moderately priced restaurant and it should serve vietnamese food. If there is no such venue how about indian type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced restaurant that serves vietnamese food
+system: rajmahal is in the moderate price range
+user: vietnamese food
+system: I'm sorry but there is no restaurant serving moderate vietnamese food
+user: indian food
+system: What part of town do you have in mind?
+user: i dont care
+system: rajmahal serves indian food in the moderate price range
+user: whats their address and phone number
+system: The phone number of rajmahal is 01223 244955 and it is on 7 Barnwell Road Fen Ditton .
+user: thank you good bye

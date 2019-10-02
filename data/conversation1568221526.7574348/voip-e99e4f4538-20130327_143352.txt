@@ -1,0 +1,17 @@
+voip-e99e4f4538-20130327_143352
+Task 01083: You are looking for a moderately priced restaurant and it should serve british food. Make sure you get the address, phone number, and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderately priced restaurant
+system: There are 31 restaurants in the moderate price range . What type of food do you want?
+user: british food
+system: There are 5 restaurants serving british in the moderate price range . What area would you like?
+user: i dont care
+system: the copper kettle serves british food in the moderate price range
+user: address
+system: Sure , the copper kettle is on 4 Kings Parade City Centre
+user: what area is it in
+system: the copper kettle is a nice place in the centre of town
+user: phone number
+system: The phone number of the copper kettle is 01223 365068 .
+user: thank you good bye

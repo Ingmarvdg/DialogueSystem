@@ -1,0 +1,13 @@
+voip-fbd422ad18-20130328_181200
+Task 03843: You want to find a cheap restaurant and it should be in the west part of town. Make sure you get the address and type of food.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: a cheap restaurant in the west part of town
+system: There are 2 restaurants in the cheap price range and the west of town . What type of food would you like?
+user: any
+system: la margherita is a nice place in the west of town and the prices are cheap
+user: can i get the address
+system: Sure , la margherita is on 15 Magdalene Street City Centre
+user: what type of food is it
+system: la margherita serves italian food
+user: thank you good bye

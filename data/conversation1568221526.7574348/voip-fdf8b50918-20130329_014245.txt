@@ -1,0 +1,15 @@
+voip-fdf8b50918-20130329_014245
+Task 11184: You want to find a restaurant in the centre and it should serve french food. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What part of town do you have in mind?
+user: center
+system: What kind of food would you like?
+user: french
+system: cote is a nice place in the centre of town serving tasty french food
+user: sil
+system: I am sorry but there is no other french restaurant in the centre of town
+user: what is the address
+system: Sure , cote is on Bridge Street City Centre
+user: thank you good bye

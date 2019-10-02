@@ -1,0 +1,15 @@
+voip-afd3aa91f0-20130325_224706
+Task 11481: You want to find an expensive restaurant and it should serve european food. Make sure you get the phone number and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for an expensive restaurant that serves european
+system: What part of town do you have in mind?
+user: any part of town
+system: michaelhouse cafe serves european food in the expensive price range
+user: phone number
+system: michaelhouse cafe is a great restaurant
+user: what is the phone number
+system: The phone number of michaelhouse cafe is 01223 309147 .
+user: and the area
+system: michaelhouse cafe is a nice place in the centre of town
+user: thank you good bye

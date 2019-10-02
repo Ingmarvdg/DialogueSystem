@@ -1,0 +1,29 @@
+voip-3b81cbb287-20130326_025313
+Task 06378: You want to find a restaurant in the east part of town and it should serve canapes food. If there is no such venue how about chinese type of food. You want to know the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find a restaurant in the east part of town that serves canapes foo
+system: There are 9 restaurants in the east of town . What type of food do you want?
+user: canapes
+system: You are looking for a restaurant serving any kind of food right?
+user: no
+system: You are looking for a restaurant serving any kind of food right?
+user: no canapes
+system: You are looking for a restaurant serving any kind of food right?
+user: no canapes
+system: Did you say you are looking for a restaurant in the east of town?
+user: yes a restaurant in the east of town unintelligible serving canap
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i dont care
+system: yu garden is a nice place in the east of town
+user: does it serve canapes food
+system: yu garden is a great restaurant
+user: does it serve canapes food
+system: Sorry, I can't hear you
+user: okay what is the addre
+system: Sure , yu garden is on 529 Newmarket Road Fen Ditton
+user: what is the phone number
+system: The phone number of yu garden is 01223 248882 .
+user: what is the post code
+system: The post code of yu garden is C.B 5, 8 P.A
+user: thank you goodbye

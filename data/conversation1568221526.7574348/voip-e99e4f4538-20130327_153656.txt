@@ -1,0 +1,35 @@
+voip-e99e4f4538-20130327_153656
+Task 05250: You are looking for and it should serve catalan food. You don't care about the price range. If there is no such venue how about gastropub type of food. Make sure you get the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant that serves
+system: What part of town do you have in mind?
+user: catalan food
+system: What part of town do you have in mind?
+user: i dont care
+system: What kind of food would you like?
+user: catalan
+system: I'm sorry but there is no restaurant serving catalan food
+user: can i
+system: I'm sorry but there is no restaurant serving catalan food
+user: gastropub food
+system: I'm sorry but there is no restaurant serving catalan food
+user: okay what about another restaurant
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: You are looking for a catalan restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving catalan food
+user: how about gastropub food
+system: I'm sorry but there is no restaurant serving catalan food
+user: can i find a restaurant with gastropub food
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i dont care
+system: the cow pizza kitchen and bar serves gastropub food
+user: address
+system: Sure , the cow pizza kitchen and bar is on Corn Exchange Street
+user: post code
+system: The post code of the cow pizza kitchen and bar is C.B 2, 3 Q.F
+user: phone number
+system: The phone number of the cow pizza kitchen and bar is 01223 308871 .
+user: thank you good bye

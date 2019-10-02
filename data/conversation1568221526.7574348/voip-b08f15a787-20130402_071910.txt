@@ -1,0 +1,31 @@
+voip-b08f15a787-20130402_071910
+Task 02856: You are looking for a restaurant in the west part of town and it should serve thai food. You want to know the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type .
+user: noise
+system: What part of town do you have in mind?
+user: thai
+system: What part of town do you have in mind?
+user: west
+system: What kind of food would you like?
+user: thai
+system: I'm sorry but there is no chinese restaurant in the west of town
+user: sil
+system: I'm sorry but there is no chinese restaurant in the west of town
+user: thai
+system: I'm sorry but there is no chinese restaurant in the west of town
+user: thai food
+system: Did you say you are looking for a restaurant in the west of town?
+user: yes
+system: I'm sorry but there is no chinese restaurant in the west of town
+user: how about thai
+system: I'm sorry but there is no chinese restaurant in the west of town
+user: asian
+system: I'm sorry but there is no chinese restaurant in the west of town
+user: address
+system: I'm sorry but there is no chinese restaurant in the west of town
+user: thai
+system: Did you say you are looking for a restaurant in the west of town?
+user: yes
+system: I'm sorry but there is no chinese restaurant in the west of town
+user: thank you good bye

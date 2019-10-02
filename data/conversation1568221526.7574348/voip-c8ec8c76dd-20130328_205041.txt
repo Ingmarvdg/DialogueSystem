@@ -1,0 +1,25 @@
+voip-c8ec8c76dd-20130328_205041
+Task 03828: You want to find a moderately priced restaurant and it should be in the north part of town. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type .
+user: noise
+system: What kind of food would you like?
+user: noise
+system: nandos city centre is a great restaurant
+user: i would like to find a moderately priced restaurant in the north part of town please
+system: golden wok is a nice restaurant in the north of town in the moderate price range
+user: um what is the address and phone number
+system: Sure , golden wok is on 191 Histon Road Chesterton
+user: what is its phone number
+system: The phone number of golden wok is 01223 350688 .
+user: noise
+system: golden wok is a nice restaurant in the north of town in the moderate price range
+user: what is the phone number please
+system: The phone number of golden wok is 01223 350688 .
+user: noise
+system: golden wok is a nice restaurant in the north of town in the moderate price range
+user: noise
+system: golden wok is a nice restaurant in the north of town in the moderate price range
+user: noise
+system: golden wok is a nice restaurant in the north of town in the moderate price range
+user: um thank you goodbye

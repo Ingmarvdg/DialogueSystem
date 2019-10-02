@@ -1,0 +1,15 @@
+voip-e9b53d6ace-20130324_221634
+Task 05412: You are looking for an expensive restaurant and it should serve vietnamese food. If there is no such venue how about any price range. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for an expensive restaurant that serves vietnamese food
+system: I'm sorry but there is no restaurant serving expensive vietnamese food
+user: how about in any price range
+system: Could you please repeat that?
+user: vietnamese food in any price range
+system: thanh binh serves vietnamese food
+user: uh address
+system: Can I help you with anything else?
+user: the address
+system: Sure , thanh binh is on 17 Magdalene Street City Centre
+user: thank you good bye

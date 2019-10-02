@@ -1,0 +1,15 @@
+voip-317a1436fe-20130325_172654
+Task 04104: You want to find a moderately priced restaurant and it should be in the west part of town. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: west part of town moderatley price
+system: What kind of food would you like?
+user: dont care
+system: There are 109 restaurants if you don't care about the food . What area do you want?
+user: west
+system: There are 12 restaurants in the west of town serving any kind of food . What price range would you like?
+user: moderately
+system: prezzo is a nice place in the west of town and the prices are moderate
+user: phone number
+system: The phone number of prezzo is 01799 521260 .
+user: thank you good bye

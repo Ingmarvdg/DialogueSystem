@@ -1,0 +1,29 @@
+voip-78f497f314-20130323_184811
+Task 05988: You want to find an expensive restaurant and it should serve canapes food. If there is no such venue how about asian oriental type of food. You want to know the phone number and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking an expensive dr expensive restaurant that serves canapes food
+system: I'm sorry but there is no restaurant serving canapes food
+user: how about ah one that serves asian oriental
+system: Could you please repeat that?
+user: food
+system: I'm sorry but there is no restaurant serving canapes food
+user: is there one that serves asian oriental food
+system: You are looking for a canapes restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving canapes food
+user: im loo
+system: Could you please repeat that?
+user: im looking for one that serves asian oriental food
+system: There are 5 restaurants serving asian oriental food . What area do you want?
+user: any area
+system: Let me confirm , You are looking for a restaurant in the expensive price range right?
+user: yes
+system: saigon city serves asian oriental food in the expensive price range
+user: and can i have the phone number and ah the area where it is
+system: The phone number of saigon city is 01223 356555 .
+user: ah where is it
+system: Sure , saigon city is on 169 High Street Chesterton Chesterton
+user: is that the north part of town south part of town
+system: saigon city is a great restaurant
+user: thank you goodbye

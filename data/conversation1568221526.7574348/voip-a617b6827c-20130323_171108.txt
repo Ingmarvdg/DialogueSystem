@@ -1,0 +1,15 @@
+voip-a617b6827c-20130323_171108
+Task 00312: You want to find a restaurant in any area and it should serve french food. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant that serves french food
+system: What part of town do you have in mind?
+user: any
+system: What kind of food would you like?
+user: french
+system: restaurant two two serves french food
+user: is there anything else
+system: cote serves french food
+user: the phone number
+system: The phone number of cote is 01223 311053 .
+user: thank you good bye

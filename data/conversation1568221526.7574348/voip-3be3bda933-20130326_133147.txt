@@ -1,0 +1,13 @@
+voip-3be3bda933-20130326_133147
+Task 02484: You are looking for a cheap restaurant and it should serve italian food. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap italian
+system: You are looking for a italian restaurant right?
+user: cheap
+system: There are 5 restaurants serving italian in the cheap price range . What area would you like?
+user: any
+system: la margherita serves italian food in the cheap price range
+user: address
+system: Sure , la margherita is on 15 Magdalene Street City Centre
+user: thank you good bye

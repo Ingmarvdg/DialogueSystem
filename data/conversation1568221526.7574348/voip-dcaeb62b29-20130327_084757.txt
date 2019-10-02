@@ -1,0 +1,47 @@
+voip-dcaeb62b29-20130327_084757
+Task 01380: You want to find a cheap restaurant and it should serve eritrean food. If there is no such venue how about vietnamese type of food. Make sure you get the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What part of town do you have in mind?
+user: cheap resataurant serving unintelligible food
+system: Let me confirm , You are looking for a restaurant in the cheap price range right?
+user: yes
+system: charlie chan is in the cheap price range
+user: unintelligible food
+system: I'm sorry but there is no restaurant serving cheap korean food
+user: cheap unintelligible food
+system: I'm sorry but there is no restaurant serving cheap korean food
+user: unintelligible food
+system: I'm sorry but there is no restaurant serving cheap korean food
+user: unintelligible food
+system: Let me confirm , You are looking for a restaurant in the cheap price range right?
+user: yes
+system: I'm sorry but there is no restaurant serving cheap korean food
+user: cheap unintelligible food
+system: I'm sorry but there is no restaurant serving cheap korean food
+user: unintelligible food
+system: I'm sorry but there is no restaurant serving cheap korean food
+user: unintelligible food
+system: Let me confirm , You are looking for a restaurant in the cheap price range right?
+user: yes
+system: I'm sorry but there is no restaurant serving cheap korean food
+user: cheap unintelligible food
+system: I'm sorry but there is no restaurant serving cheap korean food
+user: cheap restaurant serving unintellgible food
+system: You are looking for a korean restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving cheap korean food
+user: unintelligible food
+system: I'm sorry but there is no restaurant serving cheap korean food
+user: how about vietnamese food
+system: I'm sorry but there is no restaurant serving cheap korean food
+user: how about vietnamese food
+system: You are looking for a vietnamese restaurant right?
+user: yes
+system: Let me confirm , You are looking for a restaurant in the cheap price range right?
+user: yes
+system: thanh binh serves vietnamese food in the cheap price range
+user: what is the phone number
+system: The phone number of thanh binh is 01223 362456 .
+user: thank you good bye

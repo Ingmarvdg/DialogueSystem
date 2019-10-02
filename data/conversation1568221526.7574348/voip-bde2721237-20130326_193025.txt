@@ -1,0 +1,11 @@
+voip-bde2721237-20130326_193025
+Task 11547: You are looking for and it should serve world food. You don't care about the price range. If there is no such venue how about vietnamese type of food. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for world food
+system: I'm sorry but there is no restaurant serving world food
+user: vietnamese food
+system: thanh binh serves vietnamese food
+user: what are the address
+system: Sure , thanh binh is on 17 Magdalene Street City Centre
+user: thank you good bye

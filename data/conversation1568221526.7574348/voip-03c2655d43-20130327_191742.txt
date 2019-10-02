@@ -1,0 +1,35 @@
+voip-03c2655d43-20130327_191742
+Task 05346: You want to find an expensive restaurant and it should serve european food. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: european food expensive restaurant
+system: michaelhouse cafe is a great restaurant serving european food and it is in the expensive price range
+user: um whats the address and post code
+system: michaelhouse cafe is on St. Michael's Church Trinity Street City Centre , C.B 2, 1 S.U
+user: what is the
+system: The phone number of michaelhouse cafe is 01223 309147 .
+user: alright thank you thats it
+system: michaelhouse cafe is a great restaurant serving european food and it is in the expensive price range
+user: whats the promo code
+system: michaelhouse cafe is a great restaurant serving european food and it is in the expensive price range
+user: is there anything else
+system: eraina is a great restaurant serving european food and it is in the expensive price range
+user: is there anything else
+system: cambridge lodge restaurant is a great restaurant serving european food and it is in the expensive price range
+user: address and post code
+system: cambridge lodge restaurant is on Cambridge Lodge Hotel 139 Huntingdon Road City Centre , C.B 3, 0 D.Q
+user: is there anything else
+system: hotel du vin and bistro is a great restaurant serving european food and it is in the moderate price range
+user: expensive price range
+system: hotel du vin and bistro is in the moderate price range
+user: expensive restaurant
+system: cambridge lodge restaurant is a great restaurant serving european food and it is in the expensive price range
+user: whats the code
+system: cambridge lodge restaurant is a great restaurant serving european food and it is in the expensive price range
+user: whats the code
+system: The post code of cambridge lodge restaurant is C.B 3, 0 D.Q
+user: alright thank you good
+system: cambridge lodge restaurant is a great restaurant serving european food and it is in the expensive price range
+user: thank you
+system: cambridge lodge restaurant is a great restaurant serving european food and it is in the expensive price range
+user: good bye

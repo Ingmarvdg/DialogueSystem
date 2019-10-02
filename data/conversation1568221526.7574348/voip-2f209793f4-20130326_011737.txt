@@ -1,0 +1,23 @@
+voip-2f209793f4-20130326_011737
+Task 08220: You want to find a restaurant in the north part of town and it should serve indonesian food. If there is no such venue how about asian oriental type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want an indonesian restaurant in the north part of town
+system: There are 11 restaurants in the north of town . What type of food do you want?
+user: indonesian
+system: I'm sorry but there is no restaurant serving indonesian food
+user: asian
+system: I'm sorry but there is no restaurant serving indonesian food
+user: asian restaurant
+system: Could you please repeat that?
+user: asian restaurant
+system: I'm sorry but there is no restaurant serving indonesian food
+user: i need a restaurant serving asian oriental in the north part of town
+system: Could you please repeat that?
+user: asian oriental food in the north part of town
+system: You are looking for a asian oriental restaurant right?
+user: yes
+system: saigon city is a nice place in the north of town serving tasty asian oriental food
+user: what is the address and phone number
+system: The phone number of saigon city is 01223 356555 and it is on 169 High Street Chesterton Chesterton .
+user: thank you good bye

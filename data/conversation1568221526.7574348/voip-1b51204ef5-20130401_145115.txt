@@ -1,0 +1,13 @@
+voip-1b51204ef5-20130401_145115
+Task 04074: You want to find a cheap restaurant and it should be in the north part of town. Make sure you get the phone number and address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: uh i want a cheap restaurant and it should be in the north part of town
+system: royal spice is a nice restaurant in the north of town in the cheap price range
+user: can i have the phone number please
+system: The phone number of royal spice is 01733 553355 .
+user: whats the address
+system: Sure , royal spice is on Victoria Avenue Chesterton
+user: thank you
+system: royal spice is a nice restaurant in the north of town in the cheap price range
+user: thank you good bye

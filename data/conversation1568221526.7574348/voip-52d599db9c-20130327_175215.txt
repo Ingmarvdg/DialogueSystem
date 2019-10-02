@@ -1,0 +1,19 @@
+voip-52d599db9c-20130327_175215
+Task 08778: You want to find a moderately priced restaurant and it should serve indian food. Make sure you get the address, phone number, and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: thank you
+system: What part of town do you have in mind?
+user: german food
+system: I'm sorry but there is no restaurant serving german food
+user: french
+system: What part of town do you have in mind?
+user: doesnt matter
+system: Sorry would you like the east of town or you dont care
+user: dont care
+system: restaurant two two serves french food
+user: phone number
+system: restaurant two two is a great restaurant
+user: phone number
+system: The phone number of restaurant two two is 01223 351880 .
+user: thank you good bye

@@ -1,0 +1,19 @@
+voip-d225fad9df-20130328_183716
+Task 02049: You are looking for an expensive restaurant and it should be in the east part of town. Make sure you get the address and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i am looking for an expensive restaurant on the east part of town
+system: What kind of food would you like?
+user: italian
+system: Sorry there is no expensive restaurant in the east of town serving italian food
+user: how about
+system: Sorry there is no expensive restaurant in the east of town serving italian food
+user: steak
+system: Sorry there is no expensive restaurant in the east of town serving italian food
+user: any food that serves any restaurant thats expensive
+system: grafton hotel restaurant is a nice restaurant in the east of town serving british food
+user: can i have the address and post code
+system: grafton hotel restaurant is on Grafton Hotel 619 Newmarket Road Fen Ditton , C.B 5, 8 P.A
+user: the post code
+system: The post code of grafton hotel restaurant is C.B 5, 8 P.A
+user: thank you goodbye

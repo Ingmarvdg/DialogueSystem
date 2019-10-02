@@ -1,0 +1,23 @@
+voip-4c25da9a27-20130325_184604
+Task 01413: You want to find and it should serve christmas food. You don't care about the price range. If there is no such venue how about north american type of food. You want to know the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type .
+user: noise
+system: What part of town do you have in mind?
+user: i want christmas food
+system: I'm sorry but there is no restaurant serving christmas food
+user: what about north american type of food
+system: Did you say you are looking for a restaurant in the north of town?
+user: breath no american food
+system: Did you say you are looking for a restaurant in the north of town?
+user: no i want american food
+system: Did you say you are looking for a restaurant in the north of town?
+user: no
+system: You are looking for a christmas restaurant right?
+user: yes
+system: I'm sorry but there is no restaurant serving christmas food
+user: how about american food
+system: I'm sorry but there is no restaurant serving christmas food
+user: what about american food
+system: Did you say you are looking for a restaurant in the north of town?
+user: thank you goodbye

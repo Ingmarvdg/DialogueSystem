@@ -1,0 +1,19 @@
+voip-560cbd32a5-20130401_143827
+Task 08997: You are looking for a moderately priced restaurant and it should be in the south part of town. Make sure you get the phone number and address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderate restaurant in the south part of town
+system: What kind of food would you like?
+user: any
+system: You are looking for a restaurant serving any kind of food right?
+user: yes
+system: chiquito restaurant bar is a nice place in the south of town
+user: uh price range
+system: chiquito restaurant bar is in the expensive price range
+user: i need a moderately priced restaurant
+system: restaurant alimentum is a nice place in the south of town and the prices are moderate
+user: okay phone number
+system: The phone number of restaurant alimentum is 01223 413000 .
+user: can i get the address
+system: Sure , restaurant alimentum is on 152 - 154 Hills Road
+user: unintelligible

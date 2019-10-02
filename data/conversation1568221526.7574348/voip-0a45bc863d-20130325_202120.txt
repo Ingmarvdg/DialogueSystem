@@ -1,0 +1,17 @@
+voip-0a45bc863d-20130325_202120
+Task 07395: You want to find a restaurant in the centre and it should serve belgian food. If there is no such venue how about british type of food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: belgium food
+system: You are looking for a german restaurant right?
+user: no belgium
+system: I'm sorry but there is no restaurant serving belgian food
+user: british
+system: What part of town do you have in mind?
+user: center
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: dont care
+system: the copper kettle is a nice place in the centre of town serving tasty british food
+user: what is the address and phone number
+system: The phone number of the copper kettle is 01223 365068 and it is on 4 Kings Parade City Centre .
+user: thank you good bye

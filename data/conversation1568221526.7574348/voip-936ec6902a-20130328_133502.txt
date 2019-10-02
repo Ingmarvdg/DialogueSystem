@@ -1,0 +1,15 @@
+voip-936ec6902a-20130328_133502
+Task 09168: You are looking for a restaurant in the north part of town and it should serve traditional food. If there is no such venue how about asian oriental type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: traditional food
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: moderate
+system: What part of town do you have in mind?
+user: north
+system: meghna is a nice restaurant in the north of town in the moderate price range
+user: address
+system: Sure , meghna is on 205 Victoria Road Chesterton
+user: phone number
+system: The phone number of meghna is 01223 727410 .
+user: thank you good bye

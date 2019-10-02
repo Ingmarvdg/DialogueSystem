@@ -1,0 +1,59 @@
+voip-10beae627f-20130328_132217
+Task 05703: You are looking for an expensive restaurant and it should serve tuscan food. If there is no such venue how about thai type of food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: unintelligible
+system: What part of town do you have in mind?
+user: unintelligible
+system: What part of town do you have in mind?
+user: tv_noise im looking for an expensive restaurant and it should serve tuscan food
+system: What part of town do you have in mind?
+user: tv_noise any
+system: What part of town do you have in mind?
+user: tv_noise any
+system: What kind of food would you like?
+user: i dont care
+system: cocum is in the expensive price range
+user: can i get tuscan foo
+system: cocum is a great restaurant
+user: sil
+system: cocum is a nice place in the west of town
+user: i dont care tv_noise
+system: cocum is in the expensive price range
+user: tv_noise im looking for tuscan food
+system: You are looking for a restaurant serving any kind of food right?
+user: tuscan food
+system: cocum is in the expensive price range
+user: tv_noise no
+system: cote is in the expensive price range
+user: i dont care
+system: cocum is in the expensive price range
+user: no dont care
+system: cocum is in the expensive price range
+user: dont care
+system: cocum is a great restaurant
+user: tuscan food
+system: city stop restaurant is in the expensive price range
+user: noise how bout thai
+system: You are looking for a restaurant serving any kind of food right?
+user: tv_noise
+system: Ok , a restaurant in any part of town is that right?
+user: that food tv_noise
+system: sala thong serves thai food in the expensive price range
+user: tv_noise
+system: sala thong is a great restaurant
+user: can i get the address tv_noise
+system: Sure , sala thong is on 35 Newnham Road Newnham
+user: tv_noise
+system: sala thong is a great restaurant
+user: phone number tv_noise
+system: The phone number of sala thong is 01223 323178 .
+user: tv_noise
+system: The post code of sala thong is C.B 3, 9 E.Y
+user: tv_noise
+system: sala thong is a great restaurant
+user: phone number tv_noise
+system: The phone number of sala thong is 01223 323178 .
+user: tv_noise
+system: don pasquale pizzeria is in the expensive price range
+user: tv_noise thank you goodbye

@@ -1,0 +1,15 @@
+voip-e3b4879e0d-20130327_181026
+Task 11100: You are looking for a restaurant in the centre and it should serve french food. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: in the center part of
+system: What kind of food would you like?
+user: in the center part of town french food
+system: cote is a nice restaurant in the centre of town serving french food
+user: can i have the phone number
+system: The phone number of cote is 01223 311053 .
+user: address
+system: Sure , cote is on Bridge Street City Centre
+user: thank you good bye

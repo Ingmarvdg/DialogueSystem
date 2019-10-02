@@ -1,0 +1,13 @@
+voip-5cf59cc660-20130328_151124
+Task 06252: You are looking for a moderately priced restaurant and it should serve chinese food. Make sure you get the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want a moderately priced chinese restaurant
+system: jinling noodle bar is a great restaurant serving chinese food and it is in the moderate price range
+user: whats the address
+system: Sure , jinling noodle bar is on 11 Peas Hill City Centre
+user: whats the phone number
+system: The phone number of jinling noodle bar is 01223 566188 .
+user: whats the post code
+system: The post code of jinling noodle bar is C.B 2, 3 P.P
+user: thank you good bye

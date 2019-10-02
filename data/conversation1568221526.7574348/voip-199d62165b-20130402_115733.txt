@@ -1,0 +1,13 @@
+voip-199d62165b-20130402_115733
+Task 00738: You are looking for a moderately priced restaurant and it should serve moroccan food. If there is no such venue how about turkish type of food. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i am looking for a moderately priced restaurant and it should
+system: What part of town do you have in mind?
+user: it should serve moroccan food
+system: I'm sorry but there is no restaurant serving moroccan food
+user: how about turkish type of food
+system: hotel du vin and bistro is in the moderate price range
+user: may i have the address of the venue
+system: Sure , hotel du vin and bistro is on 15 - 19 Trumpington Street
+user: thank you good bye

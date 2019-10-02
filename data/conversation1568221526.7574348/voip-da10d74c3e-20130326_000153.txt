@@ -1,0 +1,31 @@
+voip-da10d74c3e-20130326_000153
+Task 08151: You want to find a restaurant in the west part of town and it should serve danish food. If there is no such venue how about thai type of food. Make sure you get the address, phone number, and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: hi i am looking for restaurant in the west part of town that serves danish food
+system: I'm sorry but there is no restaurant serving danish food
+user: is there a restaurant in the west part of town that serves thai food
+system: I'm sorry but there is no restaurant serving danish food
+user: is a restaurant in the west part of town that serves
+system: You are looking for a danish restaurant right?
+user: thai food
+system: I'm sorry but there is no restaurant serving danish food
+user: thai food
+system: Could you please repeat that?
+user: thai food
+system: I'm sorry but there is no restaurant serving halal food
+user: thai food
+system: Could you please repeat that?
+user: thai
+system: I'm sorry but there is no chinese restaurant in the west of town
+user: food
+system: Could you please repeat that?
+user: thai food
+system: Did you say you are looking for a restaurant in the west of town?
+user: yes
+system: I'm sorry but there is no chinese restaurant in the west of town
+user: is there a thai restaurant in the west of town
+system: Could you please repeat that?
+user: is there a thai restaurant in the west of town
+system: I'm sorry but there is no chinese restaurant in the west of town
+user: thank you goodbye

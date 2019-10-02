@@ -5,6 +5,7 @@
     <list default="true" id="6e347648-2d72-4670-9687-56a3eb1c6afa" name="Default" comment="">
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <change beforePath="" afterPath="$PROJECT_DIR$/Evaluations.py" />
       <change beforePath="$PROJECT_DIR$/.idea/DialogueSystem.iml" afterPath="$PROJECT_DIR$/.idea/DialogueSystem.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -22,6 +23,14 @@
       <change beforePath="$PROJECT_DIR$/InformedGuesser.py" beforeDir="false" afterPath="$PROJECT_DIR$/InformedGuesser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MLClassifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/MLClassifier.py" afterDir="false" />
 >>>>>>> Stashed changes
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/DialogueSystem.py" afterPath="$PROJECT_DIR$/DialogueSystem.py" />
+      <change beforePath="$PROJECT_DIR$/get_files.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jsonreader.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/label.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/log.json" afterPath="" />
+>>>>>>> Stashed changes
     </list>
 =======
     <list default="true" id="6e347648-2d72-4670-9687-56a3eb1c6afa" name="Default" comment="" />
@@ -38,6 +47,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DialogueSystem.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             <state relative-caret-position="395">
               <caret line="220" lean-forward="true" selection-start-line="220" selection-end-line="220" />
@@ -70,6 +80,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="69" />
+=======
+            <state relative-caret-position="321">
+              <caret line="58" column="27" lean-forward="true" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -77,6 +91,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Evaluations.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -118,6 +133,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> Stashed changes
     </leaf>
   </component>
 =======
@@ -155,12 +172,17 @@
 =======
 >>>>>>> Stashed changes
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
+<<<<<<< Updated upstream
     <option name="height" value="900" />
 =======
   <component name="ProjectFrameBounds">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
+>>>>>>> Stashed changes
+=======
+    <option name="height" value="819" />
 >>>>>>> Stashed changes
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -188,6 +210,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< Updated upstream
+=======
+      <pane id="Scratches" />
+>>>>>>> Stashed changes
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -328,7 +354,11 @@
   </component>
 >>>>>>> Stashed changes
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+=======
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+>>>>>>> Stashed changes
     <editor active="true" />
     <layout>
 <<<<<<< Updated upstream
@@ -362,6 +392,10 @@
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+<<<<<<< Updated upstream
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10278114" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28174123" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -426,6 +460,7 @@
     <entry file="file://$PROJECT_DIR$/RulebasedEstimator.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/BaselineLabelDistribution">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -492,6 +527,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
           <caret line="220" lean-forward="true" selection-start-line="220" selection-end-line="220" />
+=======
+    <entry file="file://$PROJECT_DIR$/jsonreader.py" />
+    <entry file="file://$PROJECT_DIR$/log.json" />
+    <entry file="file://$PROJECT_DIR$/label.json" />
+    <entry file="file://$PROJECT_DIR$/datavoip-00d76b791d-20130327_005342.txt" />
+    <entry file="file://$PROJECT_DIR$/data/Conversationsvoip-00d76b791d-20130327_005342.txt" />
+    <entry file="file://$PROJECT_DIR$/data/conversations/voip-00d76b791d-20130327_005342.txt" />
+    <entry file="file://$PROJECT_DIR$/get_files.py" />
+    <entry file="file://$PROJECT_DIR$/jsonreader.py" />
+    <entry file="file://$PROJECT_DIR$/data/conversation1568136650.117131/voip-2c217000af-20130328_224325.txt" />
+    <entry file="file://$PROJECT_DIR$/data/conversation1568136650.117131/voip-2c217000af-20130325_222245.txt" />
+    <entry file="file://$PROJECT_DIR$/data/conversation1568136650.117131/voip-1b51204ef5-20130401_150210.txt" />
+    <entry file="file://$PROJECT_DIR$/data/conversation1568136650.117131/voip-1b51204ef5-20130401_145608.txt" />
+    <entry file="file://$PROJECT_DIR$/data/conversation1568136905.7621849/voip-0abf414c0c-20130327_000042.txt" />
+    <entry file="file://$PROJECT_DIR$/data/conversation1568136905.7621849/voip-0a45bc863d-20130326_204426.txt" />
+    <entry file="file://$PROJECT_DIR$/data/conversation1568136905.7621849/voip-0a45bc863d-20130325_201511.txt" />
+    <entry file="file://$PROJECT_DIR$/data/conversation1568137231.573884/voip-31d9d1a567-20130402_043117.txt" />
+    <entry file="file://$PROJECT_DIR$/data/conversation1568137231.573884/voip-39a25ab2f8-20130326_121243.txt" />
+    <entry file="file://$PROJECT_DIR$/data/conversation1568137231.573884/voip-922209b777-20130327_003615.txt" />
+    <entry file="file://$PROJECT_DIR$/data/conversation1568137231.573884/voip-2d2d103292-20130329_041843.txt" />
+    <entry file="file://$PROJECT_DIR$/log.json" />
+    <entry file="file://$PROJECT_DIR$/label.json" />
+    <entry file="file://$PROJECT_DIR$/DialogueSystem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="58" column="27" lean-forward="true" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

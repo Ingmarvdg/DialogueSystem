@@ -1,0 +1,15 @@
+voip-52eb280e7b-20130325_125522
+Task 03183: You want to find a cheap restaurant and it should be in the north part of town. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What part of town do you have in mind?
+user: north part of town
+system: What kind of food would you like?
+user: a cheap restauran
+system: What kind of food would you like?
+user: it doesnt matter
+system: da vinci pizzeria is a nice place in the north of town and the prices are cheap
+user: whats the address
+system: Sure , da vinci pizzeria is on 20 Milton Road Chesterton
+user: thank you goodbye

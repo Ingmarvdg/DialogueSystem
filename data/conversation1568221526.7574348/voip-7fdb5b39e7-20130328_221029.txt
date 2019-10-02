@@ -1,0 +1,15 @@
+voip-7fdb5b39e7-20130328_221029
+Task 10542: You are looking for a restaurant in the south part of town and it should serve international food. If there is no such venue how about centre area. Make sure you get the phone number and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: yeah im looking for a restaurant in the south part of town that serves international food
+system: I'm sorry but there is no international restaurant in the south of town
+user: how about the center of town
+system: Could you please repeat that?
+user: what about the center of town
+system: the varsity restaurant is a nice place in the centre of town serving tasty international food
+user: tasty then whats the phone number
+system: The phone number of the varsity restaurant is 01223 356060 .
+user: and whats the price range
+system: the varsity restaurant is in the moderate price range
+user: thank you good bye

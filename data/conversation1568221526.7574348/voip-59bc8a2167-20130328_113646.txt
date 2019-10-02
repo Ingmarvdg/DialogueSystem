@@ -1,0 +1,29 @@
+voip-59bc8a2167-20130328_113646
+Task 03255: You are looking for an expensive restaurant and it should be in the south part of town. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the phone number and type of food.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What part of town do you have in mind?
+user: international
+system: bloomsbury restaurant serves international food
+user: food
+system: the missing sock serves international food
+user: north part of town
+system: I'm sorry but there is no international restaurant in the north of town
+user: italian food
+system: I'm sorry but there is no international restaurant in the north of town
+user: italian food
+system: Did you say you are looking for a restaurant in the north of town?
+user: yes italian food
+system: da vinci pizzeria is a nice place in the north of town serving tasty italian food
+user: address
+system: I am sorry but there is no other italian restaurant in the north of town
+user: adress
+system: da vinci pizzeria is a nice place in the north of town serving tasty italian food
+user: adress
+system: I am sorry but there is no other italian restaurant in the north of town
+user: address
+system: da vinci pizzeria is a great restaurant
+user: phone number
+system: The phone number of da vinci pizzeria is 01223 351707 .
+user: thank you good bye

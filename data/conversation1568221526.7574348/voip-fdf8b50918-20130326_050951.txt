@@ -1,0 +1,17 @@
+voip-fdf8b50918-20130326_050951
+Task 04854: You want to find an expensive restaurant and it should serve mediterranean food. Make sure you get the phone number and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for an expensive restaurant that serves mediterranean food
+system: There are 2 restaurants serving mediterranean in the expensive price range . What area would you like?
+user: doesnt matter
+system: What part of town do you have in mind?
+user: i dont care
+system: shiraz restaurant serves mediterranean food in the expensive price range
+user: phone number
+system: shiraz restaurant is a great restaurant
+user: what is the phone number
+system: The phone number of shiraz restaurant is 01223 307581 .
+user: what is the post code
+system: The post code of shiraz restaurant is C.B 2, 1 D.P
+user: thank you good bye

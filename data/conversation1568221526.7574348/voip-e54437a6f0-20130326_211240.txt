@@ -1,0 +1,55 @@
+voip-e54437a6f0-20130326_211240
+Task 07035: You want to find a moderately priced restaurant and it should be in the west part of town. Make sure you get the address and type of food.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: west part of town
+system: You are looking for a eritrean restaurant right?
+user: sil
+system: I'm sorry but there is no restaurant serving eritrean food
+user: west
+system: Could you please repeat that?
+user: moderate priced
+system: I'm sorry but there is no restaurant serving eritrean food
+user: in the west
+system: Could you please repeat that?
+user: part of town
+system: I'm sorry but there is no restaurant serving eritrean food
+user: moderate price
+system: Could you please repeat that?
+user: west part of town
+system: You are looking for a eritrean restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving eritrean food
+user: west part of town
+system: Could you please repeat that?
+user: restaurant in the west part of town
+system: I'm sorry but there is no restaurant serving eritrean food
+user: moderate
+system: I'm sorry but there is no restaurant serving eritrean food
+user: moderate
+system: Could you please repeat that?
+user: moderate
+system: saint johns chop house is a nice place in the west of town
+user: moderate moderate moderate moderate
+system: sala thong is a nice place in the west of town
+user: moderate
+system: rice boat is a nice place in the west of town
+user: is it moderately priced
+system: Can I help you with anything else?
+user: yes moderate priced
+system: Can I help you with anything else?
+user: yes
+system: Can I help you with anything else?
+user: yes
+system: Can I help you with anything else?
+user: moderate priced
+system: Can I help you with anything else?
+user: left
+system: Can I help you with anything else?
+user: west
+system: Can I help you with anything else?
+user: west
+system: Can I help you with anything else?
+user: west part of town
+system: Can I help you with anything else?
+user: thank you goodbye

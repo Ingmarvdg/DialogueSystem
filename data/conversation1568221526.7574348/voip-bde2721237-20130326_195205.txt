@@ -1,0 +1,23 @@
+voip-bde2721237-20130326_195205
+Task 09324: You are looking for a restaurant in the centre and it should serve hungarian food. If there is no such venue how about turkish type of food. You want to know the address and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What kind of food would you like?
+user: hungarian food in the center of town
+system: There are 69 restaurants in the centre of town . What type of food do you want?
+user: hungarian food
+system: I'm sorry but there is no restaurant serving hungarian food
+user: turkish food
+system: Could you please repeat that?
+user: turkish food
+system: Did you say you are looking for a restaurant in the centre of town?
+user: yea
+system: There are 3 restaurants serving turkish in the centre of town . What price range would you like?
+user: any
+system: meze bar restaurant is a nice place in the centre of town serving tasty turkish food
+user: what is the address and price range
+system: Sure , meze bar restaurant is on 196 Mill Road City Centre
+user: what is the price range
+system: meze bar restaurant is in the expensive price range
+user: thank you good bye

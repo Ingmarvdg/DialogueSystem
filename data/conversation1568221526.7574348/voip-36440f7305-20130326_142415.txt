@@ -1,0 +1,13 @@
+voip-36440f7305-20130326_142415
+Task 10407: You are looking for a restaurant in the centre and it should serve kosher food. If there is no such venue how about korean type of food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: kosher for in the central
+system: Sorry there is no kosher restaurant in the centre of town
+user: korean food
+system: little seoul is a nice restaurant in the centre of town serving korean food
+user: address
+system: Sure , little seoul is on 108 Regent Street City Centre
+user: phone number
+system: The phone number of little seoul is 01223 308681 .
+user: thank you good bye

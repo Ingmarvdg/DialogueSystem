@@ -1,0 +1,15 @@
+voip-0f41c16f2f-20130402_000226
+Task 11991: You want to find a cheap restaurant and it should be in the east part of town. You want to know the phone number and type of food of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap restaurant
+system: Let me confirm , You are looking for a restaurant in the cheap price range right?
+user: yes
+system: What part of town do you have in mind?
+user: east
+system: ask is in the cheap price range
+user: whats the phone number
+system: The phone number of ask is 01223 364917 .
+user: sil
+system: j restaurant is in the cheap price range
+user: thank you good bye

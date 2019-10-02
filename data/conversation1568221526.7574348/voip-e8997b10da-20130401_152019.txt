@@ -1,0 +1,31 @@
+voip-e8997b10da-20130401_152019
+Task 01179: You are looking for and it should serve persian food. You don't care about the price range. If there is no such venue how about portuguese type of food. Make sure you get the phone number and address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: ah yes im looking for persian food and i dont care about the pri
+system: What part of town do you have in mind?
+user: um it doesnt matter
+system: Ok , a restaurant in any part of town is that right?
+user: ah yes im looking for persian food though
+system: What kind of food would you like?
+user: persian food
+system: I'm sorry but there is no restaurant serving persian food
+user: okay ah how bout portuguese
+system: I'm sorry but there is no restaurant serving persian food
+user: okay ah how bout portuguese food
+system: I'm sorry but there is no restaurant serving persian food
+user: okay um well how bout portuguese
+system: Ok , a restaurant in any part of town is that right?
+user: ah yes
+system: You are looking for a persian restaurant right?
+user: no portuguese
+system: Let me confirm , You are looking for a restaurant and you dont care about the price range right?
+user: yes
+system: nandos city centre serves portuguese food
+user: okay and ah can i get their phone number please
+system: The phone number of nandos city centre is 01223 327908 .
+user: and their address
+system: Sure , nandos city centre is on 33-34 Saint Andrews Street
+user: okay and they serve portuguese food correct
+system: nandos city centre serves portuguese food
+user: okay uh thank you and goodbye

@@ -1,0 +1,19 @@
+voip-36440f7305-20130326_201603
+Task 00354: You are looking for a restaurant in the north part of town and it should serve cantonese food. If there is no such venue how about asian oriental type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cantonese food north
+system: What kind of food would you like?
+user: cantonese food
+system: You are looking for a cantonese restaurant right?
+user: yes
+system: I'm sorry but there is no restaurant serving cantonese food
+user: asian oriental
+system: There are 5 restaurants serving asian oriental food . What area do you want?
+user: north part of town
+system: saigon city is a nice place in the north of town serving tasty asian oriental food
+user: address
+system: Sure , saigon city is on 169 High Street Chesterton Chesterton
+user: phone number
+system: The phone number of saigon city is 01223 356555 .
+user: thank you good bye

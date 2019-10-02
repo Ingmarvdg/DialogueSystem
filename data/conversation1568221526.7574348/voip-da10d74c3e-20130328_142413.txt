@@ -1,0 +1,9 @@
+voip-da10d74c3e-20130328_142413
+Task 04854: You want to find an expensive restaurant and it should serve mediterranean food. Make sure you get the phone number and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: id like an expensive restaurant that serves mediteranean food
+system: la mimosa serves mediterranean food in the expensive price range
+user: could i get the phone number and post code
+system: The phone number of la mimosa is 01223 362525 and its postcode is C.B 5, 8 A.Q .
+user: thank you good bye

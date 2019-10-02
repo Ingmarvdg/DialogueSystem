@@ -1,0 +1,33 @@
+voip-e8997b10da-20130329_000115
+Task 10077: You want to find a cheap restaurant and it should be in the west part of town. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: uh yes can i get a cheap restaurant in the west part of town
+system: There are 12 restaurants in the west of town . What type of food do you want?
+user: um cheap
+system: There are 2 restaurants in the cheap price range and the west of town . What type of food would you like?
+user: um british
+system: I'm sorry but there is no restaurant serving cheap british food
+user: uh italian
+system: I'm sorry but there is no restaurant serving cheap british food
+user: uh italian
+system: I'm sorry but there is no restaurant serving cheap british food
+user: okay just pick one for me then
+system: Could you please repeat that?
+user: uh just pick a restaurant
+system: restaurant one seven serves british food
+user: no id like cheap restaurant in the west part of town
+system: restaurant one seven is a great restaurant
+user: im looking for a cheap restaurant in the west part of town
+system: restaurant one seven is a great restaurant
+user: is it cheap
+system: restaurant one seven is in the moderate price range
+user: uh i need one in the cheap price range
+system: restaurant one seven is in the moderate price range
+user: uh start over
+system: la margherita is a nice place in the west of town and the prices are cheap
+user: uh okay how about the address
+system: Sure , la margherita is on 15 Magdalene Street City Centre
+user: and the phone number
+system: The phone number of la margherita is 01223 315232 .
+user: and i think thatll do it thank you good bye

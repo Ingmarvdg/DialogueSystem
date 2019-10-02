@@ -1,0 +1,11 @@
+voip-7e07d8f0f5-20130327_175626
+Task 11955: You are looking for and it should serve mexican food. You don't care about the price range. You want to know the address and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: mexican food
+system: What part of town do you have in mind?
+user: any
+system: sitar tandoori is in the east part of town .
+user: address
+system: Sure , sitar tandoori is on 43 High Street Cherry Hinton Cherry Hinton
+user: thank you good bye

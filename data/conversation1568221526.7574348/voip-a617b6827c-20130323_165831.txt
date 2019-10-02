@@ -1,0 +1,15 @@
+voip-a617b6827c-20130323_165831
+Task 01023: You want to find a restaurant in the south part of town and it should serve british food. If there is no such venue how about centre area. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant that serves british food
+system: What part of town do you have in mind?
+user: the south
+system: I'm sorry but there is no british restaurant in the south of town
+user: what about the center of town
+system: the copper kettle is a nice place in the centre of town serving tasty british food
+user: whats the address
+system: Sure , the copper kettle is on 4 Kings Parade City Centre
+user: whats the phone number
+system: The phone number of the copper kettle is 01223 365068 .
+user: thank you good bye

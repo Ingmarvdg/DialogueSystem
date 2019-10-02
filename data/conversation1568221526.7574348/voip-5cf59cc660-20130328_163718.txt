@@ -1,0 +1,15 @@
+voip-5cf59cc660-20130328_163718
+Task 02790: You want to find a moderately priced restaurant and it should serve cantonese food. If there is no such venue how about chinese type of food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want a moderately priced cantonese restaurant
+system: I'm sorry but there is no restaurant serving cantonese food
+user: how about chinese food
+system: You are looking for a chinese restaurant right?
+user: yes
+system: There are 4 restaurants serving chinese in the moderate price range . What area would you like?
+user: uh i dont care
+system: golden wok serves chinese food in the moderate price range
+user: whats the phone number
+system: The phone number of golden wok is 01223 350688 .
+user: thank you good bye

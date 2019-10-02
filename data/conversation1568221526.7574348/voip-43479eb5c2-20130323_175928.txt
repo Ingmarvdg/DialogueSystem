@@ -1,0 +1,17 @@
+voip-43479eb5c2-20130323_175928
+Task 02514: You want to find a cheap restaurant and it should be in the south part of town. You want to know the address, phone number, and type of food of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap restaurant south part of town
+system: There are 9 restaurants in the south of town . What type of food do you want?
+user: cheap
+system: There are 2 restaurants in the cheap price range and the south of town . What type of food would you like?
+user: dont care
+system: the lucky star is a nice place in the south of town and the prices are cheap
+user: sil
+system: nandos is a nice place in the south of town and the prices are cheap
+user: what type of food does it serve
+system: nandos serves portuguese food
+user: address and phone number
+system: The phone number of nandos is 01223 327908 and it is on Cambridge Leisure Park Clifton Way .
+user: thank you good bye

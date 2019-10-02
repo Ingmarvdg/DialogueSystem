@@ -1,0 +1,19 @@
+voip-e99e4f4538-20130327_141042
+Task 10878: You want to find a restaurant in the north part of town and it should serve scandinavian food. If there is no such venue how about italian type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i would like to find a restaurant in the north part of town
+system: What kind of food would you like?
+user: scandinavian food
+system: Sorry there is no scandinavian restaurant in the north of town
+user: italian
+system: You are looking for a restaurant is that right?
+user: italian food
+system: Sorry there is no scandinavian restaurant in the north of town
+user: ok i would like to find a restaurant that serves italian food
+system: da vinci pizzeria is a nice restaurant in the north of town serving italian food
+user: whats the address
+system: Sure , da vinci pizzeria is on 20 Milton Road Chesterton
+user: and the phone number
+system: The phone number of da vinci pizzeria is 01223 351707 .
+user: thank you goodbye

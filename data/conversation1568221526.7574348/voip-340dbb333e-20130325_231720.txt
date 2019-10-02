@@ -1,0 +1,13 @@
+voip-340dbb333e-20130325_231720
+Task 04689: You are looking for a restaurant in the north part of town and it should serve turkish food. If there is no such venue how about asian oriental type of food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: restaurant in the north part of town that serves turkish food
+system: Sorry there is no turkish restaurant in the north of town
+user: asian oriental type of food
+system: saigon city is a nice restaurant in the north of town serving asian oriental food
+user: what is the address
+system: Sure , saigon city is on 169 High Street Chesterton Chesterton
+user: what is the phone number
+system: The phone number of saigon city is 01223 356555 .
+user: thank you good bye

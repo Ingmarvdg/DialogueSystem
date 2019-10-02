@@ -1,0 +1,13 @@
+voip-6dbc3573bc-20130328_192107
+Task 02769: You want to find a cheap restaurant and it should serve kosher food. If there is no such venue how about modern european type of food. Make sure you get the address and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find a cheap restaurant that serves
+system: What part of town do you have in mind?
+user: any
+system: What kind of food would you like?
+user: kosher
+system: I'm sorry but there is no restaurant serving kosher food
+user: how about modern european food
+system: Sorry, I can't hear you
+user: thank you good bye

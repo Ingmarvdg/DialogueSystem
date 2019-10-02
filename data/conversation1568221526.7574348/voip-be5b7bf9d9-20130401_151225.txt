@@ -1,0 +1,13 @@
+voip-be5b7bf9d9-20130401_151225
+Task 09783: You want to find a cheap restaurant and it should be in the west part of town. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for a cheap restaurant
+system: thanh binh is in the cheap price range
+user: unintelligible
+system: thanh binh is a nice place in the west of town
+user: may i get the address
+system: Sure , thanh binh is on 17 Magdalene Street City Centre
+user: and the phone number
+system: The phone number of thanh binh is 01223 362456 .
+user: thank you good bye

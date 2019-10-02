@@ -1,0 +1,19 @@
+voip-d66e12b45c-20130327_173123
+Task 10692: You want to find a cheap restaurant and it should be in the north part of town. Make sure you get the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: unintelligible
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: cheap
+system: What part of town do you have in mind?
+user: north
+system: The price range at dojo noodle bar is cheap .
+user: north
+system: The price range at dojo noodle bar is cheap .
+user: address
+system: Sure , dojo noodle bar is on 40210 Millers Yard City Centre
+user: north
+system: The price range at dojo noodle bar is cheap .
+user: unintelligible
+system: The price range at dojo noodle bar is cheap .
+user: thank you good bye

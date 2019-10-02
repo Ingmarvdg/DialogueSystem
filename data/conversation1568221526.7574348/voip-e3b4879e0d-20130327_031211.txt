@@ -1,0 +1,33 @@
+voip-e3b4879e0d-20130327_031211
+Task 04653: You are looking for a restaurant in the west part of town and it should serve jamaican food. If there is no such venue how about thai type of food. Make sure you get the address, phone number, and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: I'm sorry but there is no restaurant serving greek food
+user: im looking for a restaurant in the west part of town that serves jamaican food
+system: I'm sorry but there is no restaurant serving greek food
+user: jamaican food
+system: india house is a nice place in the west of town
+user: jamaican food
+system: india house is a great restaurant
+user: jamaican food
+system: cocum is a nice place in the west of town
+user: what kind of food is it
+system: cocum serves indian food
+user: what about thai food
+system: thanh binh is a nice place in the west of town
+user: what kind of food is that
+system: thanh binh serves vietnamese food
+user: try calling again in one minuet
+system: graffiti is a nice place in the west of town
+user: thai food
+system: sala thong is a nice place in the west of town
+user: thai food
+system: sala thong serves thai food
+user: address
+system: Sure , sala thong is on 35 Newnham Road Newnham
+user: phone number
+system: The phone number of sala thong is 01223 323178 .
+user: price range
+system: sala thong is in the expensive price range
+user: okay thank you good bye

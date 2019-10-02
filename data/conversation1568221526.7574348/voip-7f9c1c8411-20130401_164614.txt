@@ -1,0 +1,21 @@
+voip-7f9c1c8411-20130401_164614
+Task 10314: You want to find a restaurant in the west part of town and it should serve indian food. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the phone number and address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: indian food in the west part of town
+system: There are 12 restaurants in the west of town . What type of food do you want?
+user: indian
+system: There are 4 restaurants serving indian in the west of town . What price range would you like?
+user: i dont care
+system: cocum is a nice place in the west of town serving tasty indian food
+user: phone number
+system: cocum is a great restaurant
+user: anything else
+system: maharajah tandoori restaurant is a nice place in the west of town serving tasty indian food
+user: phone number
+system: maharajah tandoori restaurant is a great restaurant
+user: phone number
+system: The phone number of maharajah tandoori restaurant is 01223 358399 .
+user: the address
+system: Sure , maharajah tandoori restaurant is on 41518 Castle Street City Centre
+user: thank you goodbye

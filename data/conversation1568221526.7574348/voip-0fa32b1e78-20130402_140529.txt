@@ -1,0 +1,25 @@
+voip-0fa32b1e78-20130402_140529
+Task 08061: You want to find a restaurant in the centre and it should serve unusual food. If there is no such venue how about international type of food. Make sure you get the phone number and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the center of town
+system: There are 69 restaurants in the centre of town . What type of food do you want?
+user: unusual food
+system: I'm sorry but there is no restaurant serving unusual food
+user: how about international food
+system: I'm sorry but there is no restaurant serving unusual food
+user: international food
+system: Could you please repeat that?
+user: international food
+system: Did you say you are looking for a restaurant in the centre of town?
+user: yes
+system: There are 2 restaurants serving international in the centre of town . What price range would you like?
+user: i dont care
+system: bloomsbury restaurant is a nice place in the centre of town serving tasty international food
+user: whats their phone number
+system: bloomsbury restaurant is a great restaurant
+user: whats their phone number
+system: The phone number of bloomsbury restaurant is 0871 942 9180 .
+user: and whats their price range
+system: bloomsbury restaurant is in the moderate price range
+user: thank you good bye

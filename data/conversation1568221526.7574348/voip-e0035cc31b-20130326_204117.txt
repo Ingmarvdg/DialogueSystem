@@ -1,0 +1,17 @@
+voip-e0035cc31b-20130326_204117
+Task 11730: You are looking for an expensive restaurant and it should serve french food. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the phone number and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want a french restaurant that serves expensive food
+system: There are 2 restaurants serving french in the expensive price range . What area would you like?
+user: not sure
+system: What part of town do you have in mind?
+user: um dont care
+system: cote serves french food in the expensive price range
+user: is there another restaurant
+system: cote is a great restaurant
+user: is there anything else
+system: restaurant two two serves french food in the expensive price range
+user: whats the phone number and post code
+system: The phone number of restaurant two two is 01223 351880 and its postcode is C.B 4, 3 A.X .
+user: thank you good bye

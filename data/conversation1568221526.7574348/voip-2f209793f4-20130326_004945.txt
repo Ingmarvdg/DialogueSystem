@@ -1,0 +1,13 @@
+voip-2f209793f4-20130326_004945
+Task 09366: You want to find a restaurant in the north part of town and it should serve moroccan food. If there is no such venue how about french type of food. Make sure you get the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want a restaurant in the north part of town that serves moroccan food
+system: I'm sorry but there is no restaurant serving moroccan food
+user: i want a restaurant in the north part of town that serves french food
+system: Could you please repeat that?
+user: i want a restaurant in the north part of town that serves french food
+system: restaurant two two is a nice place in the north of town serving tasty french food
+user: and whats the phone number
+system: The phone number of restaurant two two is 01223 351880 .
+user: thank you good bye

@@ -1,0 +1,13 @@
+voip-f1e8236264-20130323_002326
+Task 08739: You want to find a cheap restaurant and it should serve spanish food. Make sure you get the phone number and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a cheap restaurant with spanish food
+system: la raza serves spanish food in the cheap price range
+user: can i have the phone number
+system: la raza is a great restaurant
+user: can i have its phone number
+system: The phone number of la raza is 01223 464550 .
+user: can i have the area of the venue
+system: la raza is a nice place in the centre of town
+user: thank you good bye

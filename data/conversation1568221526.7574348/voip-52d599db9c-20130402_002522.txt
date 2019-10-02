@@ -1,0 +1,21 @@
+voip-52d599db9c-20130402_002522
+Task 02115: You want to find a restaurant in the west part of town and it should serve crossover food. If there is no such venue how about italian type of food. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: price over food west part of town
+system: What part of town do you have in mind?
+user: west
+system: What kind of food would you like?
+user: class over
+system: What kind of food would you like?
+user: cross over
+system: maharajah tandoori restaurant is a nice place in the west of town
+user: may i have the phone number
+system: The phone number of maharajah tandoori restaurant is 01223 358399 .
+user: noise
+system: Let me confirm , You are looking for a restaurant in the cheap price range right?
+user: yes
+system: la margherita is a nice place in the west of town and the prices are cheap
+user: may i have the phone number please
+system: The phone number of la margherita is 01223 315232 .
+user: thank you good bye

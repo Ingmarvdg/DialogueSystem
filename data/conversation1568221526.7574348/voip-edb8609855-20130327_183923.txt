@@ -1,0 +1,19 @@
+voip-edb8609855-20130327_183923
+Task 07311: You want to find a moderately priced restaurant and it should be in the north part of town. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the phone number and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderately priced north part of
+system: There are 11 restaurants in the north of town . What type of food do you want?
+user: dont care
+system: There are 10 restaurants in the north of town serving any kind of food . What price range would you like?
+user: moderately priced
+system: the nirala is a nice place in the north of town and the prices are moderate
+user: anything else
+system: meghna is a nice place in the north of town and the prices are moderate
+user: phone number
+system: meghna is a great restaurant
+user: phone number
+system: The phone number of meghna is 01223 727410 .
+user: post code
+system: The post code of meghna is C.B 4, 3 L.F
+user: thank you good bye

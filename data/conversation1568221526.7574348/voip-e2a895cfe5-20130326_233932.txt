@@ -1,0 +1,35 @@
+voip-e2a895cfe5-20130326_233932
+Task 11280: You are looking for a restaurant in the west part of town and it should serve australian food. If there is no such venue how about thai type of food. Make sure you get the address, phone number, and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the west part of town
+system: There are 12 restaurants in the west of town . What type of food do you want?
+user: australian
+system: I'm sorry but there is no restaurant serving australian food
+user: okay how about thai food
+system: I'm sorry but there is no restaurant serving australian food
+user: what about thai food
+system: You are looking for a chinese restaurant right?
+user: no thai
+system: I'm sorry but there is no chinese restaurant in the west of town
+user: no i want thai food
+system: Could you please repeat that?
+user: i would like thai food
+system: Did you say you are looking for a restaurant in the west of town?
+user: yes
+system: I'm sorry but there is no chinese restaurant in the west of town
+user: is there a thai restaurant in the west part of town
+system: Could you please repeat that?
+user: im looking for a thai restaurant
+system: I'm sorry but there is no chinese restaurant in the west of town
+user: im looking for a thai restaurant
+system: Could you please repeat that?
+user: is there a thai restaurant
+system: I'm sorry but there is no chinese restaurant in the west of town
+user: i want thai food
+system: Could you please repeat that?
+user: im looking for thai food
+system: I'm sorry but there is no chinese restaurant in the west of town
+user: im looking for thai food
+system: Could you please repeat that?
+user: thank you goodbye

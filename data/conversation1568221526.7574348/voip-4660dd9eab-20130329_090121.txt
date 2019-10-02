@@ -1,0 +1,17 @@
+voip-4660dd9eab-20130329_090121
+Task 08931: You want to find a restaurant in the centre and it should serve french food. Make sure you get the phone number and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want a restaurant in the center that serves french food
+system: cote serves french food .
+user: where is it lcoated
+system: You are looking for a restaurant is that right?
+user: yes
+system: cote serves french food .
+user: is it in the center
+system: cote is a nice place in the centre of town
+user: what is the phone number
+system: The phone number of cote is 01223 311053 .
+user: what is the price range
+system: cote is in the expensive price range
+user: thank you good bye

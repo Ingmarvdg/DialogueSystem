@@ -1,0 +1,21 @@
+voip-d645d56d23-20130323_235755
+Task 03672: You want to find a moderately priced restaurant and it should serve creative food. If there is no such venue how about international type of food. You want to know the address and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced restaurant serving creative food
+system: I'm sorry but there is no restaurant serving creative food
+user: what about international
+system: I'm sorry but there is no restaurant serving creative food
+user: what about international food
+system: You are looking for a international restaurant right?
+user: yea
+system: There are 2 restaurants serving international in the moderate price range . What area would you like?
+user: doesnt matter
+system: What part of town do you have in mind?
+user: dont care
+system: bloomsbury restaurant serves international food in the moderate price range
+user: whats the address
+system: Sure , bloomsbury restaurant is on Crowne Plaza Hotel 20 Downing Street
+user: whats the post code
+system: The post code of bloomsbury restaurant is C.B 2, 3 D.T
+user: thank you good bye

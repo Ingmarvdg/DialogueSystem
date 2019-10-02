@@ -1,0 +1,53 @@
+voip-10beae627f-20130328_124527
+Task 11022: You are looking for a restaurant in the east part of town and it should serve irish food. If there is no such venue how about indian type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What kind of food would you like?
+user: noise
+system: You are looking for a portuguese restaurant right?
+user: noise
+system: You are looking for a portuguese restaurant right?
+user: no not noise
+system: You are looking for a portuguese restaurant right?
+user: looking for a restaurant noise in the east part of town
+system: What part of town do you have in mind?
+user: noise ease part of town east
+system: I'm sorry but there is no portuguese restaurant in the east of town
+user: noise
+system: I'm sorry but there is no portuguese restaurant in the east of town
+user: how bout irish food noise
+system: I'm sorry but there is no portuguese restaurant in the east of town
+user: irish food noise
+system: Could you please repeat that?
+user: irish food on the east part of town
+system: I'm sorry but there is no restaurant serving irish food
+user: noise
+system: Could you please repeat that?
+user: how about indian noise
+system: I'm sorry but there is no restaurant serving irish food
+user: noise
+system: Could you please repeat that?
+user: indian food noise
+system: Did you say you are looking for a restaurant in the east of town?
+user: yes
+system: There are 4 restaurants serving indian in the east of town . What price range would you like?
+user: noise
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: noise
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: any price range noise
+system: rajmahal is a nice place in the east of town serving tasty indian food
+user: noise
+system: rajmahal is a great restaurant
+user: noise
+system: rajmahal is a great restaurant
+user: noise can i get the address and phone number
+system: The phone number of rajmahal is 01223 244955 and it is on 7 Barnwell Road Fen Ditton .
+user: noise
+system: rajmahal is a great restaurant
+user: noise
+system: pipasha restaurant is a nice place in the east of town serving tasty indian food
+user: and the address noise
+system: Sure , pipasha restaurant is on Newmarket Road Fen Ditton
+user: thank you goodbye

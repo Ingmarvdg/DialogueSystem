@@ -1,0 +1,23 @@
+voip-e8997b10da-20130401_152530
+Task 07611: You want to find and it should serve malaysian food. You don't care about the price range. If there is no such venue how about french type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: uh yes im looking for malaysian food
+system: I'm sorry but there is no restaurant serving malaysian food
+user: uh okay how about french food
+system: You are looking for a french restaurant right?
+user: yes and i dont care about the price range
+system: Sorry would you like something in the cheap price range or you dont care
+user: i dont care
+system: What part of town do you have in mind?
+user: uh it doesnt matter
+system: cote serves french food
+user: okay um
+system: Sure , cote is on Bridge Street City Centre
+user: whats the address
+system: Sure , cote is on Bridge Street City Centre
+user: okay and whats the phone number
+system: The phone number of cote is 01223 311053 .
+user: okay and um
+system: restaurant two two serves french food
+user: thank you bye

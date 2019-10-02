@@ -1,0 +1,23 @@
+voip-a352cb5ca5-20130401_235134
+Task 08310: You are looking for and it should serve russian food. You don't care about the price range. If there is no such venue how about european type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: russian food
+system: What kind of food would you like?
+user: russian
+system: You are looking for a restaurant serving any kind of food right?
+user: no
+system: You are looking for a restaurant serving any kind of food right?
+user: russian
+system: What part of town do you have in mind?
+user: any
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i dont care
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: Ok , a restaurant in any part of town is that right?
+user: thank you good bye

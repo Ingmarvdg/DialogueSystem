@@ -1,0 +1,13 @@
+voip-78f497f314-20130323_184557
+Task 12009: You are looking for a restaurant in any area and it should serve turkish food. Make sure you get the address and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in a area that serves
+system: What kind of food would you like?
+user: turkish
+system: anatolia is a nice restaurant in the centre of town serving turkish food
+user: can i have the address and the post code please
+system: anatolia is on 30 Bridge Street City Centre , C.B 2, 1 U.J
+user: the post code as well please
+system: The post code of anatolia is C.B 2, 1 U.J
+user: thank you good bye

@@ -1,0 +1,15 @@
+voip-8991b7bff6-20130326_232407
+Task 07242: You are looking for a restaurant in the centre and it should serve european food. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the phone number and address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: find a restaurant in the center of town
+system: What kind of food would you like?
+user: european
+system: michaelhouse cafe is a nice place in the centre of town serving tasty european food
+user: what is their phone number
+system: michaelhouse cafe is a great restaurant
+user: phone number
+system: The phone number of michaelhouse cafe is 01223 309147 .
+user: what is their address
+system: Sure , michaelhouse cafe is on St. Michael's Church Trinity Street City Centre
+user: thank you goodbye noise

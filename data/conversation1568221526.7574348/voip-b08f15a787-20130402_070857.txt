@@ -1,0 +1,19 @@
+voip-b08f15a787-20130402_070857
+Task 00399: You want to find a cheap restaurant and it should serve persian food. If there is no such venue how about indian type of food. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: persian
+system: You are looking for a eritrean restaurant right?
+user: persian
+system: I'm sorry but there is no restaurant serving eritrean food
+user: indian
+system: There are 22 restaurants serving indian food . What area do you want?
+user: dont care
+system: There are 22 restaurants serving indian food in any part of town . What price range would you like?
+user: cheap
+system: royal spice serves indian food in the cheap price range
+user: address
+system: royal spice is a great restaurant
+user: address
+system: Sure , royal spice is on Victoria Avenue Chesterton
+user: thank you good bye

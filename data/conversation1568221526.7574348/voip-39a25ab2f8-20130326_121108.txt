@@ -1,0 +1,13 @@
+voip-39a25ab2f8-20130326_121108
+Task 01476: You are looking for a restaurant in the east part of town and it should serve vegetarian food. If there is no such venue how about indian type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: vegetarian food in the east part of town
+system: I'm sorry but there is no restaurant serving vegetarian food
+user: indian food
+system: Could you please repeat that?
+user: indian food
+system: Did you say you are looking for a restaurant in the east of town?
+user: yes indian food
+system: There are 4 restaurants serving indian in the east of town . What price range would you like?
+user: thank you good bye

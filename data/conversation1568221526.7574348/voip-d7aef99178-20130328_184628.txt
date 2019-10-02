@@ -1,0 +1,13 @@
+voip-d7aef99178-20130328_184628
+Task 01557: You want to find a cheap restaurant and it should serve portuguese food. Make sure you get the phone number and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for a cheap restaurant serving portuguese food
+system: What part of town do you have in mind?
+user: i dont care
+system: nandos serves portuguese food in the cheap price range
+user: whats the phone number
+system: The phone number of nandos is 01223 327908 .
+user: what area is it in
+system: Sure , nandos is on Cambridge Leisure Park Clifton Way
+user: thank you good bye

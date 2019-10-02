@@ -1,0 +1,23 @@
+voip-5cf59cc660-20130327_142353
+Task 04938: You want to find a moderately priced restaurant and it should serve fusion food. If there is no such venue how about chinese type of food. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What kind of food would you like?
+user: a moderately priced fusion food
+system: I'm sorry but there is no restaurant serving fusion food
+user: how about chinese
+system: Could you please repeat that?
+user: how about chinese
+system: You are looking for a chinese restaurant right?
+user: yes
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: moderate
+system: There are 4 restaurants serving chinese in the moderate price range . What area would you like?
+user: dont care
+system: lan hong house serves chinese food in the moderate price range
+user: thats fine
+system: lan hong house is a great restaurant
+user: id like to know the phone number
+system: Sorry, I can't hear you
+user: thank you good bye

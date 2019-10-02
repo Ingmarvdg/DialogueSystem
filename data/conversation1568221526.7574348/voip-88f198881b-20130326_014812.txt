@@ -1,0 +1,11 @@
+voip-88f198881b-20130326_014812
+Task 07827: You are looking for a cheap restaurant and it should serve steakhouse food. If there is no such venue how about asian oriental type of food. You want to know the phone number and address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for a cheap restaurant that serves steak house food
+system: dojo noodle bar is in the cheap price range
+user: and
+system: dojo noodle bar is a great restaurant
+user: what is the phone number and address
+system: The phone number of dojo noodle bar is 01223 363471 .
+user: okay thank you good bye

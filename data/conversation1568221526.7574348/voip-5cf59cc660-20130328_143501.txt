@@ -1,0 +1,15 @@
+voip-5cf59cc660-20130328_143501
+Task 08958: You are looking for and it should serve thai food. You don't care about the price range. You want to know the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i need a restaurant that serves thai food
+system: What part of town do you have in mind?
+user: i dont care
+system: saigon city is in the north part of town .
+user: whats the address
+system: Sure , saigon city is on 169 High Street Chesterton Chesterton
+user: whats the phone number
+system: The phone number of saigon city is 01223 356555 .
+user: and whats the post code
+system: The post code of saigon city is C.B 4, 1 N.L
+user: thank you good bye

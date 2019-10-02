@@ -1,0 +1,13 @@
+voip-908884f5fd-20130326_235015
+Task 05340: You are looking for an expensive restaurant and it should serve turkish food. Make sure you get the postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for an expensive restaurant
+system: What kind of food would you like?
+user: um that serves
+system: What part of town do you have in mind?
+user: im looking for an expensive restaurant that serves turkish food
+system: The price range at the good luck chinese food takeaway is expensive .
+user: whats the post code
+system: The post code of the good luck chinese food takeaway is C.B 1, 7 A.G
+user: thank you good bye

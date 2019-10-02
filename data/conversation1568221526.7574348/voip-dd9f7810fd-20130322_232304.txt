@@ -1,0 +1,11 @@
+voip-dd9f7810fd-20130322_232304
+Task 03105: You want to find a moderately priced restaurant and it should serve lebanese food. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced labonese restaruant
+system: ali baba serves lebanese food in the moderate price range
+user: whats the address
+system: Sure , ali baba is on 59 Hills Road City Centre
+user: and whats their phone number
+system: The phone number of ali baba is 01462 432565 .
+user: thank you good bye

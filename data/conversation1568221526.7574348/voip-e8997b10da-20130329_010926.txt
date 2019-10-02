@@ -1,0 +1,17 @@
+voip-e8997b10da-20130329_010926
+Task 06312: You want to find an expensive restaurant and it should be in the south part of town. Make sure you get the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: ah yes can i get ah expensive restaurant in the south part of town
+system: What kind of food would you like?
+user: ah it doesnt matter
+system: chiquito restaurant bar is a nice place in the south of town and the prices are expensive
+user: kay can i get the phone number
+system: The phone number of chiquito restaurant bar is 01223 400170 .
+user: kay and ah where is it located
+system: chiquito restaurant bar is a great restaurant
+user: okay and ah wheres it located
+system: The post code of chiquito restaurant bar is C.B 1, 7 D.Y
+user: okay and whats the addre
+system: Sure , chiquito restaurant bar is on 2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton
+user: okay thank you and goodbye

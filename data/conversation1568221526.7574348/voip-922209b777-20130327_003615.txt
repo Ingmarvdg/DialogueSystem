@@ -1,0 +1,31 @@
+voip-922209b777-20130327_003615
+Task 05316: You are looking for and it should serve singaporean food. You don't care about the price range. If there is no such venue how about gastropub type of food. Make sure you get the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: music
+system: What kind of food would you like?
+user: im looking for a restaurant that serves singaporean food
+system: I'm sorry but there is no restaurant serving singaporean food
+user: how about a gastropub
+system: Could you please repeat that?
+user: type
+system: I'm sorry but there is no restaurant serving singaporean food
+user: how about gastropub type food
+system: You are looking for a singaporean restaurant right?
+user: gastropub
+system: There are 4 restaurants serving gastropub food . What area do you want?
+user: any
+system: Ok , a restaurant in any part of town is that right?
+user: whats the address
+system: Ok , a restaurant in any part of town is that right?
+user: address
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: any
+system: backstreet bistro serves gastropub food
+user: whats the address
+system: Sure , backstreet bistro is on 2 Sturton Street City Centre
+user: and the phone number
+system: The phone number of backstreet bistro is 01223 306306 .
+user: whats the post code
+system: The post code of backstreet bistro is C.B 1, 2 Q.A
+user: thank you goodbye

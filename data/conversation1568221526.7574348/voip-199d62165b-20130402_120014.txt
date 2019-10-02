@@ -1,0 +1,33 @@
+voip-199d62165b-20130402_120014
+Task 00468: You want to find a restaurant in any area and it should serve barbeque food. If there is no such venue how about gastropub type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i am looking for a restaurant in any area and it should serve barbecue food
+system: I'm sorry but there is no restaurant serving barbeque food
+user: how about gastropub type of food
+system: Could you please repeat that?
+user: breath i am looking for a venue that serves gastropub food
+system: You are looking for a barbeque restaurant right?
+user: yes im looking for barbecue food
+system: I'm sorry but there is no restaurant serving barbeque food
+user: how about gastropub food
+system: Could you please repeat that?
+user: breath i am looking for a restaurant in any area that serves gastropub type of food
+system: I'm sorry but there is no restaurant serving barbeque food
+user: how about gastro type
+system: I'm sorry but there is no restaurant serving barbeque food
+user: gastropub
+system: Could you please repeat that?
+user: gastropub type of food
+system: Ok , a restaurant in any part of town is that right?
+user: that serves gastropub
+system: There are 4 restaurants serving gastropub food in any part of town . What price range would you like?
+user: i
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: do not care
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i dont care
+system: royal standard serves gastropub food
+user: could i have the address and phone number plea
+system: The phone number of royal standard is 01223 247877 and it is on 290 Mill Road City Centre .
+user: thank you goodbye

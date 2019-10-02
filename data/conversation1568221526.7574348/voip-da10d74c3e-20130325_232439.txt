@@ -1,0 +1,23 @@
+voip-da10d74c3e-20130325_232439
+Task 04194: You want to find a restaurant in any area and it should serve portuguese food. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: id like a portuguese restaurant
+system: There are 2 restaurants serving portuguese food . What price range do you want?
+user: any
+system: What part of town do you have in mind?
+user: noise
+system: What part of town do you have in mind?
+user: any part of town
+system: There are 2 restaurants serving portuguese food in any part of town . What price range would you like?
+user: any price range
+system: nandos city centre serves portuguese food
+user: and what is the other restaurant
+system: nandos city centre is a great restaurant
+user: what is the other portuguese restaurant
+system: nandos serves portuguese food
+user: is there another restaurant that serves portuguese food
+system: nandos is a great restaurant
+user: can i have a different restaurant that serves portuguese food
+system: nandos city centre serves portuguese food
+user: thank you good bye

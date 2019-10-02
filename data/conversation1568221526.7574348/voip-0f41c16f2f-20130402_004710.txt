@@ -1,0 +1,19 @@
+voip-0f41c16f2f-20130402_004710
+Task 00957: You are looking for and it should serve portuguese food. You don't care about the price range. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: portuguese food noise
+system: There are 2 restaurants serving portuguese food . What area do you want?
+user: noise any area
+system: There are 2 restaurants serving portuguese food in any part of town . What price range would you like?
+user: any price range
+system: nandos city centre serves portuguese food
+user: whats the address
+system: Sure , nandos city centre is on 33-34 Saint Andrews Street
+user: noise
+system: nandos serves portuguese food
+user: whats the address noise
+system: Sure , nandos is on Cambridge Leisure Park Clifton Way
+user: whats the phone number
+system: The phone number of nandos is 01223 327908 .
+user: noise thank you goodbye

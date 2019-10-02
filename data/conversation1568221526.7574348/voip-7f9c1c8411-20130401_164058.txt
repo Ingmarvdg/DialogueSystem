@@ -1,0 +1,29 @@
+voip-7f9c1c8411-20130401_164058
+Task 01056: You are looking for a cheap restaurant and it should serve european food. If there is no such venue how about any price range. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: yes can i have restaurants serving
+system: What kind of food would you like?
+user: cheap
+system: What kind of food would you like?
+user: european
+system: Sorry there is no european restaurant in the cheap price range
+user: european food any price
+system: Sorry there is no european restaurant in the cheap price range
+user: okay can i have european food
+system: Sorry there is no european restaurant in the cheap price range
+user: any price range
+system: Sorry there is no european restaurant in the cheap price range
+user: can i have the european food
+system: Sorry there is no european restaurant in the cheap price range
+user: can i have european food
+system: Sorry there is no european restaurant in the cheap price range
+user: can i have it in any price range
+system: Sorry there is no european restaurant in the cheap price range
+user: can i change the price range
+system: There are  restaurants serving european in the cheap price range . What area would you like?
+user: dont care
+system: Sorry there is no european restaurant in the cheap price range
+user: any price range
+system: Sorry there is no european restaurant in the cheap price range
+user: any price range

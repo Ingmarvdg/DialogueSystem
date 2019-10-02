@@ -1,0 +1,17 @@
+voip-b6618de447-20130328_153322
+Task 05511: You want to find and it should serve fusion food. You don't care about the price range. If there is no such venue how about vietnamese type of food. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: um i want to find a restaurant that serves fusion food
+system: I'm sorry but there is no restaurant serving fusion food
+user: is there a restaurant that serves vietnamese food
+system: Could you please repeat that?
+user: is there a venue that serve vietnamese food
+system: I'm sorry but there is no restaurant serving fusion food
+user: is there a restaurant serving vietnamese food
+system: Could you please repeat that?
+user: i want to find a restaurant that serves vietnamese
+system: thanh binh serves vietnamese food
+user: can i get the address
+system: The address of thanh binh is 17 Magdalene Street City Centre .
+user: okay thank you good bye

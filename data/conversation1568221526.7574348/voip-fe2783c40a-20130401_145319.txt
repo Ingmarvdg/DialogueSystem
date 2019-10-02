@@ -1,0 +1,21 @@
+voip-fe2783c40a-20130401_145319
+Task 01644: You are looking for a moderately priced restaurant and it should serve welsh food. If there is no such venue how about chinese type of food. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderately priced
+system: There are 31 restaurants in the moderate price range . What type of food do you want?
+user: welsh
+system: I'm sorry but there is no restaurant serving welsh food
+user: chinese
+system: Could you please repeat that?
+user: chinese
+system: There are 4 restaurants serving chinese in the moderate price range . What area would you like?
+user: phone number
+system: What part of town do you have in mind?
+user: any
+system: shanghai family restaurant serves chinese food in the moderate price range
+user: phone number
+system: shanghai family restaurant is a great restaurant
+user: what is their phone number
+system: The phone number of shanghai family restaurant is 01223 301761 .
+user: thank you good bye

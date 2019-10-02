@@ -1,0 +1,21 @@
+voip-b772dbf437-20130402_141805
+Task 06762: You are looking for and it should serve world food. You don't care about the price range. If there is no such venue how about mediterranean type of food. Make sure you get the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: hello and welcome to the cambridge
+system: What part of town do you have in mind?
+user: any part
+system: Let me confirm , You are looking for a restaurant in the cheap price range right?
+user: i dont care about the price range
+system: What part of town do you have in mind?
+user: uh world food
+system: I'm sorry but there is no restaurant serving world food
+user: how about mediterranean food
+system: Sorry would you like world or mediterranean food?
+user: mediterranean food
+system: the gardenia serves mediterranean food
+user: is there anything else
+system: shiraz restaurant serves mediterranean food
+user: could i have the address
+system: Sure , shiraz restaurant is on 84 Regent Street City Centre
+user: thank you good bye

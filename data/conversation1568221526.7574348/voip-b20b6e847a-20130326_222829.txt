@@ -1,0 +1,9 @@
+voip-b20b6e847a-20130326_222829
+Task 07872: You are looking for a restaurant in the centre and it should serve japanese food. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in central it should serve japanese food
+system: wagamama serves japanese food
+user: what is the address
+system: Sure , wagamama is on 36 Saint Andrews Street
+user: thank you good bye

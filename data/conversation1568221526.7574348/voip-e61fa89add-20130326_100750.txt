@@ -1,0 +1,19 @@
+voip-e61fa89add-20130326_100750
+Task 02895: You want to find a restaurant in the north part of town and it should serve greek food. If there is no such venue how about indian type of food. Make sure you get the address, phone number, and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: greek food in the north part of town
+system: Sorry there is no greek restaurant in the north of town
+user: indian food
+system: the nirala is a nice restaurant in the north of town serving indian food
+user: may i have the address phone number and price range
+system: You are looking for a restaurant is that right?
+user: may i have the address
+system: Sure , the nirala is on 7 Milton Road Chesterton
+user: phone number
+system: The phone number of the nirala is 01223 360966 .
+user: may i have the address
+system: Sure , the nirala is on 7 Milton Road Chesterton
+user: may i have the price range
+system: the nirala is in the moderate price range
+user: thank you good bye

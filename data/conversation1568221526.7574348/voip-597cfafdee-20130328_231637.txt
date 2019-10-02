@@ -1,0 +1,27 @@
+voip-597cfafdee-20130328_231637
+Task 04368: You want to find a restaurant in the east part of town and it should serve chinese food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What kind of food would you like?
+user: chinese food
+system: You are looking for a restaurant serving any kind of food right?
+user: no
+system: You are looking for a restaurant serving any kind of food right?
+user: no
+system: Did you say you are looking for a restaurant in the north of town?
+user: no
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: cheap
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: noise
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: cheap price range
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: cheap price range
+system: royal spice is a nice place in the north of town and the prices are cheap
+user: can i get the address and phone number
+system: royal spice is a great restaurant
+user: can i have the phone number
+system: The phone number of royal spice is 01733 553355 and it is on Victoria Avenue Chesterton .
+user: thank you good bye

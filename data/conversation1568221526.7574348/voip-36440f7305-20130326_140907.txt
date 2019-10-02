@@ -1,0 +1,23 @@
+voip-36440f7305-20130326_140907
+Task 04203: You want to find a restaurant in the west part of town and it should serve tuscan food. If there is no such venue how about vietnamese type of food. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: tuscan food
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: moderate
+system: What part of town do you have in mind?
+user: west
+system: The price range at riverside brasserie is moderate .
+user: moderate
+system: The price range at riverside brasserie is moderate .
+user: may i have the phone number
+system: The phone number of riverside brasserie is 01223 259988 .
+user: noise
+system: The price range at ask is cheap .
+user: phone number
+system: The phone number of ask is 01223 364917 .
+user: phone number
+system: The phone number of ask is 01223 364917 .
+user: phone number
+system: The phone number of ask is 01223 364917 .
+user: thank you good bye

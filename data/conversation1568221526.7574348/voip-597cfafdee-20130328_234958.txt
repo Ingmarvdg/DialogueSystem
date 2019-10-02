@@ -1,0 +1,11 @@
+voip-597cfafdee-20130328_234958
+Task 11244: You want to find a moderately priced restaurant and it should be in the east part of town. You want to know the address, phone number, and type of food of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced restaurant in the east part of
+system: There are 3 restaurants in the moderate price range and the east of town . What type of food would you like?
+user: any type of food
+system: pizza hut fen ditton is a nice place in the east of town and the prices are moderate
+user: can i have the address and the phone number of the venue
+system: The phone number of pizza hut fen ditton is 01223 323737 and it is on Cambridge Retail Park Newmarket Road Fen Ditton .
+user: thank you goodbye

@@ -1,0 +1,41 @@
+voip-ccf48b9a6a-20130329_041458
+Task 12789: You want to find a restaurant in the centre and it should serve swedish food. If there is no such venue how about modern european type of food. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: unintelligible
+system: You are looking for a spanish restaurant right?
+user: dont care
+system: You are looking for a spanish restaurant right?
+user: no
+system: What part of town do you have in mind?
+user: im looking for a restaurant in the center and it should serve swedish food
+system: You are looking for a spanish restaurant right?
+user: no
+system: What part of town do you have in mind?
+user: dont care
+system: You are looking for a spanish restaurant right?
+user: i dont care
+system: There are 2 restaurants serving spanish food in any part of town . What price range would you like?
+user: wrong
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: hello
+system: la raza serves spanish food
+user: hello
+system: la tasca serves spanish food
+user: wrong
+system: I am sorry but there is no other spanish restaurant that matches your request
+user: swedish food
+system: Can I help you with anything else?
+user: swedish food
+system: I'm sorry but there is no restaurant serving swedish food
+user: sil
+system: I'm sorry but there is no restaurant serving swedish food
+user: center part of town
+system: Can I help you with anything else?
+user: modern european food
+system: darrys cookhouse and wine shop is a nice place in the centre of town serving tasty modern european food
+user: address
+system: Can I help you with anything else?
+user: address
+system: Sure , darrys cookhouse and wine shop is on 40270 King Street City Centre
+user: thank you good bye

@@ -1,0 +1,13 @@
+voip-a617b6827c-20130323_171342
+Task 02652: You are looking for a cheap restaurant and it should be in the south part of town. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a cheap restaurant in the south part of town
+system: There are 2 restaurants in the cheap price range and the south of town . What type of food would you like?
+user: it doesnt matter
+system: the lucky star is a nice place in the south of town and the prices are cheap
+user: whats the address
+system: Sure , the lucky star is on Cambridge Leisure Park Clifton Way Cherry Hinton
+user: whats the phone number
+system: The phone number of the lucky star is 01223 244277 .
+user: thank you

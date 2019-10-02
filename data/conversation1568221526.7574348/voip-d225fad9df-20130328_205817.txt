@@ -1,0 +1,15 @@
+voip-d225fad9df-20130328_205817
+Task 12270: You are looking for an expensive restaurant and it should be in the east part of town. You want to know the address and type of food.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: gonville and caius college
+system: What part of town do you have in mind?
+user: east part of town i need an expensive restaurant
+system: What kind of food would you like?
+user: spanish
+system: royal standard is a nice restaurant in the east of town in the expensive price range
+user: can i get address
+system: Sure , royal standard is on 290 Mill Road City Centre
+user: what type of food do they serve
+system: royal standard serves gastropub food
+user: thank you good bye

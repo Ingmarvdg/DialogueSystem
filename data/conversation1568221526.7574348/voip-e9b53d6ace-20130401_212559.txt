@@ -1,0 +1,9 @@
+voip-e9b53d6ace-20130401_212559
+Task 06129: You are looking for and it should serve african food. You don't care about the price range. Make sure you get the address and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for an african restaurant
+system: bedouin serves african food
+user: address and the post code
+system: bedouin is on 100 Mill Road City Centre , C.B 1, 2 B.D
+user: thank you good bye

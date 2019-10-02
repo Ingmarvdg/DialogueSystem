@@ -1,0 +1,11 @@
+voip-31d9d1a567-20130402_042614
+Task 01344: You are looking for a moderately priced restaurant and it should be in the north part of town. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the north
+system: What kind of food would you like?
+user: any kind of food
+system: golden wok is a nice place in the north of town and the prices are moderate
+user: may i have the address please
+system: Sure , golden wok is on 191 Histon Road Chesterton
+user: thank you good bye

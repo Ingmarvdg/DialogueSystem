@@ -1,0 +1,35 @@
+voip-31de0daa7b-20130401_205012
+Task 00888: You are looking for a moderately priced restaurant and it should serve panasian food. If there is no such venue how about gastropub type of food. You want to know the address, phone number, and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderate
+system: There are 31 restaurants in the moderate price range . What type of food do you want?
+user: polynesian food
+system: la tasca serves spanish food in the moderate price range
+user: polynesian food
+system: Can I help you with anything else?
+user: polynesian food
+system: la tasca serves spanish food in the moderate price range
+user: polynesian
+system: la tasca serves spanish food in the moderate price range
+user: polynesian
+system: I'm sorry but there is no restaurant serving panasian food
+user: gastro pub
+system: Can I help you with anything else?
+user: gastro pub
+system: the cow pizza kitchen and bar serves gastropub food in the moderate price range
+user: hold on im working hold on gastro pub
+system: the cow pizza kitchen and bar serves gastropub food in the moderate price range
+user: address
+system: Sure , the cow pizza kitchen and bar is on Corn Exchange Street
+user: phone number
+system: The phone number of the cow pizza kitchen and bar is 01223 308871 .
+user: area
+system: the cow pizza kitchen and bar serves gastropub food in the moderate price range
+user: area
+system: the cow pizza kitchen and bar serves gastropub food in the moderate price range
+user: thank you good bye
+system: the cow pizza kitchen and bar serves gastropub food in the moderate price range
+user: thank you good bye
+system: the cow pizza kitchen and bar serves gastropub food in the moderate price range
+user: thank you good bye

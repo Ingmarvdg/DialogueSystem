@@ -1,0 +1,17 @@
+voip-908884f5fd-20130327_001907
+Task 10230: You are looking for an expensive restaurant and it should serve australian food. If there is no such venue how about british type of food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for an expensive restaurant that serves australian food
+system: I'm sorry but there is no restaurant serving australian food
+user: how about british food
+system: I'm sorry but there is no restaurant serving australian food
+user: how about british type of food
+system: Could you please repeat that?
+user: how about british type of food
+system: There are 6 restaurants serving british in the expensive price range . What area would you like?
+user: it doesnt matter
+system: the cambridge chop house serves british food in the expensive price range
+user: what is the phone number
+system: The phone number of the cambridge chop house is 01223 359506 .
+user: thank you good bye

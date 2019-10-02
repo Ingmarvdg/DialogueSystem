@@ -1,0 +1,31 @@
+voip-90732b027d-20130327_171445
+Task 03237: You want to find a restaurant in the west part of town and it should serve malaysian food. If there is no such venue how about thai type of food. You want to know the address, phone number, and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find a restaurant in the we
+system: What kind of food would you like?
+user: with malaysian food
+system: I'm sorry but there is no restaurant serving malaysian food
+user: malaysian food
+system: Could you please repeat that?
+user: malaysian food
+system: I'm sorry but there is no restaurant serving malaysian food
+user: how about tha
+system: Could you please repeat that?
+user: thai food
+system: I'm sorry but there is no restaurant serving malaysian food
+user: thai
+system: Could you please repeat that?
+user: thai food
+system: There are 2 restaurants serving thai food . What area do you want?
+user: the west part of town
+system: sala thong is a nice place in the west of town serving tasty thai food
+user: where is it
+system: sala thong is a great restaurant
+user: where is it
+system: Sure , sala thong is on 35 Newnham Road Newnham
+user: whats the ph
+system: Can I help you with anything else?
+user: the price range
+system: sala thong is in the expensive price range
+user: thank you goodbye

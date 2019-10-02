@@ -1,0 +1,39 @@
+voip-4b7e22cc07-20130401_185340
+Task 09402: You want to find and it should serve portuguese food. You don't care about the price range. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for unintelligible food
+system: What kind of food would you like?
+user: portuguese
+system: You are looking for a restaurant serving any kind of food right?
+user: no
+system: You are looking for a restaurant serving any kind of food right?
+user: no
+system: You are looking for a restaurant serving any kind of food right?
+user: no
+system: Did you say you are looking for a restaurant in the east of town?
+user: no
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i dont care
+system: grafton hotel restaurant is a nice place in the east of town
+user: im looking for portuguese food
+system: grafton hotel restaurant is a nice place in the east of town
+user: im looking for portuguese food
+system: grafton hotel restaurant is a nice place in the east of town
+user: no
+system: grafton hotel restaurant is a nice place in the east of town
+user: unintelligible
+system: grafton hotel restaurant is a nice place in the east of town
+user: pizza
+system: grafton hotel restaurant is a nice place in the east of town
+user: im looking for portuguese food
+system: I'm sorry but there is no portuguese restaurant in the east of town
+user: what about in any area
+system: I'm sorry but there is no portuguese restaurant in the east of town
+user: how about the west of town
+system: nandos serves portuguese food
+user: what is the address
+system: Sure , nandos is on Cambridge Leisure Park Clifton Way
+user: may i have the address
+system: Sure , nandos is on Cambridge Leisure Park Clifton Way
+user: thank you good bye

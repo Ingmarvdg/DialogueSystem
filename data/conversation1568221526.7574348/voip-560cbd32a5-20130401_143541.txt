@@ -1,0 +1,53 @@
+voip-560cbd32a5-20130401_143541
+Task 07503: You are looking for a restaurant in any area and it should serve seafood. Make sure you get the phone number and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: unintelligible restaurant
+system: What kind of food would you like?
+user: seafood
+system: You are looking for a restaurant serving any kind of food right?
+user: seafood
+system: I'm sorry but there is no restaurant serving bistro food
+user: seafood
+system: Could you please repeat that?
+user: seafood
+system: I'm sorry but there is no restaurant serving bistro food
+user: seafood
+system: Could you please repeat that?
+user: seafood
+system: I'm sorry but there is no restaurant serving bistro food
+user: seafood
+system: Could you please repeat that?
+user: seafood
+system: I'm sorry but there is no restaurant serving bistro food
+user: seafood
+system: Could you please repeat that?
+user: seafood
+system: I'm sorry but there is no restaurant serving bistro food
+user: seafood
+system: Could you please repeat that?
+user: sea
+system: I'm sorry but there is no restaurant serving bistro food
+user: food
+system: Could you please repeat that?
+user: food
+system: I'm sorry but there is no restaurant serving bistro food
+user: s e a f o o d
+system: You are looking for a world restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving world food
+user: seafood
+system: You are looking for a world restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving world food
+user: seafood
+system: Could you please repeat that?
+user: seafood
+system: loch fyne serves seafood food
+user: phone number
+system: Can I help you with anything else?
+user: can i get the phone number
+system: The phone number of loch fyne is 01223 362433 .
+user: what is the price range
+system: loch fyne is in the expensive price range
+user: thank you bye

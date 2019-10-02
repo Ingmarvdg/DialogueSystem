@@ -1,0 +1,17 @@
+voip-a31ca3e355-20130323_222552
+Task 03873: You want to find a cheap restaurant and it should serve international food. You want to know the address and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What kind of food would you like?
+user: sil
+system: You are looking for a restaurant serving any kind of food right?
+user: cheap restaurant
+system: You are looking for a restaurant serving any kind of food right?
+user: international food
+system: the missing sock serves international food in the cheap price range
+user: address
+system: Sure , the missing sock is on Finders Corner Newmarket Road
+user: post code
+system: The post code of the missing sock is C.B 25, 9 A.Q
+user: thank you good bye

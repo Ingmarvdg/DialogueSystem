@@ -1,0 +1,19 @@
+voip-21ec2b7850-20130326_021426
+Task 08352: You are looking for a restaurant in any area and it should serve barbeque food. If there is no such venue how about european type of food. Make sure you get the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: barbecue
+system: I am sorry but there is no barbeque restaurant that matches your request
+user: european
+system: What part of town do you have in mind?
+user: any
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: any
+system: eraina serves european food .
+user: phone number
+system: eraina serves european food .
+user: phone
+system: eraina serves european food .
+user: phone number
+system: The phone number of eraina is 01223 368786 .
+user: thank you good bye

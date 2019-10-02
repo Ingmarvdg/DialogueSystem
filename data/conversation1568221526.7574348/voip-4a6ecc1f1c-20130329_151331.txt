@@ -1,0 +1,15 @@
+voip-4a6ecc1f1c-20130329_151331
+Task 02949: You are looking for a cheap restaurant and it should serve japanese food. If there is no such venue how about italian type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for cheap japanese food
+system: Sorry there is no japanese restaurant in the cheap price range
+user: uh what about italian food
+system: the lucky star is a great restaurant serving chinese food and it is in the cheap price range
+user: what about italian food
+system: da vinci pizzeria is a great restaurant serving italian food and it is in the cheap price range
+user: okay whats the phone number
+system: The phone number of da vinci pizzeria is 01223 351707 .
+user: how about the address
+system: Sure , da vinci pizzeria is on 20 Milton Road Chesterton
+user: thank you good bye

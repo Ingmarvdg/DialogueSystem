@@ -1,0 +1,17 @@
+voip-0f41c16f2f-20130402_005558
+Task 12693: You are looking for a moderately priced restaurant and it should serve international food. You want to know the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderately priced
+system: There are 31 restaurants in the moderate price range . What type of food do you want?
+user: international
+system: There are 2 restaurants serving international in the moderate price range . What area would you like?
+user: any area
+system: the varsity restaurant serves international food in the moderate price range
+user: whats the address
+system: Sure , the varsity restaurant is on 35 Saint Andrews Street City Centre
+user: whats the phone number
+system: The phone number of the varsity restaurant is 01223 356060 .
+user: whats the post code
+system: The post code of the varsity restaurant is C.B 2, 3 A.R
+user: thank you good bye

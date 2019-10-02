@@ -1,0 +1,25 @@
+voip-eaef6f434c-20130323_030101
+Task 04398: You want to find a restaurant in the south part of town and it should serve singaporean food. If there is no such venue how about indian type of food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for food in the south part of town
+system: There are 9 restaurants in the south of town . What type of food do you want?
+user: im looking for singaporean food
+system: I'm sorry but there is no korean restaurant in the south of town
+user: how about singaporean food
+system: Could you please repeat that?
+user: singaporean food
+system: I'm sorry but there is no restaurant serving singaporean food
+user: how about indian food
+system: I'm sorry but there is no restaurant serving singaporean food
+user: how about indian food
+system: Could you please repeat that?
+user: indian food
+system: Did you say you are looking for a restaurant in the south of town?
+user: yes
+system: taj tandoori is a nice place in the south of town serving tasty indian food
+user: phone number please
+system: Can I help you with anything else?
+user: id like the phone number of the restaurant you just told me
+system: The phone number of taj tandoori is 01223 412299 .
+user: thank you good bye

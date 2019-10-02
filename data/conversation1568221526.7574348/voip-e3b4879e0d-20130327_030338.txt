@@ -1,0 +1,43 @@
+voip-e3b4879e0d-20130327_030338
+Task 11535: You are looking for a restaurant in the south part of town and it should serve european food. If there is no such venue how about centre area. Make sure you get the phone number and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the south part of town that serves european food
+system: You are looking for a european restaurant right?
+user: yes in the south part of town
+system: I'm sorry but there is no european restaurant in the south of town
+user: what about the center area
+system: Could you please repeat that?
+user: center area
+system: What part of town do you have in mind?
+user: center
+system: You are looking for a european restaurant right?
+user: yes
+system: There are 5 restaurants serving european food in any part of town . What price range would you like?
+user: i dont care the center part of town
+system: There are 4 restaurants serving european in the centre of town . What price range would you like?
+user: i dont care
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i dont care
+system: galleria is a nice place in the centre of town serving tasty european food
+user: can i get the phone number
+system: The phone number of galleria is 01223 362054 .
+user: sil
+system: michaelhouse cafe is a nice place in the centre of town serving tasty european food
+user: post code
+system: michaelhouse cafe is a great restaurant
+user: po post code
+system: The post code of michaelhouse cafe is C.B 2, 1 S.U
+user: inaudible
+system: michaelhouse cafe is a great restaurant
+user: postcode
+system: michaelhouse cafe is a great restaurant
+user: postcode
+system: michaelhouse cafe is a great restaurant
+user: inaudible
+system: eraina is a nice place in the centre of town serving tasty european food
+user: postcode
+system: eraina is a great restaurant
+user: thank you goodbye
+system: hotel du vin and bistro is a nice place in the centre of town serving tasty european food
+user: thank you goodbye

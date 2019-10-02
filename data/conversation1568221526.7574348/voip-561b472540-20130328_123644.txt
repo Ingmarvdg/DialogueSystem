@@ -1,0 +1,15 @@
+voip-561b472540-20130328_123644
+Task 11106: You want to find a cheap restaurant and it should be in the south part of town. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What kind of food would you like?
+user: cheap restaurant in the south part of town
+system: You are looking for a restaurant serving any kind of food right?
+user: no cheap restaurant in the south part of town
+system: You are looking for a restaurant serving any kind of food right?
+user: wrong
+system: the lucky star is a nice place in the south of town and the prices are cheap
+user: what is the address
+system: Sure , the lucky star is on Cambridge Leisure Park Clifton Way Cherry Hinton
+user: thank you goodbye

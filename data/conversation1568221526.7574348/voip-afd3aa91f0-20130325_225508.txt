@@ -1,0 +1,19 @@
+voip-afd3aa91f0-20130325_225508
+Task 10686: You want to find a restaurant in the north part of town and it should serve chinese food. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the north part of town thats
+system: There are 11 restaurants in the north of town . What type of food do you want?
+user: chinese
+system: You are looking for a chinese restaurant right?
+user: yes
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: anything
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: any price range
+system: hakka is a nice place in the north of town serving tasty chinese food
+user: phone number
+system: hakka is a great restaurant
+user: what is the phone number
+system: The phone number of hakka is 01223 568988 .
+user: thank you good bye

@@ -1,0 +1,11 @@
+voip-199d62165b-20130402_121823
+Task 09123: You want to find an expensive restaurant and it should be in the south part of town. You want to know the address and type of food.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i would like to find an expensive restaurant in the south part of town
+system: There are 5 restaurants in the expensive price range and the south of town . What type of food would you like?
+user: i do not care
+system: frankie and bennys is a nice place in the south of town and the prices are expensive
+user: what type of food do they serve
+system: frankie and bennys serves italian food
+user: thank you good bye

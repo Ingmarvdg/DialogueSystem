@@ -1,0 +1,41 @@
+voip-31de0daa7b-20130401_220217
+Task 00753: You want to find a restaurant in any area and it should serve japanese food. You want to know the address and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: restaurant any area japanese food
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: What kind of food would you like?
+user: japanese
+system: You are looking for a cantonese restaurant right?
+user: sil
+system: I'm sorry but there is no restaurant serving cantonese food
+user: sil
+system: I'm sorry but there is no restaurant serving cantonese food
+user: japanese
+system: I'm sorry but there is no restaurant serving cantonese food
+user: japanese
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: You are looking for a cantonese restaurant right?
+user: japanese
+system: I'm sorry but there is no restaurant serving cantonese food
+user: unintelligible
+system: I'm sorry but there is no restaurant serving cantonese food
+user: unintelligible
+system: I'm sorry but there is no restaurant serving cantonese food
+user: unintelligible
+system: I'm sorry but there is no restaurant serving cantonese food
+user: sil
+system: Ok , a restaurant in any part of town is that right?
+user: sil
+system: You are looking for a cantonese restaurant right?
+user: japanese
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: I'm sorry but there is no restaurant serving cantonese food
+user: thank you good bye
+system: I'm sorry but there is no restaurant serving cantonese food
+user: thank you
+system: I'm sorry but there is no restaurant serving cantonese food
+user: thank you good bye

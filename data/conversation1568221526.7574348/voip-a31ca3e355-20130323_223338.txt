@@ -1,0 +1,13 @@
+voip-a31ca3e355-20130323_223338
+Task 02661: You want to find a restaurant in any area and it should serve mediterranean food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type .
+user: noise
+system: What part of town do you have in mind?
+user: mediterranean food
+system: la mimosa serves mediterranean food
+user: phone number
+system: la mimosa is a great restaurant
+user: phone number
+system: The phone number of la mimosa is 01223 362525 .
+user: thank you good bye

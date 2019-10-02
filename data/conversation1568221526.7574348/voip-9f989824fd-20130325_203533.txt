@@ -1,0 +1,21 @@
+voip-9f989824fd-20130325_203533
+Task 03492: You are looking for a moderately priced restaurant and it should be in the north part of town. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address and type of food of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderately priced restaurant
+system: What part of town do you have in mind?
+user: im sorry
+system: What kind of food would you like?
+user: any
+system: the cow pizza kitchen and bar is a great restaurant serving gastropub food and it is in the moderate price range
+user: north part of town
+system: the nirala is a nice restaurant in the north of town serving indian food
+user: anything else
+system: the nirala is a nice restaurant in the north of town in the moderate price range
+user: anything else
+system: the nirala is a nice restaurant in the north of town in the moderate price range
+user: address
+system: Sure , the nirala is on 7 Milton Road Chesterton
+user: type of food they serve
+system: the nirala serves indian food
+user: thank you good bye

@@ -1,0 +1,25 @@
+voip-340dbb333e-20130326_193257
+Task 07530: You are looking for a restaurant in any area and it should serve polish food. If there is no such venue how about modern european type of food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: polish food
+system: I'm sorry but there is no restaurant serving polish food
+user: modern european food
+system: Could you please repeat that?
+user: modern european food
+system: I'm sorry but there is no restaurant serving polish food
+user: european food
+system: You are looking for a polish restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving polish food
+user: european food
+system: There are 5 restaurants serving european food . What area do you want?
+user: any area
+system: What part of town do you have in mind?
+user: i dont care
+system: There are 5 restaurants serving european food in any part of town . What price range would you like?
+user: i dont care
+system: eraina serves european food
+user: what is the phone number
+system: The phone number of eraina is 01223 368786 .
+user: thank you goodbye

@@ -1,0 +1,23 @@
+voip-72e50baa85-20130326_044704
+Task 07146: You want to find a moderately priced restaurant and it should be in the east part of town. Make sure you get the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type .
+user: music hello
+system: What part of town do you have in mind?
+user: hello
+system: What part of town do you have in mind?
+user: id like to find a moderately priced restaurant in the east part of town
+system: What kind of food would you like?
+user: chinese
+system: What kind of food would you like?
+user: chinese
+system: pipasha restaurant is a nice place in the east of town
+user: the addre
+system: pizza hut fen ditton is a nice place in the east of town
+user: what is the addre
+system: Sure , pizza hut fen ditton is on Cambridge Retail Park Newmarket Road Fen Ditton
+user: k you goodbye
+system: pizza hut fen ditton is a great restaurant
+user: k you goodbye
+system: royal standard is a nice place in the east of town
+user: thank you goodbye

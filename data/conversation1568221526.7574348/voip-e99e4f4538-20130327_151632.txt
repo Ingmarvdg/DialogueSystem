@@ -1,0 +1,29 @@
+voip-e99e4f4538-20130327_151632
+Task 11559: You want to find an expensive restaurant and it should serve catalan food. If there is no such venue how about italian type of food. You want to know the address, phone number, and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: catalan
+system: What kind of food would you like?
+user: catalan food
+system: little seoul serves korean food
+user: no catalan
+system: I am sorry but there is no other korean restaurant that matches your request
+user: catalan
+system: Can I help you with anything else?
+user: catalan
+system: I'm sorry but there is no restaurant serving catalan food
+user: how about italian
+system: Can I help you with anything else?
+user: italian food
+system: There are 15 restaurants serving italian food . What area do you want?
+user: i dont care
+system: prezzo serves italian food
+user: breath expensive
+system: frankie and bennys serves italian food in the expensive price range
+user: address
+system: Sure , frankie and bennys is on Cambridge Leisure Park Clifton Way Cherry Hinton
+user: and the area
+system: frankie and bennys is a nice place in the south of town
+user: phone number
+system: The phone number of frankie and bennys is 01223 412430 .
+user: thank you goodbye

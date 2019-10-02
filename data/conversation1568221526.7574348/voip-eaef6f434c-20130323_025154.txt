@@ -1,0 +1,23 @@
+voip-eaef6f434c-20130323_025154
+Task 05970: You want to find a cheap restaurant and it should serve panasian food. If there is no such venue how about portuguese type of food. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: breathing
+system: What part of town do you have in mind?
+user: sil
+system: Sorry would you like something in the south or in the east
+user: it doesnt matter
+system: What kind of food would you like?
+user: im looking for a cheap pan asian food
+system: Let me confirm , You are looking for a restaurant in the cheap price range right?
+user: yes
+system: What kind of food would you like?
+user: pan asian food
+system: golden house is in the cheap price range
+user: what kind of food is it
+system: golden house serves chinese food
+user: okay is there any portuguese food
+system: nandos city centre serves portuguese food in the cheap price range
+user: can you give me the address
+system: Sure , nandos city centre is on 33-34 Saint Andrews Street
+user: thank you good bye

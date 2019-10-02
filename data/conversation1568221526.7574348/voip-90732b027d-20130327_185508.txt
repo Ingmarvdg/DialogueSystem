@@ -1,0 +1,15 @@
+voip-90732b027d-20130327_185508
+Task 06636: You are looking for a restaurant in the north part of town and it should serve russian food. If there is no such venue how about french type of food. Make sure you get the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: russian food
+system: I'm sorry but there is no restaurant serving russian food
+user: french food
+system: There are 2 restaurants serving french food . What area do you want?
+user: north
+system: restaurant two two is a nice place in the north of town serving tasty french food
+user: phone number
+system: Can I help you with anything else?
+user: phone number
+system: The phone number of restaurant two two is 01223 351880 .
+user: thank you good bye

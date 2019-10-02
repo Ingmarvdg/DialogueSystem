@@ -1,0 +1,13 @@
+voip-2f4c700ae3-20130401_191934
+Task 02295: You are looking for an expensive restaurant and it should be in the east part of town. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: expensive restaurant in the east
+system: What part of town do you have in mind?
+user: east
+system: pizza hut fen ditton is a nice place in the east of town
+user: unintelligible expensive
+system: pizza hut fen ditton is a great restaurant
+user: whats the address
+system: Sure , pizza hut fen ditton is on Cambridge Retail Park Newmarket Road Fen Ditton
+user: thank you good bye

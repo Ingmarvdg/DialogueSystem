@@ -1,0 +1,31 @@
+voip-31de0daa7b-20130401_210038
+Task 00075: You want to find an expensive restaurant and it should be in the east part of town. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address, phone number, and type of food of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: expensive restaurant expensive restaurant east
+system: There are 5 restaurants in the expensive price range and the east of town . What type of food would you like?
+user: spanish
+system: You are looking for a restaurant serving any kind of food right?
+user: yes
+system: royal standard is a nice place in the east of town and the prices are expensive
+user: anything else
+system: royal standard is a nice place in the east of town and the prices are expensive
+user: anything else
+system: royal standard is a nice place in the east of town and the prices are expensive
+user: anything else
+system: pipasha restaurant is a nice place in the east of town and the prices are expensive
+user: address
+system: Sure , pipasha restaurant is on Newmarket Road Fen Ditton
+user: phone number
+system: The phone number of pipasha restaurant is 01223 577786 .
+user: type of food
+system: pipasha restaurant is a great restaurant
+user: food
+system: grafton hotel restaurant is a nice place in the east of town and the prices are expensive
+user: food
+system: sitar tandoori is a nice place in the east of town and the prices are expensive
+user: food
+system: yu garden is a nice place in the east of town and the prices are expensive
+user: bye
+system: Sorry but there is no other restaurant in the expensive price range and the east of town
+user: thank you good bye

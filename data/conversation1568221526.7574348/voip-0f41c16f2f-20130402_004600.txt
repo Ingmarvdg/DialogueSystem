@@ -1,0 +1,11 @@
+voip-0f41c16f2f-20130402_004600
+Task 09162: You want to find an expensive restaurant and it should serve european food. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: expensive restaurant
+system: There are 57 restaurants in the expensive price range . What type of food do you want?
+user: european
+system: There are 3 restaurants serving european in the expensive price range . What area would you like?
+user: north
+system: I'm sorry but there is no european restaurant in the north of town
+user: thank you good bye

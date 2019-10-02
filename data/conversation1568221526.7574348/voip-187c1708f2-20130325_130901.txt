@@ -1,0 +1,15 @@
+voip-187c1708f2-20130325_130901
+Task 08085: You are looking for a moderately priced restaurant and it should be in the east part of town. You want to know the phone number and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderate restaurant east part of town
+system: There are 3 restaurants in the moderate price range and the east of town . What type of food would you like?
+user: it doesnt matter
+system: curry prince is a nice place in the east of town and the prices are moderate
+user: phone number
+system: curry prince is a great restaurant
+user: phone number
+system: The phone number of curry prince is 01223 566388 .
+user: post code
+system: The post code of curry prince is C.B 5, 8 J.J
+user: thank you good bye

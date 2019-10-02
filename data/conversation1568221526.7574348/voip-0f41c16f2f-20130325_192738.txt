@@ -1,0 +1,11 @@
+voip-0f41c16f2f-20130325_192738
+Task 06579: You want to find an expensive restaurant and it should serve bistro food. If there is no such venue how about european type of food. Make sure you get the address, phone number, and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: bistro food
+system: What kind of food would you like?
+user: bistro food
+system: I'm sorry but there is no restaurant serving bistro food
+user: european food
+system: There are 5 restaurants serving european food . What area do you want?
+user: thank you good bye

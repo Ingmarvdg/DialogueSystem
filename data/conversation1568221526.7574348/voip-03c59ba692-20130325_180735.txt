@@ -1,0 +1,15 @@
+voip-03c59ba692-20130325_180735
+Task 00393: You are looking for a moderately priced restaurant and it should be in the east part of town. You want to know the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for a moderately priced restaurant in the east part of town
+system: What kind of food would you like?
+user: i dont care
+system: pizza hut fen ditton is a nice place in the east of town and the prices are moderate
+user: whats the address
+system: Sure , pizza hut fen ditton is on Cambridge Retail Park Newmarket Road Fen Ditton
+user: whats the phone number
+system: The phone number of pizza hut fen ditton is 01223 323737 .
+user: whats the post code
+system: The post code of pizza hut fen ditton is C.B 5, 8 W.R
+user: thank you good bye

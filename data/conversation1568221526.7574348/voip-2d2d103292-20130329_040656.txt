@@ -1,0 +1,15 @@
+voip-2d2d103292-20130329_040656
+Task 02664: You want to find a restaurant in the east part of town and it should serve japanese food. If there is no such venue how about indian type of food. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a japanese restaurant in the east part
+system: I'm sorry but there is no japanese restaurant in the east of town
+user: im looking for an indian restaurant in the
+system: You are looking for a indian restaurant right?
+user: yes
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i dont care
+system: sitar tandoori is a nice place in the east of town serving tasty indian food
+user: what is the address and phone number
+system: The phone number of sitar tandoori is 01223 249955 and it is on 43 High Street Cherry Hinton Cherry Hinton .
+user: thank you good bye

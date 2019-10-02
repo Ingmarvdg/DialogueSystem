@@ -1,0 +1,19 @@
+voip-05e7a5440b-20130328_213802
+Task 03918: You are looking for a restaurant in the north part of town and it should serve brazilian food. If there is no such venue how about indian type of food. Make sure you get the address, phone number, and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for a restaurant in the north part of town serving bra
+system: There are 11 restaurants in the north of town . What type of food do you want?
+user: brazilian
+system: I'm sorry but there is no restaurant serving brazilian food
+user: how about indian
+system: I'm sorry but there is no restaurant serving brazilian food
+user: how about indian food
+system: royal spice is a nice place in the north of town serving tasty indian food
+user: okay ah wha whats the address
+system: Sure , royal spice is on Victoria Avenue Chesterton
+user: and the phone number
+system: The phone number of royal spice is 01733 553355 .
+user: and the price range
+system: royal spice is in the cheap price range
+user: thank you goodbye

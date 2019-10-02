@@ -1,0 +1,15 @@
+voip-e8997b10da-20130401_152728
+Task 09327: You are looking for an expensive restaurant and it should be in the south part of town. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: uh yes i am looking for an expensive restaurant in the south part of
+system: There are 9 restaurants in the south of town . What type of food do you want?
+user: okay im looking for an expensive restaurant
+system: There are 5 restaurants in the expensive price range and the south of town . What type of food would you like?
+user: uh it doesnt matter
+system: chiquito restaurant bar is a nice place in the south of town and the prices are expensive
+user: okay can i get the address
+system: Sure , chiquito restaurant bar is on 2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton
+user: and the phone number
+system: The phone number of chiquito restaurant bar is 01223 400170 .
+user: i dont care thank you good bye

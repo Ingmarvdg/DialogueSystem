@@ -1,0 +1,9 @@
+voip-597cfafdee-20130328_232032
+Task 08415: You are looking for a restaurant in the centre and it should serve african food. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the center serving african food
+system: bedouin is a nice place in the centre of town serving tasty african food
+user: can i have the address of the venue
+system: Sure , bedouin is on 100 Mill Road City Centre
+user: thank you good bye

@@ -1,0 +1,11 @@
+voip-4a6ecc1f1c-20130329_153244
+Task 08181: You want to find a cheap restaurant and it should be in the north part of town. Make sure you get the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for a cheap restaurant in the west part of town
+system: What part of town do you have in mind?
+user: north
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: and what is the phone number
+system: The phone number of da vinci pizzeria is 01223 351707 .
+user: thank you goodbye

@@ -1,0 +1,23 @@
+voip-e99e4f4538-20130327_155041
+Task 00519: You are looking for a restaurant in the centre and it should serve spanish food. Make sure you get the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant
+system: What kind of food would you like?
+user: that serves spanish food
+system: There are 2 restaurants serving spanish food . What area do you want?
+user: the center
+system: You are looking for a spanish restaurant right?
+user: yes
+system: There are 2 restaurants serving spanish in the centre of town . What price range would you like?
+user: i dont care
+system: la raza is a nice place in the centre of town serving tasty spanish food
+user: address
+system: la raza is a great restaurant
+user: whats the address
+system: Sure , la raza is on 4 - 6 Rose Crescent
+user: whats the phone number
+system: The phone number of la raza is 01223 464550 .
+user: whats the postcode
+system: The post code of la raza is C.B 2, 3 L.L
+user: thank you goodbye

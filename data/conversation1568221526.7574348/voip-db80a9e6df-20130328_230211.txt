@@ -1,0 +1,15 @@
+voip-db80a9e6df-20130328_230211
+Task 02007: You are looking for an expensive restaurant and it should be in the east part of town. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: an expensive restaurant in the east part of town
+system: What kind of food would you like?
+user: expensive food
+system: sitar tandoori is a nice place in the east of town and the prices are expensive
+user: how about a different restaurant
+system: yu garden is a nice place in the east of town and the prices are expensive
+user: can i get their address
+system: Sure , yu garden is on 529 Newmarket Road Fen Ditton
+user: what is their phone number
+system: The phone number of yu garden is 01223 248882 .
+user: okay thank you good bye

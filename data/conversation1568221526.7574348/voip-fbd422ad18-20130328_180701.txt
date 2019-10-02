@@ -1,0 +1,31 @@
+voip-fbd422ad18-20130328_180701
+Task 09705: You are looking for a restaurant in the centre and it should serve catalan food. If there is no such venue how about italian type of food. Make sure you get the phone number and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i am looking for a restaurant in the center
+system: There are 9 restaurants in the east of town . What type of food do you want?
+user: uh that serves catalan food
+system: I'm sorry but there is no restaurant serving cantonese food
+user: catalan food
+system: You are looking for a korean restaurant right?
+user: no
+system: little seoul serves korean food
+user: no
+system: I'm sorry but there is no korean restaurant in the east of town
+user: a restaurant in the center
+system: Can I help you with anything else?
+user: a restaurant in the center
+system: little seoul is a nice place in the centre of town serving tasty korean food
+user: serve
+system: I am sorry but there is no other korean restaurant in the centre of town
+user: italian food in the center
+system: Can I help you with anything else?
+user: italian food in the center
+system: You are looking for a italian restaurant right?
+user: yes
+system: don pasquale pizzeria is a nice place in the centre of town serving tasty italian food
+user: can i get the phone number and price range
+system: The phone number of don pasquale pizzeria is 01223 350106 .
+user: price range
+system: don pasquale pizzeria is in the expensive price range
+user: thank you good bye

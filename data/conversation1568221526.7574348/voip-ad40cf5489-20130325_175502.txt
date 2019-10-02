@@ -1,0 +1,15 @@
+voip-ad40cf5489-20130325_175502
+Task 08571: You want to find a moderately priced restaurant and it should serve catalan food. If there is no such venue how about spanish type of food. Make sure you get the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced restaurant with catalan food
+system: Sorry there is no catalan restaurant in the moderate price range
+user: how about a moderately priced restaurant that serves spani
+system: Sorry there is no catalan restaurant in the moderate price range
+user: how about a moderately priced restaurant that serves spanish
+system: la tasca is a great restaurant serving spanish food and it is in the moderate price range
+user: the address phone number and post code
+system: The phone number of la tasca is 01223 464630 and its postcode is C.B 2, 1 U.F .
+user: whats the address
+system: Sure , la tasca is on 14 -16 Bridge Street
+user: thank you good bye

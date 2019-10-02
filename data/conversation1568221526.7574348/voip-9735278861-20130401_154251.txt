@@ -1,0 +1,27 @@
+voip-9735278861-20130401_154251
+Task 01116: You are looking for an expensive restaurant and it should serve scandinavian food. If there is no such venue how about thai type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for an expensive restaurant
+system: What part of town do you have in mind?
+user: it doesnt matter
+system: What kind of food would you like?
+user: scandinavian
+system: I'm sorry but there is no restaurant serving scandinavian food
+user: how about thai food
+system: I'm sorry but there is no restaurant serving scandinavian food
+user: what about thai
+system: I'm sorry but there is no restaurant serving scandinavian food
+user: can i have a thai restaurant
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: Let me confirm , You are looking for a restaurant in the expensive price range right?
+user: yes
+system: I'm sorry but there is no restaurant serving scandinavian food
+user: what about thai food
+system: frankie and bennys is in the expensive price range
+user: can i have the address
+system: Sure , frankie and bennys is on Cambridge Leisure Park Clifton Way Cherry Hinton
+user: and what about the phone number
+system: The phone number of frankie and bennys is 01223 412430 .
+user: thank you good bye

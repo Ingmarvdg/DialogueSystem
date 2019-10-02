@@ -1,0 +1,15 @@
+voip-d0341706f2-20130329_052031
+Task 01680: You want to find a restaurant in the west part of town and it should serve bistro food. If there is no such venue how about italian type of food. Make sure you get the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for a restaurant in the west part of town that serves bistro food
+system: Sorry there is no bistro restaurant in the west of town
+user: how about italian
+system: saint johns chop house is a nice restaurant in the west of town serving british food
+user: how about italian food
+system: cocum is a nice restaurant in the west of town serving indian food
+user: how about italian food
+system: la margherita is a nice restaurant in the west of town serving italian food
+user: may i get the phone number
+system: The phone number of la margherita is 01223 315232 .
+user: thank you good bye

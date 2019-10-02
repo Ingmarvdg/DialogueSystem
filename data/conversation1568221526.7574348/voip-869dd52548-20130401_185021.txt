@@ -1,0 +1,9 @@
+voip-869dd52548-20130401_185021
+Task 05055: You are looking for and it should serve mexican food. You don't care about the price range. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: mexican food
+system: chiquito restaurant bar serves mexican food
+user: the address and phone number
+system: The phone number of chiquito restaurant bar is 01223 400170 and it is on 2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton .
+user: thank you good bye

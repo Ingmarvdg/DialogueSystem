@@ -1,0 +1,11 @@
+voip-2d2d103292-20130329_041742
+Task 12399: You are looking for an expensive restaurant and it should be in the east part of town. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for an expensive restaurant in the east part of town
+system: There are 5 restaurants in the expensive price range and the east of town . What type of food would you like?
+user: i dont care
+system: grafton hotel restaurant is a nice place in the east of town and the prices are expensive
+user: whats the phone number
+system: The phone number of grafton hotel restaurant is 01223 241387 .
+user: thank you good bye

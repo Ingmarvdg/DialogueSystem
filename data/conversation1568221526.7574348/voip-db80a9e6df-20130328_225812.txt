@@ -1,0 +1,27 @@
+voip-db80a9e6df-20130328_225812
+Task 07110: You want to find a cheap restaurant and it should serve traditional food. If there is no such venue how about portuguese type of food. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: hi i want to serve a cheap restaurant that serves traditional food
+system: I'm sorry but there is no restaurant serving traditional food
+user: how about cheap portuguese food
+system: I'm sorry but there is no restaurant serving traditional food
+user: how about cheap
+system: Could you please repeat that?
+user: portuguese
+system: You are looking for a traditional restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving traditional food
+user: what about portuguese food
+system: I'm sorry but there is no restaurant serving traditional food
+user: okay
+system: Could you please repeat that?
+user: portuguese food
+system: There are 2 restaurants serving portuguese in the cheap price range . What area would you like?
+user: i dont care
+system: nandos city centre serves portuguese food in the cheap price range
+user: sil
+system: nandos serves portuguese food in the cheap price range
+user: what is nandos address
+system: Sure , nandos is on Cambridge Leisure Park Clifton Way
+user: okay good bye

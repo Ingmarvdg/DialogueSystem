@@ -1,0 +1,33 @@
+voip-e8997b10da-20130329_011058
+Task 08358: You want to find and it should serve french food. You don't care about the price range. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: ah yes can i get a restaurant that serves french food
+system: What part of town do you have in mind?
+user: ah centre
+system: Did you say you are looking for a restaurant in the centre of town?
+user: ah yes that serves french food
+system: Did you say you are looking for a restaurant in the centre of town?
+user: yes
+system: cote is a nice place in the centre of town serving tasty french food
+user: kay
+system: I am sorry but there is no other french restaurant in the centre of town
+user: ah whats the price ran
+system: cote is a great restaurant
+user: okay and ah whats the price range
+system: cote is in the expensive price range
+user: okay and ah
+system: cote is a great restaurant
+user: what the addre
+system: Sure , cote is on Bridge Street City Centre
+user: kay
+system: I am sorry but there is no other french restaurant in the centre of town
+user: and ah
+system: restaurant two two serves french food
+user: kay
+system: Did you say you are looking for a restaurant in the centre of town?
+user: whats his addre
+system: Sure , restaurant two two is on 22 Chesterton Road Chesterton
+user: kay um
+system: restaurant two two is a great restaurant
+user: thank you and goodbye

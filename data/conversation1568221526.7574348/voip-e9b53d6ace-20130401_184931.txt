@@ -1,0 +1,13 @@
+voip-e9b53d6ace-20130401_184931
+Task 08436: You want to find a moderately priced restaurant and it should be in the south part of town. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced restaurant in the south part of town
+system: What kind of food would you like?
+user: it doesnt matter
+system: pizza hut cherry hinton is a nice place in the south of town and the prices are moderate
+user: is there anything else
+system: restaurant alimentum is a nice place in the south of town and the prices are moderate
+user: address and phone number
+system: The phone number of restaurant alimentum is 01223 413000 and it is on 152 - 154 Hills Road .
+user: thank you goodbye

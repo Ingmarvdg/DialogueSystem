@@ -1,0 +1,17 @@
+voip-90732b027d-20130401_222250
+Task 07974: You are looking for an expensive restaurant and it should be in the east part of town. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: expensive
+system: What part of town do you have in mind?
+user: east
+system: What kind of food would you like?
+user: any type
+system: pizza hut fen ditton is a nice restaurant in the east of town serving italian food
+user: expensive
+system: royal standard is a nice restaurant in the east of town serving gastropub food
+user: phone number
+system: royal standard is a nice restaurant in the east of town in the expensive price range
+user: phone number
+system: The phone number of royal standard is 01223 247877 .
+user: thank you good bye

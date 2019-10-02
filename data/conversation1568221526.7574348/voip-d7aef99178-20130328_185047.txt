@@ -1,0 +1,17 @@
+voip-d7aef99178-20130328_185047
+Task 08652: You want to find a moderately priced restaurant and it should serve halal food. If there is no such venue how about european type of food. You want to know the address and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What kind of food would you like?
+user: im looking for a moderately price restaurant that serves halo food
+system: I'm sorry but there is no restaurant serving halal food
+user: what about european food
+system: Could you please repeat that?
+user: what about european food
+system: hotel du vin and bistro serves european food in the moderate price range
+user: whats the address
+system: Sure , hotel du vin and bistro is on 15 - 19 Trumpington Street
+user: and the post code
+system: The post code of hotel du vin and bistro is C.B 2, 1 Q.A
+user: thank you good bye

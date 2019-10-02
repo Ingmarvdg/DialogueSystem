@@ -1,0 +1,11 @@
+voip-3b3edac94d-20130326_004101
+Task 04128: You want to find a restaurant in the centre and it should serve german food. If there is no such venue how about international type of food. You want to know the phone number and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the center of town serving german food
+system: Sorry there is no german restaurant in the centre of town
+user: how about international food
+system: the varsity restaurant is a nice restaurant in the centre of town serving international food
+user: what is the phone number and price range
+system: The phone number of the varsity restaurant is 01223 356060 and it is in the moderate price range .
+user: unintelligible good bye

@@ -1,0 +1,47 @@
+voip-7f9c1c8411-20130328_135458
+Task 12612: You are looking for a cheap restaurant and it should serve spanish food. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: um
+system: What kind of food would you like?
+user: spanish food
+system: You are looking for a irish restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving irish food
+user: spanish spanish food spanish
+system: Could you please repeat that?
+user: spanish
+system: I'm sorry but there is no restaurant serving irish food
+user: unintelligible
+system: Could you please repeat that?
+user: spanish
+system: I'm sorry but there is no restaurant serving irish food
+user: spanish
+system: Could you please repeat that?
+user: spanish
+system: You are looking for a irish restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving irish food
+user: spanish
+system: Could you please repeat that?
+user: spanish
+system: I'm sorry but there is no restaurant serving irish food
+user: spanish
+system: Could you please repeat that?
+user: spanish
+system: You are looking for a spanish restaurant right?
+user: yes
+system: What part of town do you have in mind?
+user: a cheap restaurant
+system: la raza serves spanish food in the cheap price range
+user: cheap restaurant
+system: la raza serves spanish food in the cheap price range
+user: spanish
+system: Can I help you with anything else?
+user: cheap restaurant spani
+system: la raza serves spanish food in the cheap price range
+user: address
+system: Sure , la raza is on 4 - 6 Rose Crescent
+user: thank you thank you
+system: I am sorry but there is no other spanish restaurant in the cheap price range
+user: thank you goodbye

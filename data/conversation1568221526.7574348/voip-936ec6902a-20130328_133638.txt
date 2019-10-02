@@ -1,0 +1,19 @@
+voip-936ec6902a-20130328_133638
+Task 05592: You are looking for a cheap restaurant and it should serve british food. If there is no such venue how about expensive price range. Make sure you get the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap restaurants
+system: j restaurant is in the cheap price range
+user: noise
+system: nandos is in the cheap price range
+user: british food
+system: I'm sorry but there is no restaurant serving cheap british food
+user: expensive
+system: fitzbillies restaurant serves british food in the expensive price range
+user: phone number
+system: fitzbillies restaurant is a great restaurant
+user: phone number
+system: The phone number of fitzbillies restaurant is 01223 352500 .
+user: i know mia
+system: the cambridge chop house serves british food in the expensive price range
+user: thank you good bye

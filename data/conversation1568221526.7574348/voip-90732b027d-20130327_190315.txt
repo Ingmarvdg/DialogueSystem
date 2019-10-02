@@ -1,0 +1,25 @@
+voip-90732b027d-20130327_190315
+Task 05697: You want to find a cheap restaurant and it should serve christmas food. If there is no such venue how about indian type of food. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cough
+system: What part of town do you have in mind?
+user: christmas food
+system: I'm sorry but there is no restaurant serving christmas food
+user: cough
+system: I'm sorry but there is no restaurant serving christmas food
+user: indian food
+system: curry garden serves indian food
+user: cough
+system: curry garden is a great restaurant
+user: cheap
+system: curry garden is a great restaurant
+user: cheap
+system: curry garden is a great restaurant
+user: cough
+system: mahal of cambridge serves indian food
+user: cheap price range
+system: mahal of cambridge is in the cheap price range
+user: address
+system: Sure , mahal of cambridge is on 3 - 5 Millers Yard Mill Lane
+user: thank you goodbye

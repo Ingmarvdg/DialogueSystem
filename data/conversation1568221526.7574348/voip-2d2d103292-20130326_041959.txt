@@ -1,0 +1,21 @@
+voip-2d2d103292-20130326_041959
+Task 00768: You want to find a moderately priced restaurant and it should serve australian food. If there is no such venue how about gastropub type of food. You want to know the address, phone number, and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced restaurant
+system: What part of town do you have in mind?
+user: i dont care
+system: What kind of food would you like?
+user: australian
+system: Sorry there is no australian restaurant in the moderate price range
+user: how about a gastropub
+system: saint johns chop house is a nice restaurant in the west of town serving british food
+user: what about gastropub
+system: the cow pizza kitchen and bar is a nice restaurant in the centre of town serving gastropub food
+user: what is the address
+system: Sure , the cow pizza kitchen and bar is on Corn Exchange Street
+user: what is the phone number
+system: The phone number of the cow pizza kitchen and bar is 01223 308871 .
+user: what is the area
+system: the cow pizza kitchen and bar is a nice place in the centre of town
+user: thank you good bye

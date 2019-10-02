@@ -1,0 +1,35 @@
+voip-7e07d8f0f5-20130328_191418
+Task 05703: You are looking for an expensive restaurant and it should serve tuscan food. If there is no such venue how about thai type of food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: expensive restaurant tuscan food
+system: Sorry there is no tuscan restaurant in the expensive price range
+user: unintelligible
+system: Sorry there is no tuscan restaurant in the expensive price range
+user: thai food
+system: Sorry there is no tuscan restaurant in the expensive price range
+user: thai food
+system: Sorry there is no tuscan restaurant in the expensive price range
+user: okay change restaurant
+system: Sorry there is no tuscan restaurant in the expensive price range
+user: no
+system: Sorry there is no tuscan restaurant in the expensive price range
+user: noise
+system: Sorry there is no tuscan restaurant in the expensive price range
+user: thank you good bye
+system: Sorry there is no tuscan restaurant in the expensive price range
+user: thank you good bye
+system: Sorry there is no tuscan restaurant in the expensive price range
+user: noise
+system: Sorry there is no tuscan restaurant in the expensive price range
+user: good bye
+system: Sorry there is no tuscan restaurant in the expensive price range
+user: noise
+system: Sorry there is no tuscan restaurant in the expensive price range
+user: thank you good bye
+system: Sorry there is no tuscan restaurant in the expensive price range
+user: good bye
+system: There are  restaurants serving tuscan in the expensive price range . What area would you like?
+user: noise
+system: Sorry there is no tuscan restaurant in the moderate price range
+user: thank you good bye

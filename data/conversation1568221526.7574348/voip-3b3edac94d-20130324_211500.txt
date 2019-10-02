@@ -1,0 +1,33 @@
+voip-3b3edac94d-20130324_211500
+Task 02022: You want to find and it should serve crossover food. You don't care about the price range. If there is no such venue how about vietnamese type of food. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: id like to find a restaurant serving crossover food
+system: I'm sorry but there is no restaurant serving crossover food
+user: how about vietnamese food
+system: Could you please repeat that?
+user: how about vietnamese food
+system: I'm sorry but there is no restaurant serving crossover food
+user: what about vietnamese food
+system: Could you please repeat that?
+user: what about vietnamese food
+system: I'm sorry but there is no restaurant serving crossover food
+user: how about vietnamese
+system: Could you please repeat that?
+user: vietnamese
+system: You are looking for a crossover restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving crossover food
+user: what about vietnamese food
+system: Could you please repeat that?
+user: what about vietnamese food
+system: I'm sorry but there is no restaurant serving crossover food
+user: how about vietnamese food
+system: Could you please repeat that?
+user: hello
+system: You are looking for a crossover restaurant right?
+user: no i am looking for a vietnamese restaurant
+system: thanh binh serves vietnamese food
+user: what is the address
+system: Sure , thanh binh is on 17 Magdalene Street City Centre
+user: thank you goodbye

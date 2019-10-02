@@ -1,0 +1,19 @@
+voip-381a50592b-20130323_233220
+Task 05370: You want to find an expensive restaurant and it should serve seafood. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: expensive restaurants
+system: What part of town do you have in mind?
+user: dont care
+system: What kind of food would you like?
+user: sea food
+system: la raza is in the cheap price range
+user: repeat
+system: da vinci pizzeria is in the cheap price range
+user: sea food
+system: la raza is in the cheap price range
+user: address
+system: la raza is a great restaurant
+user: address
+system: Sure , la raza is on 4 - 6 Rose Crescent
+user: thank you good bye

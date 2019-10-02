@@ -1,0 +1,17 @@
+voip-b58f1f9eb2-20130325_135605
+Task 00627: You are looking for an expensive restaurant and it should serve vietnamese food. If there is no such venue how about north american type of food. You want to know the phone number and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for an expensive restaurant and it should serve vietnamese food
+system: You are looking for a indian restaurant right?
+user: no
+system: You are looking for a indian restaurant right?
+user: no
+system: There are 14 restaurants serving indian in the expensive price range . What area would you like?
+user: vietnamese
+system: Sorry, I can't hear you
+user: im looking for a
+system: I'm sorry but there is no restaurant serving expensive vietnamese food
+user: thank you
+system: Could you please repeat that?
+user: good bye

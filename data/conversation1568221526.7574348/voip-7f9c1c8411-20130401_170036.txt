@@ -1,0 +1,11 @@
+voip-7f9c1c8411-20130401_170036
+Task 12432: You want to find a restaurant in any area and it should serve spanish food. Make sure you get the phone number and address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: can i have spanish food in
+system: la raza serves spanish food .
+user: phone number
+system: The phone number of la raza is 01223 464550 .
+user: the address
+system: Sure , la raza is on 4 - 6 Rose Crescent
+user: thank you good bye

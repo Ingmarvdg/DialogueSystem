@@ -1,0 +1,11 @@
+voip-e72dba1759-20130326_222550
+Task 00291: You want to find an expensive restaurant and it should be in the east part of town. Make sure you get the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: for an expensive restaurant in the east part of town
+system: What kind of food would you like?
+user: i dont care
+system: pipasha restaurant is a nice place in the east of town and the prices are expensive
+user: the address
+system: Sure , pipasha restaurant is on Newmarket Road Fen Ditton
+user: thank you good bye

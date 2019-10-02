@@ -1,0 +1,27 @@
+voip-e54437a6f0-20130325_140049
+Task 05562: You want to find an expensive restaurant and it should serve danish food. If there is no such venue how about asian oriental type of food. You want to know the phone number and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What part of town do you have in mind?
+user: doesnt matter
+system: Ok , a restaurant in any part of town is that right?
+user: expensive
+system: Ok , a restaurant in any part of town is that right?
+user: yes danish food
+system: You are looking for a english restaurant right?
+user: no danish
+system: I'm sorry but there is no restaurant serving english food
+user: danish
+system: bedouin is in the expensive price range
+user: danish
+system: Sure , bedouin is on 100 Mill Road City Centre
+user: what type of food
+system: bedouin serves african food
+user: do you have any asian oriental food
+system: kymmoy serves asian oriental food in the expensive price range
+user: whats the phone number
+system: The phone number of kymmoy is 01223 311911 .
+user: what area
+system: kymmoy is a nice place in the centre of town
+user: thank you good bye

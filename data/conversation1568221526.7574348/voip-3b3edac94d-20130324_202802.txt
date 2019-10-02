@@ -1,0 +1,17 @@
+voip-3b3edac94d-20130324_202802
+Task 07191: You want to find a restaurant in the north part of town and it should serve swiss food. If there is no such venue how about indian type of food. You want to know the address, phone number, and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: id like a restaurant in the north part of town serving swiss food
+system: Sorry there is no swiss restaurant in the north of town
+user: id like a restaurant in the north part of town serving indian food
+system: Sorry there is no swiss restaurant in the north of town
+user: id like a restaurant in the north part of town serving indian food
+system: Sorry there is no swiss restaurant in the north of town
+user: id like an indian restaurant
+system: meghna is a nice restaurant in the north of town serving indian food
+user: what is the address phone number and price range
+system: The phone number of meghna is 01223 727410 and it is on 205 Victoria Road Chesterton .
+user: what is the price range
+system: meghna is in the moderate price range
+user: thank you good bye

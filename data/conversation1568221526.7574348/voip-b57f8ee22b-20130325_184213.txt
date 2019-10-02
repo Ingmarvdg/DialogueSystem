@@ -1,0 +1,17 @@
+voip-b57f8ee22b-20130325_184213
+Task 12120: You are looking for a moderately priced restaurant and it should serve turkish food. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderately priced restaurant
+system: There are 31 restaurants in the moderate price range . What type of food do you want?
+user: serves turkish food
+system: There are 2 restaurants serving turkish in the moderate price range . What area would you like?
+user: any
+system: efes restaurant serves turkish food in the moderate price range
+user: any anything else
+system: anatolia serves turkish food in the moderate price range
+user: anything else
+system: I am sorry but there is no other turkish restaurant in the moderate price range
+user: address and phone number
+system: The phone number of anatolia is 01223 362372 and it is on 30 Bridge Street City Centre .
+user: thank you good bye

@@ -1,0 +1,11 @@
+voip-155e939ebc-20130327_203704
+Task 07773: You want to find a moderately priced restaurant and it should serve spanish food. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find a moderately priced restaurant serving spanish food
+system: la tasca serves spanish food in the moderate price range
+user: whats the address
+system: Sure , la tasca is on 14 -16 Bridge Street
+user: whats the phone number
+system: The phone number of la tasca is 01223 464630 .
+user: thank you goodbye

@@ -1,0 +1,13 @@
+voip-4a6ecc1f1c-20130329_151857
+Task 03465: You want to find a restaurant in the north part of town and it should serve german food. If there is no such venue how about french type of food. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What part of town do you have in mind?
+user: uh north side of town german food
+system: Sorry there is no german restaurant in the north of town
+user: french food
+system: restaurant two two is a nice restaurant in the north of town serving french food
+user: okay whats the phone number
+system: The phone number of restaurant two two is 01223 351880 .
+user: thank you good bye

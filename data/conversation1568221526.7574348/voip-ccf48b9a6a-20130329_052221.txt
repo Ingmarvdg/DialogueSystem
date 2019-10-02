@@ -1,0 +1,29 @@
+voip-ccf48b9a6a-20130329_052221
+Task 04707: You want to find a restaurant in the centre and it should serve creative food. If there is no such venue how about mediterranean type of food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the center part of town that serves creative food
+system: You are looking for a creative restaurant right?
+user: yes
+system: I'm sorry but there is no restaurant serving creative food
+user: in the center part of town
+system: Could you please repeat that?
+user: looking for a restaurant in the center that sales creative food
+system: I'm sorry but there is no restaurant serving creative food
+user: mediterranean
+system: Could you please repeat that?
+user: im looking for a restaurant in the center of town that serves mediterranean
+system: There are 3 restaurants serving mediterranean in the centre of town . What price range would you like?
+user: moderate
+system: I'm sorry but there is no restaurant serving moderate mediterranean food
+user: cheap
+system: Could you please repeat that?
+user: cheap
+system: the gardenia is a great restaurant serving cheap mediterranean food in the centre of town .
+user: address
+system: Sure , the gardenia is on 2 Rose Crescent City Centre
+user: phone number
+system: The phone number of the gardenia is 01223 356354 .
+user: address
+system: Sure , the gardenia is on 2 Rose Crescent City Centre
+user: thank you good bye

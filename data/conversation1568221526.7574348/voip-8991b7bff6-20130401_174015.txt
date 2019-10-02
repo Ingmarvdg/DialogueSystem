@@ -1,0 +1,27 @@
+voip-8991b7bff6-20130401_174015
+Task 09294: You want to find and it should serve eritrean food. You don't care about the price range. If there is no such venue how about french type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: french
+system: Did you say you are looking for a restaurant in the west of town?
+user: now
+system: Did you say you are looking for a restaurant in the west of town?
+user: now
+system: Did you say you are looking for a restaurant in the west of town?
+user: now
+system: What kind of food would you like?
+user: french
+system: You are looking for a restaurant serving any kind of food right?
+user: now
+system: Did you say you are looking for a restaurant in the west of town?
+user: now
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: dont care
+system: cocum is a nice place in the west of town
+user: french food
+system: maharajah tandoori restaurant is a nice place in the west of town
+user: address
+system: Sure , maharajah tandoori restaurant is on 41518 Castle Street City Centre
+user: phone number
+system: The phone number of maharajah tandoori restaurant is 01223 358399 .
+user: thank you good bye

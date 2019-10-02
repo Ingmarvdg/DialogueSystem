@@ -1,0 +1,21 @@
+voip-dd9f7810fd-20130322_224356
+Task 10500: You are looking for a restaurant in the centre and it should serve eritrean food. If there is no such venue how about portuguese type of food. You want to know the address, phone number, and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a eritrean restaurant in the center of town
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: im looking for a eritrean restaurant
+system: What kind of food would you like?
+user: eirtrean
+system: la mimosa is in the centre part of town .
+user: what kind of food does it serve
+system: la mimosa serves mediterranean food
+user: how about a portuguese restaurant
+system: nandos city centre is a nice restaurant in the centre of town serving portuguese food
+user: whats the address
+system: Sure , nandos city centre is on 33-34 Saint Andrews Street
+user: whats the phone number
+system: The phone number of nandos city centre is 01223 327908 .
+user: and whats the price range
+system: nandos city centre is in the cheap price range
+user: thank you good bye

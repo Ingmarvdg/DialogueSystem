@@ -1,0 +1,17 @@
+voip-fe2783c40a-20130401_143504
+Task 10449: You want to find a moderately priced restaurant and it should serve world food. If there is no such venue how about gastropub type of food. You want to know the address, phone number, and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: world food
+system: I'm sorry but there is no restaurant serving world food
+user: gastropub
+system: Sorry would you like gastropub or world food?
+user: world food
+system: I'm sorry but there is no restaurant serving world food
+user: gastropub
+system: I'm sorry but there is no restaurant serving world food
+user: gastropub of food
+system: You are looking for a world restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving world food
+user: thank you goodbye

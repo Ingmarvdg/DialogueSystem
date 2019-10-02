@@ -1,0 +1,15 @@
+voip-3b3edac94d-20130324_211737
+Task 10044: You are looking for a cheap restaurant and it should serve caribbean food. If there is no such venue how about indian type of food. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: okay looking for a cheap restaurant serving caribbean food
+system: the gandhi is in the cheap price range
+user: does it serve caribbean food
+system: the gandhi serves indian food
+user: how about caribbean food
+system: I'm sorry but there is no restaurant serving caribbean food
+user: what about indian food
+system: the gandhi is in the cheap price range
+user: what is the address
+system: Sure , the gandhi is on 72 Regent Street City Centre
+user: thank you good bye

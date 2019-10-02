@@ -1,0 +1,27 @@
+voip-21ec2b7850-20130325_132551
+Task 12123: You are looking for a restaurant in the east part of town and it should serve belgian food. If there is no such venue how about indian type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking a restaurant in the east part of town
+system: What kind of food would you like?
+user: belgian food
+system: I'm sorry but there is no restaurant serving belgian food
+user: how about indian food
+system: I'm sorry but there is no restaurant serving belgian food
+user: food
+system: I'm sorry but there is no restaurant serving belgian food
+user: indian
+system: Did you say you are looking for a restaurant in the east of town?
+user: yes
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: any
+system: Let me confirm , You are looking for a restaurant and you dont care about the price range right?
+user: no
+system: pipasha restaurant is a nice place in the east of town serving tasty indian food
+user: address
+system: pipasha restaurant is a great restaurant
+user: address
+system: Sure , pipasha restaurant is on Newmarket Road Fen Ditton
+user: phone number
+system: The phone number of pipasha restaurant is 01223 577786 .
+user: thank you good bye

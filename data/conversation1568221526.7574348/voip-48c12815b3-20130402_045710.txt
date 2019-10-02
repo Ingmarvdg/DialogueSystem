@@ -1,0 +1,11 @@
+voip-48c12815b3-20130402_045710
+Task 09687: You are looking for a cheap restaurant and it should be in the east part of town. You want to know the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a cheap restaurant in the east part of town
+system: the missing sock is a nice place in the east of town and the prices are cheap
+user: can i get the address phone number and post code please
+system: The phone number of the missing sock is 01223 812660 and it is on Finders Corner Newmarket Road .
+user: what is the post code
+system: The post code of the missing sock is C.B 25, 9 A.Q
+user: thank you good bye

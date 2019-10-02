@@ -1,0 +1,23 @@
+voip-318851c80b-20130328_224511
+Task 02670: You want to find a moderately priced restaurant and it should serve canapes food. If there is no such venue how about gastropub type of food. You want to know the address, phone number, and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want a moderately priced restaurant that serves
+system: What kind of food would you like?
+user: canapes food
+system: What part of town do you have in mind?
+user: it doesnt matter
+system: yippee noodle bar is a nice restaurant in the centre of town in the moderate price range
+user: canapes food
+system: Sorry there is no canapes restaurant in the moderate price range
+user: gastropub food
+system: Sorry there is no canapes restaurant in the moderate price range
+user: i want a gastropub restaurant
+system: the cow pizza kitchen and bar is a nice restaurant in the centre of town serving gastropub food
+user: what is the address
+system: Sure , the cow pizza kitchen and bar is on Corn Exchange Street
+user: what is the phone number
+system: The phone number of the cow pizza kitchen and bar is 01223 308871 .
+user: what is the area
+system: the cow pizza kitchen and bar is a nice place in the centre of town
+user: thank you goodbye

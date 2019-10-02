@@ -1,0 +1,21 @@
+voip-3be3bda933-20130326_132152
+Task 03102: You want to find a moderately priced restaurant and it should serve french food. If there is no such venue how about any price range. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderately priced french food
+system: What kind of food would you like?
+user: french
+system: Sorry there is no french restaurant in the moderate price range
+user: any price range
+system: There are  restaurants serving french in the moderate price range . What area would you like?
+user: any
+system: Sorry there is no french restaurant in the moderate price range
+user: any price range
+system: Sorry there is no french restaurant in the moderate price range
+user: expensive
+system: restaurant two two is a nice restaurant in the north of town serving french food
+user: address
+system: Sure , restaurant two two is on 22 Chesterton Road Chesterton
+user: phone number
+system: The phone number of restaurant two two is 01223 351880 .
+user: thank you good bye

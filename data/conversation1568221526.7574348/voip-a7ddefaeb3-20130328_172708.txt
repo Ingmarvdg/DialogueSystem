@@ -1,0 +1,15 @@
+voip-a7ddefaeb3-20130328_172708
+Task 12312: You want to find a moderately priced restaurant and it should be in the north part of town. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderately priced restaurant in the north part of town
+system: What part of town do you have in mind?
+user: north
+system: the nirala is a nice restaurant in the north of town in the moderate price range
+user: phone number
+system: the nirala is a nice restaurant in the north of town in the moderate price range
+user: phone number
+system: the nirala is a nice restaurant in the north of town in the moderate price range
+user: phone number
+system: The phone number of the nirala is 01223 360966 .
+user: thank you good bye

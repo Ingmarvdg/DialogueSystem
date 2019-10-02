@@ -1,0 +1,17 @@
+voip-96f43326a4-20130323_073811
+Task 07602: You are looking for a moderately priced restaurant and it should be in the north part of town. You want to know the phone number and address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: hello im looking for a moderately priced restaurant in thr
+system: Sorry, I can't hear you
+user: unintelligible i dont care
+system: You are looking for a restaurant serving any kind of food right?
+user: yes
+system: What part of town do you have in mind?
+user: is it moderately
+system: What part of town do you have in mind?
+user: north part of town
+system: the nirala is a nice place in the north of town and the prices are moderate
+user: offer you the phone number and address
+system: The phone number of the nirala is 01223 360966 and it is on 7 Milton Road Chesterton .
+user: thank you good bye

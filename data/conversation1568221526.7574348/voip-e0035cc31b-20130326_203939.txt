@@ -1,0 +1,15 @@
+voip-e0035cc31b-20130326_203939
+Task 07179: You are looking for and it should serve barbeque food. You don't care about the price range. If there is no such venue how about vietnamese type of food. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: id like a barbecue restaurant
+system: I'm sorry but there is no restaurant serving barbeque food
+user: how about vietnamese
+system: I'm sorry but there is no restaurant serving barbeque food
+user: how about vietnamese food
+system: You are looking for a vietnamese restaurant right?
+user: yes
+system: thanh binh serves vietnamese food
+user: what the address
+system: Sure , thanh binh is on 17 Magdalene Street City Centre
+user: thank you good bye

@@ -1,0 +1,11 @@
+voip-3b3edac94d-20130323_202936
+Task 06888: You want to find an expensive restaurant and it should be in the east part of town. Make sure you get the phone number and address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: id like to find an expensive restaurant in the east side of town
+system: What kind of food would you like?
+user: i dont care
+system: grafton hotel restaurant is a nice place in the east of town and the prices are expensive
+user: what is the phone number and address
+system: The phone number of grafton hotel restaurant is 01223 241387 and it is on Grafton Hotel 619 Newmarket Road Fen Ditton .
+user: thank you good bye

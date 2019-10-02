@@ -1,0 +1,23 @@
+voip-f22c2bf9c7-20130328_121417
+Task 09267: You are looking for a cheap restaurant and it should serve unusual food. If there is no such venue how about european type of food. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: unusual food
+system: What kind of food would you like?
+user: unusual
+system: I'm sorry but there is no restaurant serving unusual food
+user: european
+system: There are 5 restaurants serving european food . What area do you want?
+user: city center
+system: There are 4 restaurants serving european in the centre of town . What price range would you like?
+user: cheap
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: cheap
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: cheap
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: cheap
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: moderate
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: thank you goodbye

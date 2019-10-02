@@ -1,0 +1,15 @@
+voip-3cf7bd870d-20130328_212334
+Task 08586: You want to find a restaurant in the east part of town and it should serve halal food. If there is no such venue how about indian type of food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i need a restaurant that serves halal food
+system: I'm sorry but there is no restaurant serving halal food
+user: uh okay how about indian food in the east part of town
+system: Could you please repeat that?
+user: how about indian food in the east part of town
+system: rajmahal is a nice place in the east of town serving tasty indian food
+user: whats the address
+system: Sure , rajmahal is on 7 Barnwell Road Fen Ditton
+user: tell me the phone number
+system: The phone number of rajmahal is 01223 244955 .
+user: good bye thank you

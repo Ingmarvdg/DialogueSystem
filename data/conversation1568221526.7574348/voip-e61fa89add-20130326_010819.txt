@@ -1,0 +1,13 @@
+voip-e61fa89add-20130326_010819
+Task 06639: You want to find a restaurant in the east part of town and it should serve romanian food. If there is no such venue how about chinese type of food. Make sure you get the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for romanian food in the east part of town
+system: I'm sorry but there is no restaurant serving romanian food
+user: how about chinese food
+system: Could you please repeat that?
+user: chinese food
+system: Did you say you are looking for a restaurant in the east of town?
+user: yes
+system: yu garden is a nice place in the east of town serving tasty chinese food
+user: thank you good bye

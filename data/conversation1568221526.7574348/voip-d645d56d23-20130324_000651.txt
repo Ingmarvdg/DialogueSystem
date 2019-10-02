@@ -1,0 +1,23 @@
+voip-d645d56d23-20130324_000651
+Task 10122: You are looking for a moderately priced restaurant and it should serve bistro food. If there is no such venue how about asian oriental type of food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: hi im looking for moderately priced
+system: Let me confirm , You are looking for a restaurant in the moderate price range right?
+user: yes
+system: What part of town do you have in mind?
+user: dont care
+system: What kind of food would you like?
+user: bistro food
+system: I'm sorry but there is no restaurant serving bistro food
+user: how about asian oriental
+system: I'm sorry but there is no restaurant serving bistro food
+user: i would like asian oriental
+system: Let me confirm , You are looking for a restaurant in the moderate price range right?
+user: yes
+system: yippee noodle bar serves asian oriental food in the moderate price range
+user: whats the address
+system: Sure , yippee noodle bar is on 40428 King Street City Centre
+user: whats the phone number
+system: The phone number of yippee noodle bar is 01223 518111 .
+user: thank you good bye

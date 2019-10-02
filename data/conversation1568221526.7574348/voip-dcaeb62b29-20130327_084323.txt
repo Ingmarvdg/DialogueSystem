@@ -1,0 +1,23 @@
+voip-dcaeb62b29-20130327_084323
+Task 00900: You are looking for a moderately priced restaurant and it should serve international food. Make sure you get the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderately priced restaurant serving international food
+system: There are 31 restaurants in the moderate price range . What type of food do you want?
+user: international
+system: There are 2 restaurants serving international in the moderate price range . What area would you like?
+user: dont care
+system: bloomsbury restaurant serves international food in the moderate price range
+user: what is the address phone number and post code
+system: The phone number of bloomsbury restaurant is 0871 942 9180 and it is on Crowne Plaza Hotel 20 Downing Street .
+user: unintelligible
+system: Sorry, I can't hear you
+user: international food
+system: bloomsbury restaurant serves international food in the moderate price range
+user: what is the address and phone number
+system: The phone number of bloomsbury restaurant is 0871 942 9180 and it is on Crowne Plaza Hotel 20 Downing Street .
+user: post code
+system: I am sorry but there is no other international restaurant in the moderate price range
+user: what is the post code
+system: The post code of bloomsbury restaurant is C.B 2, 3 D.T
+user: thank you good bye

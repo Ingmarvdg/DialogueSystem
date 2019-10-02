@@ -1,0 +1,13 @@
+voip-78f497f314-20130323_142856
+Task 02166: You are looking for a moderately priced restaurant and it should be in the west part of town. You want to know the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced restaurant in the west part of town
+system: What kind of food would you like?
+user: any type
+system: prezzo is a nice place in the west of town and the prices are moderate
+user: i can have the address the phone number and the post code of the
+system: The phone number of prezzo is 01799 521260 and its postcode is C.B 3, 0 A.D .
+user: thank you
+system: prezzo is a great restaurant
+user: thank you good bye

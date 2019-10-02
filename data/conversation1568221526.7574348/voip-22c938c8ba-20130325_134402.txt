@@ -1,0 +1,47 @@
+voip-22c938c8ba-20130325_134402
+Task 08703: You want to find a cheap restaurant and it should be in the north part of town. You want to know the address and type of food.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: a cheap restaurant in the north part of town
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: address
+system: Sure , da vinci pizzeria is on 20 Milton Road Chesterton
+user: type of food
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: food
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: type of food
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: type
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: dont care
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: i dont care
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: another please
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: north
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: another
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: more
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: no
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: chinese
+system: Sorry there is no cheap restaurant in the north of town serving chinese food
+user: north
+system: Sorry there is no cheap restaurant in the north of town serving chinese food
+user: other
+system: Sorry there is no cheap restaurant in the north of town serving chinese food
+user: cheap restaurant in the north of town
+system: Sorry there is no cheap restaurant in the north of town serving chinese food
+user: italian
+system: Sorry there is no cheap restaurant in the north of town serving chinese food
+user: dont care
+system: Sorry there is no cheap restaurant in the north of town serving chinese food
+user: i do not care
+system: Sorry there is no cheap restaurant in the north of town serving chinese food
+user: uh
+system: Sorry there is no cheap restaurant in the north of town serving chinese food
+user: thank you good bye

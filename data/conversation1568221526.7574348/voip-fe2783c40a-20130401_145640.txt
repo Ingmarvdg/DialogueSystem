@@ -1,0 +1,29 @@
+voip-fe2783c40a-20130401_145640
+Task 08307: You are looking for a moderately priced restaurant and it should be in the east part of town. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type .
+user: sil
+system: What part of town do you have in mind?
+user: moderate
+system: Sorry would you like something in the south or in the east
+user: moderately priced
+system: Did you say you are looking for a restaurant in the east of town?
+user: noise
+system: What kind of food would you like?
+user: yes
+system: pizza hut fen ditton is a nice place in the east of town and the prices are moderate
+user: whats the address
+system: Sure , pizza hut fen ditton is on Cambridge Retail Park Newmarket Road Fen Ditton
+user: sil
+system: pizza hut fen ditton is a great restaurant
+user: sil
+system: rajmahal is a nice place in the east of town and the prices are moderate
+user: whats the address
+system: Sure , rajmahal is on 7 Barnwell Road Fen Ditton
+user: noise
+system: curry prince is a nice place in the east of town and the prices are moderate
+user: address
+system: Sure , curry prince is on 451 Newmarket Road Fen Ditton
+user: phone number
+system: The phone number of curry prince is 01223 566388 .
+user: thank you good bye

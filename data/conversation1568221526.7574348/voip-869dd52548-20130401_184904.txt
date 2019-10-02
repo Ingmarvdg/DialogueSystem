@@ -1,0 +1,15 @@
+voip-869dd52548-20130401_184904
+Task 06279: You want to find a cheap restaurant and it should be in the west part of town. You want to know the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: whats a cheap restaurant in the west
+system: There are 12 restaurants in the west of town . What type of food do you want?
+user: cheap
+system: You are looking for a restaurant serving any kind of food right?
+user: yes
+system: la margherita is a nice place in the west of town and the prices are cheap
+user: whats the address phone number and post code
+system: The phone number of la margherita is 01223 315232 and it is on 15 Magdalene Street City Centre .
+user: post code
+system: The post code of la margherita is C.B 3, 0 A.F
+user: thank you good bye

@@ -1,0 +1,15 @@
+voip-6dbc3573bc-20130328_193508
+Task 07308: You want to find a restaurant in any area and it should serve gastropub food. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in any area that
+system: What kind of food would you like?
+user: gastropub
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: any
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: it doesnt matter to me
+system: backstreet bistro serves gastropub food
+user: whats the address
+system: Sure , backstreet bistro is on 2 Sturton Street City Centre
+user: thank you good bye

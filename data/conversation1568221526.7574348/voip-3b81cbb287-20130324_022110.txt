@@ -1,0 +1,9 @@
+voip-3b81cbb287-20130324_022110
+Task 08358: You want to find and it should serve french food. You don't care about the price range. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find a restaurant that serves french food
+system: restaurant two two serves french food .
+user: i dont care about the price range what is the address
+system: Sure , restaurant two two is on 22 Chesterton Road Chesterton
+user: thank you good bye

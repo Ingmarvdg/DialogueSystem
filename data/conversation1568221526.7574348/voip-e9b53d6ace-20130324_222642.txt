@@ -1,0 +1,11 @@
+voip-e9b53d6ace-20130324_222642
+Task 08184: You want to find a restaurant in the south part of town and it should serve korean food. If there is no such venue how about centre area. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the south part of town serving korean food
+system: I'm sorry but there is no korean restaurant in the south of town
+user: how about the center area
+system: little seoul is a nice place in the centre of town serving tasty korean food
+user: address and phone number
+system: The phone number of little seoul is 01223 308681 and it is on 108 Regent Street City Centre .
+user: thank you good bye

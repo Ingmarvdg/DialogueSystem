@@ -1,0 +1,23 @@
+voip-199d62165b-20130402_123231
+Task 00333: You want to find and it should serve bistro food. You don't care about the price range. If there is no such venue how about portuguese type of food. You want to know the phone number and address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: iam looking
+system: What kind of food would you like?
+user: for a restaurant
+system: You are looking for a restaurant serving any kind of food right?
+user: serve
+system: You are looking for a restaurant serving any kind of food right?
+user: unintelligible
+system: What part of town do you have in mind?
+user: i do not care
+system: There are 109 restaurants if you don't care about the area or the type of food . What price range would you like?
+user: iam looking for a restaurant that serves bistro food
+system: I'm sorry but there is no restaurant serving bistro food
+user: how about portuguese food
+system: I'm sorry but there is no restaurant serving bistro food
+user: how about portuguese food
+system: nandos serves portuguese food
+user: could i have the phone number and address please
+system: The phone number of nandos is 01223 327908 and it is on Cambridge Leisure Park Clifton Way .
+user: thank you good bye

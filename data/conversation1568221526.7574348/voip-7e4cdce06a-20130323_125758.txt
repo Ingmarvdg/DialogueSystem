@@ -1,0 +1,43 @@
+voip-7e4cdce06a-20130323_125758
+Task 11949: You want to find and it should serve swiss food. You don't care about the price range. If there is no such venue how about vietnamese type of food. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant that serves unintelligible food
+system: What kind of food would you like?
+user: unintelligible
+system: What kind of food would you like?
+user: unintelligible food
+system: You are looking for a portuguese restaurant right?
+user: unintelligible
+system: What part of town do you have in mind?
+user: im looking for a restaurant serving unintelligible
+system: What part of town do you have in mind?
+user: unintelligible
+system: I'm sorry but there is no portuguese restaurant in the west of town
+user: how about unintelligible
+system: I'm sorry but there is no portuguese restaurant in the west of town
+user: im looking for
+system: Could you please repeat that?
+user: im looking for a restaurant that serves unintelligible
+system: You are looking for a portuguese restaurant right?
+user: no
+system: Did you say you are looking for a restaurant in the west of town?
+user: no
+system: I'm sorry but there is no portuguese restaurant in the west of town
+user: no im looking for a unintelligible swiss food
+system: You are looking for a swiss restaurant right?
+user: yes
+system: I'm sorry but there is no restaurant serving swiss food
+user: how about unintelligible
+system: Could you please repeat that?
+user: how about
+system: I'm sorry but there is no restaurant serving swiss food
+user: vietnamese
+system: Could you please repeat that?
+user: how about vietnamese food
+system: thanh binh serves vietnamese food
+user: whats the unintelligible
+system: Can I help you with anything else?
+user: what is the address
+system: Sure , thanh binh is on 17 Magdalene Street City Centre
+user: thank you goodbye

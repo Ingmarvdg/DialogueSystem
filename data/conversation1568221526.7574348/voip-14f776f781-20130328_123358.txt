@@ -1,0 +1,17 @@
+voip-14f776f781-20130328_123358
+Task 00927: You are looking for a restaurant in the east part of town and it should serve australian food. If there is no such venue how about indian type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the east part of town that serves australian
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: moderate
+system: pizza hut fen ditton is a nice restaurant in the east of town in the moderate price range
+user: australian food
+system: Sorry there is no moderate restaurant in the east of town serving australian food
+user: indian food
+system: rajmahal is a nice restaurant in the east of town serving indian food
+user: what is the address
+system: Sure , rajmahal is on 7 Barnwell Road Fen Ditton
+user: and what is unintelligible telephone number
+system: The phone number of rajmahal is 01223 244955 .
+user: thank you good bye

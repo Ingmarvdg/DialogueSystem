@@ -1,0 +1,13 @@
+voip-b57f8ee22b-20130326_234206
+Task 00729: You are looking for and it should serve japanese food. You don't care about the price range. Make sure you get the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: japanese food
+system: What kind of food would you like?
+user: japanese food
+system: wagamama serves japanese food .
+user: price range
+system: wagamama is in the expensive price range
+user: address
+system: Sure , wagamama is on 36 Saint Andrews Street
+user: thank you good bye

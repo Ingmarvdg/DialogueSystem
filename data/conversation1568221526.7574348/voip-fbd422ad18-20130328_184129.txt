@@ -1,0 +1,17 @@
+voip-fbd422ad18-20130328_184129
+Task 04308: You want to find a restaurant in the east part of town and it should serve eritrean food. If there is no such venue how about indian type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for unintelligible food
+system: What part of town do you have in mind?
+user: in the east part of town
+system: What kind of food would you like?
+user: unintelligible
+system: I'm sorry but there is no european restaurant in the east of town
+user: unintelligible
+system: I'm sorry but there is no european restaurant in the east of town
+user: how about indian
+system: pipasha restaurant is a nice place in the east of town
+user: can i have the address and phone number
+system: The phone number of pipasha restaurant is 01223 577786 and it is on Newmarket Road Fen Ditton .
+user: thank you good bye

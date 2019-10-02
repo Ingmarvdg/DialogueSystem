@@ -1,0 +1,19 @@
+voip-e54437a6f0-20130325_141052
+Task 09978: You want to find a restaurant in the south part of town and it should serve swedish food. If there is no such venue how about modern european type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: south part of town
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: swedish food
+system: Sorry there is no swedish restaurant in the south of town
+user: moderate eur
+system: Sorry there is no swedish restaurant in the south of town
+user: opean
+system: peking restaurant is a nice restaurant in the south of town serving chinese food
+user: i want modern european
+system: restaurant alimentum is a nice restaurant in the south of town serving modern european food
+user: could i have the address
+system: Sure , restaurant alimentum is on 152 - 154 Hills Road
+user: could i have the phone number
+system: The phone number of restaurant alimentum is 01223 413000 .
+user: thank you good bye

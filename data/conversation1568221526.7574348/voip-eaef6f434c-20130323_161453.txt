@@ -1,0 +1,17 @@
+voip-eaef6f434c-20130323_161453
+Task 05526: You are looking for a cheap restaurant and it should serve hungarian food. If there is no such venue how about modern european type of food. You want to know the address and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What kind of food would you like?
+user: im looking for a cheap hungarian restaurant
+system: I'm sorry but there is no restaurant serving hungarian food
+user: uh is there a modern european food restaurant
+system: Could you please repeat that?
+user: can you find a modern european restaurant
+system: the river bar steakhouse and grill serves modern european food in the cheap price range
+user: can i have the address
+system: Sure , the river bar steakhouse and grill is on Quayside Off Bridge Street
+user: and the post code
+system: The post code of the river bar steakhouse and grill is C.B 5, 8 A.Q
+user: thank you good bye

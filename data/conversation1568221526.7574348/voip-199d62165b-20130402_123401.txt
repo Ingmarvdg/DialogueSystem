@@ -1,0 +1,13 @@
+voip-199d62165b-20130402_123401
+Task 12276: You are looking for a moderately priced restaurant and it should be in the north part of town. Make sure you get the phone number and type of food of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i am looking for a moderately priced restaurant in the north
+system: What kind of food would you like?
+user: i do not care
+system: golden wok is a nice place in the north of town and the prices are moderate
+user: could i have the phone number and type of venue
+system: The phone number of golden wok is 01223 350688 .
+user: and the type of food
+system: golden wok serves chinese food
+user: thank you good bye

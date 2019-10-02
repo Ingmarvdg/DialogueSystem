@@ -1,0 +1,23 @@
+voip-90732b027d-20130401_194905
+Task 10695: You want to find a moderately priced restaurant and it should be in the east part of town. You want to know the address, phone number, and type of food of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type .
+user: ring
+system: What part of town do you have in mind?
+user: east part of town
+system: What kind of food would you like?
+user: moderately priced
+system: What kind of food would you like?
+user: moderately priced
+system: What kind of food would you like?
+user: any kind
+system: curry prince is a nice place in the east of town and the prices are moderate
+user: address
+system: Sure , curry prince is on 451 Newmarket Road Fen Ditton
+user: phone number
+system: The phone number of curry prince is 01223 566388 .
+user: type of food
+system: curry prince is a great restaurant
+user: type of food
+system: curry prince serves indian food
+user: thank you good bye

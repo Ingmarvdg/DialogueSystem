@@ -1,0 +1,13 @@
+voip-a617b6827c-20130323_170929
+Task 10398: You want to find an expensive restaurant and it should be in the east part of town. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for an expensive restaurant in the east part of town
+system: What kind of food would you like?
+user: doesnt matter
+system: royal standard is a nice restaurant in the east of town serving gastropub food
+user: whats the phone number
+system: The phone number of royal standard is 01223 247877 .
+user: is it an expensive restaurant
+system: royal standard is a nice restaurant in the east of town in the expensive price range
+user: thank you goodbye

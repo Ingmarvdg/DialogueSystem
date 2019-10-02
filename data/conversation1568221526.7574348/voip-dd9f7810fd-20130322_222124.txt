@@ -1,0 +1,15 @@
+voip-dd9f7810fd-20130322_222124
+Task 03213: You are looking for a restaurant in the east part of town and it should serve world food. If there is no such venue how about chinese type of food. You want to know the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a world food restaurant in the east part of town
+system: Sorry there is no world restaurant in the east of town
+user: how about chinese food
+system: yu garden is a nice restaurant in the east of town serving chinese food
+user: whats the address
+system: Sure , yu garden is on 529 Newmarket Road Fen Ditton
+user: whats the phone number
+system: The phone number of yu garden is 01223 248882 .
+user: whats the post code
+system: The post code of yu garden is C.B 5, 8 P.A
+user: thank you good bye

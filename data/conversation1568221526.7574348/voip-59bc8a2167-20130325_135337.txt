@@ -1,0 +1,17 @@
+voip-59bc8a2167-20130325_135337
+Task 09660: You are looking for a cheap restaurant and it should serve welsh food. If there is no such venue how about mediterranean type of food. You want to know the phone number and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap
+system: What part of town do you have in mind?
+user: restaurant
+system: What part of town do you have in mind?
+user: dont care
+system: What kind of food would you like?
+user: unintelligible
+system: nandos city centre is in the cheap price range
+user: phone number
+system: The phone number of nandos city centre is 01223 327908 .
+user: post code
+system: The post code of nandos city centre is C.B 2, 3 A.R
+user: thank you good bye

@@ -1,0 +1,9 @@
+voip-dd9f7810fd-20130322_225618
+Task 05418: You are looking for a cheap restaurant and it should be in the north part of town. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a cheap restaurant in the north part of town
+system: royal spice is a nice restaurant in the north of town in the cheap price range
+user: whats the address
+system: Sure , royal spice is on Victoria Avenue Chesterton
+user: thank you good bye

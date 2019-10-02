@@ -1,0 +1,25 @@
+voip-869dd52548-20130326_000526
+Task 06036: You want to find a restaurant in any area and it should serve spanish food. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cough
+system: What kind of food would you like?
+user: im looking for
+system: You are looking for a restaurant serving any kind of food right?
+user: unintelligible
+system: You are looking for a restaurant serving any kind of food right?
+user: spanish food
+system: I'm sorry but there is no restaurant serving danish food
+user: spanish food
+system: You are looking for a spanish restaurant right?
+user: yes
+system: What part of town do you have in mind?
+user: i dont care
+system: There are 2 restaurants serving spanish food in any part of town . What price range would you like?
+user: i dont care
+system: la tasca serves spanish food
+user: is there anything else
+system: la raza serves spanish food
+user: what is the phone number
+system: The phone number of la raza is 01223 464550 .
+user: thank you good bye

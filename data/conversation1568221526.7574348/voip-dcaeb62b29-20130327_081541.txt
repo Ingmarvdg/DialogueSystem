@@ -1,0 +1,13 @@
+voip-dcaeb62b29-20130327_081541
+Task 06597: You are looking for and it should serve european food. You don't care about the price range. Make sure you get the address and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: european food
+system: What part of town do you have in mind?
+user: dont care
+system: de luca cucina and bar is in the centre part of town .
+user: what is the address
+system: Sure , de luca cucina and bar is on 83 Regent Street
+user: post code
+system: The post code of de luca cucina and bar is C.B 2, 1 A.W
+user: thank you good bye

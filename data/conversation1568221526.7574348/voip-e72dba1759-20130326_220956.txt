@@ -1,0 +1,23 @@
+voip-e72dba1759-20130326_220956
+Task 00705: You want to find a moderately priced restaurant and it should serve corsica food. If there is no such venue how about indian type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: uh im looking for a moderately priced restaurant serving
+system: What part of town do you have in mind?
+user: it doesnt matter
+system: Ok , a restaurant in any part of town is that right?
+user: yes that serves corsica food
+system: I'm sorry but there is no restaurant serving corsica food
+user: okay how about a moderately prices restaurant that serves
+system: I'm sorry but there is no restaurant serving corsica food
+user: what about indian food
+system: the copper kettle is in the moderate price range
+user: what kind of food
+system: the copper kettle serves british food
+user: im looking for indian food
+system: curry prince serves indian food in the moderate price range
+user: whats the address and phone number
+system: The phone number of curry prince is 01223 566388 .
+user: and the address
+system: Sure , curry prince is on 451 Newmarket Road Fen Ditton
+user: thank you good bye

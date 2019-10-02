@@ -1,0 +1,21 @@
+voip-d225fad9df-20130328_205512
+Task 04419: You are looking for an expensive restaurant and it should be in the south part of town. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for an expensive restaurant
+system: What kind of food would you like?
+user: south part of town
+system: What kind of food would you like?
+user: north american
+system: Sorry there is no expensive restaurant in the north of town serving north american food
+user: expensive fish restaurant
+system: Sorry there is no expensive restaurant in the north of town serving north american food
+user: how about the south part of town
+system: Sorry there is no expensive restaurant in the south of town serving north american food
+user: are there any restaurants in the south part of town that are expensive
+system: Sorry there is no expensive restaurant in the south of town serving north american food
+user: how about indian food
+system: taj tandoori is a nice restaurant in the south of town serving indian food
+user: can i have their phone number
+system: The phone number of taj tandoori is 01223 412299 .
+user: thank you good bye

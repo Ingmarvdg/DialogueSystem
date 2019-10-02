@@ -1,0 +1,13 @@
+voip-15d8a89cec-20130327_020255
+Task 06150: You are looking for a restaurant in the south part of town and it should serve international food. If there is no such venue how about centre area. You want to know the phone number and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: find restaurant in south of town serving international f
+system: Sorry there is no international restaurant in the south of town
+user: how about the center of town
+system: bloomsbury restaurant is a nice restaurant in the centre of town serving international food
+user: the price range
+system: bloomsbury restaurant is in the moderate price range
+user: what is the phone number
+system: The phone number of bloomsbury restaurant is 0871 942 9180 .
+user: thank you goodbye

@@ -1,0 +1,11 @@
+voip-fdf8b50918-20130327_022752
+Task 09207: You are looking for a restaurant in any area and it should serve german food. If there is no such venue how about french type of food. Make sure you get the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a cheap restaurant in the east part of town
+system: the missing sock is a nice place in the east of town and the prices are cheap
+user: what is the address
+system: Sure , the missing sock is on Finders Corner Newmarket Road
+user: what is the phone number
+system: The phone number of the missing sock is 01223 812660 .
+user: thank you good bye

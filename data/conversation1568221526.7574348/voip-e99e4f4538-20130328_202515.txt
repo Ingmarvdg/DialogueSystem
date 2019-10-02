@@ -1,0 +1,19 @@
+voip-e99e4f4538-20130328_202515
+Task 08310: You are looking for and it should serve russian food. You don't care about the price range. If there is no such venue how about european type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for russian food
+system: I'm sorry but there is no restaurant serving russian food
+user: european food
+system: You are looking for a european restaurant right?
+user: yes
+system: What part of town do you have in mind?
+user: i dont care
+system: There are 5 restaurants serving european food in any part of town . What price range would you like?
+user: i dont care
+system: eraina serves european food
+user: whats the address
+system: Sure , eraina is on Free School Lane City Centre
+user: and the phone number
+system: The phone number of eraina is 01223 368786 .
+user: thank you good bye

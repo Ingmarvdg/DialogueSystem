@@ -1,0 +1,17 @@
+voip-f091d0e461-20130327_210252
+Task 07452: You are looking for a moderately priced restaurant and it should be in the east part of town. You want to know the address and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: hi im looking for a restaurant in the east art of town
+system: pipasha restaurant is a nice place in the east of town
+user: and what is the price range
+system: pipasha restaurant is in the expensive price range
+user: okay im looking for moderate price range
+system: What kind of food would you like?
+user: i dont know
+system: rajmahal is a nice place in the east of town and the prices are moderate
+user: okay can i have the address
+system: Sure , rajmahal is on 7 Barnwell Road Fen Ditton
+user: and can i have the post code
+system: The post code of rajmahal is C.B 5, 8 R.G
+user: okay thank you good bye

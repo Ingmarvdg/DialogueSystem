@@ -1,0 +1,17 @@
+voip-c8ec8c76dd-20130328_210403
+Task 02016: You are looking for a restaurant in the north part of town and it should serve malaysian food. If there is no such venue how about italian type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What part of town do you have in mind?
+user: im looking for a malaysian restaurant in the north part of town
+system: I'm sorry but there is no restaurant serving malaysian food
+user: um what about italian food
+system: meghna is a nice place in the north of town
+user: what is their address and phone number
+system: The phone number of meghna is 01223 727410 and it is on 205 Victoria Road Chesterton .
+user: noise
+system: meghna is a great restaurant
+user: noise what was their address again please
+system: Sure , meghna is on 205 Victoria Road Chesterton
+user: noise thank you good bye

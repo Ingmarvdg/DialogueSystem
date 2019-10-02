@@ -1,0 +1,15 @@
+voip-ad40cf5489-20130327_192610
+Task 07608: You want to find a moderately priced restaurant and it should serve scottish food. If there is no such venue how about british type of food. Make sure you get the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced restaurant that serves scottish food
+system: Sorry there is no scottish restaurant in the moderate price range
+user: im looking for a moderately priced restaurant that serves british food
+system: What part of town do you have in mind?
+user: it doesnt matter
+system: cotto is a nice restaurant in the centre of town serving british food
+user: phone number
+system: cotto is a great restaurant serving british food and it is in the moderate price range
+user: what is the phone number
+system: The phone number of cotto is 01223 302010 .
+user: thank you good bye

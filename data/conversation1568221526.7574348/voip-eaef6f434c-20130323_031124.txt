@@ -1,0 +1,11 @@
+voip-eaef6f434c-20130323_031124
+Task 06048: You are looking for a moderately priced restaurant and it should serve lebanese food. You want to know the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced restaurant that serves labenese food
+system: ali baba serves lebanese food in the moderate price range
+user: can i have the address phone number and post code
+system: The phone number of ali baba is 01462 432565 and it is on 59 Hills Road City Centre .
+user: and can i have the post code please
+system: The post code of ali baba is C.B 2, 1 N.T
+user: thank you good bye

@@ -1,0 +1,13 @@
+voip-7e4cdce06a-20130323_130520
+Task 04962: You want to find a moderately priced restaurant and it should be in the east part of town. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i wanna find a moderately priced restaurant in the east part of t
+system: rajmahal is a nice restaurant in the east of town in the moderate price range
+user: phone number
+system: You are looking for a restaurant is that right?
+user: yes
+system: rajmahal is a nice restaurant in the east of town in the moderate price range
+user: whats the phone number
+system: The phone number of rajmahal is 01223 244955 .
+user: thank you goodbye

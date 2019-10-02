@@ -1,0 +1,21 @@
+voip-72e50baa85-20130327_060952
+Task 04833: You are looking for a restaurant in the centre and it should serve lebanese food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the center of town that serves lebanese food
+system: You are looking for a lebanese restaurant right?
+user: yes
+system: ali baba serves lebanese food
+user: is it in the center of town
+system: ali baba serves lebanese food
+user: is it in the center of town
+system: Can I help you with anything else?
+user: where is it located
+system: Can I help you with anything else?
+user: where is it located
+system: Sure , ali baba is on 59 Hills Road City Centre
+user: what is the phone number
+system: The phone number of ali baba is 01462 432565 .
+user: thank you good bye
+system: I am sorry but there is no other lebanese restaurant in the centre of town
+user: thank you good bye

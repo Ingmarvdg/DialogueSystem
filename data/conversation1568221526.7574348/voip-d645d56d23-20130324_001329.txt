@@ -1,0 +1,19 @@
+voip-d645d56d23-20130324_001329
+Task 04617: You are looking for a restaurant in the south part of town and it should serve canapes food. If there is no such venue how about portuguese type of food. Make sure you get the phone number and address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the south part of town and it should serve canapes food
+system: What kind of food would you like?
+user: canape
+system: I'm sorry but there is no restaurant serving canapes food
+user: um portuguese food
+system: Could you please repeat that?
+user: portuguese food
+system: There are 2 restaurants serving portuguese food . What area do you want?
+user: the south part of town
+system: nandos is a nice place in the south of town serving tasty portuguese food
+user: whats the phone number
+system: The phone number of nandos is 01223 327908 .
+user: whats the address
+system: Sure , nandos is on Cambridge Leisure Park Clifton Way
+user: thank you good bye

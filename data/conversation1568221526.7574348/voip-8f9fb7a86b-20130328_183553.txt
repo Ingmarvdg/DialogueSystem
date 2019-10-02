@@ -1,0 +1,19 @@
+voip-8f9fb7a86b-20130328_183553
+Task 11841: You want to find a restaurant in the south part of town and it should serve hungarian food. If there is no such venue how about modern european type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: a restaurant in the south part of town hungarian food
+system: You are looking for a hungarian restaurant right?
+user: yes
+system: I'm sorry but there is no restaurant serving hungarian food
+user: modern european food
+system: You are looking for a modern european restaurant right?
+user: yes
+system: restaurant alimentum is a nice place in the south of town serving tasty modern european food
+user: address
+system: Could you please repeat that?
+user: address please
+system: Sure , restaurant alimentum is on 152 - 154 Hills Road
+user: phone number
+system: The phone number of restaurant alimentum is 01223 413000 .
+user: thank you good bye

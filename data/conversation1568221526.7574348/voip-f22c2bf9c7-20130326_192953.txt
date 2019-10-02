@@ -1,0 +1,9 @@
+voip-f22c2bf9c7-20130326_192953
+Task 05031: You want to find a restaurant in the north part of town and it should serve vietnamese food. If there is no such venue how about west area. Make sure you get the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: vietnamese food
+system: thanh binh serves vietnamese food .
+user: phone number
+system: The phone number of thanh binh is 01223 362456 .
+user: thank you good bye

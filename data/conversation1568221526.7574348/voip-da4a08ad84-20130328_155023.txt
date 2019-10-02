@@ -1,0 +1,13 @@
+voip-da4a08ad84-20130328_155023
+Task 05847: You want to find a moderately priced restaurant and it should serve turkish food. Make sure you get the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type .
+user: noise
+system: What part of town do you have in mind?
+user: i am looking for a moderately priced restaurant that serves turkish food
+system: efes restaurant is a great restaurant serving turkish food and it is in the moderate price range
+user: can i have the phone number
+system: The phone number of efes restaurant is 01223 500005 .
+user: thank you
+system: efes restaurant is a great restaurant serving turkish food and it is in the moderate price range
+user: thank you good bye

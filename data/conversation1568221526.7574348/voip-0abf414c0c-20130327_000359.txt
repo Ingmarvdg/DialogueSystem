@@ -1,0 +1,19 @@
+voip-0abf414c0c-20130327_000359
+Task 04581: You are looking for a moderately priced restaurant and it should serve gastropub food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: gastropub
+system: What kind of food would you like?
+user: gastropub
+system: cocum is a great restaurant
+user: gastropub food
+system: royal standard serves gastropub food .
+user: what is the address
+system: Sure , royal standard is on 290 Mill Road City Centre
+user: what is the address
+system: Sure , royal standard is on 290 Mill Road City Centre
+user: sil
+system: royal standard serves gastropub food .
+user: what is the phone number
+system: The phone number of royal standard is 01223 247877 .
+user: thank you good bye

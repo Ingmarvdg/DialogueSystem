@@ -1,0 +1,17 @@
+voip-3cf7bd870d-20130328_212749
+Task 01455: You want to find an expensive restaurant and it should serve malaysian food. If there is no such venue how about british type of food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for an expensive restaurant serving malaysian food
+system: I'm sorry but there is no restaurant serving malaysian food
+user: how about british food
+system: I'm sorry but there is no restaurant serving malaysian food
+user: what about british food
+system: the slug and lettuce is in the expensive price range
+user: what kind of food do they serve
+system: the slug and lettuce serves gastropub food
+user: no british food
+system: graffiti serves british food in the expensive price range
+user: whats the phone number
+system: The phone number of graffiti is 01223 277977 .
+user: thank you good bye

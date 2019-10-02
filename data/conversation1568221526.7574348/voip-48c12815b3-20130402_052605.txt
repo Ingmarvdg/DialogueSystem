@@ -1,0 +1,13 @@
+voip-48c12815b3-20130402_052605
+Task 05208: You are looking for a moderately priced restaurant and it should serve basque food. If there is no such venue how about british type of food. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced restaurant serving basque food
+system: I'm sorry but there is no restaurant serving basque food
+user: how about british food
+system: Could you please repeat that?
+user: what about british food
+system: restaurant one seven serves british food in the moderate price range
+user: can i get the phone number
+system: The phone number of restaurant one seven is 01223 337766 .
+user: thank you good bye

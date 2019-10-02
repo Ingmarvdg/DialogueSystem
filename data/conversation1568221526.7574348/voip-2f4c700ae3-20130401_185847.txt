@@ -1,0 +1,13 @@
+voip-2f4c700ae3-20130401_185847
+Task 05076: You want to find a restaurant in any area and it should serve seafood. You want to know the phone number and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for seafood
+system: What kind of food would you like?
+user: seafood
+system: loch fyne serves seafood food
+user: whats the phone number
+system: The phone number of loch fyne is 01223 362433 .
+user: whats the price range
+system: loch fyne is in the expensive price range
+user: thank you goodbye

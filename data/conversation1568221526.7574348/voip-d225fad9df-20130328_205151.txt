@@ -1,0 +1,13 @@
+voip-d225fad9df-20130328_205151
+Task 02286: You want to find an expensive restaurant and it should be in the east part of town. Make sure you get the address, phone number, and type of food.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find an expensive restaurant on the east part of town
+system: What kind of food would you like?
+user: american
+system: sitar tandoori is a nice place in the east of town and the prices are expensive
+user: can i have an address
+system: Sure , sitar tandoori is on 43 High Street Cherry Hinton Cherry Hinton
+user: what type of food is that
+system: sitar tandoori serves indian food
+user: thank you good bye

@@ -1,0 +1,19 @@
+voip-9735278861-20130401_160600
+Task 07446: You are looking for and it should serve english food. You don't care about the price range. If there is no such venue how about modern european type of food. Make sure you get the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: can i have an
+system: What part of town do you have in mind?
+user: restaurant serving english food
+system: I'm sorry but there is no restaurant serving english food
+user: uh what about modern european
+system: I'm sorry but there is no restaurant serving english food
+user: what about modern european food
+system: I'm sorry but there is no restaurant serving english food
+user: okay what about modern european food
+system: You are looking for a modern european restaurant right?
+user: right
+system: de luca cucina and bar serves modern european food
+user: can i have the phone number
+system: The phone number of de luca cucina and bar is 01223 356666 .
+user: thank you good bye

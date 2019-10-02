@@ -1,0 +1,47 @@
+voip-0241bbae39-20130327_200234
+Task 06843: You are looking for a restaurant in the north part of town and it should serve malaysian food. If there is no such venue how about french type of food. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What kind of food would you like?
+user: noise malaysian noise
+system: I'm sorry but there is no restaurant serving malaysian food
+user: what about french
+system: Could you please repeat that?
+user: french
+system: I'm sorry but there is no restaurant serving malaysian food
+user: what about french food
+system: Could you please repeat that?
+user: french
+system: I'm sorry but there is no restaurant serving malaysian food
+user: okay im looking for a restaurant serving fre
+system: Could you please repeat that?
+user: french
+system: I'm sorry but there is no restaurant serving malaysian food
+user: noise north part of town
+system: Could you please repeat that?
+user: north part of town
+system: You are looking for a malaysian restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving malaysian food
+user: no okay thats fine what about french food
+system: I'm sorry but there is no restaurant serving malaysian food
+user: thai
+system: You are looking for a malaysian restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving malaysian food
+user: noise french food
+system: You are looking for a malaysian restaurant right?
+user: noise no im looking for a french restaurant
+system: Did you say you are looking for a restaurant in the south of town?
+user: north
+system: I'm sorry but there is no french restaurant in the south of town
+user: noise
+system: Could you please repeat that?
+user: north
+system: There are 2 restaurants serving french food . What area do you want?
+user: north
+system: restaurant two two is a nice place in the north of town serving tasty french food
+user: can i have the phone number
+system: The phone number of restaurant two two is 01223 351880 .
+user: thank you goodbye

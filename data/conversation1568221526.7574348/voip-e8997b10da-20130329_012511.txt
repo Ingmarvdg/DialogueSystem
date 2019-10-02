@@ -1,0 +1,9 @@
+voip-e8997b10da-20130329_012511
+Task 00483: You want to find and it should serve african food. You don't care about the price range. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: uh african food
+system: bedouin serves african food .
+user: okay and uh whats the address
+system: Sure , bedouin is on 100 Mill Road City Centre
+user: uh thank you and good bye

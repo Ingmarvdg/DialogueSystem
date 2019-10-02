@@ -1,0 +1,15 @@
+voip-e9b53d6ace-20130401_203151
+Task 00360: You want to find a cheap restaurant and it should be in the west part of town. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for a cheap restaurant in the west part of town
+system: There are 2 restaurants in the cheap price range and the west of town . What type of food would you like?
+user: it doesnt matter
+system: la margherita is a nice place in the west of town and the prices are cheap
+user: is there anything else
+system: thanh binh is a nice place in the west of town and the prices are cheap
+user: address and post code
+system: thanh binh is on 17 Magdalene Street City Centre , C.B 3, 0 A.F
+user: post code
+system: The post code of thanh binh is C.B 3, 0 A.F
+user: thank you good bye

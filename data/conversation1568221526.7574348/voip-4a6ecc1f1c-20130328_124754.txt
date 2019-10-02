@@ -1,0 +1,21 @@
+voip-4a6ecc1f1c-20130328_124754
+Task 02013: You want to find a restaurant in the east part of town and it should serve british food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want some british food
+system: There are 11 restaurants serving british food . What area do you want?
+user: east side
+system: grafton hotel restaurant is a nice place in the east of town serving tasty british food
+user: okay whats their address
+system: Can I help you with anything else?
+user: whats their address
+system: Sure , grafton hotel restaurant is on Grafton Hotel 619 Newmarket Road Fen Ditton
+user: how about the phone number
+system: The phone number of grafton hotel restaurant is 01223 241387 .
+user: cough
+system: I am sorry but there is no other british restaurant in the east of town
+user: and phone number
+system: Could you please repeat that?
+user: phone number please
+system: The phone number of grafton hotel restaurant is 01223 241387 .
+user: thank you good bye

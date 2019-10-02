@@ -1,0 +1,25 @@
+voip-4c25da9a27-20130327_135205
+Task 07932: You want to find a restaurant in the centre and it should serve venetian food. If there is no such venue how about thai type of food. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want a restaurant in the center of town that serves vinesha
+system: You are looking for a venetian restaurant right?
+user: yes
+system: I'm sorry but there is no restaurant serving venetian food
+user: yes
+system: I'm sorry but there is no restaurant serving venetian food
+user: what about thai food
+system: I'm sorry but there is no restaurant serving venetian food
+user: is there a restaurant serving thai food
+system: Could you please repeat that?
+user: i want thai food
+system: Did you say you are looking for a restaurant in the centre of town?
+user: yes
+system: bangkok city is a nice place in the centre of town serving tasty thai food
+user: and their address
+system: Can I help you with anything else?
+user: whats their address
+system: Sure , bangkok city is on 24 Green Street City Centre
+user: and the phone number
+system: The phone number of bangkok city is 01223 354382 .
+user: thank you good bye

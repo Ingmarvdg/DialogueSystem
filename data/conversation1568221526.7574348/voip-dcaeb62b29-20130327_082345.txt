@@ -1,0 +1,27 @@
+voip-dcaeb62b29-20130327_082345
+Task 07887: You are looking for a restaurant in the west part of town and it should serve barbeque food. If there is no such venue how about thai type of food. Make sure you get the address, phone number, and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What kind of food would you like?
+user: uh restaurant in the west part of town
+system: the gardenia is a great restaurant
+user: serving barbecue food
+system: the gardenia is a great restaurant
+user: restaurant in the west part of town serving barbecue
+system: india house is in the west part of town .
+user: barbecue food
+system: Sorry there is no basque restaurant in the west of town
+user: thai food
+system: Sorry there is no basque restaurant in the west of town
+user: barbecue food
+system: Sorry there is no barbeque restaurant in the west of town
+user: how about thai food
+system: saint johns chop house is a nice restaurant in the west of town serving british food
+user: thai food
+system: sala thong is a nice restaurant in the west of town serving thai food
+user: what is the address phone number and price range
+system: The phone number of sala thong is 01223 323178 and it is on 35 Newnham Road Newnham .
+user: whats the price range
+system: sala thong is in the expensive price range
+user: thank you good bye

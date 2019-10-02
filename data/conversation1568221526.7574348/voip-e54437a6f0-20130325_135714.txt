@@ -1,0 +1,37 @@
+voip-e54437a6f0-20130325_135714
+Task 04413: You are looking for a moderately priced restaurant and it should be in the north part of town. Make sure you get the phone number and type of food of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: north part of town moderately priced
+system: What kind of food would you like?
+user: any
+system: You are looking for a restaurant serving any kind of food right?
+user: yes
+system: What part of town do you have in mind?
+user: north
+system: There are 10 restaurants in the north of town serving any kind of food . What price range would you like?
+user: moderate
+system: da vinci pizzeria is a nice place in the north of town
+user: i would like one thats moderately priced
+system: da vinci pizzeria is a great restaurant
+user: is it moderately priced
+system: da vinci pizzeria is a great restaurant
+user: is it moderate priced
+system: da vinci pizzeria is a great restaurant
+user: can i get the phone number
+system: da vinci pizzeria is a great restaurant
+user: phone number
+system: The phone number of da vinci pizzeria is 01223 351707 .
+user: what type of food
+system: da vinci pizzeria is a great restaurant
+user: how much is the food
+system: da vinci pizzeria is a great restaurant
+user: where is it
+system: da vinci pizzeria is a nice place in the north of town
+user: how much does it cost
+system: hakka is a nice place in the north of town
+user: how much does it cost
+system: royal spice is a nice place in the north of town
+user: moderate priced
+system: royal spice is a great restaurant
+user: thank you good bye

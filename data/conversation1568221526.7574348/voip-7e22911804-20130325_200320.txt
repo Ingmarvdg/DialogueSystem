@@ -1,0 +1,19 @@
+voip-7e22911804-20130325_200320
+Task 07848: You want to find an expensive restaurant and it should be in the south part of town. You want to know the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find a expensive restaurant in the south part of town
+system: What kind of food would you like?
+user: i dont care
+system: What kind of food would you like?
+user: i dont care
+system: the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+user: is it expensive
+system: the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+user: what is the address phone number and post code
+system: The phone number of the good luck chinese food takeaway is 01223 244149 .
+user: what is the address
+system: the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+user: what is the post code
+system: The post code of the good luck chinese food takeaway is C.B 1, 7 A.G
+user: thank you good bye

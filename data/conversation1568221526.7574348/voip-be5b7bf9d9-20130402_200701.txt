@@ -1,0 +1,11 @@
+voip-be5b7bf9d9-20130402_200701
+Task 06255: You want to find and it should serve mediterranean food. You don't care about the price range. You want to know the phone number and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant that serves mediterranean
+system: la mimosa serves mediterranean food .
+user: whats the phone number
+system: The phone number of la mimosa is 01223 362525 .
+user: and the post code
+system: The post code of la mimosa is C.B 5, 8 A.Q
+user: thank you good bye

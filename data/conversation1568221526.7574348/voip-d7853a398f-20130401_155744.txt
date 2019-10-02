@@ -1,0 +1,33 @@
+voip-d7853a398f-20130401_155744
+Task 01767: You want to find a restaurant in the east part of town and it should serve lebanese food. If there is no such venue how about chinese type of food. You want to know the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i need lebanese food in the east
+system: You are looking for a restaurant serving any kind of food right?
+user: no
+system: You are looking for a restaurant serving any kind of food right?
+user: no
+system: There are 9 restaurants in the east of town serving any kind of food . What price range would you like?
+user: i dont care
+system: Did you say you are looking for a restaurant in the east of town?
+user: yes
+system: yu garden is a nice place in the east of town
+user: what kind of food is it
+system: yu garden serves chinese food
+user: how about lebanese food
+system: pizza hut fen ditton is a nice place in the east of town
+user: what kind of food
+system: I'm sorry but there is no lebanese restaurant in the east of town
+user: how about chinese food
+system: yu garden is a nice place in the east of town
+user: what type of food is it
+system: yu garden is a nice place in the east of town serving tasty chinese food
+user: the address
+system: yu garden is a nice place in the east of town serving tasty chinese food
+user: whats the address
+system: Sure , yu garden is on 529 Newmarket Road Fen Ditton
+user: whats the phone number
+system: The phone number of yu garden is 01223 248882 .
+user: the post code
+system: The post code of yu garden is C.B 5, 8 P.A
+user: thank you good bye

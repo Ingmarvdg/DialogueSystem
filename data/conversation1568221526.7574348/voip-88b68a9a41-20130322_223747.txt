@@ -1,0 +1,43 @@
+voip-88b68a9a41-20130322_223747
+Task 04908: You want to find a moderately priced restaurant and it should serve thai food. If there is no such venue how about expensive price range. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: could i have a moderately priced restaurant that serves thai food please
+system: You are looking for a chinese restaurant right?
+user: no thai food
+system: You are looking for a chinese restaurant right?
+user: no
+system: You are looking for a chinese restaurant right?
+user: no
+system: There are 4 restaurants serving chinese in the moderate price range . What area would you like?
+user: i dont care
+system: shanghai family restaurant serves chinese food in the moderate price range
+user: id like thai food please
+system: shanghai family restaurant is a great restaurant
+user: breath i dont care
+system: Can I help you with anything else?
+user: breath id like a moderately priced restaurant that serves thai food
+system: shanghai family restaurant serves chinese food in the moderate price range
+user: i dont care noise
+system: Can I help you with anything else?
+user: breath yes id like a moderately priced restaurant that serves thai food
+system: shanghai family restaurant serves chinese food in the moderate price range
+user: i dont care
+system: Can I help you with anything else?
+user: breath id like a moderately priced restaurant that serves thai food
+system: shanghai family restaurant serves chinese food in the moderate price range
+user: uh i dont care
+system: Can I help you with anything else?
+user: breath yes id like a moderately priced restaurant that serves thai food
+system: shanghai family restaurant serves chinese food in the moderate price range
+user: thai food
+system: shanghai family restaurant is a great restaurant
+user: breath i dont care noise
+system: Can I help you with anything else?
+user: id like thai food
+system: shanghai family restaurant serves chinese food in the moderate price range
+user: i dont care
+system: Can I help you with anything else?
+user: id like a moderately priced restaurant that serves thai food
+system: shanghai family restaurant serves chinese food in the moderate price range
+user: thank you goodbye

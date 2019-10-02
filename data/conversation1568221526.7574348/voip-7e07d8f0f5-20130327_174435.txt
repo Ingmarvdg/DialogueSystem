@@ -1,0 +1,17 @@
+voip-7e07d8f0f5-20130327_174435
+Task 01509: You want to find a restaurant in the north part of town and it should serve british food. If there is no such venue how about indian type of food. You want to know the address, phone number, and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: restaurant north part of town
+system: Did you say you are looking for a restaurant in the north of town?
+user: yes
+system: What kind of food would you like?
+user: british food
+system: I'm sorry but there is no turkish restaurant in the north of town
+user: british food
+system: You are looking for a turkish restaurant right?
+user: no
+system: I'm sorry but there is no turkish restaurant in the north of town
+user: british food north part of town
+system: I'm sorry but there is no turkish restaurant in the north of town
+user: thank you good bye

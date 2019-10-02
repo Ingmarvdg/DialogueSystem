@@ -1,0 +1,17 @@
+voip-da10d74c3e-20130328_140824
+Task 01266: You want to find a restaurant in the south part of town and it should serve traditional food. If there is no such venue how about italian type of food. Make sure you get the phone number and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What part of town do you have in mind?
+user: the south part of town id like a restaurant that serves traditional food
+system: Did you say you are looking for a restaurant in the south of town?
+user: yes
+system: I'm sorry but there is no restaurant serving traditional food
+user: its a restaurant in the south of town that serves italian food
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: any price range
+system: frankie and bennys is a nice place in the south of town serving tasty italian food
+user: could i have their phone number and post code
+system: The phone number of frankie and bennys is 01223 412430 and its postcode is C.B 1, 7 D.Y .
+user: thank you good bye

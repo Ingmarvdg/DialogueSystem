@@ -1,0 +1,17 @@
+voip-8d5173f3a6-20130324_184114
+Task 10686: You want to find a restaurant in the north part of town and it should serve chinese food. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: something in the north part of town serving chinese food
+system: There are 3 restaurants serving chinese in the north of town . What price range would you like?
+user: any price range
+system: hakka is a nice place in the north of town serving tasty chinese food
+user: phone number
+system: hakka is a great restaurant
+user: is there anything else
+system: the hotpot is a nice place in the north of town serving tasty chinese food
+user: phone number
+system: the hotpot is a great restaurant
+user: phone number
+system: The phone number of the hotpot is 01223 366552 .
+user: good bye

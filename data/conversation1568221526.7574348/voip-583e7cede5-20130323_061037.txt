@@ -1,0 +1,21 @@
+voip-583e7cede5-20130323_061037
+Task 05184: You are looking for a restaurant in any area and it should serve steakhouse food. If there is no such venue how about european type of food. Make sure you get the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i would like steakhouse food
+system: I'm sorry but there is no restaurant serving steakhouse food
+user: how about european food
+system: I'm sorry but there is no restaurant serving steakhouse food
+user: how about european food
+system: You are looking for a european restaurant right?
+user: yes
+system: What part of town do you have in mind?
+user: doesnt matter
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: it doesnt matter
+system: hotel du vin and bistro serves european food
+user: what is the phone number
+system: The phone number of hotel du vin and bistro is 01223 227330 .
+user: noise thank you goodbye

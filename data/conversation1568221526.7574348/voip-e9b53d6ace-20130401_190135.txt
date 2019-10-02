@@ -1,0 +1,11 @@
+voip-e9b53d6ace-20130401_190135
+Task 09555: You want to find a cheap restaurant and it should be in the west part of town. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a cheap restaurant in the west part of
+system: What kind of food would you like?
+user: doesnt matter
+system: thanh binh is a nice place in the west of town and the prices are cheap
+user: phone number
+system: The phone number of thanh binh is 01223 362456 .
+user: thank you good bye

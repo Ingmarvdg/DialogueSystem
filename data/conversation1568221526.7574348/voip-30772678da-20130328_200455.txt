@@ -1,0 +1,11 @@
+voip-30772678da-20130328_200455
+Task 01557: You want to find a cheap restaurant and it should serve portuguese food. Make sure you get the phone number and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a cheap restaurant that serves portuguese food
+system: nandos city centre serves portuguese food .
+user: whats the phone number
+system: The phone number of nandos city centre is 01223 327908 .
+user: whats the area
+system: nandos city centre is a nice place in the centre of town
+user: thank you good bye

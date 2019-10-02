@@ -1,0 +1,17 @@
+voip-e61fa89add-20130327_075051
+Task 05379: You want to find an expensive restaurant and it should serve cantonese food. If there is no such venue how about thai type of food. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: an expensive restaurant serving cantonese food
+system: I'm sorry but there is no restaurant serving cantonese food
+user: thai food
+system: Could you please repeat that?
+user: thai food
+system: There are 2 restaurants serving thai in the expensive price range . What area would you like?
+user: food
+system: What part of town do you have in mind?
+user: any
+system: bangkok city serves thai food in the expensive price range
+user: may i have the address and phone number
+system: The phone number of bangkok city is 01223 354382 and it is on 24 Green Street City Centre .
+user: thank you good bye

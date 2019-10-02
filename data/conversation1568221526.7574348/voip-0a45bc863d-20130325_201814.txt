@@ -1,0 +1,19 @@
+voip-0a45bc863d-20130325_201814
+Task 03333: You want to find an expensive restaurant and it should serve gastropub food. Make sure you get the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: thank you
+system: What kind of food would you like?
+user: gastropub
+system: You are looking for a restaurant serving any kind of food right?
+user: no gastropub
+system: You are looking for a gastropub restaurant right?
+user: yes
+system: What part of town do you have in mind?
+user: dont care
+system: There are 4 restaurants serving gastropub food in any part of town . What price range would you like?
+user: expensive
+system: royal standard serves gastropub food in the expensive price range
+user: what is the address
+system: Sure , royal standard is on 290 Mill Road City Centre
+user: thank you good bye

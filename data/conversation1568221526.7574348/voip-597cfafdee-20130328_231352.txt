@@ -1,0 +1,21 @@
+voip-597cfafdee-20130328_231352
+Task 04038: You want to find an expensive restaurant and it should serve irish food. If there is no such venue how about british type of food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a expensive restaurant serving irish food
+system: You are looking for a british restaurant right?
+user: irish food
+system: I'm sorry but there is no restaurant serving irish food
+user: pub or british type of food
+system: Could you please repeat that?
+user: british food
+system: There are 6 restaurants serving british in the expensive price range . What area would you like?
+user: noise
+system: What part of town do you have in mind?
+user: center
+system: What part of town do you have in mind?
+user: center
+system: grafton hotel restaurant is a great restaurant serving expensive british food in the east of town .
+user: can i have the phone number of the venue
+system: The phone number of grafton hotel restaurant is 01223 241387 and its postcode is C.B 5, 8 P.A .
+user: thank you good bye

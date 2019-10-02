@@ -1,0 +1,17 @@
+voip-597cfafdee-20130402_005206
+Task 00768: You want to find a moderately priced restaurant and it should serve australian food. If there is no such venue how about gastropub type of food. You want to know the address, phone number, and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for moderately priced restaurant serving austrian food
+system: hotel du vin and bistro is in the moderate price range
+user: serving austrian food
+system: I'm sorry but there is no restaurant serving australian food
+user: how about gastropub type of food
+system: I'm sorry but there is no restaurant serving australian food
+user: theres no such venue how about gastropub type of food
+system: The post code of hotel du vin and bistro is C.B 2, 1 Q.A
+user: can i have the address and phone number
+system: The phone number of hotel du vin and bistro is 01223 227330 and it is on 15 - 19 Trumpington Street .
+user: noise can i have the phone number
+system: The phone number of hotel du vin and bistro is 01223 227330 .
+user: thank you good bye

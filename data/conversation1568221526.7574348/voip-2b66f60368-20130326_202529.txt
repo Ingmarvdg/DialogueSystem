@@ -1,0 +1,11 @@
+voip-2b66f60368-20130326_202529
+Task 02484: You are looking for a cheap restaurant and it should serve italian food. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i need a cheap restaurant serving italian food
+system: What part of town do you have in mind?
+user: i dont care
+system: pizza hut city centre is a nice restaurant in the centre of town serving italian food
+user: could i get the address
+system: Sure , pizza hut city centre is on Regent Street City Centre
+user: thank you bye

@@ -1,0 +1,15 @@
+voip-52d599db9c-20130326_214853
+Task 12597: You are looking for a moderately priced restaurant and it should be in the west part of town. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderately priced restaraunt
+system: There are 31 restaurants in the moderate price range . What type of food do you want?
+user: in west part of town
+system: There are 2 restaurants in the moderate price range and the west of town . What type of food would you like?
+user: anything
+system: saint johns chop house is a nice place in the west of town and the prices are moderate
+user: anything else
+system: prezzo is a nice place in the west of town and the prices are moderate
+user: is there anything else
+system: Sorry but there is no other restaurant in the moderate price range and the west of town
+user: thank you good bye

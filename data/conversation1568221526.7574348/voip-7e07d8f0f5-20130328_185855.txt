@@ -1,0 +1,23 @@
+voip-7e07d8f0f5-20130328_185855
+Task 09222: You want to find an expensive restaurant and it should serve french food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: unintelligible
+system: What part of town do you have in mind?
+user: unintelligible
+system: What kind of food would you like?
+user: expensive french
+system: royal standard is in the east part of town .
+user: expensive french food
+system: The post code of royal standard is C.B 1, 3 N.L
+user: no something else
+system: royal standard is in the east part of town .
+user: i want french food
+system: Sorry there is no french restaurant in the east of town
+user: french food any part of town
+system: cote is a nice restaurant in the centre of town serving french food
+user: expensive
+system: cote serves french food .
+user: address and phone number
+system: The phone number of cote is 01223 311053 and it is on Bridge Street City Centre .
+user: thank you good bye

@@ -1,0 +1,15 @@
+voip-2f4c700ae3-20130401_185424
+Task 12255: You are looking for a restaurant in the centre and it should serve australasian food. If there is no such venue how about european type of food. You want to know the phone number and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: in the center that serves unintelligible asian
+system: I'm sorry but there is no restaurant serving australasian food
+user: how about european food
+system: I'm sorry but there is no restaurant serving australasian food
+user: european food
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i dont care
+system: eraina is a nice place in the centre of town serving tasty european food
+user: phone number and post code
+system: The phone number of eraina is 01223 368786 and its postcode is C.B 2, 3 R.H .
+user: thank you good bye

@@ -1,0 +1,33 @@
+voip-a31ca3e355-20130323_223438
+Task 06516: You want to find an expensive restaurant and it should serve gastropub food. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the address and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type .
+user: unintelligible
+system: What kind of food would you like?
+user: gastropub food
+system: There are 4 restaurants serving gastropub food . What area do you want?
+user: uh expensive
+system: There are 3 restaurants serving gastropub in the expensive price range . What area would you like?
+user: uh
+system: What part of town do you have in mind?
+user: address
+system: What part of town do you have in mind?
+user: any
+system: royal standard serves gastropub food in the expensive price range
+user: next
+system: royal standard is a great restaurant
+user: next restaurant
+system: royal standard is a great restaurant
+user: another restaurant
+system: royal standard is a great restaurant
+user: next
+system: backstreet bistro serves gastropub food in the expensive price range
+user: sil
+system: the slug and lettuce serves gastropub food in the expensive price range
+user: address
+system: the slug and lettuce is a great restaurant
+user: address
+system: Sure , the slug and lettuce is on 34 - 35 Green Street
+user: area
+system: the slug and lettuce is a nice place in the centre of town
+user: thank you good bye

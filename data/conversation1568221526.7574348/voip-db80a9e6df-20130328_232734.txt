@@ -1,0 +1,31 @@
+voip-db80a9e6df-20130328_232734
+Task 09453: You are looking for a restaurant in the west part of town and it should serve creative food. If there is no such venue how about italian type of food. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What kind of food would you like?
+user: a restaurant that serves creative food
+system: You are looking for a restaurant serving any kind of food right?
+user: in the west
+system: You are looking for a restaurant serving any kind of food right?
+user: unintelligible
+system: What part of town do you have in mind?
+user: west
+system: There are 12 restaurants in the west of town serving any kind of food . What price range would you like?
+user: no
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: creative food
+system: I'm sorry but there is no restaurant serving creative food
+user: how about italian food in the west part of town
+system: Could you please repeat that?
+user: italian food west part of town
+system: You are looking for a italian restaurant right?
+user: yes in the west part of town
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i dont care
+system: la margherita is a nice place in the west of town serving tasty italian food
+user: what is their phone number
+system: la margherita is a great restaurant
+user: phone number
+system: The phone number of la margherita is 01223 315232 .
+user: thank you good bye

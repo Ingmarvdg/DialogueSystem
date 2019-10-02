@@ -1,0 +1,27 @@
+voip-30772678da-20130328_200202
+Task 02820: You are looking for and it should serve world food. You don't care about the price range. If there is no such venue how about gastropub type of food. You want to know the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for world food
+system: I'm sorry but there is no restaurant serving world food
+user: gastro pub
+system: What part of town do you have in mind?
+user: i dont care
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i dont care
+system: the cow pizza kitchen and bar serves gastropub food
+user: whats the address
+system: The post code of the cow pizza kitchen and bar is C.B 2, 3 Q.F
+user: whats the address
+system: Sure , the cow pizza kitchen and bar is on Corn Exchange Street
+user: phone number
+system: The phone number of the cow pizza kitchen and bar is 01223 308871 .
+user: breathing
+system: backstreet bistro serves gastropub food
+user: whats the address
+system: Sure , backstreet bistro is on 2 Sturton Street City Centre
+user: whats the phone number
+system: The phone number of backstreet bistro is 01223 306306 .
+user: whats the post code
+system: The post code of backstreet bistro is C.B 1, 2 Q.A
+user: thank you good bye

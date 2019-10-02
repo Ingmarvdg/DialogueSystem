@@ -1,0 +1,19 @@
+voip-96f43326a4-20130323_070356
+Task 10407: You are looking for a restaurant in the centre and it should serve kosher food. If there is no such venue how about korean type of food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the center
+system: What part of town do you have in mind?
+user: center of town
+system: taj tandoori is a great restaurant
+user: that can serve kosher food
+system: I am sorry but there is no corsica restaurant that matches your request
+user: how about one that serves korean food
+system: little seoul serves korean food .
+user: is it in the center of town
+system: little seoul is a nice place in the centre of town
+user: that serves korean food
+system: little seoul serves korean food .
+user: can i have the address and phone number
+system: The phone number of little seoul is 01223 308681 and it is on 108 Regent Street City Centre .
+user: thank you good bye

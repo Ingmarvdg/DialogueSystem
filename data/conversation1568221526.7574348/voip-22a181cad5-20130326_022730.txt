@@ -1,0 +1,25 @@
+voip-22a181cad5-20130326_022730
+Task 11289: You want to find a restaurant in the west part of town and it should serve english food. If there is no such venue how about vietnamese type of food. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find a restaurant in the west part of town that serves english food
+system: I'm sorry but there is no restaurant serving english food
+user: how about vietnamese type of food
+system: You are looking for a restaurant serving any kind of food right?
+user: vietnamese type of food
+system: Did you say you are looking for a restaurant in the west of town?
+user: yes
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i dont care
+system: la margherita is a nice place in the west of town
+user: does it serve vietnamese type of food
+system: la margherita is a great restaurant
+user: i want to find a restaurant in the west part of town that serves vietnamese food
+system: la margherita is a nice place in the west of town
+user: what is the phone number
+system: The phone number of la margherita is 01223 315232 .
+user: what type of food does it serve
+system: la margherita serves italian food
+user: is there a restaurant in the west part of town that serves vietnamese food
+system: la margherita is a nice place in the west of town
+user: thank you goodbye

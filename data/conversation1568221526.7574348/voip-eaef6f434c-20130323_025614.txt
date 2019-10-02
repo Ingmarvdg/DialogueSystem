@@ -1,0 +1,15 @@
+voip-eaef6f434c-20130323_025614
+Task 00126: You want to find a restaurant in the north part of town and it should serve steakhouse food. If there is no such venue how about chinese type of food. Make sure you get the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: yea im wondering if theres a steak house restaurant in the north part of
+system: Sorry there is no steakhouse restaurant in the north of town
+user: uh is there a steak house
+system: Sorry there is no steakhouse restaurant in the north of town
+user: okay is there a chinese restaurant in the north part of town
+system: golden wok is a nice restaurant in the north of town serving chinese food
+user: excellent can you give me the phone number please
+system: The phone number of golden wok is 01223 350688 .
+user: can you repeat that
+system: golden wok is a nice restaurant in the north of town serving chinese food
+user: alright so im very good thanks good bye

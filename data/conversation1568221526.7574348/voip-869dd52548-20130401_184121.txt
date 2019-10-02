@@ -1,0 +1,19 @@
+voip-869dd52548-20130401_184121
+Task 11202: You want to find an expensive restaurant and it should serve welsh food. If there is no such venue how about korean type of food. You want to know the address and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for expensive welsh food
+system: You are looking for a welsh restaurant right?
+user: yes
+system: I'm sorry but there is no restaurant serving welsh food
+user: korean food
+system: Could you please repeat that?
+user: korean
+system: little seoul serves korean food in the expensive price range
+user: what area
+system: little seoul serves korean food in the expensive price range
+user: what area of town
+system: little seoul is a nice place in the centre of town
+user: the address
+system: Sure , little seoul is on 108 Regent Street City Centre
+user: thank you good bye

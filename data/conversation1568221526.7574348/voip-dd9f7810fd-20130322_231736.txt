@@ -1,0 +1,19 @@
+voip-dd9f7810fd-20130322_231736
+Task 08133: You are looking for a restaurant in the centre and it should serve australasian food. If there is no such venue how about international type of food. You want to know the phone number and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: austria asian restaurant in the center of town
+system: I'm sorry but there is no restaurant serving australasian food
+user: how about international
+system: Could you please repeat that?
+user: how about international food
+system: Did you say you are looking for a restaurant in the centre of town?
+user: yes
+system: There are 2 restaurants serving international in the centre of town . What price range would you like?
+user: i dont care
+system: the varsity restaurant is a nice place in the centre of town serving tasty international food
+user: whats the phone number
+system: The phone number of the varsity restaurant is 01223 356060 .
+user: and whats the price range
+system: the varsity restaurant is in the moderate price range
+user: thank you good bye

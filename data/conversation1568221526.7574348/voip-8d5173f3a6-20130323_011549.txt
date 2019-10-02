@@ -1,0 +1,23 @@
+voip-8d5173f3a6-20130323_011549
+Task 02457: You are looking for a cheap restaurant and it should be in the east part of town. Make sure you get the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap restaurant
+system: What part of town do you have in mind?
+user: part of town
+system: What kind of food would you like?
+user: any kind
+system: the river bar steakhouse and grill is a great restaurant serving modern european food and it is in the cheap price range
+user: what part of town
+system: the river bar steakhouse and grill is a nice place in the centre of town
+user: noise
+system: The price range at the river bar steakhouse and grill is cheap .
+user: east
+system: the missing sock is a nice restaurant in the east of town serving international food
+user: address
+system: Sure , the missing sock is on Finders Corner Newmarket Road
+user: phone number
+system: The phone number of the missing sock is 01223 812660 .
+user: postcode
+system: The post code of the missing sock is C.B 25, 9 A.Q
+user: goodbye

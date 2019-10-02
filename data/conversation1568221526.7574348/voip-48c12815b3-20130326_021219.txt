@@ -1,0 +1,15 @@
+voip-48c12815b3-20130326_021219
+Task 10908: You are looking for a restaurant in the centre and it should serve russian food. If there is no such venue how about portuguese type of food. You want to know the address, phone number, and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the center serving russian food
+system: Sorry there is no russian restaurant in the centre of town
+user: im looking for portuguese food
+system: Sorry there is no russian restaurant in the centre of town
+user: iam looking for a restaurant that serves portuguese food
+system: nandos city centre is a nice restaurant in the centre of town serving portuguese food
+user: what is the address phone number and price range
+system: The phone number of nandos city centre is 01223 327908 and it is on 33-34 Saint Andrews Street .
+user: what is the price range
+system: nandos city centre is in the cheap price range
+user: thank you good bye

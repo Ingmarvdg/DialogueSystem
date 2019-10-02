@@ -1,0 +1,21 @@
+voip-2b66f60368-20130326_203353
+Task 08205: You want to find and it should serve afghan food. You don't care about the price range. If there is no such venue how about modern european type of food. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i need a restaurant serving af
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: sil
+system: What kind of food would you like?
+user: afghan
+system: Sorry there is no afghan restaurant in the cheap price range
+user: i dont care about price
+system: I am sorry but there is no afghan restaurant that matches your request
+user: i need a restaurant
+system: I am sorry but there is no afghan restaurant that matches your request
+user: i need a restaurant serving modern european food
+system: I am sorry but there is no afghan restaurant that matches your request
+user: i need a restaurant serving modern european food
+system: de luca cucina and bar is a great restaurant serving modern european food and it is in the moderate price range
+user: can i get the phone number
+system: The phone number of de luca cucina and bar is 01223 356666 .
+user: thank you good bye

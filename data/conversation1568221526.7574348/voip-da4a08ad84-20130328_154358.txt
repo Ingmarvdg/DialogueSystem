@@ -1,0 +1,13 @@
+voip-da4a08ad84-20130328_154358
+Task 04098: You want to find a cheap restaurant and it should be in the west part of town. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a cheap restaurant in the west part of town
+system: What kind of food would you like?
+user: doesnt matter
+system: You are looking for a restaurant serving any kind of food right?
+user: yes
+system: thanh binh is a nice place in the west of town and the prices are cheap
+user: can i have the address
+system: Sure , thanh binh is on 17 Magdalene Street City Centre
+user: thank you good bye

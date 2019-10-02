@@ -1,0 +1,19 @@
+voip-e2a895cfe5-20130325_231121
+Task 08904: You are looking for a moderately priced restaurant and it should serve world food. If there is no such venue how about asian oriental type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced restaurant
+system: What part of town do you have in mind?
+user: i dont care
+system: What kind of food would you like?
+user: world food
+system: I'm sorry but there is no restaurant serving world food
+user: how about asian oriental
+system: I'm sorry but there is no restaurant serving world food
+user: how about asian oriental
+system: lan hong house is in the moderate price range
+user: what is the address
+system: Sure , lan hong house is on 12 Norfolk Street City Centre
+user: what is the phone number
+system: The phone number of lan hong house is 01223 350420 .
+user: thank you good bye

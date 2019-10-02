@@ -1,0 +1,11 @@
+voip-58047f5227-20130327_034209
+Task 11220: You want to find and it should serve mexican food. You don't care about the price range. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant that serves mexican food
+system: What kind of food would you like?
+user: mexican
+system: chiquito restaurant bar serves mexican food .
+user: can i get the address
+system: Sure , chiquito restaurant bar is on 2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton
+user: thank you good bye

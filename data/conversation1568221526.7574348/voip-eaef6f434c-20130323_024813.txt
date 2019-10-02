@@ -1,0 +1,17 @@
+voip-eaef6f434c-20130323_024813
+Task 05823: You are looking for and it should serve french food. You don't care about the price range. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im kind of looking for some french food
+system: There are 2 restaurants serving french food . What area do you want?
+user: any area is fine with me
+system: You are looking for a french restaurant right?
+user: yes
+system: There are 2 restaurants serving french food in any part of town . What price range would you like?
+user: i dont care
+system: restaurant two two serves french food
+user: okay can i have the phone number
+system: The phone number of restaurant two two is 01223 351880 .
+user: very good thank you good bye
+system: restaurant two two is a great restaurant
+user: thanks good bye

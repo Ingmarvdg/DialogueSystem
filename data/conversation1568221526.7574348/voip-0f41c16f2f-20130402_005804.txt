@@ -1,0 +1,9 @@
+voip-0f41c16f2f-20130402_005804
+Task 02451: You are looking for a cheap restaurant and it should serve korean food. If there is no such venue how about any price range. Make sure you get the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap restaurant
+system: la raza is in the cheap price range
+user: korean food
+system: I'm sorry but there is no restaurant serving cheap korean food
+user: thank you good bye

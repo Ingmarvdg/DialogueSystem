@@ -1,0 +1,17 @@
+voip-d645d56d23-20130323_222004
+Task 02454: You want to find and it should serve european food. You don't care about the price range. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address, phone number, and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant that serves european food
+system: What part of town do you have in mind?
+user: i dont care
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i dont care
+system: michaelhouse cafe serves european food
+user: is there anything else
+system: galleria serves european food
+user: whats the address phone number and area
+system: The phone number of galleria is 01223 362054 and it is on 33 Bridge Street .
+user: and what area
+system: galleria is a nice place in the centre of town
+user: thank you good bye

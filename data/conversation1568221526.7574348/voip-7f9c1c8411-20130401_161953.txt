@@ -1,0 +1,13 @@
+voip-7f9c1c8411-20130401_161953
+Task 08706: You are looking for and it should serve tuscan food. You don't care about the price range. If there is no such venue how about vietnamese type of food. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: can i get tuscan
+system: There are  restaurants . That area would you like?
+user: dont care
+system: mahal of cambridge is in the centre part of town .
+user: can i
+system: mahal of cambridge is a great restaurant
+user: address
+system: Sure , mahal of cambridge is on 3 - 5 Millers Yard Mill Lane
+user: thank you good bye

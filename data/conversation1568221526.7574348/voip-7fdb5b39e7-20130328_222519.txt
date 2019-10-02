@@ -1,0 +1,23 @@
+voip-7fdb5b39e7-20130328_222519
+Task 07302: You want to find a moderately priced restaurant and it should be in the south part of town. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the address, phone number, and type of food of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i need a moderately priced restaurant in the south
+system: What part of town do you have in mind?
+user: the south part of town
+system: restaurant alimentum is a nice restaurant in the south of town in the moderate price range
+user: what else is there
+system: restaurant alimentum is a nice restaurant in the south of town in the moderate price range
+user: is there anything else
+system: restaurant alimentum is a nice restaurant in the south of town in the moderate price range
+user: give me another one
+system: restaurant alimentum is a nice restaurant in the south of town in the moderate price range
+user: thats great what else is there
+system: pizza hut cherry hinton is a nice restaurant in the south of town in the moderate price range
+user: okay whats its address
+system: Sure , pizza hut cherry hinton is on G4 Cambridge Leisure Park Clifton Way Cherry Hinton
+user: and whats its phone number
+system: The phone number of pizza hut cherry hinton is 01223 323737 .
+user: and what type of food do they serve at pizza hutt
+system: pizza hut cherry hinton serves italian food
+user: kay thank you good bye

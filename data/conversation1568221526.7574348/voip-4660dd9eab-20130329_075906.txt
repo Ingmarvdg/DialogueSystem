@@ -1,0 +1,21 @@
+voip-4660dd9eab-20130329_075906
+Task 01560: You are looking for and it should serve vegetarian food. You don't care about the price range. If there is no such venue how about portuguese type of food. You want to know the phone number and address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want vegetarian food
+system: What part of town do you have in mind?
+user: it doesnt matter
+system: What kind of food would you like?
+user: vegitarian
+system: I'm sorry but there is no restaurant serving vegetarian food
+user: how about portuguese
+system: I'm sorry but there is no restaurant serving vegetarian food
+user: portuguese
+system: I'm sorry but there is no restaurant serving vegetarian food
+user: how about portuguese
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: You are looking for a greek restaurant right?
+user: yes
+system: I'm sorry but there is no restaurant serving greek food
+user: good bye

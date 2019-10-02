@@ -1,0 +1,19 @@
+voip-2d2d103292-20130326_041815
+Task 10134: You want to find a moderately priced restaurant and it should serve fusion food. If there is no such venue how about european type of food. Make sure you get the address and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced restaurant serving fusion food
+system: I'm sorry but there is no restaurant serving fusion food
+user: how about european food
+system: galleria is in the moderate price range
+user: sil
+system: golden wok is in the moderate price range
+user: do they serve
+system: golden wok is a great restaurant
+user: sil
+system: pizza express Fen Ditton is in the moderate price range
+user: im looking for european food
+system: galleria serves european food in the moderate price range
+user: what is the address
+system: Sure , galleria is on 33 Bridge Street
+user: thank you good bye

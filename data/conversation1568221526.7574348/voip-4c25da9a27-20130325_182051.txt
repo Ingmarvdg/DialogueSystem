@@ -1,0 +1,15 @@
+voip-4c25da9a27-20130325_182051
+Task 06924: You are looking for an expensive restaurant and it should be in the east part of town. You want to know the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: hi i would like an expensive restaurant in the east part
+system: There are 5 restaurants in the expensive price range and the east of town . What type of food would you like?
+user: it doesnt matter
+system: royal standard is a nice place in the east of town and the prices are expensive
+user: can i have their address
+system: Sure , royal standard is on 290 Mill Road City Centre
+user: post the phone number
+system: The phone number of royal standard is 01223 247877 .
+user: and the post code
+system: The post code of royal standard is C.B 1, 3 N.L
+user: thank you good bye

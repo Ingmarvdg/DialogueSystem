@@ -1,0 +1,25 @@
+voip-ccc459b689-20130327_004458
+Task 03444: You want to find a cheap restaurant and it should serve australian food. If there is no such venue how about european type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a cheap restaurant
+system: What part of town do you have in mind?
+user: it doesnt matter
+system: What kind of food would you like?
+user: australian food
+system: I'm sorry but there is no restaurant serving australian food
+user: what about european food
+system: I'm sorry but there is no restaurant serving australian food
+user: what european food
+system: charlie chan is in the cheap price range
+user: is it european
+system: nandos city centre is in the cheap price range
+user: does it serve european type food
+system: nandos city centre is a great restaurant
+user: whats the address
+system: nandos city centre is a great restaurant
+user: whats the address
+system: Sure , nandos city centre is on 33-34 Saint Andrews Street
+user: and whats the phone number
+system: The phone number of nandos city centre is 01223 327908 .
+user: thank you good bye

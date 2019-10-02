@@ -1,0 +1,29 @@
+voip-b08f15a787-20130402_070354
+Task 02688: You are looking for a restaurant in any area and it should serve malaysian food. If there is no such venue how about asian oriental type of food. You want to know the phone number and address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: malaysian food malaysian
+system: I'm sorry but there is no restaurant serving malaysian food
+user: asian oriental
+system: You are looking for a asian oriental restaurant right?
+user: yes
+system: There are 5 restaurants serving asian oriental food . What area do you want?
+user: doesnt matter
+system: What part of town do you have in mind?
+user: doesnt matter
+system: What part of town do you have in mind?
+user: doesnt matter
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: does not matter
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: dont care
+system: yippee noodle bar serves asian oriental food
+user: phone number
+system: yippee noodle bar is a great restaurant
+user: phone number
+system: The phone number of yippee noodle bar is 01223 518111 .
+user: address
+system: Sure , yippee noodle bar is on 40428 King Street City Centre
+user: thank you goodbye

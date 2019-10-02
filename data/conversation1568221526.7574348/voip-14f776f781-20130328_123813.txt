@@ -1,0 +1,21 @@
+voip-14f776f781-20130328_123813
+Task 02928: You want to find a moderately priced restaurant and it should serve creative food. If there is no such venue how about british type of food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What kind of food would you like?
+user: unintelligible
+system: the gardenia is a great restaurant
+user: looking for moderately priced restaurant that serves creative food
+system: The price range at restaurant one seven is moderate .
+user: how about british food
+system: restaurant one seven is a great restaurant serving british food and it is in the moderate price range
+user: how about creative food
+system: saint johns chop house is a great restaurant serving british food and it is in the moderate price range
+user: how about creative food
+system: Sorry there is no creative restaurant in the moderate price range
+user: and british food
+system: saint johns chop house is a great restaurant serving british food and it is in the moderate price range
+user: what is the telephone number
+system: The phone number of saint johns chop house is 01223 353110 .
+user: thank you good bye

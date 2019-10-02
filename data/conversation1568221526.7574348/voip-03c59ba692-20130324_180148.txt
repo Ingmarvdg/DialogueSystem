@@ -1,0 +1,49 @@
+voip-03c59ba692-20130324_180148
+Task 02685: You want to find and it should serve halal food. You don't care about the price range. If there is no such venue how about european type of food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What kind of food would you like?
+user: hello
+system: I'm sorry but there is no restaurant serving halal food
+user: how bout european
+system: Could you please repeat that?
+user: european
+system: There are 5 restaurants serving european food . What area do you want?
+user: uh i dont care
+system: There are 5 restaurants serving european food in any part of town . What price range would you like?
+user: i dont care
+system: hotel du vin and bistro serves european food
+user: talking whats the address
+system: Sure , hotel du vin and bistro is on 15 - 19 Trumpington Street
+user: whats the phone number talking
+system: The phone number of hotel du vin and bistro is 01223 227330 .
+user: sil
+system: hotel du vin and bistro is a great restaurant
+user: sil
+system: michaelhouse cafe serves european food
+user: sil
+system: michaelhouse cafe is a great restaurant
+user: sil
+system: galleria serves european food
+user: sil
+system: eraina serves european food
+user: sil
+system: cambridge lodge restaurant serves european food
+user: sil
+system: cambridge lodge restaurant is a great restaurant
+user: whats the phone number for noise
+system: The phone number of cambridge lodge restaurant is 01223 355166 .
+user: whats the phone number for hotel dubai
+system: The phone number of cambridge lodge restaurant is 01223 355166 .
+user: sil
+system: I am sorry but there is no other european restaurant that matches your request
+user: background_speech
+system: hotel du vin and bistro serves european food
+user: whats the phone number
+system: The phone number of hotel du vin and bistro is 01223 227330 .
+user: sil
+system: michaelhouse cafe serves european food
+user: background_speech
+system: Can I help you with anything else?
+user: thank you goodbye

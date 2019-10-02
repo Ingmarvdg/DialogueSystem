@@ -1,0 +1,11 @@
+voip-5cf59cc660-20130328_160946
+Task 07590: You want to find a restaurant in the west part of town and it should serve european food. Make sure you get the phone number and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i need a restaurant in the west part of town that serves european food
+system: cambridge lodge restaurant is a nice restaurant in the west of town serving european food
+user: whats the phone number
+system: The phone number of cambridge lodge restaurant is 01223 355166 .
+user: whats their price range
+system: cambridge lodge restaurant is in the expensive price range
+user: thank you good bye

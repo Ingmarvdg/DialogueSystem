@@ -1,0 +1,59 @@
+voip-b27a230d2e-20130329_043717
+Task 09600: You want to find a moderately priced restaurant and it should serve gastropub food. Make sure you get the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i am looking for a moderately priced restaurant that
+system: There are 31 restaurants in the moderate price range . What type of food do you want?
+user: gastropub food
+system: You are looking for a restaurant serving any kind of food right?
+user: no
+system: You are looking for a restaurant serving any kind of food right?
+user: gastropub
+system: What part of town do you have in mind?
+user: i dont care
+system: meghna is in the moderate price range
+user: what type of food do they serve
+system: meghna serves indian food
+user: no
+system: restaurant one seven is in the moderate price range
+user: gastropub
+system: restaurant one seven is a great restaurant
+user: gastropub food
+system: the varsity restaurant is in the moderate price range
+user: what type of food do they serve
+system: the varsity restaurant serves international food
+user: i want gastropub
+system: the varsity restaurant is a great restaurant
+user: i dont care
+system: meghna is in the moderate price range
+user: gastropub food
+system: anatolia is in the moderate price range
+user: what type of food
+system: anatolia serves turkish food
+user: i dont care
+system: Can I help you with anything else?
+user: im looking for a restaurant in the moderate price range
+system: meghna is in the moderate price range
+user: gastropub food
+system: restaurant alimentum is in the moderate price range
+user: type of food
+system: Can I help you with anything else?
+user: gastropub food
+system: de luca cucina and bar is in the moderate price range
+user: what type of food
+system: Can I help you with anything else?
+user: gastropub
+system: pizza express is in the moderate price range
+user: type of food do they serve
+system: pizza express serves italian food
+user: i want gastropub food
+system: the cow pizza kitchen and bar serves gastropub food in the moderate price range
+user: ah thank you phone number
+system: the cow pizza kitchen and bar is a great restaurant
+user: whats their phone number
+system: The phone number of the cow pizza kitchen and bar is 01223 308871 .
+user: their price range
+system: the cow pizza kitchen and bar is in the moderate price range
+user: and what type of food do they serve
+system: the cow pizza kitchen and bar serves gastropub food
+user: okay thank you good bye

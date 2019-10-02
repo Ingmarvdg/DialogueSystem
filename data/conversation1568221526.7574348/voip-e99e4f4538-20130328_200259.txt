@@ -1,0 +1,21 @@
+voip-e99e4f4538-20130328_200259
+Task 11817: You are looking for and it should serve jamaican food. You don't care about the price range. If there is no such venue how about portuguese type of food. You want to know the phone number and address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: jamaican food
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i dont care
+system: The price range at saffron brasserie is expensive .
+user: jamaican food
+system: saffron brasserie is a great restaurant
+user: im looking for a restaurant that serves jamaican food
+system: saffron brasserie is a great restaurant
+user: jamaican food
+system: I am sorry but there is no jamaican restaurant that matches your request
+user: portuguese food
+system: nandos city centre is a great restaurant serving portuguese food and it is in the cheap price range
+user: phone number
+system: The phone number of nandos city centre is 01223 327908 .
+user: and the address
+system: Sure , nandos city centre is on 33-34 Saint Andrews Street
+user: thank you good bye

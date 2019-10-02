@@ -1,0 +1,21 @@
+voip-58047f5227-20130327_033701
+Task 01932: You want to find and it should serve thai food. You don't care about the price range. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant that serves thai food
+system: You are looking for a thai restaurant right?
+user: yeah
+system: What part of town do you have in mind?
+user: any part of town
+system: There are 2 restaurants serving thai food in any part of town . What price range would you like?
+user: any
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: moderate
+system: I'm sorry but there is no restaurant serving moderate thai food
+user: any price range
+system: I'm sorry but there is no restaurant serving moderate thai food
+user: expensive
+system: sala thong serves thai food in the expensive price range
+user: can i get the address
+system: Sure , sala thong is on 35 Newnham Road Newnham
+user: thank you good bye

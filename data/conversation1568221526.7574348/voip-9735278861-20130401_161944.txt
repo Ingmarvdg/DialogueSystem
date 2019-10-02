@@ -1,0 +1,21 @@
+voip-9735278861-20130401_161944
+Task 05988: You want to find an expensive restaurant and it should serve canapes food. If there is no such venue how about asian oriental type of food. You want to know the phone number and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: may i have an expensive restaurant
+system: There are 57 restaurants in the expensive price range . What type of food do you want?
+user: canapes
+system: I'm sorry but there is no restaurant serving canapes food
+user: what about asian oriental food
+system: I'm sorry but there is no restaurant serving canapes food
+user: how about asian oriental food
+system: Could you please repeat that?
+user: how about asian oriental
+system: There are 2 restaurants serving asian oriental in the expensive price range . What area would you like?
+user: it doesnt matter
+system: kymmoy serves asian oriental food in the expensive price range
+user: can i have the phone number
+system: The phone number of kymmoy is 01223 311911 .
+user: and what area is that in
+system: kymmoy is a nice place in the centre of town
+user: thank you good bye

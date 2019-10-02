@@ -1,0 +1,19 @@
+voip-03d6592b76-20130327_025322
+Task 08166: You want to find an expensive restaurant and it should serve italian food. Make sure you get the phone number and address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: id like an expensive italian restaurant
+system: You are looking for a vietnamese restaurant right?
+user: no
+system: You are looking for a vietnamese restaurant right?
+user: no
+system: thanh binh serves vietnamese food
+user: italian food
+system: There are 15 restaurants serving italian food . What area do you want?
+user: any area
+system: caffe uno serves italian food
+user: what price range
+system: caffe uno is in the expensive price range
+user: what is the phone number and address
+system: The phone number of caffe uno is 01223 448620 and it is on 32 Bridge Street City Centre .
+user: good bye

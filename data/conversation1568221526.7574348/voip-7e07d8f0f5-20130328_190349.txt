@@ -1,0 +1,23 @@
+voip-7e07d8f0f5-20130328_190349
+Task 05568: You want to find and it should serve barbeque food. You don't care about the price range. If there is no such venue how about north american type of food. Make sure you get the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: unintelligible
+system: What kind of food would you like?
+user: unintelligible
+system: You are looking for a restaurant serving any kind of food right?
+user: unintelligible
+system: What part of town do you have in mind?
+user: barbecue food
+system: I'm sorry but there is no restaurant serving barbeque food
+user: north american food
+system: Could you please repeat that?
+user: north american food
+system: gourmet burger kitchen serves north american food
+user: address
+system: Sure , gourmet burger kitchen is on Regent Street City Centre
+user: phone number
+system: The phone number of gourmet burger kitchen is 01223 312598 .
+user: post code
+system: The post code of gourmet burger kitchen is C.B 2, 1 A.B
+user: thank you good bye

@@ -1,0 +1,27 @@
+voip-10beae627f-20130328_122107
+Task 09402: You want to find and it should serve portuguese food. You don't care about the price range. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: unintelligible
+system: What kind of food would you like?
+user: unintelligible
+system: midsummer house restaurant is a great restaurant
+user: unintelligible
+system: midsummer house restaurant is a great restaurant
+user: noise
+system: midsummer house restaurant is a great restaurant
+user: unintelligible
+system: midsummer house restaurant is a great restaurant
+user: whats the address
+system: Sure , midsummer house restaurant is on Midsummer Common
+user: unintelligible
+system: midsummer house restaurant is a great restaurant
+user: unintelligible
+system: midsummer house restaurant is a great restaurant
+user: is it portuguese food
+system: midsummer house restaurant is a great restaurant
+user: i dont care about prices
+system: midsummer house restaurant is a great restaurant
+user: noise
+system: midsummer house restaurant is a great restaurant
+user: noise thank you good bye

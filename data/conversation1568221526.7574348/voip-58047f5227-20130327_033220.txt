@@ -1,0 +1,23 @@
+voip-58047f5227-20130327_033220
+Task 04062: You are looking for a restaurant in any area and it should serve russian food. If there is no such venue how about north american type of food. You want to know the address, phone number, and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in any area that serves russian food
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: What kind of food would you like?
+user: russian
+system: I'm sorry but there is no restaurant serving russian food
+user: north american
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: You are looking for a north american restaurant right?
+user: yes
+system: gourmet burger kitchen serves north american food
+user: can i get the address
+system: Sure , gourmet burger kitchen is on Regent Street City Centre
+user: the phone number
+system: The phone number of gourmet burger kitchen is 01223 312598 .
+user: and the price range
+system: gourmet burger kitchen is in the expensive price range
+user: thank you good bye

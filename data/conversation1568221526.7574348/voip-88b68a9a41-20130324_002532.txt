@@ -1,0 +1,31 @@
+voip-88b68a9a41-20130324_002532
+Task 00750: You want to find an expensive restaurant and it should serve fusion food. If there is no such venue how about asian oriental type of food. Make sure you get the phone number and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: id like an expensive restaurant that serves fusion food
+system: I'm sorry but there is no restaurant serving fusion food
+user: could i have a restaurant that serves asian oriental food
+system: Could you please repeat that?
+user: like a restaurant that serves asian oriental
+system: I'm sorry but there is no restaurant serving fusion food
+user: food
+system: I'm sorry but there is no restaurant serving fusion food
+user: i need a restaurant that serves asian oriental food
+system: Could you please repeat that?
+user: sil
+system: I'm sorry but there is no restaurant serving fusion food
+user: i need a restaurant that serves
+system: Could you please repeat that?
+user: oriental food
+system: I'm sorry but there is no restaurant serving fusion food
+user: i need asian food
+system: Could you please repeat that?
+user: asian food
+system: You are looking for a fusion restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving fusion food
+user: asian oriental food
+system: Could you please repeat that?
+user: sil
+system: j restaurant serves asian oriental food
+user: thank you good bye

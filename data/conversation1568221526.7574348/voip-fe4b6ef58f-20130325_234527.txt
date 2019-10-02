@@ -1,0 +1,11 @@
+voip-fe4b6ef58f-20130325_234527
+Task 10842: You are looking for an expensive restaurant and it should be in the east part of town. Make sure you get the address and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for an expensive restaurant and it should be east part of town
+system: What kind of food would you like?
+user: any
+system: grafton hotel restaurant is a nice place in the east of town and the prices are expensive
+user: whats the address
+system: Sure , grafton hotel restaurant is on Grafton Hotel 619 Newmarket Road Fen Ditton
+user: thank you good bye

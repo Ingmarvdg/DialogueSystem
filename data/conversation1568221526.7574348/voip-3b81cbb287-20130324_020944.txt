@@ -1,0 +1,11 @@
+voip-3b81cbb287-20130324_020944
+Task 02979: You are looking for a cheap restaurant and it should serve international food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a cheap restaurant that serves international
+system: the missing sock serves international food in the cheap price range
+user: what is the address
+system: Sure , the missing sock is on Finders Corner Newmarket Road
+user: what is the phone number
+system: The phone number of the missing sock is 01223 812660 .
+user: thank you good bye

@@ -1,0 +1,21 @@
+voip-202b6a3cc4-20130327_185502
+Task 11043: You want to find a moderately priced restaurant and it should be in the west part of town. Make sure you get the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderately
+system: What part of town do you have in mind?
+user: price
+system: meze bar restaurant is a great restaurant
+user: west
+system: cambridge lodge restaurant is in the west part of town .
+user: address
+system: cambridge lodge restaurant is in the west part of town .
+user: address
+system: cambridge lodge restaurant is in the west part of town .
+user: can i have the address
+system: Sure , cambridge lodge restaurant is on Cambridge Lodge Hotel 139 Huntingdon Road City Centre
+user: phone number
+system: The phone number of cambridge lodge restaurant is 01223 355166 .
+user: post code
+system: The post code of cambridge lodge restaurant is C.B 3, 0 D.Q
+user: thank you good bye

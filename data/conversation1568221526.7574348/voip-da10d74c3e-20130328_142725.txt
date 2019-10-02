@@ -1,0 +1,19 @@
+voip-da10d74c3e-20130328_142725
+Task 11034: You are looking for a restaurant in the south part of town and it should serve austrian food. If there is no such venue how about indian type of food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the south part of town that serves
+system: What kind of food would you like?
+user: austrian
+system: What kind of food would you like?
+user: austrian
+system: You are looking for a austrian restaurant right?
+user: yes
+system: I'm sorry but there is no restaurant serving austrian food
+user: is there a restaurant in the south part of town that serves indian food
+system: I'm sorry but there is no restaurant serving austrian food
+user: indian food
+system: taj tandoori is a nice place in the south of town serving tasty indian food
+user: could i get their phone number
+system: The phone number of taj tandoori is 01223 412299 .
+user: thank you good bye

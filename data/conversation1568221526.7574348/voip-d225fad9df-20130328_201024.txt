@@ -1,0 +1,9 @@
+voip-d225fad9df-20130328_201024
+Task 09618: You want to find a moderately priced restaurant and it should be in the east part of town. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find a moderately priced restaurant on the east p
+system: rajmahal is a nice restaurant in the east of town in the moderate price range
+user: can i have the address
+system: Sure , rajmahal is on 7 Barnwell Road Fen Ditton
+user: thank you goodbye

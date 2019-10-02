@@ -1,0 +1,15 @@
+voip-f4026333dc-20130327_180235
+Task 01839: You want to find an expensive restaurant and it should serve welsh food. If there is no such venue how about asian oriental type of food. Make sure you get the phone number and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: can i find a expensive restaurant that serves welsh food
+system: Sorry, I can't hear you
+user: how about asian oriental
+system: Sorry, I can't hear you
+user: asian oriental food
+system: yippee noodle bar serves asian oriental food
+user: can i get the phone number and area
+system: The phone number of yippee noodle bar is 01223 518111 .
+user: what is the area
+system: yippee noodle bar is a nice place in the centre of town
+user: thank you good bye

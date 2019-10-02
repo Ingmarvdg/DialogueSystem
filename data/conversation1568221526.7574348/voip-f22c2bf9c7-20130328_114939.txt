@@ -1,0 +1,15 @@
+voip-f22c2bf9c7-20130328_114939
+Task 07470: You want to find a cheap restaurant and it should be in the south part of town. Make sure you get the address and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: cheap
+system: the cambridge chop house is a great restaurant
+user: south
+system: the lucky star is in the south part of town .
+user: address
+system: Sure , the lucky star is on Cambridge Leisure Park Clifton Way Cherry Hinton
+user: post code
+system: The post code of the lucky star is C.B 1, 7 D.Y
+user: thank you good bye

@@ -1,0 +1,33 @@
+voip-5f71221015-20130328_114629
+Task 03606: You are looking for a restaurant in the south part of town and it should serve eritrean food. If there is no such venue how about indian type of food. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for a restaurant in the north side of town
+system: There are 11 restaurants in the north of town . What type of food do you want?
+user: scandinavian food
+system: I'm sorry but there is no restaurant serving indonesian food
+user: scandinavian food
+system: Could you please repeat that?
+user: scandinavian
+system: I'm sorry but there is no restaurant serving scandinavian food
+user: how about asian oriental
+system: I'm sorry but there is no restaurant serving scandinavian food
+user: how about asian
+system: Could you please repeat that?
+user: asian
+system: You are looking for a scandinavian restaurant right?
+user: no asian
+system: I'm sorry but there is no restaurant serving scandinavian food
+user: asian
+system: Could you please repeat that?
+user: asian
+system: I'm sorry but there is no restaurant serving scandinavian food
+user: sil
+system: Could you please repeat that?
+user: thank you
+system: You are looking for a scandinavian restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving scandinavian food
+user: asian
+system: I'm sorry but there is no restaurant serving scandinavian food
+user: thank you good bye

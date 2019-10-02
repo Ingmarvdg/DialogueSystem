@@ -1,0 +1,47 @@
+voip-59bc8a2167-20130325_142909
+Task 09342: You want to find a restaurant in the centre and it should serve vietnamese food. If there is no such venue how about turkish type of food. Make sure you get the address and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: center
+system: What kind of food would you like?
+user: vietnamese food
+system: You are looking for a spanish restaurant right?
+user: wrong
+system: You are looking for a spanish restaurant right?
+user: vietnamese
+system: What part of town do you have in mind?
+user: center
+system: There are 2 restaurants serving spanish food in any part of town . What price range would you like?
+user: wrong
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: turkish
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: turkish food
+system: You are looking for a spanish restaurant right?
+user: s
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: s
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: cheap
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: tape
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: cheap
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: cheap price range
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: sigh
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: expensive
+system: I'm sorry but there is no restaurant serving expensive spanish food
+user: i cant answer in spanish
+system: You are looking for a spanish restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving expensive spanish food
+user: sil
+system: I'm sorry but there is no restaurant serving expensive spanish food
+user: vietnamese vietnamese food
+system: la tasca serves spanish food
+user: sigh
+system: la raza serves spanish food
+user: thank you good bye

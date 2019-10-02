@@ -1,0 +1,15 @@
+voip-0fa32b1e78-20130328_233916
+Task 09423: You want to find a restaurant in the east part of town and it should serve turkish food. If there is no such venue how about any area. Make sure you get the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the east part of town
+system: What kind of food would you like?
+user: turkish food
+system: I'm sorry but there is no turkish restaurant in the east of town
+user: any area
+system: I'm sorry but there is no turkish restaurant in the east of town
+user: what about any area
+system: anatolia serves turkish food
+user: whats their address
+system: Sure , anatolia is on 30 Bridge Street City Centre
+user: thank you good bye

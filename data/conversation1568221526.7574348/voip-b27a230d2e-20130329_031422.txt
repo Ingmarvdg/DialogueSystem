@@ -1,0 +1,11 @@
+voip-b27a230d2e-20130329_031422
+Task 08349: You want to find a restaurant in the centre and it should serve european food. Make sure you get the phone number and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the center of town that serves
+system: What kind of food would you like?
+user: european
+system: michaelhouse cafe is a nice place in the centre of town serving tasty european food
+user: whats your phone number and post code
+system: Sorry, I can't hear you
+user: thank you goodbye

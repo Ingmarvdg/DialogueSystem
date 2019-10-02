@@ -1,0 +1,13 @@
+voip-340dbb333e-20130325_231020
+Task 03276: You are looking for a restaurant in the east part of town and it should serve caribbean food. If there is no such venue how about chinese type of food. You want to know the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: a restaurant in the east part of town that serves caribbean food
+system: pizza hut fen ditton is a nice place in the east of town
+user: caribbean food
+system: I'm sorry but there is no restaurant serving caribbean food
+user: chinese food
+system: Sorry I am a bit confused ; please tell me again what you are looking for .
+user: chinese food
+system: pizza hut fen ditton is a great restaurant
+user: chinese food

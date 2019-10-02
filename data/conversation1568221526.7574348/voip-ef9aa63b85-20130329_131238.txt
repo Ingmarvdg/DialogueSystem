@@ -1,0 +1,15 @@
+voip-ef9aa63b85-20130329_131238
+Task 01848: You want to find and it should serve european food. You don't care about the price range. Make sure you get the phone number and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: european food
+system: There are 5 restaurants serving european food . What area do you want?
+user: i dont care
+system: There are 5 restaurants serving european food in any part of town . What price range would you like?
+user: i dont care
+system: galleria serves european food
+user: may i have the phone number
+system: The phone number of galleria is 01223 362054 .
+user: what area is it in
+system: galleria is a nice place in the centre of town
+user: thank you good bye

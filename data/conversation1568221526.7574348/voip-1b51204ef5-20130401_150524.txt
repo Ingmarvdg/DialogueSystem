@@ -1,0 +1,25 @@
+voip-1b51204ef5-20130401_150524
+Task 03942: You are looking for an expensive restaurant and it should serve unusual food. If there is no such venue how about european type of food. You want to know the address, phone number, and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: un unusual food
+system: I'm sorry but there is no restaurant serving unusual food
+user: sil
+system: I'm sorry but there is no restaurant serving unusual food
+user: european food
+system: galleria serves european food
+user: address
+system: Sure , galleria is on 33 Bridge Street
+user: area
+system: cambridge lodge restaurant serves european food
+user: phone number
+system: cambridge lodge restaurant is a great restaurant
+user: phone number
+system: The phone number of cambridge lodge restaurant is 01223 355166 .
+user: sil
+system: michaelhouse cafe serves european food
+user: sil
+system: eraina serves european food
+user: area
+system: eraina is a great restaurant
+user: thank you good bye

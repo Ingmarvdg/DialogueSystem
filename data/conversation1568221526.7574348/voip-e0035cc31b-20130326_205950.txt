@@ -1,0 +1,21 @@
+voip-e0035cc31b-20130326_205950
+Task 12660: You want to find and it should serve scottish food. You don't care about the price range. If there is no such venue how about gastropub type of food. Make sure you get the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: just a moment
+system: What kind of food would you like?
+user: just a moment
+system: What kind of food would you like?
+user: i want a scottish restaurant
+system: Sorry there is no scottish restaurant in the moderate price range
+user: i dont care about the price range
+system: I am sorry but there is no scottish restaurant that matches your request
+user: how about a gastropub restaurant
+system: royal standard is a great restaurant serving gastropub food and it is in the expensive price range
+user: id like
+system: The post code of royal standard is C.B 1, 3 N.L
+user: whats the phone number
+system: The phone number of royal standard is 01223 247877 .
+user: whats the address
+system: Sure , royal standard is on 290 Mill Road City Centre
+user: thank you good bye

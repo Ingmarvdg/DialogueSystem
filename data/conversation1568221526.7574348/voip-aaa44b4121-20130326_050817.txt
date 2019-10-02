@@ -1,0 +1,17 @@
+voip-aaa44b4121-20130326_050817
+Task 06837: You want to find a cheap restaurant and it should be in the north part of town. Make sure you get the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i need a cheap restaurant
+system: What kind of food would you like?
+user: unintelligible
+system: What part of town do you have in mind?
+user: unintelligible
+system: nandos is a nice restaurant in the south of town in the cheap price range
+user: need it in north
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: part of town
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: phone number
+system: The phone number of da vinci pizzeria is 01223 351707 .
+user: thank you good bye

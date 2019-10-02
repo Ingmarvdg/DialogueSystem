@@ -1,0 +1,13 @@
+voip-fce37b0ccb-20130328_145418
+Task 02790: You want to find a moderately priced restaurant and it should serve cantonese food. If there is no such venue how about chinese type of food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: yeah im looking for a moderately priced restaurant
+system: What kind of food would you like?
+user: cantonese
+system: Sorry there is no cantonese restaurant in the moderate price range
+user: okay um chinese then
+system: jinling noodle bar is a great restaurant serving chinese food and it is in the moderate price range
+user: okay whats the phone number
+system: The phone number of jinling noodle bar is 01223 566188 .
+user: okay thank you good bye

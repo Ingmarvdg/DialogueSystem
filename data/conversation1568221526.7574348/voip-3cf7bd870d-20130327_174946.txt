@@ -1,0 +1,13 @@
+voip-3cf7bd870d-20130327_174946
+Task 00096: You are looking for a moderately priced restaurant and it should be in the south part of town. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i need a moderately priced restaurant in the south part of town
+system: There are 2 restaurants in the moderate price range and the south of town . What type of food would you like?
+user: any
+system: restaurant alimentum is a nice place in the south of town and the prices are moderate
+user: whats the address
+system: Sure , restaurant alimentum is on 152 - 154 Hills Road
+user: and can you tell me the phone number
+system: The phone number of restaurant alimentum is 01223 413000 .
+user: thank you good bye

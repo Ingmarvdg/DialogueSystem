@@ -1,0 +1,17 @@
+voip-be5b7bf9d9-20130401_153551
+Task 03495: You want to find a moderately priced restaurant and it should be in the north part of town. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced
+system: There are 31 restaurants in the moderate price range . What type of food do you want?
+user: restaurant and it should be
+system: You are looking for a restaurant serving any kind of food right?
+user: yea
+system: What part of town do you have in mind?
+user: north
+system: golden wok is a nice place in the north of town and the prices are moderate
+user: is there anything else
+system: the nirala is a nice place in the north of town and the prices are moderate
+user: whats the phone number
+system: The phone number of the nirala is 01223 360966 .
+user: thank you good bye

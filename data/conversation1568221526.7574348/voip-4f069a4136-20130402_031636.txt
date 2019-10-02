@@ -1,0 +1,29 @@
+voip-4f069a4136-20130402_031636
+Task 00129: You are looking for a restaurant in the south part of town and it should serve danish food. If there is no such venue how about italian type of food. You want to know the phone number and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for something on the south side
+system: What kind of food would you like?
+user: danish food
+system: I'm sorry but there is no restaurant serving english food
+user: no danish food
+system: Sorry would you like danish or english food?
+user: danish
+system: I'm sorry but there is no restaurant serving danish food
+user: how about italian
+system: I'm sorry but there is no restaurant serving danish food
+user: what about italian food
+system: Did you say you are looking for a restaurant in the south of town?
+user: yes
+system: You are looking for a italian restaurant right?
+user: yes
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: doesnt matter
+system: Let me confirm , You are looking for a restaurant and you dont care about the price range right?
+user: yes
+system: pizza hut cherry hinton is a nice place in the south of town serving tasty italian food
+user: could i have its phone number
+system: The phone number of pizza hut cherry hinton is 01223 323737 .
+user: can you give me its post code
+system: The post code of pizza hut cherry hinton is C.B 1, 7 D.Y
+user: thank you good bye

@@ -1,0 +1,13 @@
+voip-10beae627f-20130328_170130
+Task 09342: You want to find a restaurant in the centre and it should serve vietnamese food. If there is no such venue how about turkish type of food. Make sure you get the address and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find a restaurant in the center and it should serve vietnamese food
+system: There are 69 restaurants in the centre of town . What type of food do you want?
+user: vietnamese food
+system: thanh binh serves vietnamese food
+user: whats the address
+system: Sure , thanh binh is on 17 Magdalene Street City Centre
+user: and the price range
+system: thanh binh is in the cheap price range
+user: thank you good bye

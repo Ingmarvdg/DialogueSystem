@@ -1,0 +1,9 @@
+voip-e0035cc31b-20130323_211206
+Task 07134: You want to find an expensive restaurant and it should serve african food. Make sure you get the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want an expensive restaurant that serves african food
+system: bedouin is a great restaurant serving african food and it is in the expensive price range
+user: whats the phone number
+system: The phone number of bedouin is 01223 367660 .
+user: thank you good bye

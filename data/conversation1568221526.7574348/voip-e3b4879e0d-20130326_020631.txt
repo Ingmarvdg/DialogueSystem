@@ -1,0 +1,33 @@
+voip-e3b4879e0d-20130326_020631
+Task 09273: You are looking for a restaurant in the west part of town and it should serve english food. If there is no such venue how about british type of food. Make sure you get the address, phone number, and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the west part of town that should serve english food
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i dont care
+system: What kind of food would you like?
+user: english
+system: What kind of food would you like?
+user: british
+system: grafton hotel restaurant is a nice restaurant in the east of town serving british food
+user: can i have the address
+system: Sure , grafton hotel restaurant is on Grafton Hotel 619 Newmarket Road Fen Ditton
+user: phone number
+system: The phone number of grafton hotel restaurant is 01223 241387 .
+user: price range
+system: grafton hotel restaurant is in the expensive price range
+user: thank you good bye
+system: Can I help you with anything else?
+user: no thank you good bye
+system: Can I help you with anything else?
+user: thank you good bye
+system: Can I help you with anything else?
+user: no
+system: Can I help you with anything else?
+user: good bye
+system: Can I help you with anything else?
+user: i dont care
+system: grafton hotel restaurant is a nice restaurant in the east of town serving british food
+user: thank you good bye
+system: Can I help you with anything else?
+user: thank you good bye

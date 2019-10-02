@@ -1,0 +1,15 @@
+voip-88b68a9a41-20130323_114000
+Task 09399: You want to find a restaurant in the north part of town and it should serve turkish food. If there is no such venue how about any area. Make sure you get the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: id like a restaurant in the north part of town that serves tur
+system: What kind of food would you like?
+user: turkish
+system: I'm sorry but there is no turkish restaurant in the north of town
+user: how about in any area
+system: I'm sorry but there is no turkish restaurant in the north of town
+user: how about rest of town
+system: efes restaurant serves turkish food
+user: could i have the area please
+system: Sure , efes restaurant is on King Street City Centre
+user: thank you good bye

@@ -1,0 +1,21 @@
+voip-597cfafdee-20130328_232745
+Task 11886: You want to find a moderately priced restaurant and it should serve cuban food. If there is no such venue how about international type of food. You want to know the address and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What kind of food would you like?
+user: im looking for a moderately priced restaurant serving cuban food
+system: I'm sorry but there is no restaurant serving german food
+user: serving cuban food
+system: You are looking for a bistro restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving bistro food
+user: how about international type of food
+system: Could you please repeat that?
+user: international type of food
+system: There are 2 restaurants serving international in the moderate price range . What area would you like?
+user: any part of town
+system: the varsity restaurant serves international food in the moderate price range
+user: can i have the address and the post code
+system: the varsity restaurant is on 35 Saint Andrews Street City Centre , C.B 2, 3 A.R
+user: thank you goodbye

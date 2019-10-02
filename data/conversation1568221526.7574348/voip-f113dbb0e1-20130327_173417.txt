@@ -1,0 +1,15 @@
+voip-f113dbb0e1-20130327_173417
+Task 01950: You want to find a restaurant in the west part of town and it should serve basque food. If there is no such venue how about british type of food. You want to know the address, phone number, and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What kind of food would you like?
+user: im looking for a restaurant in the west part of town
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: doesnt matter
+system: india house is in the west part of town .
+user: what about british food
+system: graffiti is a nice restaurant in the west of town serving british food
+user: can i have the address phone number
+system: The phone number of graffiti is 01223 277977 .
+user: thank you good bye

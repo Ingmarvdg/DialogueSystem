@@ -1,0 +1,13 @@
+voip-3cf7bd870d-20130327_174807
+Task 12144: You are looking for and it should serve african food. You don't care about the price range. Make sure you get the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i need a restaurant that serves african food
+system: You are looking for a african restaurant right?
+user: yes
+system: bedouin serves african food
+user: i need the address phone number and post code
+system: The phone number of bedouin is 01223 367660 and it is on 100 Mill Road City Centre .
+user: whats the post code
+system: The post code of bedouin is C.B 1, 2 B.D
+user: okay thank you good bye

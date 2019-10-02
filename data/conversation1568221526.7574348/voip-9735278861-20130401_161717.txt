@@ -1,0 +1,11 @@
+voip-9735278861-20130401_161717
+Task 00726: You are looking for a restaurant in any area and it should serve lebanese food. Make sure you get the phone number and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: can i have a lebanese restaurant
+system: ali baba serves lebanese food .
+user: can i have the phone number please
+system: The phone number of ali baba is 01462 432565 .
+user: and whats the post code
+system: The post code of ali baba is C.B 2, 1 N.T
+user: thank you good bye

@@ -1,0 +1,27 @@
+voip-d7aef99178-20130328_184914
+Task 06315: You are looking for a restaurant in the south part of town and it should serve jamaican food. If there is no such venue how about portuguese type of food. Make sure you get the phone number and address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What kind of food would you like?
+user: looking for a restaurant in the south part of town
+system: You are looking for a restaurant serving any kind of food right?
+user: that serves jamaican food
+system: I'm sorry but there is no restaurant serving jamaican food
+user: in the south part of town
+system: Could you please repeat that?
+user: im looking for a restaurant in the south part of town that serves jamaican food
+system: I'm sorry but there is no restaurant serving jamaican food
+user: portuguese food
+system: Could you please repeat that?
+user: what about portuguese food
+system: pizza hut cherry hinton is a nice place in the south of town
+user: whats the phone number
+system: pizza hut cherry hinton is a great restaurant serving italian food . Their phone number is 01223 323737 .
+user: wait no i wanted portuguese food
+system: nandos is a nice place in the south of town serving tasty portuguese food
+user: whats the phone number
+system: The phone number of nandos is 01223 327908 .
+user: whats the address
+system: Sure , nandos is on Cambridge Leisure Park Clifton Way
+user: thank you good bye

@@ -1,0 +1,23 @@
+voip-fce37b0ccb-20130328_144530
+Task 04764: You want to find a moderately priced restaurant and it should serve vietnamese food. If there is no such venue how about any price range. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: yea im looking for a restaurant in the moderate price range serving vietnamese food
+system: thanh binh serves vietnamese food
+user: is it moderately priced
+system: I'm sorry but there is no restaurant serving moderate vietnamese food
+user: okay well any price range at all
+system: Could you please repeat that?
+user: um i need a vietnamese restaurant in any price range
+system: Can I help you with anything else?
+user: im looking for a restaurant serving vietnamese food
+system: Can I help you with anything else?
+user: whats the address
+system: Can I help you with anything else?
+user: yes
+system: thanh binh is a great restaurant
+user: is it serving vietnamese food
+system: Can I help you with anything else?
+user: what is the address
+system: Sure , thanh binh is on 17 Magdalene Street City Centre
+user: okay thank you good bye

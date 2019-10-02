@@ -1,0 +1,11 @@
+voip-bb1fd497eb-20130326_230444
+Task 10767: You are looking for a moderately priced restaurant and it should serve fusion food. If there is no such venue how about turkish type of food. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderately priced restaurant that serves fusion food
+system: I'm sorry but there is no restaurant serving fusion food
+user: turkish food
+system: anatolia serves turkish food in the moderate price range
+user: address
+system: Sure , anatolia is on 30 Bridge Street City Centre
+user: thank you good bye

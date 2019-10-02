@@ -1,0 +1,13 @@
+voip-d225fad9df-20130328_201303
+Task 09273: You are looking for a restaurant in the west part of town and it should serve english food. If there is no such venue how about british type of food. Make sure you get the address, phone number, and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i need a restaurant in the west part of town that serves english food
+system: Sorry there is no english restaurant in the west of town
+user: how about one that serves british food
+system: graffiti is a nice restaurant in the west of town serving british food
+user: what is the address and phone number
+system: The phone number of graffiti is 01223 277977 and it is on Hotel Felix Whitehouse Lane Huntingdon Road .
+user: what is the price range
+system: graffiti is in the expensive price range
+user: thank you good bye

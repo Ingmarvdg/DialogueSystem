@@ -1,0 +1,21 @@
+voip-58047f5227-20130326_032423
+Task 10989: You want to find and it should serve mediterranean food. You don't care about the price range. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want a find a restaurant serving mediterranean food
+system: You are looking for a mediterranean restaurant right?
+user: yes
+system: There are 3 restaurants serving mediterranean food . What area do you want?
+user: any
+system: There are 3 restaurants serving mediterranean food in any part of town . What price range would you like?
+user: any
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: moderate
+system: I'm sorry but there is no restaurant serving moderate mediterranean food
+user: expensive
+system: Could you please repeat that?
+user: expensive
+system: shiraz restaurant serves mediterranean food in the expensive price range
+user: can i get the phone number
+system: The phone number of shiraz restaurant is 01223 307581 .
+user: thank you good bye

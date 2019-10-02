@@ -1,0 +1,9 @@
+voip-561b472540-20130328_124901
+Task 12174: You are looking for an expensive restaurant and it should serve african food. Make sure you get the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: yes an expensive restaurant serving african food
+system: bedouin serves african food in the expensive price range
+user: whats the address
+system: Sure , bedouin is on 100 Mill Road City Centre
+user: thank you good bye

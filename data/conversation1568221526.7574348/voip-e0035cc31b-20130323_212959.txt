@@ -1,0 +1,11 @@
+voip-e0035cc31b-20130323_212959
+Task 06990: You are looking for a cheap restaurant and it should be in the north part of town. You want to know the phone number and type of food of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want a cheap restaurant in the north part of town
+system: royal spice is a nice restaurant in the north of town in the cheap price range
+user: whats the phone number
+system: The phone number of royal spice is 01733 553355 .
+user: what kind of food do they serve there
+system: royal spice serves indian food
+user: thank you good bye

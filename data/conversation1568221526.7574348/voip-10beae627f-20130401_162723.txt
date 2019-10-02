@@ -1,0 +1,29 @@
+voip-10beae627f-20130401_162723
+Task 01005: You want to find a moderately priced restaurant and it should serve persian food. If there is no such venue how about british type of food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find a moderately priced restaurant and it should serve asian food
+system: I'm sorry but there is no restaurant serving greek food
+user: italian food
+system: rajmahal is in the moderate price range
+user: noise
+system: rajmahal is a great restaurant
+user: is there a restaurant that has british food
+system: rajmahal is a great restaurant
+user: what type of food
+system: anatolia is in the moderate price range
+user: is that persian food
+system: I'm sorry but there is no restaurant serving greek food
+user: how about persian food
+system: I'm sorry but there is no restaurant serving greek food
+user: how about british type food
+system: I'm sorry but there is no restaurant serving greek food
+user: how about british food
+system: You are looking for a british restaurant right?
+user: british food
+system: Let me confirm , You are looking for a restaurant in the moderate price range right?
+user: yes
+system: cotto serves british food in the moderate price range
+user: whats the phone number
+system: The phone number of cotto is 01223 302010 .
+user: thank you good bye

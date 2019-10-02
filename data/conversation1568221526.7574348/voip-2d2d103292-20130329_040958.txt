@@ -1,0 +1,35 @@
+voip-2d2d103292-20130329_040958
+Task 07236: You want to find a restaurant in the centre and it should serve moroccan food. If there is no such venue how about thai type of food. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moroccan restaurant in the center of town
+system: I'm sorry but there is no restaurant serving moroccan food
+user: im looking for a thai restaurant
+system: I'm sorry but there is no restaurant serving moroccan food
+user: how about thai food
+system: zizzi cambridge is in the cheap price range
+user: what type of food
+system: zizzi cambridge serves italian food
+user: im looking for thai food
+system: Did you say you are looking for a restaurant in the centre of town?
+user: yes
+system: You are looking for a moroccan restaurant right?
+user: no thai
+system: I'm sorry but there is no restaurant serving moroccan food
+user: im looking for a restaurant that serves thai food
+system: You are looking for a thai restaurant right?
+user: right
+system: I'm sorry but there is no restaurant serving cheap thai food
+user: how about any price range
+system: zizzi cambridge is in the cheap price range
+user: im looking for thai food
+system: I'm sorry but there is no restaurant serving cheap thai food
+user: how about moderately priced thai food
+system: Did you say you are looking for a restaurant in the centre of town?
+user: yes
+system: Sorry would you like something in the cheap price range or in the moderate price range
+user: i dont care
+system: bangkok city is a nice place in the centre of town serving tasty thai food
+user: what is the address and phone number
+system: The phone number of bangkok city is 01223 354382 and it is on 24 Green Street City Centre .
+user: thank you good bye

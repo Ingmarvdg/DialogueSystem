@@ -1,0 +1,15 @@
+voip-b6618de447-20130326_211132
+Task 02766: You want to find a restaurant in the north part of town and it should serve chinese food. You want to know the address, phone number, and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find a restaurant in the north part of town and it should serve
+system: What kind of food would you like?
+user: chinese food
+system: the hotpot is a nice restaurant in the north of town serving chinese food
+user: what is the address
+system: Sure , the hotpot is on 66 Chesterton Road Chesterton
+user: and the telephone number
+system: The phone number of the hotpot is 01223 366552 .
+user: and what is the price range
+system: the hotpot is in the expensive price range
+user: thank you good bye

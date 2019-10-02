@@ -1,0 +1,13 @@
+voip-dd9f7810fd-20130322_223946
+Task 08199: You want to find and it should serve english food. You don't care about the price range. If there is no such venue how about turkish type of food. You want to know the address and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant that serves english food
+system: I am sorry but there is no english restaurant that matches your request
+user: how about turkish
+system: efes restaurant serves turkish food .
+user: whats the address
+system: Sure , efes restaurant is on King Street City Centre
+user: what is the phone number
+system: The post code of efes restaurant is C.B 1, 1 L.N
+user: thank you good bye

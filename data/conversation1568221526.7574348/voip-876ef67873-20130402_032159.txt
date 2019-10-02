@@ -1,0 +1,19 @@
+voip-876ef67873-20130402_032159
+Task 10809: You are looking for a restaurant in the north part of town and it should serve african food. If there is no such venue how about indian type of food. You want to know the address, phone number, and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: hello darling im looking for a restaurant in the north part of town
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: it doesnt matter dear
+system: What kind of food would you like?
+user: african food please
+system: Sorry there is no african restaurant in the north of town
+user: indian
+system: meghna is a nice restaurant in the north of town serving indian food
+user: thatll do dear whats the address of that venue
+system: Sure , meghna is on 205 Victoria Road Chesterton
+user: and what about the phone number
+system: meghna is a nice restaurant in the north of town serving indian food
+user: excellent and what is the price range of that venue
+system: meghna is in the moderate price range
+user: thank you goodbye

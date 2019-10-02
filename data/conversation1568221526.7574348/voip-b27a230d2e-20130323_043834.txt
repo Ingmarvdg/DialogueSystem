@@ -1,0 +1,27 @@
+voip-b27a230d2e-20130323_043834
+Task 01080: You want to find a cheap restaurant and it should serve malaysian food. If there is no such venue how about european type of food. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a cheap restaurant that serves malaysian food
+system: Sorry there is no malaysian restaurant in the cheap price range
+user: how about european food
+system: You are looking for a restaurant is that right?
+user: european food
+system: Sorry there is no european restaurant in the cheap price range
+user: malaysian
+system: Sorry there is no malaysian restaurant in the cheap price range
+user: what about moderate price range
+system: Sorry there is no malaysian restaurant in the cheap price range
+user: moderately priced
+system: Sorry there is no malaysian restaurant in the cheap price range
+user: expensive
+system: Sorry there is no malaysian restaurant in the cheap price range
+user: european food
+system: Sorry there is no european restaurant in the cheap price range
+user: moderately priced
+system: galleria is a great restaurant serving european food and it is in the moderate price range
+user: the address and phone number
+system: Sure , galleria is on 33 Bridge Street
+user: phone number
+system: The phone number of galleria is 01223 362054 .
+user: thank you good bye

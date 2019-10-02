@@ -1,0 +1,11 @@
+voip-52eb280e7b-20130326_212733
+Task 11283: You are looking for a cheap restaurant and it should serve italian food. Make sure you get the address and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap italian
+system: What part of town do you have in mind?
+user: any
+system: da vinci pizzeria is a nice restaurant in the north of town serving italian food
+user: address
+system: Sure , da vinci pizzeria is on 20 Milton Road Chesterton
+user: thank you good bye

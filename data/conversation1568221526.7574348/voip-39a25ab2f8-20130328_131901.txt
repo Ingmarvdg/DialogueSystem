@@ -1,0 +1,17 @@
+voip-39a25ab2f8-20130328_131901
+Task 00933: You are looking for a moderately priced restaurant and it should be in the west part of town. Make sure you get the address, phone number, and type of food.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What part of town do you have in mind?
+user: noise
+system: What part of town do you have in mind?
+user: west part of town
+system: What kind of food would you like?
+user: noise
+system: la margherita is a nice place in the west of town
+user: moderately priced restaurant
+system: cambridge lodge restaurant is a nice place in the west of town
+user: noise
+system: travellers rest is a nice place in the west of town
+user: thank you goodbye

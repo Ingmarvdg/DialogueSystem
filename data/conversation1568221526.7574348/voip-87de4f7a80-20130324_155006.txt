@@ -1,0 +1,19 @@
+voip-87de4f7a80-20130324_155006
+Task 09594: You are looking for a restaurant in the centre and it should serve korean food. You want to know the address, phone number, and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: hi im looking for an restaurant in the center that serves korean food
+system: Did you say you are looking for a restaurant in the centre of town?
+user: yes that sells korean food
+system: charlie chan is a nice place in the centre of town
+user: does it serve korean food
+system: I'm sorry but there is no restaurant serving greek food
+user: does it serve korean
+system: little seoul is a nice place in the centre of town serving tasty korean food
+user: um what
+system: little seoul is a great restaurant
+user: whats the address and phone number
+system: The phone number of little seoul is 01223 308681 and it is on 108 Regent Street City Centre .
+user: and whats the price range
+system: little seoul is in the expensive price range
+user: thank you good bye

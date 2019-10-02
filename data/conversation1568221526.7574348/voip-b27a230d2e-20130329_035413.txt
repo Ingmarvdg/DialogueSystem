@@ -1,0 +1,33 @@
+voip-b27a230d2e-20130329_035413
+Task 09090: You are looking for an expensive restaurant and it should be in the south part of town. Make sure you get the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i am looking for an expensive restaurant that serves
+system: What part of town do you have in mind?
+user: in the south part of town
+system: What kind of food would you like?
+user: i dont care
+system: chiquito restaurant bar is a nice place in the south of town and the prices are expensive
+user: what is their address phone number and post code
+system: The phone number of chiquito restaurant bar is 01223 400170 and it is on 2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton .
+user: what is the post code
+system: The post code of chiquito restaurant bar is C.B 1, 7 D.Y
+user: whats the address
+system: Sure , chiquito restaurant bar is on 2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton
+user: and the phone number again
+system: The phone number of chiquito restaurant bar is 01223 400170 .
+user: sil
+system: chiquito restaurant bar is a great restaurant
+user: no the phone number
+system: frankie and bennys is a nice place in the south of town and the prices are expensive
+user: what was the phone number for chiquito
+system: The phone number of frankie and bennys is 01223 412430 .
+user: chiquito
+system: peking restaurant is a nice place in the south of town and the prices are expensive
+user: im looking for an expensive restaurant in south part of town
+system: chiquito restaurant bar is a nice place in the south of town and the prices are expensive
+user: what is the address phone number and post code
+system: The phone number of chiquito restaurant bar is 01223 400170 and it is on 2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton .
+user: post code
+system: The post code of chiquito restaurant bar is C.B 1, 7 D.Y
+user: sorry about my mistakes thank you good bye

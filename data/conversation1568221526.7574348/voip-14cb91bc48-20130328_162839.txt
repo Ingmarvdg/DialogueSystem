@@ -1,0 +1,35 @@
+voip-14cb91bc48-20130328_162839
+Task 05175: You want to find an expensive restaurant and it should serve portuguese food. If there is no such venue how about mediterranean type of food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: expensive
+system: What part of town do you have in mind?
+user: none
+system: Did you say you are looking for a restaurant in the south of town?
+user: no
+system: Did you say you are looking for a restaurant in the south of town?
+user: portuguese food
+system: What kind of food would you like?
+user: portuguese
+system: I'm sorry but there is no restaurant serving expensive portuguese food
+user: mediterranean
+system: Let me confirm , You are looking for a restaurant in the expensive price range right?
+user: yes
+system: I'm sorry but there is no mediterranean restaurant in the south of town
+user: mediterranean
+system: I'm sorry but there is no mediterranean restaurant in the south of town
+user: expensive
+system: I'm sorry but there is no mediterranean restaurant in the south of town
+user: okay
+system: I'm sorry but there is no mediterranean restaurant in the south of town
+user: okay
+system: sala thong is in the expensive price range
+user: what type of food
+system: sala thong serves thai food
+user: how about mediterranean
+system: la mimosa serves mediterranean food in the expensive price range
+user: do you got an address
+system: Sure , la mimosa is on Thompsons Lane Fen Ditton
+user: phone number
+system: The phone number of la mimosa is 01223 362525 .
+user: thank you good bye

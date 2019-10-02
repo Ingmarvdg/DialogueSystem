@@ -1,0 +1,23 @@
+voip-fe4b6ef58f-20130325_220934
+Task 00168: You are looking for a moderately priced restaurant and it should serve vietnamese food. If there is no such venue how about any price range. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What part of town do you have in mind?
+user: im looking for a cheap restaurant it should serve japanese food
+system: I'm sorry but there is no restaurant serving cheap japanese food
+user: i want spanish food
+system: You are looking for a japanese restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving cheap japanese food
+user: what about spanish food
+system: I'm sorry but there is no restaurant serving cheap japanese food
+user: how about spanish food
+system: royal spice is in the cheap price range
+user: whats the address
+system: Sure , royal spice is on Victoria Avenue Chesterton
+user: whats the signature dish
+system: la raza is in the cheap price range
+user: what is the signature dish
+system: la raza is a great restaurant
+user: thank you good bye

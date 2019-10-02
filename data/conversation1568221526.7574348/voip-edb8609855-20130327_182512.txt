@@ -1,0 +1,17 @@
+voip-edb8609855-20130327_182512
+Task 11121: You want to find a moderately priced restaurant and it should serve mexican food. If there is no such venue how about international type of food. Make sure you get the address and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i need to find a moderately priced restaurant
+system: What part of town do you have in mind?
+user: dont care
+system: What kind of food would you like?
+user: mexican food
+system: I'm sorry but there is no restaurant serving moderate mexican food
+user: international type food
+system: the varsity restaurant serves international food in the moderate price range
+user: address
+system: Sure , the varsity restaurant is on 35 Saint Andrews Street City Centre
+user: post code
+system: The post code of the varsity restaurant is C.B 2, 3 A.R
+user: thank you good bye

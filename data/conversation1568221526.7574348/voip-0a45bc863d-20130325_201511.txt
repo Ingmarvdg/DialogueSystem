@@ -1,0 +1,17 @@
+voip-0a45bc863d-20130325_201511
+Task 12162: You want to find a cheap restaurant and it should serve barbeque food. If there is no such venue how about indian type of food. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap
+system: There are 22 restaurants in the cheap price range . What type of food do you want?
+user: barbecue
+system: I'm sorry but there is no restaurant serving barbeque food
+user: indian
+system: Could you please repeat that?
+user: indian
+system: There are 4 restaurants serving indian in the cheap price range . What area would you like?
+user: dont care
+system: mahal of cambridge serves indian food in the cheap price range
+user: what is the address
+system: Sure , mahal of cambridge is on 3 - 5 Millers Yard Mill Lane
+user: thank you good bye

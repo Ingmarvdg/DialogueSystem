@@ -1,0 +1,17 @@
+voip-03c2655d43-20130327_193309
+Task 00078: You are looking for an expensive restaurant and it should serve persian food. If there is no such venue how about european type of food. You want to know the address, phone number, and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: expensive restaurant it should serve persian food
+system: Sorry there is no persian restaurant in the expensive price range
+user: european type of food
+system: eraina is a great restaurant serving european food and it is in the expensive price range
+user: address
+system: Sure , eraina is on Free School Lane City Centre
+user: phone number
+system: The phone number of eraina is 01223 368786 .
+user: area
+system: eraina is a great restaurant serving european food and it is in the expensive price range
+user: area of venue
+system: eraina is a great restaurant serving european food and it is in the expensive price range
+user: thank you good bye

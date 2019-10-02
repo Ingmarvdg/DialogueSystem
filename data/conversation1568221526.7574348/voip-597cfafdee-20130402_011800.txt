@@ -1,0 +1,15 @@
+voip-597cfafdee-20130402_011800
+Task 08577: You are looking for a moderately priced restaurant and it should be in the north part of town. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address, phone number, and type of food.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderate priced restaurant in the north part of town
+system: What kind of food would you like?
+user: any kind of food
+system: the nirala is a nice place in the north of town and the prices are moderate
+user: is there anything else
+system: meghna is a nice place in the north of town and the prices are moderate
+user: can i have the address phone number and the type of food
+system: The phone number of meghna is 01223 727410 and it is on 205 Victoria Road Chesterton .
+user: can i have the type of food
+system: meghna serves indian food
+user: thank you good bye

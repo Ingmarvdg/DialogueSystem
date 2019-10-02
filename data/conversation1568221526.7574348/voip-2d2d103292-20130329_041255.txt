@@ -1,0 +1,13 @@
+voip-2d2d103292-20130329_041255
+Task 00444: You are looking for a restaurant in the centre and it should serve bistro food. If there is no such venue how about north american type of food. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for bistro food in the center of town
+system: I'm sorry but there is no restaurant serving bistro food
+user: im looking for north american food
+system: You are looking for a north american restaurant right?
+user: right
+system: gourmet burger kitchen is a nice place in the centre of town serving tasty north american food
+user: whats the phone number
+system: The phone number of gourmet burger kitchen is 01223 312598 .
+user: thank you good bye

@@ -1,0 +1,17 @@
+voip-ef9aa63b85-20130329_131415
+Task 03315: You are looking for a moderately priced restaurant and it should serve hungarian food. If there is no such venue how about turkish type of food. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced restaurant serve hungarian food
+system: Sorry there is no hungarian restaurant in the moderate price range
+user: how about turkish food
+system: efes restaurant is a great restaurant serving turkish food and it is in the moderate price range
+user: whats the address
+system: Sure , efes restaurant is on King Street City Centre
+user: wait
+system: efes restaurant is a great restaurant serving turkish food and it is in the moderate price range
+user: whats the address
+system: Sure , efes restaurant is on King Street City Centre
+user: thank you
+system: efes restaurant is a great restaurant serving turkish food and it is in the moderate price range
+user: good bye

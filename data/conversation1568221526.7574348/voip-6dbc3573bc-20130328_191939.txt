@@ -1,0 +1,17 @@
+voip-6dbc3573bc-20130328_191939
+Task 04449: You are looking for an expensive restaurant and it should be in the east part of town. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the address, phone number, and type of food.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for an expensive restaurant in the east part of town
+system: What kind of food would you like?
+user: pizza
+system: What kind of food would you like?
+user: steak
+system: sitar tandoori is a nice restaurant in the east of town in the expensive price range
+user: anything else
+system: royal standard is a nice restaurant in the east of town in the expensive price range
+user: what is the address phone number and type of food
+system: The phone number of royal standard is 01223 247877 and it is on 290 Mill Road City Centre .
+user: what type of food
+system: royal standard serves gastropub food
+user: thank you good bye

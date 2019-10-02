@@ -1,0 +1,15 @@
+voip-22756d9e8f-20130329_044119
+Task 11487: You are looking for a cheap restaurant and it should serve german food. If there is no such venue how about portuguese type of food. Make sure you get the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i am looking for a cheap restaurant that serves germ
+system: There are 22 restaurants in the cheap price range . What type of food do you want?
+user: german
+system: I'm sorry but there is no restaurant serving german food
+user: how about portuguese
+system: Could you please repeat that?
+user: how about portuguese food
+system: nandos city centre serves portuguese food in the cheap price range
+user: may i have the address
+system: Sure , nandos city centre is on 33-34 Saint Andrews Street
+user: thank you goodbye

@@ -1,0 +1,13 @@
+voip-d7aef99178-20130328_184232
+Task 01335: You want to find a cheap restaurant and it should be in the east part of town. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for a cheap restaurant in the east part of town
+system: There are 9 restaurants in the east of town . What type of food do you want?
+user: i dont care
+system: There are 9 restaurants in the east of town serving any kind of food . What price range would you like?
+user: i dont care
+system: royal standard is a nice place in the east of town
+user: whats the phone number for that place
+system: The phone number of royal standard is 01223 247877 .
+user: thank you good bye

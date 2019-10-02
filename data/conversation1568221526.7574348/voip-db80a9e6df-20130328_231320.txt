@@ -1,0 +1,15 @@
+voip-db80a9e6df-20130328_231320
+Task 03039: You want to find a cheap restaurant and it should be in the north part of town. You want to know the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: id like a cheap restaurant in the north part of town
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: what is their phone number
+system: The phone number of da vinci pizzeria is 01223 351707 .
+user: what is their phone number
+system: The phone number of da vinci pizzeria is 01223 351707 .
+user: what is their post code
+system: The post code of da vinci pizzeria is C.B 4, 1 J.Y
+user: what is their address
+system: Sure , da vinci pizzeria is on 20 Milton Road Chesterton
+user: thank you good bye

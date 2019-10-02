@@ -1,0 +1,21 @@
+voip-e72dba1759-20130326_223325
+Task 09654: You are looking for a restaurant in the north part of town and it should serve indonesian food. If there is no such venue how about italian type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the north part of town and it should serve indo
+system: There are 11 restaurants in the north of town . What type of food do you want?
+user: indonesian food
+system: I'm sorry but there is no restaurant serving indonesian food
+user: how about italian food
+system: I'm sorry but there is no restaurant serving indonesian food
+user: how about italian food
+system: Could you please repeat that?
+user: im looking for a restaurant in the north part of town serving italian food
+system: You are looking for a italian restaurant right?
+user: yes
+system: da vinci pizzeria is a great restaurant serving cheap italian food in the north of town .
+user: can i get the address and phone number
+system: Sure , da vinci pizzeria is on 20 Milton Road Chesterton
+user: and the phone number
+system: The phone number of da vinci pizzeria is 01223 351707 .
+user: thank you goodbye

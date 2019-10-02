@@ -1,0 +1,23 @@
+voip-f32f2cfdae-20130327_015652
+Task 09603: You are looking for a cheap restaurant and it should serve catalan food. If there is no such venue how about asian oriental type of food. You want to know the phone number and address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: breath im looking for a cheap restaurant serving catalan food
+system: What kind of food would you like?
+user: catalan
+system: What kind of food would you like?
+user: catalan
+system: What part of town do you have in mind?
+user: i dont care
+system: la margherita is a nice restaurant in the west of town serving italian food
+user: what about asian food
+system: da vinci pizzeria is a nice restaurant in the north of town serving italian food
+user: im looking for asian food
+system: da vinci pizzeria is a great restaurant serving italian food and it is in the cheap price range
+user: im looking for asian oriental food
+system: j restaurant is a nice restaurant in the centre of town serving asian oriental food
+user: whats the phone number
+system: The phone number of j restaurant is 01223 307581 .
+user: whats the address
+system: Sure , j restaurant is on 86 Regent Street City Centre
+user: thank you goodbye

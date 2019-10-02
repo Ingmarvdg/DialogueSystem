@@ -1,0 +1,15 @@
+voip-72e50baa85-20130326_053934
+Task 03810: You are looking for a restaurant in the north part of town and it should serve lebanese food. If there is no such venue how about italian type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want a restaurant in the north part of town
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i dont care
+system: What kind of food would you like?
+user: lebanese food
+system: Sorry there is no lebanese restaurant in the north of town
+user: italian food
+system: da vinci pizzeria is a nice restaurant in the north of town serving italian food
+user: what is the address and phone number
+system: The phone number of da vinci pizzeria is 01223 351707 and it is on 20 Milton Road Chesterton .
+user: thank you good bye

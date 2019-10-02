@@ -1,0 +1,29 @@
+voip-96f43326a4-20130323_070939
+Task 01254: You are looking for a cheap restaurant and it should serve canapes food. If there is no such venue how about portuguese type of food. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: ah im looking for a cheap restaurant
+system: the river bar steakhouse and grill is in the cheap price range
+user: uh does it serve
+system: the river bar steakhouse and grill is a great restaurant
+user: canapes food
+system: the river bar steakhouse and grill is in the cheap price range
+user: does it serve canapes food
+system: the river bar steakhouse and grill is in the cheap price range
+user: im looking for a cheap restaurant that serves canapes food
+system: You are looking for a german restaurant right?
+user: im looking for a
+system: I'm sorry but there is no restaurant serving german food
+user: restaurant that serves can canapes food
+system: I'm sorry but there is no restaurant serving german food
+user: canapes
+system: You are looking for a japanese restaurant right?
+user: canapes
+system: I'm sorry but there is no restaurant serving cheap japanese food
+user: how bout one that serves portuguese food and is cheap
+system: Let me confirm , You are looking for a restaurant in the cheap price range right?
+user: ye
+system: nandos city centre serves portuguese food in the cheap price range
+user: alright can i have the address
+system: Sure , nandos city centre is on 33-34 Saint Andrews Street
+user: thank you goodbye

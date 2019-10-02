@@ -1,0 +1,9 @@
+voip-a8649977cf-20130323_155424
+Task 04047: You want to find a cheap restaurant and it should be in the north part of town. Make sure you get the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find a cheap restaurant
+system: What kind of food would you like?
+user: in the north part of town
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: thank you good bye

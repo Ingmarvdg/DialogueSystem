@@ -1,0 +1,17 @@
+voip-f32f2cfdae-20130328_192215
+Task 03744: You are looking for a moderately priced restaurant and it should serve chinese food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for
+system: What kind of food would you like?
+user: a chinese restaurant that serves moderately priced food
+system: There are 4 restaurants serving chinese in the moderate price range . What area would you like?
+user: i dont care
+system: What part of town do you have in mind?
+user: um i dont care
+system: shanghai family restaurant serves chinese food in the moderate price range
+user: whats the address
+system: Sure , shanghai family restaurant is on 39 Burleigh Street City Centre
+user: whats the phone number
+system: The phone number of shanghai family restaurant is 01223 301761 .
+user: thank you good bye

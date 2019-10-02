@@ -1,0 +1,11 @@
+voip-a8649977cf-20130323_160311
+Task 03567: You are looking for a cheap restaurant and it should serve mediterranean food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap restaurant mediterranean food
+system: the gardenia serves mediterranean food in the cheap price range
+user: address and phone number
+system: the gardenia is a great restaurant
+user: address phone number
+system: The phone number of the gardenia is 01223 356354 and it is on 2 Rose Crescent City Centre .
+user: thank you good bye

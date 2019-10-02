@@ -1,0 +1,19 @@
+voip-1b51204ef5-20130401_150210
+Task 02211: You want to find an expensive restaurant and it should be in the south part of town. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: expensive price range
+system: What kind of food would you like?
+user: anything
+system: There are 109 restaurants if you don't care about the food . What price range do you want?
+user: expensive
+system: There are 56 restaurants serving any kind of food in the expensive price range . What area would you like?
+user: south part of town
+system: frankie and bennys is a nice place in the south of town and the prices are expensive
+user: uh anything else
+system: the good luck chinese food takeaway is a nice place in the south of town and the prices are expensive
+user: uh whats the address
+system: Sure , the good luck chinese food takeaway is on 82 Cherry Hinton Road Cherry Hinton
+user: phone number
+system: The phone number of the good luck chinese food takeaway is 01223 244149 .
+user: thank you good bye

@@ -1,0 +1,27 @@
+voip-3cf7bd870d-20130327_183216
+Task 00051: You want to find a moderately priced restaurant and it should serve canapes food. If there is no such venue how about turkish type of food. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i need a restaurant that serves canape
+system: You are looking for a panasian restaurant right?
+user: um no
+system: You are looking for a panasian restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving panasian food
+user: i need a restaurant that serves canape
+system: Could you please repeat that?
+user: i need a restaurant that serves canape
+system: I'm sorry but there is no restaurant serving panasian food
+user: ah how bout a turkish type of food
+system: You are looking for a turkish restaurant right?
+user: yes and it needs to be moderately priced
+system: There are 2 restaurants serving turkish in the moderate price range . What area would you like?
+user: it doesnt matter
+system: What part of town do you have in mind?
+user: um doesnt matter
+system: What part of town do you have in mind?
+user: any
+system: efes restaurant serves turkish food in the moderate price range
+user: whats the address
+system: Sure , efes restaurant is on King Street City Centre
+user: goodbye thank you

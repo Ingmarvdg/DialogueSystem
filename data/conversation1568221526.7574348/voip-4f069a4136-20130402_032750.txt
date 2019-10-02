@@ -1,0 +1,19 @@
+voip-4f069a4136-20130402_032750
+Task 06150: You are looking for a restaurant in the south part of town and it should serve international food. If there is no such venue how about centre area. You want to know the phone number and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: is there anything serving international food
+system: What part of town do you have in mind?
+user: the south part
+system: I'm sorry but there is no international restaurant in the south of town
+user: how about in the center
+system: bloomsbury restaurant serves international food
+user: where is it located
+system: Sure , bloomsbury restaurant is on Crowne Plaza Hotel 20 Downing Street
+user: what part of town is it located
+system: bloomsbury restaurant is a nice place in the centre of town
+user: whats its price range
+system: bloomsbury restaurant is in the moderate price range
+user: could i have its phone number
+system: The phone number of bloomsbury restaurant is 0871 942 9180 .
+user: thank you very much good bye

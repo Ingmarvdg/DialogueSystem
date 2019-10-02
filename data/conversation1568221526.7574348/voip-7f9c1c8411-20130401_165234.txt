@@ -1,0 +1,21 @@
+voip-7f9c1c8411-20130401_165234
+Task 02904: You want to find a restaurant in the south part of town and it should serve polynesian food. If there is no such venue how about portuguese type of food. Make sure you get the phone number and address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: yes can i have
+system: What part of town do you have in mind?
+user: polynesian food
+system: What part of town do you have in mind?
+user: south
+system: the good luck chinese food takeaway is a nice place in the south of town
+user: polynesian food
+system: I'm sorry but there is no restaurant serving polynesian food
+user: portuguese food
+system: nandos is a nice place in the south of town serving tasty portuguese food
+user: phone number
+system: nandos is a great restaurant
+user: phone number
+system: The phone number of nandos is 01223 327908 .
+user: address
+system: Sure , nandos is on Cambridge Leisure Park Clifton Way
+user: thank you good bye

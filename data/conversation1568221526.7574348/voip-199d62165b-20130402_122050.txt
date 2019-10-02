@@ -1,0 +1,17 @@
+voip-199d62165b-20130402_122050
+Task 01236: You are looking for and it should serve russian food. You don't care about the price range. If there is no such venue how about mediterranean type of food. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant that serves russian food
+system: I'm sorry but there is no restaurant serving russian food
+user: how about mediterranean food
+system: I'm sorry but there is no restaurant serving russian food
+user: how about mediterranean food
+system: You are looking for a mediterranean restaurant right?
+user: yes
+system: What part of town do you have in mind?
+user: i do not care
+system: la mimosa serves mediterranean food
+user: could i have the address please
+system: Sure , la mimosa is on Thompsons Lane Fen Ditton
+user: thank you good bye

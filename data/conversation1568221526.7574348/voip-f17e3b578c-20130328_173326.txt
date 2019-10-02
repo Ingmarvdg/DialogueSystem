@@ -1,0 +1,15 @@
+voip-f17e3b578c-20130328_173326
+Task 06219: You want to find a restaurant in the north part of town and it should serve french food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: restaurant in the north part of town
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: any
+system: What kind of food would you like?
+user: french food
+system: restaurant two two is a nice restaurant in the north of town serving french food
+user: may i have the address
+system: Sure , restaurant two two is on 22 Chesterton Road Chesterton
+user: phone number
+system: The phone number of restaurant two two is 01223 351880 .
+user: thank you good bye

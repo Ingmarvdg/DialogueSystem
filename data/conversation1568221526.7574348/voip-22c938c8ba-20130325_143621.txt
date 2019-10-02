@@ -1,0 +1,41 @@
+voip-22c938c8ba-20130325_143621
+Task 02814: You are looking for a cheap restaurant and it should serve european food. If there is no such venue how about expensive price range. You want to know the address, phone number, and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: inaudible
+system: What part of town do you have in mind?
+user: inaudible
+system: What part of town do you have in mind?
+user: cheap european food
+system: I'm sorry but there is no restaurant serving cheap european food
+user: expensive european
+system: Sorry would you like something in the expensive price range or in the cheap price range
+user: expensive
+system: michaelhouse cafe serves european food in the expensive price range
+user: address
+system: Sure , michaelhouse cafe is on St. Michael's Church Trinity Street City Centre
+user: phone number
+system: The phone number of michaelhouse cafe is 01223 309147 .
+user: area
+system: eraina serves european food in the expensive price range
+user: what area
+system: eraina is a great restaurant
+user: what area
+system: eraina is a great restaurant
+user: where
+system: eraina is a great restaurant
+user: what area
+system: eraina is a great restaurant
+user: north
+system: eraina is a great restaurant
+user: south
+system: cambridge lodge restaurant serves european food in the expensive price range
+user: area
+system: cambridge lodge restaurant is a great restaurant
+user: what area
+system: cambridge lodge restaurant is a nice place in the west of town
+user: address
+system: Sure , cambridge lodge restaurant is on Cambridge Lodge Hotel 139 Huntingdon Road City Centre
+user: phone number
+system: The phone number of cambridge lodge restaurant is 01223 355166 .
+user: thank you goodbye

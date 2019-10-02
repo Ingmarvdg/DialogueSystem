@@ -1,0 +1,11 @@
+voip-e61fa89add-20130327_071630
+Task 00129: You are looking for a restaurant in the south part of town and it should serve danish food. If there is no such venue how about italian type of food. You want to know the phone number and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: danish food in the south part of town
+system: peking restaurant is a nice place in the south of town
+user: may i have a phone number and postcode
+system: The phone number of peking restaurant is 01223 354755 .
+user: may i have the postcode
+system: The post code of peking restaurant is C.B 2, 8 N.X
+user: thank you goodbye

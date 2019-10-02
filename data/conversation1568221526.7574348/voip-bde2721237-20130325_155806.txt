@@ -1,0 +1,41 @@
+voip-bde2721237-20130325_155806
+Task 00966: You want to find an expensive restaurant and it should serve jamaican food. If there is no such venue how about european type of food. You want to know the address, phone number, and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What part of town do you have in mind?
+user: noise looking for an expensive restaurant
+system: What part of town do you have in mind?
+user: any
+system: What kind of food would you like?
+user: jamaican
+system: I'm sorry but there is no restaurant serving jamaican food
+user: european
+system: michaelhouse cafe serves european food in the expensive price range
+user: whats the address and phone number
+system: The phone number of michaelhouse cafe is 01223 309147 and it is on St. Michael's Church Trinity Street City Centre .
+user: noise
+system: michaelhouse cafe is a great restaurant
+user: whats the address
+system: Sure , michaelhouse cafe is on St. Michael's Church Trinity Street City Centre
+user: noise
+system: cambridge lodge restaurant serves european food in the expensive price range
+user: whats the area
+system: cambridge lodge restaurant is a great restaurant
+user: noise
+system: The phone number of cambridge lodge restaurant is 01223 355166 .
+user: noise
+system: The phone number of cambridge lodge restaurant is 01223 355166 .
+user: noise what is the area
+system: cambridge lodge restaurant is a nice place in the west of town
+user: whats the phone number
+system: The phone number of cambridge lodge restaurant is 01223 355166 .
+user: noise
+system: eraina serves european food in the expensive price range
+user: noise
+system: eraina is a great restaurant
+user: noise
+system: I am sorry but there is no other european restaurant in the expensive price range
+user: noise
+system: michaelhouse cafe is in the expensive price range
+user: thank you good bye

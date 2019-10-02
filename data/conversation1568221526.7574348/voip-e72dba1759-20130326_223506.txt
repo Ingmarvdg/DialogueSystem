@@ -1,0 +1,9 @@
+voip-e72dba1759-20130326_223506
+Task 02673: You want to find a cheap restaurant and it should serve chinese food. Make sure you get the phone number and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap restaurant serving chinese food
+system: the lucky star is a great restaurant serving chinese food and it is in the cheap price range
+user: phone number and post code
+system: The phone number of the lucky star is 01223 244277 and its postcode is C.B 1, 7 D.Y .
+user: thank you good bye

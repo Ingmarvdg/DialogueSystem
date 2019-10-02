@@ -1,0 +1,33 @@
+voip-15d8a89cec-20130327_020852
+Task 09525: You are looking for a restaurant in the north part of town and it should serve fusion food. If there is no such venue how about asian oriental type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: find restaurant in north part of town serving fusion food
+system: I'm sorry but there is no restaurant serving fusion food
+user: find restaurant in north part of town serving asian
+system: I'm sorry but there is no restaurant serving fusion food
+user: find restaurant in north part of town
+system: You are looking for a fusion restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving fusion food
+user: find restaurant serving asian
+system: I'm sorry but there is no restaurant serving fusion food
+user: start over
+system: I'm sorry but there is no restaurant serving fusion food
+user: find restaurant serving asian oriental
+system: Did you say you are looking for a restaurant in the north of town?
+user: yes
+system: You are looking for a fusion restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving fusion food
+user: find
+system: I'm sorry but there is no restaurant serving fusion food
+user: restaurant
+system: I'm sorry but there is no restaurant serving fusion food
+user: find restaurant
+system: Did you say you are looking for a restaurant in the north of town?
+user: serving asian oriental
+system: saigon city is a nice place in the north of town serving tasty asian oriental food
+user: whats the address and phone number
+system: Sure , saigon city is on 169 High Street Chesterton Chesterton
+user: thank you good bye

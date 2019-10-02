@@ -1,0 +1,29 @@
+voip-14f776f781-20130328_145126
+Task 06084: You are looking for a restaurant in the east part of town and it should serve canapes food. If there is no such venue how about indian type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What kind of food would you like?
+user: im looking for a restaurant in the east part of town that serves canapes
+system: You are looking for a canapes restaurant right?
+user: yes
+system: I'm sorry but there is no restaurant serving canapes food
+user: how about canapes
+system: I'm sorry but there is no restaurant serving canapes food
+user: how about indian food
+system: Did you say you are looking for a restaurant in the east of town?
+user: yes
+system: There are 4 restaurants serving indian in the east of town . What price range would you like?
+user: uh
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: expensive
+system: pipasha restaurant is a great restaurant serving expensive indian food in the east of town .
+user: medium priced
+system: pipasha restaurant is a great restaurant
+user: whats the address
+system: Sure , pipasha restaurant is on Newmarket Road Fen Ditton
+user: and whats the telephone number
+system: The phone number of pipasha restaurant is 01223 577786 .
+user: thank you
+system: pipasha restaurant is a great restaurant
+user: good bye

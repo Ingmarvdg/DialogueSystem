@@ -1,0 +1,15 @@
+voip-187c1708f2-20130325_131829
+Task 12375: You are looking for and it should serve french food. You don't care about the price range. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: unintelligible
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: french food
+system: cote serves french food .
+user: address
+system: Sure , cote is on Bridge Street City Centre
+user: phone number
+system: The phone number of cote is 01223 311053 .
+user: price range
+system: cote is in the expensive price range
+user: thank you good bye

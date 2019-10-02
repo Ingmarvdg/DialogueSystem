@@ -1,0 +1,17 @@
+voip-90732b027d-20130327_181126
+Task 03552: You are looking for and it should serve cantonese food. You don't care about the price range. If there is no such venue how about north american type of food. You want to know the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What kind of food would you like?
+user: cantonese
+system: I am sorry but there is no cantonese restaurant that matches your request
+user: north american food
+system: gourmet burger kitchen serves north american food .
+user: address
+system: Sure , gourmet burger kitchen is on Regent Street City Centre
+user: phone number
+system: The phone number of gourmet burger kitchen is 01223 312598 .
+user: post code
+system: The post code of gourmet burger kitchen is C.B 2, 1 A.B
+user: thank you good bye

@@ -1,0 +1,23 @@
+voip-59bc8a2167-20130325_133335
+Task 11763: You are looking for a moderately priced restaurant and it should be in the north part of town. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderately
+system: What kind of food would you like?
+user: restaurant
+system: loch fyne is a great restaurant
+user: moderately priced restaurant
+system: The price range at hotel du vin and bistro is moderate .
+user: moderately
+system: The price range at hotel du vin and bistro is moderate .
+user: priced
+system: hotel du vin and bistro is in the moderate price range
+user: north part of town
+system: golden wok is a nice restaurant in the north of town in the moderate price range
+user: address
+system: golden wok is a nice restaurant in the north of town in the moderate price range
+user: address
+system: golden wok is a nice restaurant in the north of town in the moderate price range
+user: address
+system: golden wok is a nice restaurant in the north of town in the moderate price range
+user: thank you good bye

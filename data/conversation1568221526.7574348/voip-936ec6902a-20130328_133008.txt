@@ -1,0 +1,19 @@
+voip-936ec6902a-20130328_133008
+Task 09507: You are looking for and it should serve french food. You don't care about the price range. You want to know the address and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: food type
+system: What part of town do you have in mind?
+user: i dont care
+system: restaurant alimentum is in the south part of town .
+user: french food
+system: cote is a nice restaurant in the centre of town serving french food
+user: address
+system: Sure , cote is on Bridge Street City Centre
+user: area
+system: cote serves french food .
+user: what area of town
+system: cote is a nice place in the centre of town
+user: thank you
+system: cote serves french food .
+user: thank you good bye

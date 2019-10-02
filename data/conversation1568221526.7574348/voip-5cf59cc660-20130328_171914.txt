@@ -1,0 +1,11 @@
+voip-5cf59cc660-20130328_171914
+Task 04905: You are looking for an expensive restaurant and it should be in the east part of town. Make sure you get the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i need an expensive restaurant in the east part of town
+system: What kind of food would you like?
+user: oh i dont care
+system: royal standard is a nice restaurant in the east of town serving gastropub food
+user: whats the address
+system: Sure , royal standard is on 290 Mill Road City Centre
+user: alright thank you good bye

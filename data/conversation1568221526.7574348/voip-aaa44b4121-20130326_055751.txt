@@ -1,0 +1,25 @@
+voip-aaa44b4121-20130326_055751
+Task 12642: You are looking for and it should serve portuguese food. You don't care about the price range. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: breath i would like port portuguese food
+system: There are 2 restaurants serving portuguese food . What area do you want?
+user: north
+system: I'm sorry but there is no portuguese restaurant in the north of town
+user: south
+system: I'm sorry but there is no portuguese restaurant in the north of town
+user: west
+system: Could you please repeat that?
+user: west
+system: What part of town do you have in mind?
+user: east
+system: I'm sorry but there is no portuguese restaurant in the east of town
+user: centre
+system: What part of town do you have in mind?
+user: the centre
+system: You are looking for a portuguese restaurant right?
+user: yes
+system: nandos city centre is a nice place in the centre of town serving tasty portuguese food
+user: what is the address
+system: Sure , nandos city centre is on 33-34 Saint Andrews Street
+user: thank you goodbye

@@ -1,0 +1,21 @@
+voip-b57f8ee22b-20130325_173942
+Task 08964: You are looking for a moderately priced restaurant and it should serve welsh food. If there is no such venue how about european type of food. Make sure you get the address and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderately priced restaurant
+system: Let me confirm , You are looking for a restaurant in the moderate price range right?
+user: welsh food
+system: I'm sorry but there is no restaurant serving welsh food
+user: sil
+system: I'm sorry but there is no restaurant serving welsh food
+user: how about european food
+system: I'm sorry but there is no restaurant serving welsh food
+user: how about european food
+system: michaelhouse cafe serves european food
+user: sil
+system: michaelhouse cafe is a great restaurant
+user: address and post code
+system: Sure , michaelhouse cafe is on St. Michael's Church Trinity Street City Centre
+user: post code
+system: The post code of michaelhouse cafe is C.B 2, 1 S.U
+user: thank you good bye

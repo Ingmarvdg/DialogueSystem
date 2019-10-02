@@ -1,0 +1,33 @@
+voip-ef9aa63b85-20130328_210422
+Task 09027: You want to find a cheap restaurant and it should serve persian food. If there is no such venue how about chinese type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What kind of food would you like?
+user: im looking for a cheap restaurant
+system: There are 22 restaurants in the cheap price range . What type of food do you want?
+user: serve persian food
+system: I'm sorry but there is no restaurant serving persian food
+user: how about chinese
+system: Could you please repeat that?
+user: how about chinese
+system: I'm sorry but there is no restaurant serving persian food
+user: if theres no persian food about about chinese
+system: I'm sorry but there is no restaurant serving persian food
+user: i want to find chinese food
+system: You are looking for a chinese restaurant right?
+user: yes yes
+system: Let me confirm , You are looking for a restaurant in the cheap price range right?
+user: yes
+system: There are 4 restaurants serving chinese in the cheap price range . What area would you like?
+user: noise
+system: What part of town do you have in mind?
+user: noise
+system: What part of town do you have in mind?
+user: i dont care
+system: the lucky star serves chinese food in the cheap price range
+user: may i have their address and phone number
+system: The phone number of the lucky star is 01223 244277 and it is on Cambridge Leisure Park Clifton Way Cherry Hinton .
+user: thank you
+system: the lucky star is a great restaurant
+user: good bye

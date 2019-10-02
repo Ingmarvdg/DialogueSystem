@@ -1,0 +1,41 @@
+voip-22c938c8ba-20130325_123407
+Task 08583: You are looking for a restaurant in the north part of town and it should serve british food. If there is no such venue how about indian type of food. You want to know the address, phone number, and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: british food in north part of town
+system: Sorry there is no british restaurant in the north of town
+user: indian food
+system: Sorry there is no british restaurant in the north of town
+user: thank you
+system: Sorry there is no british restaurant in the north of town
+user: indian
+system: Sorry there is no british restaurant in the north of town
+user: thank you
+system: Sorry there is no british restaurant in the north of town
+user: sil
+system: Sorry there is no british restaurant in the north of town
+user: great day unintelligible
+system: Sorry there is no british restaurant in the north of town
+user: unintelligible
+system: Sorry there is no british restaurant in the north of town
+user: indian food
+system: Sorry there is no british restaurant in the north of town
+user: unintelligible
+system: Sorry there is no british restaurant in the north of town
+user: just fuck every time i do it and this moron says that its indian sucks
+system: graffiti is a nice restaurant in the west of town serving british food
+user: indian food
+system: graffiti serves british food .
+user: want indian food
+system: rice boat is a nice restaurant in the west of town serving indian food
+user: address phone number prices
+system: The phone number of rice boat is 01223 302800 .
+user: address
+system: Sure , rice boat is on 37 Newnham Road Newnham
+user: price range
+system: rice boat is in the expensive price range
+user: thank you
+system: rice boat serves indian food .
+user: thank you goodbye

@@ -1,0 +1,17 @@
+voip-14cb91bc48-20130327_184646
+Task 04533: You are looking for a restaurant in the centre and it should serve japanese food. You want to know the phone number and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i need a restaurant in the center of town
+system: There are 69 restaurants in the centre of town . What type of food do you want?
+user: japanese
+system: You are looking for a japanese restaurant right?
+user: correct
+system: wagamama serves japanese food
+user: yea
+system: I am sorry but there is no other japanese restaurant in the centre of town
+user: can i have the phone number and price range
+system: The phone number of wagamama is 01223 462354 .
+user: price range
+system: wagamama is in the expensive price range
+user: thank you good bye

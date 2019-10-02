@@ -1,0 +1,9 @@
+voip-52d599db9c-20130402_001838
+Task 11763: You are looking for a moderately priced restaurant and it should be in the north part of town. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: a moderately priced restaurant in the north part of town
+system: meghna is a nice restaurant in the north of town in the moderate price range
+user: may i have the address
+system: Sure , meghna is on 205 Victoria Road Chesterton
+user: thank you good bye

@@ -1,0 +1,21 @@
+voip-afd3aa91f0-20130327_211250
+Task 07491: You want to find a restaurant in the north part of town and it should serve english food. If there is no such venue how about chinese type of food. Make sure you get the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the north part of town
+system: There are 11 restaurants in the north of town . What type of food do you want?
+user: english
+system: I'm sorry but there is no restaurant serving english food
+user: chinese
+system: Could you please repeat that?
+user: what about chinese food
+system: Did you say you are looking for a restaurant in the north of town?
+user: yes
+system: There are 3 restaurants serving chinese in the north of town . What price range would you like?
+user: any price range
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: any price range
+system: golden wok is a nice place in the north of town serving tasty chinese food
+user: phone number
+system: The phone number of golden wok is 01223 350688 .
+user: thank you good bye

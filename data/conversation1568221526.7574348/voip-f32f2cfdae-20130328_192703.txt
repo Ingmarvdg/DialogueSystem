@@ -1,0 +1,19 @@
+voip-f32f2cfdae-20130328_192703
+Task 09531: You want to find an expensive restaurant and it should serve seafood. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: chinese food
+system: What part of town do you have in mind?
+user: chinese food im looking for sea food
+system: What part of town do you have in mind?
+user: i dont care
+system: What kind of food would you like?
+user: sea food
+system: What kind of food would you like?
+user: sea food
+system: loch fyne serves seafood food
+user: sea food
+system: loch fyne is a great restaurant
+user: whats the address
+system: Sure , loch fyne is on The Little Rose 37 Trumpington Street
+user: thank you good bye

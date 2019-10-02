@@ -1,0 +1,17 @@
+voip-381a50592b-20130326_035922
+Task 09141: You are looking for a cheap restaurant and it should serve indian food. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap restaurant
+system: What kind of food would you like?
+user: indian food
+system: royal spice is a great restaurant serving indian food and it is in the cheap price range
+user: address
+system: Sure , royal spice is on Victoria Avenue Chesterton
+user: phone number
+system: royal spice is a great restaurant serving indian food and it is in the cheap price range
+user: phone number
+system: royal spice is a great restaurant serving indian food and it is in the cheap price range
+user: phone number
+system: The phone number of royal spice is 01733 553355 .
+user: thank you good bye

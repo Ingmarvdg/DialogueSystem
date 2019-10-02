@@ -1,0 +1,21 @@
+voip-9f989824fd-20130324_080929
+Task 08265: You are looking for and it should serve polynesian food. You don't care about the price range. If there is no such venue how about european type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: polynesian food
+system: What part of town do you have in mind?
+user: any
+system: golden house is in the centre part of town .
+user: venue
+system: golden house is a great restaurant
+user: what type of venue
+system: golden house serves chinese food
+user: polynesian food
+system: I am sorry but there is no polynesian restaurant that matches your request
+user: european food
+system: hotel du vin and bistro is a nice restaurant in the centre of town serving european food
+user: address
+system: Sure , hotel du vin and bistro is on 15 - 19 Trumpington Street
+user: phone number
+system: The phone number of hotel du vin and bistro is 01223 227330 .
+user: thank you good bye

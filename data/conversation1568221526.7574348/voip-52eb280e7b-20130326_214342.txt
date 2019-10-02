@@ -1,0 +1,15 @@
+voip-52eb280e7b-20130326_214342
+Task 06915: You want to find a cheap restaurant and it should serve portuguese food. Make sure you get the address, phone number, and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: portuguese food
+system: You are looking for a restaurant is that right?
+user: cheap restaurant portuguese
+system: nandos city centre is a great restaurant serving portuguese food and it is in the cheap price range
+user: address
+system: Sure , nandos city centre is on 33-34 Saint Andrews Street
+user: phone number
+system: The phone number of nandos city centre is 01223 327908 .
+user: area
+system: nandos city centre is a nice place in the centre of town
+user: thank you good bye

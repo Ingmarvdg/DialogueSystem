@@ -1,0 +1,25 @@
+voip-36440f7305-20130327_200335
+Task 05775: You want to find and it should serve japanese food. You don't care about the price range. Make sure you get the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: japanese food
+system: wagamama serves japanese food .
+user: spice
+system: wagamama is in the expensive price range
+user: address
+system: Can I help you with anything else?
+user: phone number
+system: Can I help you with anything else?
+user: phone number
+system: The phone number of wagamama is 01223 462354 .
+user: address
+system: Sure , wagamama is on 36 Saint Andrews Street
+user: post code
+system: The post code of wagamama is C.B 2, 3 A.R
+user: thank you good bye
+system: Can I help you with anything else?
+user: thank you good bye
+system: Can I help you with anything else?
+user: thank you good bye

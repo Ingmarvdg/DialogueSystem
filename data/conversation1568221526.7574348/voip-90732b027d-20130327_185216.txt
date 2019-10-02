@@ -1,0 +1,19 @@
+voip-90732b027d-20130327_185216
+Task 00417: You are looking for a moderately priced restaurant and it should serve traditional food. If there is no such venue how about spanish type of food. Make sure you get the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: traditional food
+system: I'm sorry but there is no restaurant serving traditional food
+user: spanish food
+system: There are 2 restaurants serving spanish food . What area do you want?
+user: moderately priced
+system: la tasca serves spanish food in the moderate price range
+user: noise
+system: la tasca serves spanish food in the moderate price range
+user: address
+system: Sure , la tasca is on 14 -16 Bridge Street
+user: phone number
+system: The phone number of la tasca is 01223 464630 .
+user: post code
+system: The post code of la tasca is C.B 2, 1 U.F
+user: thank you good bye

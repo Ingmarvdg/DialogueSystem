@@ -1,0 +1,13 @@
+voip-50af5438f1-20130402_081208
+Task 01932: You want to find and it should serve thai food. You don't care about the price range. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: thai food
+system: What part of town do you have in mind?
+user: any
+system: What kind of food would you like?
+user: thai
+system: bangkok city serves thai food
+user: address
+system: Sure , bangkok city is on 24 Green Street City Centre
+user: thank you goodbye

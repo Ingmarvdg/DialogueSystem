@@ -1,0 +1,41 @@
+voip-0abf414c0c-20130327_000042
+Task 11259: You want to find an expensive restaurant and it should serve hungarian food. If there is no such venue how about british type of food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: hungarian food
+system: What kind of food would you like?
+user: hungarian
+system: You are looking for a restaurant serving any kind of food right?
+user: hungarian
+system: You are looking for a restaurant serving any kind of food right?
+user: no
+system: What part of town do you have in mind?
+user: hungarian food
+system: What part of town do you have in mind?
+user: hungarian food
+system: What part of town do you have in mind?
+user: im looking for a hungarian restaurant
+system: You are looking for a restaurant serving any kind of food right?
+user: no hungarian
+system: What part of town do you have in mind?
+user: british
+system: What part of town do you have in mind?
+user: british feed
+system: What part of town do you have in mind?
+user: it doesnt matter hungarian food
+system: You are looking for a restaurant serving any kind of food right?
+user: no hungarian food
+system: There are 109 restaurants if you don't care about the area or the type of food . What price range would you like?
+user: i am looking for hungarian food
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: food
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: hungarian food
+system: Let me confirm , You are looking for a restaurant and you dont care about the price range right?
+user: wrong
+system: Ok , a restaurant in any part of town is that right?
+user: wrong
+system: Let me confirm , You are looking for a restaurant and you dont care about the price range right?
+user: hungarian food
+system: Ok , a restaurant in any part of town is that right?
+user: thank you good bye

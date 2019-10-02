@@ -1,0 +1,21 @@
+voip-eaef6f434c-20130323_024502
+Task 01089: You want to find and it should serve world food. You don't care about the price range. If there is no such venue how about modern european type of food. Make sure you get the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for world food
+system: I am sorry but there is no world restaurant that matches your request
+user: how about modern european food
+system: riverside brasserie serves modern european food .
+user: okay
+system: You are looking for a restaurant is that right?
+user: yes
+system: riverside brasserie serves modern european food .
+user: can you repeat that
+system: riverside brasserie serves modern european food .
+user: can you give me the phone number
+system: The phone number of riverside brasserie is 01223 259988 .
+user: can you repeat that
+system: riverside brasserie serves modern european food .
+user: whats their phone number
+system: The phone number of riverside brasserie is 01223 259988 .
+user: very good thank you bye bye

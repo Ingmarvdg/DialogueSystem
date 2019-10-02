@@ -1,0 +1,33 @@
+voip-36440f7305-20130326_140559
+Task 02553: You are looking for a moderately priced restaurant and it should serve turkish food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: may i have the phone number to the turkiesh
+system: I'm sorry but there is no restaurant serving world food
+user: restaurant
+system: You are looking for a world restaurant right?
+user: the turkiesh
+system: I'm sorry but there is no restaurant serving world food
+user: sil
+system: I'm sorry but there is no restaurant serving world food
+user: turkish food
+system: You are looking for a world restaurant right?
+user: the turkiesh food
+system: I'm sorry but there is no restaurant serving world food
+user: turkey food
+system: I'm sorry but there is no restaurant serving world food
+user: thank you
+system: Sorry I am a bit confused ; please tell me again what you are looking for .
+user: restaurant
+system: I'm sorry but there is no restaurant serving world food
+user: turkiesh food
+system: I'm sorry but there is no restaurant serving world food
+user: thank you good bye
+system: I'm sorry but there is no restaurant serving world food
+user: thank you good bye
+system: I'm sorry but there is no restaurant serving world food
+user: thank you
+system: I'm sorry but there is no restaurant serving world food
+user: good bye
+system: I'm sorry but there is no restaurant serving world food
+user: thank you good bye

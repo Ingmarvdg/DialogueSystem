@@ -112,6 +112,7 @@ def write_all_convos_to_file(conversations):
 def parse_all_json(header, option):
     conversations = []
     entries = os.listdir(header)
+    print("Parsing data in " + header +' please wait a moment...')
     for parent_directories in entries:
         if not parent_directories.startswith("."):
             entries_child = os.listdir(header + parent_directories + '/')

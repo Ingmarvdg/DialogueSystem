@@ -1,0 +1,19 @@
+voip-f32f2cfdae-20130328_200431
+Task 02592: You want to find a moderately priced restaurant and it should be in the west part of town. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the phone number and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced restaurant in the west part of town
+system: What kind of food would you like?
+user: i dont care
+system: prezzo is a nice place in the west of town and the prices are moderate
+user: is there anything else
+system: saint johns chop house is a nice place in the west of town and the prices are moderate
+user: whats the phone number
+system: The phone number of saint johns chop house is 01223 353110 .
+user: what is a good cheap restaurant that serves portuguese food
+system: The post code of saint johns chop house is C.B 3, 0 A.D
+user: whats the post code
+system: The post code of saint johns chop house is C.B 3, 0 A.D
+user: unintelligible
+system: Sorry but there is no other restaurant in the moderate price range and the west of town
+user: thank you good bye crosstalk

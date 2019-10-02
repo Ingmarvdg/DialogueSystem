@@ -1,0 +1,45 @@
+voip-b20968d1ea-20130323_111126
+Task 06051: You are looking for a cheap restaurant and it should serve eritrean food. If there is no such venue how about vietnamese type of food. Make sure you get the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap restaurant
+system: What kind of food would you like?
+user: eritrean
+system: What kind of food would you like?
+user: unintelligible
+system: The price range at royal spice is cheap .
+user: no eritrean food
+system: The price range at royal spice is cheap .
+user: what type of food does it
+system: royal spice serves indian food
+user: no ah
+system: The price range at royal spice is cheap .
+user: er do they serve eritrean food
+system: The price range at royal spice is cheap .
+user: what about vietnamese food
+system: thanh binh is a great restaurant serving vietnamese food and it is in the cheap price range
+user: does do you know anyone who serves um
+system: Can I help you with anything else?
+user: eritrean food
+system: Can I help you with anything else?
+user: um
+system: Can I help you with anything else?
+user: do uh
+system: Can I help you with anything else?
+user: does anyone serve eritrean food
+system: Can I help you with anything else?
+user: eritrean food
+system: Sorry there is no irish restaurant in the cheap price range
+user: eritrean
+system: Sorry there is no irish restaurant in the cheap price range
+user: eritrean
+system: Sorry there is no irish restaurant in the cheap price range
+user: uh vietnamese
+system: Sorry there is no irish restaurant in the cheap price range
+user: noise vietnamese
+system: Sorry there is no irish restaurant in the cheap price range
+user: the phone number
+system: The phone number of thanh binh is 01223 362456 .
+user: what type of food
+system: thanh binh serves vietnamese food
+user: alright thank you goodbye

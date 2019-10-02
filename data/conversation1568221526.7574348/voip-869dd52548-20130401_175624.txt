@@ -1,0 +1,17 @@
+voip-869dd52548-20130401_175624
+Task 01878: You want to find an expensive restaurant and it should serve spanish food. If there is no such venue how about modern european type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for expensive spanish food
+system: maharajah tandoori restaurant is in the expensive price range
+user: how about modern european
+system: taj tandoori is in the expensive price range
+user: what type of food is it
+system: taj tandoori serves indian food
+user: im looking for meditteranian
+system: You are looking for a modern european restaurant right?
+user: modern europene
+system: darrys cookhouse and wine shop serves modern european food in the expensive price range
+user: what is the address and phone number
+system: The phone number of darrys cookhouse and wine shop is 01223 505015 and it is on 40270 King Street City Centre .
+user: thank you good bye

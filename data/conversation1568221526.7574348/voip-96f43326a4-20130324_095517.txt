@@ -1,0 +1,27 @@
+voip-96f43326a4-20130324_095517
+Task 09162: You want to find an expensive restaurant and it should serve european food. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find an expensive restaurant
+system: What kind of food would you like?
+user: european food
+system: There are 5 restaurants serving european food . What area do you want?
+user: i dont care
+system: There are 5 restaurants serving european food in any part of town . What price range would you like?
+user: unintelligible
+system: You are looking for a european restaurant right?
+user: yes
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: expensive
+system: cambridge lodge restaurant serves european food in the expensive price range
+user: is there any thing else
+system: michaelhouse cafe serves european food in the expensive price range
+user: please let me have the address
+system: Sure , michaelhouse cafe is on St. Michael's Church Trinity Street City Centre
+user: and the area
+system: Can I help you with anything else?
+user: can i have the address
+system: Sure , michaelhouse cafe is on St. Michael's Church Trinity Street City Centre
+user: what area is that
+system: michaelhouse cafe is a nice place in the centre of town
+user: thank you good bye

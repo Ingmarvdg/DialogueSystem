@@ -1,0 +1,11 @@
+voip-d7aef99178-20130328_184824
+Task 10761: You want to find a cheap restaurant and it should be in the east part of town. You want to know the address and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: whats a cheap restaurant on the east part of town
+system: the missing sock is a nice place in the east of town and the prices are cheap
+user: whats the address
+system: Sure , the missing sock is on Finders Corner Newmarket Road
+user: and post code
+system: The post code of the missing sock is C.B 25, 9 A.Q
+user: thank you good bye

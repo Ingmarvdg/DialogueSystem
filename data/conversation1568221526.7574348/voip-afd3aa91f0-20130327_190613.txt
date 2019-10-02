@@ -1,0 +1,11 @@
+voip-afd3aa91f0-20130327_190613
+Task 01257: You want to find a restaurant in the east part of town and it should serve british food. Make sure you get the phone number and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the east part of town that serves british food
+system: grafton hotel restaurant is a nice place in the east of town serving tasty british food
+user: what is the phone number
+system: The phone number of grafton hotel restaurant is 01223 241387 .
+user: and the post code
+system: The post code of grafton hotel restaurant is C.B 5, 8 P.A
+user: thank you good bye

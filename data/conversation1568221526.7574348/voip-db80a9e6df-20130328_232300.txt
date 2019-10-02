@@ -1,0 +1,11 @@
+voip-db80a9e6df-20130328_232300
+Task 02838: You want to find a moderately priced restaurant and it should serve spanish food. Make sure you get the phone number and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderately priced spanish restaurant
+system: la tasca serves spanish food in the moderate price range
+user: what is their phone number
+system: The phone number of la tasca is 01223 464630 .
+user: what area of town are they located
+system: la tasca is a nice place in the centre of town
+user: thank you good bye

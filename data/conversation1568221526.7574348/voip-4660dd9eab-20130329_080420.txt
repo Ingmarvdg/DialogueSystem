@@ -1,0 +1,13 @@
+voip-4660dd9eab-20130329_080420
+Task 09552: You are looking for a restaurant in the east part of town and it should serve international food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want a restaurant in the east part of town
+system: What kind of food would you like?
+user: international
+system: There are 3 restaurants serving international food . What area do you want?
+user: in the east part
+system: the missing sock is a nice place in the east of town serving tasty international food
+user: what is the phone number
+system: The phone number of the missing sock is 01223 812660 .
+user: good bye

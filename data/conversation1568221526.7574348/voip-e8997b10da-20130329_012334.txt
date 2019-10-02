@@ -1,0 +1,17 @@
+voip-e8997b10da-20130329_012334
+Task 02271: You are looking for a cheap restaurant and it should serve turkish food. If there is no such venue how about moderate price range. Make sure you get the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: uh yes turkish food
+system: meze bar restaurant serves turkish food .
+user: okay cheap turkish food
+system: You are looking for a restaurant is that right?
+user: yes
+system: meze bar restaurant serves turkish food .
+user: does it serve cheap turkish food
+system: Sorry there is no turkish restaurant in the cheap price range
+user: okay moderate price range
+system: efes restaurant is a great restaurant serving turkish food and it is in the moderate price range
+user: okay can i get the address
+system: Sure , efes restaurant is on King Street City Centre
+user: okay thank you and good bye

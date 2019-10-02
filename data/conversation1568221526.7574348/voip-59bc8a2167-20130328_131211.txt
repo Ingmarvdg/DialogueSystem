@@ -1,0 +1,31 @@
+voip-59bc8a2167-20130328_131211
+Task 08598: You want to find a restaurant in the south part of town and it should serve indian food. Make sure you get the address and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: south
+system: What part of town do you have in mind?
+user: south
+system: What kind of food would you like?
+user: breathing
+system: What kind of food would you like?
+user: inaudible
+system: What kind of food would you like?
+user: indian
+system: You are looking for a restaurant serving any kind of food right?
+user: no
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: indian
+system: tandoori palace is a nice place in the north of town
+user: south
+system: royal spice is a nice place in the north of town
+user: indian food
+system: royal spice is a great restaurant
+user: address
+system: Sure , royal spice is on Victoria Avenue Chesterton
+user: price range
+system: royal spice is a great restaurant
+user: price range
+system: royal spice is a great restaurant
+user: price range
+system: royal spice is in the cheap price range
+user: thank you goodbye

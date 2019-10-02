@@ -1,0 +1,19 @@
+voip-03d6592b76-20130327_024206
+Task 09774: You want to find an expensive restaurant and it should serve european food. You want to know the phone number and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What kind of food would you like?
+user: id like a european food
+system: There are 5 restaurants serving european food . What area do you want?
+user: any area expensive price range
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: expensive
+system: There are 3 restaurants serving european in the expensive price range . What area would you like?
+user: any area
+system: eraina serves european food in the expensive price range
+user: what is the phone number
+system: The phone number of eraina is 01223 368786 .
+user: what area is it in
+system: eraina is a nice place in the centre of town
+user: thank you good bye

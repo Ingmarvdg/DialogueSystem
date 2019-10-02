@@ -1,0 +1,23 @@
+voip-10beae627f-20130329_154519
+Task 04044: You are looking for and it should serve greek food. You don't care about the price range. If there is no such venue how about european type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for greek food
+system: You are looking for a greek restaurant right?
+user: yes
+system: I'm sorry but there is no restaurant serving greek food
+user: how about european food
+system: I'm sorry but there is no restaurant serving greek food
+user: what about european food
+system: I'm sorry but there is no restaurant serving greek food
+user: noice how about european
+system: What part of town do you have in mind?
+user: noise
+system: Sorry would you like something in the south or in the east
+user: nosie
+system: hotel du vin and bistro serves european food
+user: whats the address
+system: Sure , hotel du vin and bistro is on 15 - 19 Trumpington Street
+user: and the phone number
+system: The phone number of hotel du vin and bistro is 01223 227330 .
+user: thank you goodbye

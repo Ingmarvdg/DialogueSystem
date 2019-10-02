@@ -1,0 +1,13 @@
+voip-31d9d1a567-20130402_034915
+Task 02940: You are looking for and it should serve gastropub food. You don't care about the price range. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant that serves gastropub food any price range
+system: Let me confirm , You are looking for a restaurant and you dont care about the price range right?
+user: thats correct gastropub food
+system: What part of town do you have in mind?
+user: any part of town
+system: royal standard serves gastropub food
+user: may i have the address please
+system: Sure , royal standard is on 290 Mill Road City Centre
+user: thank you good bye

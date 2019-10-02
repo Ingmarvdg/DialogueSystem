@@ -1,0 +1,21 @@
+voip-9f989824fd-20130325_201803
+Task 01500: You want to find a restaurant in the west part of town and it should serve panasian food. If there is no such venue how about indian type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: restaurant in the east part of town
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: pan asian food
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i dont care
+system: prezzo is a nice restaurant in the west of town in the moderate price range
+user: pan asian food
+system: prezzo is in the west part of town .
+user: pan asian
+system: prezzo is in the west part of town .
+user: indian food
+system: cocum is a nice restaurant in the west of town serving indian food
+user: address
+system: Sure , cocum is on 71 Castle Street City Centre
+user: phone number
+system: The phone number of cocum is 01223 366668 .
+user: thank you good bye

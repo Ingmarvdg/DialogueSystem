@@ -1,0 +1,13 @@
+voip-14cb91bc48-20130327_202138
+Task 11601: You are looking for a moderately priced restaurant and it should serve canapes food. If there is no such venue how about turkish type of food. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderately priced restaurant in the south part of town
+system: pizza hut cherry hinton is a nice restaurant in the south of town in the moderate price range
+user: address and phone number
+system: You are looking for a restaurant is that right?
+user: yes
+system: pizza hut cherry hinton is a nice restaurant in the south of town in the moderate price range
+user: address and phone number
+system: Sure , pizza hut cherry hinton is on G4 Cambridge Leisure Park Clifton Way Cherry Hinton
+user: thank you good bye

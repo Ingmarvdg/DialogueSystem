@@ -1,0 +1,63 @@
+voip-31de0daa7b-20130402_133216
+Task 04017: You want to find an expensive restaurant and it should serve moroccan food. If there is no such venue how about european type of food. Make sure you get the address, phone number, and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: fancy restaurant moroccan food
+system: I'm sorry but there is no restaurant serving moroccan food
+user: european food
+system: I'm sorry but there is no restaurant serving moroccan food
+user: european
+system: I'm sorry but there is no restaurant serving moroccan food
+user: sil
+system: You are looking for a moroccan restaurant right?
+user: sil
+system: I'm sorry but there is no restaurant serving moroccan food
+user: yes
+system: I'm sorry but there is no restaurant serving moroccan food
+user: european food
+system: I'm sorry but there is no restaurant serving moroccan food
+user: european food
+system: You are looking for a moroccan restaurant right?
+user: sil
+system: You are looking for a moroccan restaurant right?
+user: sil
+system: I'm sorry but there is no restaurant serving moroccan food
+user: european food
+system: I'm sorry but there is no restaurant serving moroccan food
+user: sil
+system: I'm sorry but there is no restaurant serving moroccan food
+user: sil
+system: I'm sorry but there is no restaurant serving moroccan food
+user: european food
+system: What part of town do you have in mind?
+user: unintelligible
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: expensive
+system: michaelhouse cafe serves european food in the expensive price range
+user: sil
+system: The post code of michaelhouse cafe is C.B 2, 1 S.U
+user: sil
+system: cambridge lodge restaurant serves european food in the expensive price range
+user: sil
+system: You are looking for a greek restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving greek food
+user: sil
+system: I'm sorry but there is no restaurant serving greek food
+user: sil
+system: curry garden is in the expensive price range
+user: sil
+system: curry garden is a great restaurant
+user: european food
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: michaelhouse cafe serves european food in the expensive price range
+user: address
+system: Sure , michaelhouse cafe is on St. Michael's Church Trinity Street City Centre
+user: phone number
+system: The phone number of michaelhouse cafe is 01223 309147 .
+user: area
+system: cambridge lodge restaurant serves european food in the expensive price range
+user: area
+system: cambridge lodge restaurant is a great restaurant
+user: thank you goodbye

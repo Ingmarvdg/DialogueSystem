@@ -1,0 +1,51 @@
+voip-72e50baa85-20130327_063755
+Task 10623: You want to find a moderately priced restaurant and it should be in the north part of town. Make sure you get the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want a moderate priced restaurant in the north part of town
+system: What kind of food would you like?
+user: care
+system: You are looking for a restaurant serving any kind of food right?
+user: ye
+system: What part of town do you have in mind?
+user: unintelligible
+system: What part of town do you have in mind?
+user: north
+system: What part of town do you have in mind?
+user: part of town
+system: There are 109 restaurants if you don't care about the area or the type of food . What price range would you like?
+user: moderate price
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: moderate
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: moderate
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: moderate
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: moderate
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: moderate
+system: hotel du vin and bistro is in the moderate price range
+user: price range
+system: hotel du vin and bistro is a great restaurant
+user: north part of town
+system: hotel du vin and bistro is a great restaurant
+user: part of town is it in
+system: hotel du vin and bistro is a great restaurant
+user: what part of town
+system: hotel du vin and bistro serves european food
+user: is it in the north part of tow
+system: hotel du vin and bistro is a great restaurant
+user: the north part of tow
+system: hotel du vin and bistro is a nice place in the centre of town
+user: i need the nor
+system: meghna is a nice place in the north of town and the prices are moderate
+user: what is the address and phone number
+system: The phone number of meghna is 01223 727410 and it is on 205 Victoria Road Chesterton .
+user: what is the post code
+system: The post code of meghna is C.B 4, 3 L.F
+user: thank you goodbye
+system: meghna is a great restaurant
+user: bye
+system: the nirala is a nice place in the north of town and the prices are moderate
+user: thank you goodbye

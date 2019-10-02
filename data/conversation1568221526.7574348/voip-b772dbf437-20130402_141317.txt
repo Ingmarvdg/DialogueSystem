@@ -1,0 +1,25 @@
+voip-b772dbf437-20130402_141317
+Task 01011: You want to find a cheap restaurant and it should serve turkish food. If there is no such venue how about italian type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: system saying hello welcome
+system: What kind of food would you like?
+user: hi
+system: You are looking for a restaurant serving any kind of food right?
+user: it serves turkish food
+system: There are 3 restaurants serving turkish food . What area do you want?
+user: doesnt matter
+system: What part of town do you have in mind?
+user: it doesnt matter
+system: There are 3 restaurants serving turkish food in any part of town . What price range would you like?
+user: cheap restaurant
+system: I'm sorry but there is no restaurant serving cheap turkish food
+user: how about italian food
+system: I'm sorry but there is no restaurant serving cheap turkish food
+user: how about italian food
+system: pizza hut city centre serves italian food in the cheap price range
+user: is there anything else
+system: la margherita serves italian food in the cheap price range
+user: could i have the address and phone number
+system: The phone number of la margherita is 01223 315232 and it is on 15 Magdalene Street City Centre .
+user: thank you goodbye

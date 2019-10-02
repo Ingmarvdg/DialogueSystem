@@ -1,0 +1,17 @@
+voip-b57f8ee22b-20130327_000138
+Task 02394: You are looking for a restaurant in the north part of town and it should serve scottish food. If there is no such venue how about french type of food. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: restaurant in the north part of town serv
+system: What kind of food would you like?
+user: scottish
+system: What kind of food would you like?
+user: scottish
+system: I'm sorry but there is no restaurant serving scottish food
+user: how about french food
+system: restaurant two two is a nice place in the north of town serving tasty french food
+user: phone number
+system: restaurant two two is a great restaurant
+user: phone number
+system: The phone number of restaurant two two is 01223 351880 .
+user: thank you good bye

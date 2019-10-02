@@ -1,0 +1,11 @@
+voip-2f4c700ae3-20130401_191755
+Task 02205: You are looking for an expensive restaurant and it should serve mexican food. Make sure you get the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: expensive mexican
+system: chiquito restaurant bar serves mexican food in the expensive price range
+user: phone number
+system: chiquito restaurant bar is a great restaurant
+user: phone number
+system: The phone number of chiquito restaurant bar is 01223 400170 .
+user: thank you good bye

@@ -1,0 +1,25 @@
+voip-8991b7bff6-20130401_174811
+Task 00051: You want to find a moderately priced restaurant and it should serve canapes food. If there is no such venue how about turkish type of food. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: find a restaurant serving cannabis food
+system: What part of town do you have in mind?
+user: dont care
+system: What kind of food would you like?
+user: canopy
+system: What kind of food would you like?
+user: turkish
+system: What kind of food would you like?
+user: turkish
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: moderate
+system: Let me confirm , You are looking for a restaurant in the moderate price range right?
+user: yes
+system: efes restaurant serves turkish food in the moderate price range
+user: unintelligible
+system: anatolia serves turkish food in the moderate price range
+user: where are they located
+system: anatolia is a great restaurant
+user: what is their address
+system: Sure , anatolia is on 30 Bridge Street City Centre
+user: thank you good bye

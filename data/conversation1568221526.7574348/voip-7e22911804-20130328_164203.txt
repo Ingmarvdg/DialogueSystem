@@ -1,0 +1,25 @@
+voip-7e22911804-20130328_164203
+Task 07860: You are looking for a cheap restaurant and it should serve swedish food. If there is no such venue how about asian oriental type of food. You want to know the phone number and address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a cheap restaurant that serves swedish food
+system: royal spice is in the cheap price range
+user: does it serve swedish serve
+system: I'm sorry but there is no restaurant serving swedish food
+user: how about asian food
+system: I'm sorry but there is no restaurant serving swedish food
+user: how about asian oriental
+system: royal spice is in the cheap price range
+user: does it serve asian oriental
+system: royal spice serves indian food
+user: asian oriental
+system: j restaurant serves asian oriental food in the cheap price range
+user: what is the phone number and address
+system: The phone number of j restaurant is 01223 307581 .
+user: what is the address
+system: dojo noodle bar serves asian oriental food in the cheap price range
+user: what is the address
+system: Sure , dojo noodle bar is on 40210 Millers Yard City Centre
+user: okay good bye
+system: Sorry I am a bit confused ; please tell me again what you are looking for .
+user: thank you good bye

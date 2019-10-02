@@ -1,0 +1,21 @@
+voip-e3b4879e0d-20130326_024044
+Task 01005: You want to find a moderately priced restaurant and it should serve persian food. If there is no such venue how about british type of food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced restaurant that serves uh
+system: What part of town do you have in mind?
+user: i dont care
+system: What kind of food would you like?
+user: persian
+system: cotto is in the moderate price range
+user: what kind of food is it
+system: cotto serves british food
+user: what about persian food
+system: restaurant one seven is in the moderate price range
+user: what type of food
+system: restaurant one seven serves british food
+user: phone number
+system: restaurant one seven is a great restaurant
+user: phone number
+system: The phone number of restaurant one seven is 01223 337766 .
+user: thank you good bye

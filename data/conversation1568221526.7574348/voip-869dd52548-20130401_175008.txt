@@ -1,0 +1,33 @@
+voip-869dd52548-20130401_175008
+Task 10896: You are looking for and it should serve irish food. You don't care about the price range. If there is no such venue how about thai type of food. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for irish food in any price range
+system: You are looking for a persian restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving persian food
+user: irish food
+system: Could you please repeat that?
+user: irish food
+system: I'm sorry but there is no restaurant serving irish food
+user: thai food
+system: Could you please repeat that?
+user: thai food
+system: I'm sorry but there is no restaurant serving irish food
+user: thai food
+system: Could you please repeat that?
+user: thai food
+system: You are looking for a irish restaurant right?
+user: no thai food
+system: I'm sorry but there is no restaurant serving irish food
+user: how about thai food
+system: Could you please repeat that?
+user: thai food
+system: There are 2 restaurants serving thai food . What price range do you want?
+user: i dont care
+system: There are 2 restaurants serving thai in any price range . What area would you like?
+user: i dont care
+system: sala thong serves thai food
+user: the address and phone number
+system: The phone number of sala thong is 01223 323178 and it is on 35 Newnham Road Newnham .
+user: thank you good bye

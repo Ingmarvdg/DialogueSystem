@@ -1,0 +1,11 @@
+voip-7e22911804-20130325_202948
+Task 07500: You want to find and it should serve french food. You don't care about the price range. You want to know the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want a restaurant that serves french food
+system: cote serves french food
+user: what is the address phone number and post code
+system: The phone number of cote is 01223 311053 and its postcode is C.B 2, 1 U.F .
+user: what is the address
+system: Sure , cote is on Bridge Street City Centre
+user: thank you good bye

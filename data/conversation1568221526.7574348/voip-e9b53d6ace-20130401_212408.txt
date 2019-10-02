@@ -1,0 +1,13 @@
+voip-e9b53d6ace-20130401_212408
+Task 01248: You want to find an expensive restaurant and it should be in the south part of town. Make sure you get the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for an expensive restaurant in the south part of town
+system: There are 5 restaurants in the expensive price range and the south of town . What type of food would you like?
+user: it doesnt matter
+system: chiquito restaurant bar is a nice place in the south of town and the prices are expensive
+user: uh phone number
+system: chiquito restaurant bar is a great restaurant
+user: phone number
+system: The phone number of chiquito restaurant bar is 01223 400170 .
+user: thank you good bye

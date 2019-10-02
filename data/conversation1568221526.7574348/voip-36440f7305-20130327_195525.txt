@@ -1,0 +1,27 @@
+voip-36440f7305-20130327_195525
+Task 07326: You want to find a moderately priced restaurant and it should serve halal food. If there is no such venue how about chinese type of food. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: halo food
+system: You are looking for a halal restaurant right?
+user: yes
+system: I'm sorry but there is no restaurant serving halal food
+user: halo
+system: Could you please repeat that?
+user: halo
+system: Could you please repeat that?
+user: chinese food
+system: There are 17 restaurants serving chinese food . What area do you want?
+user: moderately
+system: What part of town do you have in mind?
+user: any
+system: There are 17 restaurants serving chinese food in any part of town . What price range would you like?
+user: moderately
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: moderate
+system: lan hong house serves chinese food in the moderate price range
+user: phone number
+system: lan hong house is a great restaurant
+user: phone number
+system: The phone number of lan hong house is 01223 350420 .
+user: thank you good bye

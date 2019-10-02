@@ -1,0 +1,25 @@
+voip-14cb91bc48-20130327_190340
+Task 01125: You want to find a restaurant in the west part of town and it should serve japanese food. If there is no such venue how about italian type of food. Make sure you get the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i need a restaurant in the west part of town
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: uh it doesnt matter
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: expensive
+system: What kind of food would you like?
+user: japanese
+system: Sorry there is no expensive restaurant in the west of town serving japanese food
+user: italian
+system: Sorry there is no expensive restaurant in the west of town serving italian food
+user: cheap
+system: Sorry there is no expensive restaurant in the west of town serving italian food
+user: okay
+system: Sorry there is no expensive restaurant in the west of town serving italian food
+user: west
+system: Sorry there is no expensive restaurant in the west of town serving italian food
+user: moderate
+system: prezzo is a nice restaurant in the west of town serving italian food
+user: phone number
+system: The phone number of prezzo is 01799 521260 .
+user: thank you good bye

@@ -1,0 +1,15 @@
+voip-e54437a6f0-20130326_194636
+Task 00084: You want to find an expensive restaurant and it should be in the south part of town. You want to know the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: expensive restaurant south part of town
+system: What kind of food would you like?
+user: i dont care
+system: frankie and bennys is a nice place in the south of town and the prices are expensive
+user: could i have the address please
+system: Sure , frankie and bennys is on Cambridge Leisure Park Clifton Way Cherry Hinton
+user: could i have the phone number
+system: The phone number of frankie and bennys is 01223 412430 .
+user: what is the post code
+system: The post code of frankie and bennys is C.B 1, 7 D.Y
+user: thank you good bye

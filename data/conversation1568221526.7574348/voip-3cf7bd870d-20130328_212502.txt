@@ -1,0 +1,29 @@
+voip-3cf7bd870d-20130328_212502
+Task 10002: You are looking for a restaurant in the centre and it should serve kosher food. If there is no such venue how about italian type of food. Make sure you get the phone number and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i need a restaurant in the center of town
+system: Did you say you are looking for a restaurant in the centre of town?
+user: yeah
+system: What kind of food would you like?
+user: kosher food
+system: What kind of food would you like?
+user: kosher food
+system: I'm sorry but there is no restaurant serving kosher food
+user: uh how about italian
+system: I'm sorry but there is no restaurant serving kosher food
+user: how about italian food
+system: I'm sorry but there is no restaurant serving kosher food
+user: italian food
+system: Did you say you are looking for a restaurant in the centre of town?
+user: yes
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: doesnt matter
+system: Let me confirm , You are looking for a restaurant and you dont care about the price range right?
+user: right
+system: ask is a nice place in the centre of town serving tasty italian food
+user: okay whats the phone number
+system: The phone number of ask is 01223 364917 .
+user: whats the price range
+system: ask is in the cheap price range
+user: okay thank you good bye

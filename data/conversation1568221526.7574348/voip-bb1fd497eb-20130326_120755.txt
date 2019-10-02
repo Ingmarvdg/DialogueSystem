@@ -1,0 +1,11 @@
+voip-bb1fd497eb-20130326_120755
+Task 09189: You want to find a cheap restaurant and it should serve vegetarian food. If there is no such venue how about indian type of food. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap restaurant that serves vegetarian food
+system: I'm sorry but there is no restaurant serving vegetarian food
+user: how about indian food
+system: the lucky star is in the cheap price range
+user: address
+system: Sure , the lucky star is on Cambridge Leisure Park Clifton Way Cherry Hinton
+user: thank you good bye

@@ -1,0 +1,11 @@
+voip-dcaeb62b29-20130327_082120
+Task 10608: You are looking for a restaurant in the south part of town and it should serve portuguese food. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: restaurant in the south part of town
+system: What kind of food would you like?
+user: portuguese
+system: nandos city centre is a nice place in the centre of town serving tasty portuguese food
+user: what is the address
+system: Sure , nandos city centre is on 33-34 Saint Andrews Street
+user: thank you good bye

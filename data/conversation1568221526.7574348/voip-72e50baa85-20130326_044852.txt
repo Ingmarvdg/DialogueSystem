@@ -1,0 +1,29 @@
+voip-72e50baa85-20130326_044852
+Task 09342: You want to find a restaurant in the centre and it should serve vietnamese food. If there is no such venue how about turkish type of food. Make sure you get the address and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: a restaurant in the center of town
+system: There are 69 restaurants in the centre of town . What type of food do you want?
+user: vietnamese
+system: You are looking for a restaurant serving any kind of food right?
+user: vietnamese
+system: thanh binh serves vietnamese food
+user: unintelligible
+system: I'm sorry but there is no vietnamese restaurant in the centre of town
+user: how about turkish
+system: I'm sorry but there is no vietnamese restaurant in the centre of town
+user: kish
+system: Can I help you with anything else?
+user: turkish restaurant
+system: Can I help you with anything else?
+user: turkish restaurant in the center of town
+system: anatolia is a nice place in the centre of town serving tasty turkish food
+user: the address
+system: Sure , anatolia is on 30 Bridge Street City Centre
+user: range
+system: Can I help you with anything else?
+user: range
+system: anatolia is a great restaurant
+user: price range
+system: anatolia is in the moderate price range
+user: thank you good bye

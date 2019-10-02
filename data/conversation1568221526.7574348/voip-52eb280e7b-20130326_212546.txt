@@ -1,0 +1,27 @@
+voip-52eb280e7b-20130326_212546
+Task 07632: You want to find a restaurant in any area and it should serve cantonese food. If there is no such venue how about north american type of food. You want to know the address, phone number, and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cantonese food
+system: You are looking for a vietnamese restaurant right?
+user: cantonese food
+system: I'm sorry but there is no restaurant serving cantonese food
+user: north american food
+system: Did you say you are looking for a restaurant in the north of town?
+user: north american type food
+system: I'm sorry but there is no north american restaurant in the north of town
+user: any area
+system: Did you say you are looking for a restaurant in the north of town?
+user: no
+system: I'm sorry but there is no north american restaurant in the north of town
+user: south of town
+system: You are looking for a north american restaurant right?
+user: yes right
+system: I'm sorry but there is no north american restaurant in the south of town
+user: east of town
+system: I'm sorry but there is no north american restaurant in the east of town
+user: west of town
+system: You are looking for a north american restaurant right?
+user: right
+system: I'm sorry but there is no north american restaurant in the west of town
+user: thank you good bye

@@ -1,0 +1,39 @@
+voip-f17e3b578c-20130328_171738
+Task 00561: You want to find a cheap restaurant and it should serve scandinavian food. If there is no such venue how about asian oriental type of food. Make sure you get the phone number and address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What part of town do you have in mind?
+user: yeah i need to find
+system: What part of town do you have in mind?
+user: cheap restaurant
+system: What part of town do you have in mind?
+user: doesnt matter
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: What kind of food would you like?
+user: british food
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: cheap
+system: I'm sorry but there is no restaurant serving cheap british food
+user: moderately priced
+system: Let me confirm , You are looking for a restaurant in the cheap price range right?
+user: yes
+system: I'm sorry but there is no restaurant serving cheap british food
+user: moderately priced
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: Let me confirm , You are looking for a restaurant in the moderate price range right?
+user: yes
+system: the oak bistro serves british food in the moderate price range
+user: yes
+system: saint johns chop house serves british food in the moderate price range
+user: okay
+system: saint johns chop house is a great restaurant
+user: phone number
+system: The phone number of saint johns chop house is 01223 353110 .
+user: thank you
+system: saint johns chop house is a great restaurant
+user: well take that one
+system: saint johns chop house is a great restaurant
+user: thank you good bye

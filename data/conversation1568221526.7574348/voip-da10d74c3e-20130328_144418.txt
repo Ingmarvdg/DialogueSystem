@@ -1,0 +1,19 @@
+voip-da10d74c3e-20130328_144418
+Task 09288: You are looking for a restaurant in the east part of town and it should serve basque food. If there is no such venue how about indian type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the east part of town that serves
+system: There are 9 restaurants in the east of town . What type of food do you want?
+user: basque
+system: I'm sorry but there is no restaurant serving basque food
+user: is there a restaurant serving indian food
+system: Could you please repeat that?
+user: indian food
+system: Did you say you are looking for a restaurant in the east of town?
+user: yes
+system: There are 4 restaurants serving indian in the east of town . What price range would you like?
+user: any price range
+system: sitar tandoori is a nice place in the east of town serving tasty indian food
+user: can i get the address and phone number
+system: The phone number of sitar tandoori is 01223 249955 and it is on 43 High Street Cherry Hinton Cherry Hinton .
+user: thank you good bye

@@ -1,0 +1,13 @@
+voip-3b3edac94d-20130323_203738
+Task 02661: You want to find a restaurant in any area and it should serve mediterranean food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: id like to find a restaurant in any area serving mediterranean food
+system: What kind of food would you like?
+user: mediterranean food
+system: anatolia is in the centre part of town .
+user: does it serve mediterranean food
+system: shiraz restaurant is a nice restaurant in the centre of town serving mediterranean food
+user: what is the phone number
+system: The phone number of shiraz restaurant is 01223 307581 .
+user: thank you good bye

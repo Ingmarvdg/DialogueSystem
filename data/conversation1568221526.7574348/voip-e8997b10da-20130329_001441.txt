@@ -1,0 +1,37 @@
+voip-e8997b10da-20130329_001441
+Task 00528: You are looking for and it should serve mediterranean food. You don't care about the price range. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: oh god uh yes mediterranean food
+system: You are looking for a restaurant serving any kind of food right?
+user: uh mediterranean food
+system: There are 3 restaurants serving mediterranean food . What area do you want?
+user: uh doesnt matter
+system: What part of town do you have in mind?
+user: uh center
+system: Did you say you are looking for a restaurant in the centre of town?
+user: uh yes that serves mediterranean food
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: uh expensive
+system: la mimosa is a great restaurant serving expensive mediterranean food in the centre of town .
+user: uh is there anything else
+system: shiraz restaurant is a great restaurant serving expensive mediterranean food in the centre of town .
+user: okay and h can i get the address
+system: la mimosa is a great restaurant serving expensive mediterranean food in the centre of town .
+user: okay is there any others
+system: Sorry but there is no other mediterranean restaurant in the expensive price range and the centre of town
+user: okay and um
+system: la mimosa is a great restaurant serving expensive mediterranean food in the centre of town .
+user: can i have the address of the last one
+system: shiraz restaurant is a great restaurant serving expensive mediterranean food in the centre of town .
+user: okay uh can i
+system: Sorry but there is no other mediterranean restaurant in the expensive price range and the centre of town
+user: can i get the next one
+system: Could you please repeat that?
+user: uh i want the address of the or the address of the mediterranean food part
+system: la mimosa is a great restaurant serving expensive mediterranean food in the centre of town .
+user: okay can i get the address
+system: Sure , la mimosa is on Thompsons Lane Fen Ditton
+user: and the phone number
+system: The phone number of la mimosa is 01223 362525 .
+user: okay thank you and good bye

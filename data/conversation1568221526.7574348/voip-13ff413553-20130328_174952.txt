@@ -1,0 +1,17 @@
+voip-13ff413553-20130328_174952
+Task 11577: You are looking for a restaurant in the west part of town and it should serve chinese food. If there is no such venue how about south area. Make sure you get the address and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: need one in the west part of town
+system: What kind of food would you like?
+user: i need
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: any
+system: maharajah tandoori restaurant is a nice place in the west of town
+user: address
+system: maharajah tandoori restaurant is a great restaurant
+user: the address
+system: Sure , maharajah tandoori restaurant is on 41518 Castle Street City Centre
+user: price range
+system: maharajah tandoori restaurant is in the expensive price range
+user: thank you goodbye

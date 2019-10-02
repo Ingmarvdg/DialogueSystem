@@ -1,0 +1,19 @@
+voip-d66e12b45c-20130327_172709
+Task 00972: You are looking for a moderately priced restaurant and it should serve british food. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What part of town do you have in mind?
+user: moderately priced
+system: What part of town do you have in mind?
+user: any
+system: What kind of food would you like?
+user: british
+system: the copper kettle serves british food in the moderate price range
+user: is there anything else
+system: the oak bistro serves british food in the moderate price range
+user: phone number
+system: the oak bistro is a great restaurant
+user: phone number
+system: The phone number of the oak bistro is 01223 323361 .
+user: thank you good bye

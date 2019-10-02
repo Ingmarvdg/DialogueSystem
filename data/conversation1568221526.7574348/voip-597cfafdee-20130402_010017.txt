@@ -1,0 +1,25 @@
+voip-597cfafdee-20130402_010017
+Task 06528: You want to find a restaurant in the north part of town and it should serve kosher food. If there is no such venue how about french type of food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type .
+user: sil
+system: What kind of food would you like?
+user: im looking for a restaurant in the north part of town serving kosher food
+system: I'm sorry but there is no restaurant serving kosher food
+user: if there is no such venue how about french type of food
+system: Could you please repeat that?
+user: if there is no such venue how about french type of food
+system: Could you please repeat that?
+user: if there is no such venue how about french type of food
+system: I'm sorry but there is no restaurant serving kosher food
+user: french type of food
+system: I'm sorry but there is no restaurant serving kosher food
+user: im looking for a restaurant in the north part of town serving french type of food
+system: Could you please repeat that?
+user: im looking for a restaurant in the north of town serving korean french food
+system: You are looking for a korean restaurant right?
+user: no
+system: I'm sorry but there is no korean restaurant in the north of town
+user: im looking for a restaurant in the north of town serving french type of food
+system: Could you please repeat that?
+user: thank you goodbye

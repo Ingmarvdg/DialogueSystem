@@ -1,0 +1,15 @@
+voip-22756d9e8f-20130329_050743
+Task 10479: You want to find a cheap restaurant and it should be in the north part of town. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address and type of food.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find
+system: What kind of food would you like?
+user: i want to find a cheap restaurant in the north part of town
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: is there anything else
+system: royal spice is a nice restaurant in the north of town in the cheap price range
+user: may i have the address and type of food
+system: Sure , royal spice is on Victoria Avenue Chesterton
+user: the type of food
+system: royal spice serves indian food
+user: thank you good bye

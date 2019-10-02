@@ -1,0 +1,15 @@
+voip-e0035cc31b-20130323_210142
+Task 02859: You want to find an expensive restaurant and it should serve steakhouse food. If there is no such venue how about british type of food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want an expensive steak house
+system: I'm sorry but there is no restaurant serving steakhouse food
+user: how about british type food
+system: You are looking for a british restaurant right?
+user: yes
+system: There are 6 restaurants serving british in the expensive price range . What area would you like?
+user: dont care
+system: travellers rest serves british food in the expensive price range
+user: whats the phone number
+system: The phone number of travellers rest is 01223 276182 .
+user: thank you good bye

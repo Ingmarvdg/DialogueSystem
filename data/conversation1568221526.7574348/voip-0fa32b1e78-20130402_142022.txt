@@ -1,0 +1,15 @@
+voip-0fa32b1e78-20130402_142022
+Task 10764: You want to find a cheap restaurant and it should serve austrian food. If there is no such venue how about portuguese type of food. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a cheap restaurant that serves austrian food
+system: I'm sorry but there is no restaurant serving austrian food
+user: how about portuguese food
+system: I'm sorry but there is no restaurant serving austrian food
+user: portuguese
+system: What part of town do you have in mind?
+user: i dont care
+system: nandos serves portuguese food in the cheap price range
+user: whats their address
+system: Sure , nandos is on Cambridge Leisure Park Clifton Way
+user: thank you good bye

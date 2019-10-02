@@ -1,0 +1,17 @@
+voip-ad40cf5489-20130325_175141
+Task 08079: You want to find a restaurant in any area and it should serve welsh food. If there is no such venue how about modern european type of food. Make sure you get the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want a restaurant that serves welsh food
+system: I am sorry but there is no welsh restaurant that matches your request
+user: how about modern european type of food
+system: You are looking for a restaurant is that right?
+user: modern european type food
+system: What part of town do you have in mind?
+user: any area
+system: restaurant alimentum is a nice restaurant in the south of town serving modern european food
+user: what is the uh
+system: restaurant alimentum serves modern european food .
+user: phone number
+system: The phone number of restaurant alimentum is 01223 413000 .
+user: thank you good bye

@@ -1,0 +1,19 @@
+voip-6d6587c57d-20130328_140525
+Task 03507: You are looking for a restaurant in any area and it should serve scandinavian food. If there is no such venue how about vietnamese type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for scandinavian food
+system: What part of town do you have in mind?
+user: any part of town
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: cheap
+system: mahal of cambridge serves indian food in the cheap price range
+user: scandanavian
+system: mahal of cambridge is a great restaurant
+user: im done thank you
+system: mahal of cambridge is a great restaurant
+user: okay
+system: the gandhi serves indian food in the cheap price range
+user: okay good bye

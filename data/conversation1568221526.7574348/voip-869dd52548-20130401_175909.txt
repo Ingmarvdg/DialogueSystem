@@ -1,0 +1,19 @@
+voip-869dd52548-20130401_175909
+Task 04950: You want to find a moderately priced restaurant and it should be in the west part of town. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking in the west of town moderately priced
+system: There are 9 restaurants in the south of town . What type of food do you want?
+user: in the west part of town
+system: What part of town do you have in mind?
+user: west
+system: There are 12 restaurants in the west of town . What type of food do you want?
+user: moderately priced
+system: There are 2 restaurants in the moderate price range and the west of town . What type of food would you like?
+user: i dont care
+system: There are 12 restaurants if you don't care about the food . What area do you want?
+user: west part of town moderately priced
+system: prezzo is a nice place in the west of town and the prices are moderate
+user: address and phone number
+system: The phone number of prezzo is 01799 521260 and it is on 21 - 24 Northampton Road .
+user: thank you good bye

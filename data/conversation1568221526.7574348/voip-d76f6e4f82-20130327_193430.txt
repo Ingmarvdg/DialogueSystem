@@ -1,0 +1,11 @@
+voip-d76f6e4f82-20130327_193430
+Task 02643: You want to find a restaurant in the centre and it should serve spanish food. You want to know the phone number and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for a restaurant in the center part of town
+system: What kind of food would you like?
+user: spanish food
+system: pizza express is a nice place in the centre of town
+user: uh whats the phone number and post code
+system: The phone number of pizza express is 01223 324033 and its postcode is C.B 2, 1 D.B .
+user: thank you good bye

@@ -1,0 +1,33 @@
+voip-597cfafdee-20130328_230619
+Task 10134: You want to find a moderately priced restaurant and it should serve fusion food. If there is no such venue how about european type of food. Make sure you get the address and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced restaurant serving fusion food
+system: You are looking for a fusion restaurant right?
+user: yes
+system: I'm sorry but there is no restaurant serving fusion food
+user: if there is no such venue how about european type of food
+system: Could you please repeat that?
+user: if there is no such venue how about european type of
+system: I'm sorry but there is no restaurant serving fusion food
+user: how about european type of food
+system: Could you please repeat that?
+user: european food
+system: There are 2 restaurants serving european in the moderate price range . What area would you like?
+user: any type of area
+system: What part of town do you have in mind?
+user: center
+system: What part of town do you have in mind?
+user: center
+system: What part of town do you have in mind?
+user: center part of town
+system: What part of town do you have in mind?
+user: center
+system: You are looking for a european restaurant right?
+user: yes
+system: Let me confirm , You are looking for a restaurant in the moderate price range right?
+user: yes
+system: hotel du vin and bistro is a great restaurant serving moderate european food in the centre of town .
+user: can i have the address and the postcode
+system: hotel du vin and bistro is on 15 - 19 Trumpington Street , C.B 2, 1 Q.A
+user: thank you goodbye

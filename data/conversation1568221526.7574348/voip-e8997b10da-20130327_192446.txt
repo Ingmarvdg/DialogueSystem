@@ -1,0 +1,33 @@
+voip-e8997b10da-20130327_192446
+Task 08889: You want to find a restaurant in the west part of town and it should serve christmas food. If there is no such venue how about italian type of food. You want to know the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: uh yes id like a restaurant in the west part of town and it should serve christmas food
+system: You are looking for a christmas restaurant right?
+user: yeah
+system: I'm sorry but there is no restaurant serving christmas food
+user: okay how about a venue with italian food
+system: Could you please repeat that?
+user: uh italian food
+system: I'm sorry but there is no restaurant serving christmas food
+user: okay uh forget that then can i get a restaurant serving italian food
+system: You are looking for a christmas restaurant right?
+user: uh no
+system: I'm sorry but there is no restaurant serving christmas food
+user: im looking for an italian restaurant
+system: You are looking for a italian restaurant right?
+user: yes
+system: What part of town do you have in mind?
+user: uh the west part of town
+system: There are 2 restaurants serving italian in the west of town . What price range would you like?
+user: um medium price range
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: uh cheap moderate
+system: la margherita is a great restaurant serving cheap italian food in the west of town .
+user: and whats the phone number
+system: The phone number of la margherita is 01223 315232 .
+user: uh could you repeat that
+system: la margherita is a great restaurant
+user: uh could you repeat the phone number
+system: The phone number of la margherita is 01223 315232 .
+user: okay thank you good bye

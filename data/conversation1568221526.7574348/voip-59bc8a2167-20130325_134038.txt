@@ -1,0 +1,19 @@
+voip-59bc8a2167-20130325_134038
+Task 04599: You want to find a restaurant in the north part of town and it should serve welsh food. If there is no such venue how about asian oriental type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: unintelligible
+system: What kind of food would you like?
+user: welsh food
+system: You are looking for a restaurant serving any kind of food right?
+user: welsh food
+system: You are looking for a restaurant serving any kind of food right?
+user: asian oriental
+system: What part of town do you have in mind?
+user: north
+system: There are 10 restaurants in the north of town serving any kind of food . What price range would you like?
+user: cheap
+system: royal spice is a nice place in the north of town and the prices are cheap
+user: address and phone number
+system: The phone number of royal spice is 01733 553355 and it is on Victoria Avenue Chesterton .
+user: noise

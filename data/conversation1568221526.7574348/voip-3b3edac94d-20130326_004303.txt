@@ -1,0 +1,13 @@
+voip-3b3edac94d-20130326_004303
+Task 00192: You want to find an expensive restaurant and it should be in the east part of town. Make sure you get the address and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for an expensive restaurant in the east of town
+system: What kind of food would you like?
+user: i dont care
+system: sitar tandoori is a nice place in the east of town and the prices are expensive
+user: what is the address and post code
+system: sitar tandoori is on 43 High Street Cherry Hinton Cherry Hinton , C.B 1, 9 H.X
+user: what is the post code
+system: The post code of sitar tandoori is C.B 1, 9 H.X
+user: thank you good bye

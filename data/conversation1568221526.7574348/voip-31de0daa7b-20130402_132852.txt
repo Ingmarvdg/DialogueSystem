@@ -1,0 +1,29 @@
+voip-31de0daa7b-20130402_132852
+Task 09612: You want to find a restaurant in the south part of town and it should serve christmas food. If there is no such venue how about chinese type of food. Make sure you get the address and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: restaurant south part of town christmas food
+system: You are looking for a christmas restaurant right?
+user: yes
+system: You are looking for a christmas restaurant right?
+user: yes
+system: You are looking for a vietnamese restaurant right?
+user: no
+system: thanh binh serves vietnamese food
+user: christmas
+system: thanh binh serves vietnamese food
+user: christmas food
+system: I'm sorry but there is no restaurant serving christmas food
+user: chinese food
+system: Can I help you with anything else?
+user: chinese food
+system: thanh binh is a great restaurant
+user: food
+system: peking restaurant is a nice place in the south of town serving tasty chinese food
+user: address
+system: peking restaurant is a great restaurant
+user: address
+system: Sure , peking restaurant is on 10 Homerton Street City Centre
+user: price range
+system: peking restaurant is in the expensive price range
+user: thank you good bye

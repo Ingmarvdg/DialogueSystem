@@ -1,0 +1,19 @@
+voip-90732b027d-20130327_183400
+Task 10680: You want to find a restaurant in the east part of town and it should serve british food. Make sure you get the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: There are  restaurants . That area would you like?
+user: east
+system: the slug and lettuce is a great restaurant
+user: british food
+system: the copper kettle serves british food .
+user: address
+system: Sure , the copper kettle is on 4 Kings Parade City Centre
+user: phone number
+system: The phone number of the copper kettle is 01223 365068 .
+user: noise
+system: the copper kettle serves british food .
+user: post code
+system: The post code of the copper kettle is C.B 2, 1 S.J
+user: thank you good bye

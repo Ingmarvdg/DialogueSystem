@@ -1,0 +1,43 @@
+voip-31de0daa7b-20130401_204621
+Task 11358: You want to find a cheap restaurant and it should serve vietnamese food. Make sure you get the phone number and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap restaurant
+system: What part of town do you have in mind?
+user: center
+system: What kind of food would you like?
+user: unintelligible
+system: You are looking for a restaurant is that right?
+user: vietnamese food
+system: the missing sock is a nice restaurant in the east of town in the cheap price range
+user: food
+system: Can I help you with anything else?
+user: vietnamese food
+system: Sorry there is no cheap restaurant in the east of town serving vietnamese food
+user: north
+system: Sorry there is no cheap restaurant in the north of town serving vietnamese food
+user: down town
+system: Sorry there is no cheap restaurant in the north of town serving vietnamese food
+user: west
+system: Sorry there is no cheap restaurant in the north of town serving vietnamese food
+user: cambridge vietnamese food
+system: Sorry there is no cheap restaurant in the north of town serving vietnamese food
+user: center
+system: Sorry there is no cheap restaurant in the centre of town serving vietnamese food
+user: east
+system: Sorry there is no cheap restaurant in the east of town serving vietnamese food
+user: south
+system: Sorry there is no cheap restaurant in the east of town serving vietnamese food
+user: north east
+system: Sorry there is no cheap restaurant in the north of town serving vietnamese food
+user: west
+system: Sorry there is no cheap restaurant in the north of town serving vietnamese food
+user: center
+system: Sorry there is no cheap restaurant in the centre of town serving vietnamese food
+user: moderate
+system: Sorry there is no moderate restaurant in the centre of town serving vietnamese food
+user: north
+system: Sorry there is no moderate restaurant in the north of town serving vietnamese food
+user: east
+system: Sorry there is no moderate restaurant in the east of town serving vietnamese food
+user: thank you goodbye

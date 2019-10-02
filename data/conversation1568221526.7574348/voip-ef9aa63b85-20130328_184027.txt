@@ -1,0 +1,9 @@
+voip-ef9aa63b85-20130328_184027
+Task 06081: You are looking for a restaurant in the west part of town and it should serve italian food. You want to know the phone number and address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the west
+system: What kind of food would you like?
+user: italian
+system: la margherita is a nice restaurant in the west of town serving italian food
+user: thank you good bye

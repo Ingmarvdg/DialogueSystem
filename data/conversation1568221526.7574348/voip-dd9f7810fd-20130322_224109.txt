@@ -1,0 +1,15 @@
+voip-dd9f7810fd-20130322_224109
+Task 05595: You want to find and it should serve turkish food. You don't care about the price range. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant that serves turkish food
+system: What kind of food would you like?
+user: turkish
+system: There are 3 restaurants serving turkish food . What area do you want?
+user: i dont care
+system: There are 3 restaurants serving turkish food in any part of town . What price range would you like?
+user: i dont care
+system: meze bar restaurant serves turkish food
+user: whats the address
+system: Sure , meze bar restaurant is on 196 Mill Road City Centre
+user: thank you good bye

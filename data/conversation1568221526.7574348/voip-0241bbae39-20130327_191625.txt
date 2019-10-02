@@ -1,0 +1,19 @@
+voip-0241bbae39-20130327_191625
+Task 09189: You want to find a cheap restaurant and it should serve vegetarian food. If there is no such venue how about indian type of food. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: unintelligible
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: cheap
+system: What part of town do you have in mind?
+user: uh dont care but can it be vegetarian food
+system: Sorry there is no vegetarian restaurant in the cheap price range
+user: what about indian then
+system: the missing sock is a nice restaurant in the east of town serving international food
+user: cheap indian food
+system: mahal of cambridge is a nice restaurant in the centre of town serving indian food
+user: in the cheap price range
+system: mahal of cambridge is in the cheap price range
+user: can i have the address
+system: Sure , mahal of cambridge is on 3 - 5 Millers Yard Mill Lane
+user: thank you good bye

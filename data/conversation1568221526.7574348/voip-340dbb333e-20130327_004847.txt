@@ -1,0 +1,19 @@
+voip-340dbb333e-20130327_004847
+Task 01662: You want to find an expensive restaurant and it should be in the south part of town. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: expensive restaurant
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: expensive
+system: golden wok is a great restaurant
+user: south part of town
+system: pizza hut cherry hinton is in the south part of town .
+user: what price range
+system: pizza hut cherry hinton is in the moderate price range
+user: expensive price range
+system: pizza hut cherry hinton is in the moderate price range
+user: is there any expensive restaurant
+system: frankie and bennys is a nice restaurant in the south of town in the expensive price range
+user: what is the address
+system: Sure , frankie and bennys is on Cambridge Leisure Park Clifton Way Cherry Hinton
+user: thank you good bye

@@ -1,0 +1,17 @@
+voip-48c12815b3-20130402_051808
+Task 05628: You are looking for a restaurant in the centre and it should serve greek food. If there is no such venue how about french type of food. Make sure you get the address, phone number, and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the center serving greek food
+system: I'm sorry but there is no restaurant serving greek food
+user: how about french food
+system: stazione restaurant and coffee bar is a nice place in the centre of town
+user: is it serving french food
+system: cote is a nice place in the centre of town serving tasty french food
+user: what is the price range
+system: cote is in the expensive price range
+user: what is the address and phone number
+system: Sure , cote is on Bridge Street City Centre
+user: whats the phone number
+system: The phone number of cote is 01223 311053 .
+user: thank you good bye

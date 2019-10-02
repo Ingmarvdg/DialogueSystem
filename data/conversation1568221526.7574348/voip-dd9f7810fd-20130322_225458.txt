@@ -1,0 +1,15 @@
+voip-dd9f7810fd-20130322_225458
+Task 00051: You want to find a moderately priced restaurant and it should serve canapes food. If there is no such venue how about turkish type of food. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced restaurant that serves canapes
+system: yippee noodle bar is in the moderate price range
+user: does it serve canapes
+system: yippee noodle bar is a great restaurant
+user: what kind of food does it serve
+system: yippee noodle bar serves asian oriental food
+user: how about a turkish restaurant
+system: anatolia serves turkish food in the moderate price range
+user: whats the address
+system: Sure , anatolia is on 30 Bridge Street City Centre
+user: thank you good bye

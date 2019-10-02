@@ -1,0 +1,9 @@
+voip-e9b53d6ace-20130401_185044
+Task 10326: You are looking for a restaurant in the east part of town and it should serve italian food. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a italian restaurant in east part of town
+system: pizza hut fen ditton is a nice place in the east of town serving tasty italian food
+user: uh address
+system: Sure , pizza hut fen ditton is on Cambridge Retail Park Newmarket Road Fen Ditton
+user: thank you good bye

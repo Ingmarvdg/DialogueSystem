@@ -1,0 +1,23 @@
+voip-dd9f7810fd-20130322_224223
+Task 03846: You want to find a restaurant in any area and it should serve seafood. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for a sea food restaurant
+system: What part of town do you have in mind?
+user: i dont care
+system: curry king is in the centre part of town .
+user: noise
+system: curry king is a great restaurant
+user: whats the address
+system: Sure , curry king is on 5 Jordans Yard Bridge Street City Centre
+user: whats the phone number
+system: The phone number of curry king is 01223 324351 .
+user: what kind of food does it serve
+system: curry king serves indian food
+user: im looking for a sea food restaurant
+system: curry king is a great restaurant
+user: does it serve sea food
+system: curry king is a great restaurant
+user: im looking for a sea food restaurant
+system: curry king is a great restaurant
+user: thank you good bye

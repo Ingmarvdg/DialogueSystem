@@ -1,0 +1,13 @@
+voip-78f497f314-20130324_203101
+Task 04797: You are looking for a cheap restaurant and it should be in the south part of town. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: uh im looking for a cheap restaurant in the south part of town
+system: What kind of food would you like?
+user: any type of food
+system: the lucky star is a nice place in the south of town and the prices are cheap
+user: are there any other restaurants
+system: nandos is a nice place in the south of town and the prices are cheap
+user: can i get the address and phone number please
+system: The phone number of nandos is 01223 327908 and it is on Cambridge Leisure Park Clifton Way .
+user: thank you good bye

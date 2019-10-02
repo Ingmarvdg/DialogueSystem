@@ -1,0 +1,11 @@
+voip-a8649977cf-20130323_160201
+Task 01617: You want to find a moderately priced restaurant and it should be in the north part of town. You want to know the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want a moderately priced restaurant in the north part of town
+system: meghna is a nice restaurant in the north of town in the moderate price range
+user: the address phone number and post code
+system: You are looking for a restaurant is that right?
+user: whats the address phone number and post code
+system: The phone number of meghna is 01223 727410 and it is on 205 Victoria Road Chesterton .
+user: thank you good bye

@@ -1,0 +1,15 @@
+voip-fbd422ad18-20130328_181029
+Task 01506: You want to find a restaurant in any area and it should serve vietnamese food. You want to know the phone number and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: vietnamese food in any area
+system: You are looking for a restaurant is that right?
+user: yes
+system: thanh binh serves vietnamese food .
+user: yes
+system: Can I help you with anything else?
+user: the phone numeber
+system: The phone number of thanh binh is 01223 362456 .
+user: the post code
+system: The post code of thanh binh is C.B 3, 0 A.F
+user: thank you good bye

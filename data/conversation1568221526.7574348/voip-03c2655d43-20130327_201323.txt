@@ -1,0 +1,11 @@
+voip-03c2655d43-20130327_201323
+Task 08403: You are looking for and it should serve seafood. You don't care about the price range. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sea food
+system: What part of town do you have in mind?
+user: any
+system: ask is in the centre part of town .
+user: address
+system: Sure , ask is on 12 Bridge Street City Centre
+user: thank you good bye

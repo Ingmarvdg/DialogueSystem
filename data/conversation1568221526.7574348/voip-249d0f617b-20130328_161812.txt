@@ -1,0 +1,11 @@
+voip-249d0f617b-20130328_161812
+Task 12138: You are looking for a moderately priced restaurant and it should be in the west part of town. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: west part of town
+system: What kind of food would you like?
+user: moderately priced
+system: What kind of food would you like?
+user: anything
+system: prezzo is a nice place in the west of town and the prices are moderate
+user: thank you good bye

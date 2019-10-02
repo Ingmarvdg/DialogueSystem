@@ -1,0 +1,13 @@
+voip-fe2783c40a-20130401_144320
+Task 03093: You want to find an expensive restaurant and it should serve traditional food. If there is no such venue how about asian oriental type of food. You want to know the phone number and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What part of town do you have in mind?
+user: sil
+system: What part of town do you have in mind?
+user: expensive
+system: What part of town do you have in mind?
+user: expensive
+system: What part of town do you have in mind?
+user: thank you good bye

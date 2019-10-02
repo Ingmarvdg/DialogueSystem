@@ -1,0 +1,15 @@
+voip-b6618de447-20130326_211551
+Task 03177: You are looking for a restaurant in the west part of town and it should serve halal food. If there is no such venue how about indian type of food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the west part of town that serves
+system: What kind of food would you like?
+user: halal
+system: Sorry there is no halal restaurant in the west of town
+user: uh what about indian food
+system: india house is a nice restaurant in the west of town serving indian food
+user: uh could you give me the address and telephone number
+system: Sure , india house is on 31 Newnham Road Newnham
+user: and the telephone number
+system: The phone number of india house is 01223 461661 .
+user: thank you good bye

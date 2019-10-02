@@ -1,0 +1,17 @@
+voip-9f447ce48e-20130328_115314
+Task 03744: You are looking for a moderately priced restaurant and it should serve chinese food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What kind of food would you like?
+user: sil
+system: What kind of food would you like?
+user: chinese food thats moderately priced
+system: There are 17 restaurants serving chinese food . What price range do you want?
+user: moderate
+system: There are 4 restaurants serving chinese in the moderate price range . What area would you like?
+user: it doesnt matter
+system: golden wok serves chinese food in the moderate price range
+user: can i have the address and phone number
+system: The phone number of golden wok is 01223 350688 and it is on 191 Histon Road Chesterton .
+user: thank you good bye

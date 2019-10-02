@@ -1,0 +1,19 @@
+voip-fe4b6ef58f-20130325_234625
+Task 02910: You are looking for and it should serve gastropub food. You don't care about the price range. You want to know the address and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a unintelligible food
+system: What part of town do you have in mind?
+user: any
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: any
+system: Sorry would you like something in the moderate price range or you dont care
+user: dont care
+system: the slug and lettuce serves gastropub food
+user: whats the address
+system: Sure , the slug and lettuce is on 34 - 35 Green Street
+user: thank you
+system: the slug and lettuce is a great restaurant
+user: whats the post code
+system: The post code of the slug and lettuce is C.B 2, 3 J.U
+user: thank you good bye

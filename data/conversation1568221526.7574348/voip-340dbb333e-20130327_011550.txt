@@ -1,0 +1,15 @@
+voip-340dbb333e-20130327_011550
+Task 11166: You are looking for a cheap restaurant and it should serve indian food. Make sure you get the address, phone number, and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap restaurant serving indian food
+system: the gandhi is a great restaurant serving indian food and it is in the cheap price range
+user: what is the address
+system: Sure , the gandhi is on 72 Regent Street City Centre
+user: what is the phone number
+system: The phone number of the gandhi is 01223 353942 .
+user: uh what is the
+system: kohinoor is a great restaurant serving indian food and it is in the cheap price range
+user: what area is it in
+system: kohinoor is a nice place in the centre of town
+user: thank you good bye

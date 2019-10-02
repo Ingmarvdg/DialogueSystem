@@ -1,0 +1,17 @@
+voip-21ec2b7850-20130326_025736
+Task 10485: You are looking for a cheap restaurant and it should serve spanish food. You want to know the address and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap
+system: What part of town do you have in mind?
+user: any
+system: What kind of food would you like?
+user: spanish
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: cheap
+system: la raza serves spanish food in the cheap price range
+user: address
+system: Sure , la raza is on 4 - 6 Rose Crescent
+user: post code
+system: The post code of la raza is C.B 2, 3 L.L
+user: thank you good bye

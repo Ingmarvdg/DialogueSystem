@@ -1,0 +1,15 @@
+voip-c8ec8c76dd-20130328_205803
+Task 12585: You are looking for and it should serve traditional food. You don't care about the price range. If there is no such venue how about korean type of food. Make sure you get the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant that serves traditional food
+system: You are looking for a traditional restaurant right?
+user: yes
+system: I'm sorry but there is no restaurant serving traditional food
+user: how about korean food
+system: Could you please repeat that?
+user: do you have a restaurant that serves korean food
+system: little seoul serves korean food
+user: what is their phone number
+system: The phone number of little seoul is 01223 308681 .
+user: thank you good bye

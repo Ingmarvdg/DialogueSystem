@@ -1,0 +1,25 @@
+voip-4f069a4136-20130402_040121
+Task 07962: You are looking for a restaurant in any area and it should serve moroccan food. If there is no such venue how about asian oriental type of food. Make sure you get the phone number and address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for a restaurant in any area
+system: There are 110 restaurants in all parts of town . What type of food do you want?
+user: any restaurant that serves moroccan food
+system: I'm sorry but there is no restaurant serving moroccan food
+user: any restaurant that serves asian oriental food
+system: Could you please repeat that?
+user: asian oriental
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: There are 5 restaurants serving asian oriental food in any part of town . What price range would you like?
+user: doesnt matter
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: i dont care
+system: yippee noodle bar serves asian oriental food
+user: may i have its address
+system: Sure , yippee noodle bar is on 40428 King Street City Centre
+user: whats its number
+system: yippee noodle bar is a great restaurant
+user: whats its number
+system: The phone number of yippee noodle bar is 01223 518111 .
+user: thank you good bye

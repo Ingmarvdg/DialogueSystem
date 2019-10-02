@@ -1,0 +1,17 @@
+voip-935947e17b-20130402_201638
+Task 06672: You are looking for a restaurant in the south part of town and it should serve belgian food. If there is no such venue how about portuguese type of food. You want to know the phone number and address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What part of town do you have in mind?
+user: south part of town
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: belgian food
+system: Sorry there is no belgian restaurant in the south of town
+user: how about portuguese
+system: nandos is a nice restaurant in the south of town serving portuguese food
+user: may i have the phone number
+system: The phone number of nandos is 01223 327908 .
+user: may i have the address
+system: Sure , nandos is on Cambridge Leisure Park Clifton Way
+user: thank you good bye

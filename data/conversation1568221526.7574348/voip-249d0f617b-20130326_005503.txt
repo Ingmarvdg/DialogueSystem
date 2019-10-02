@@ -1,0 +1,17 @@
+voip-249d0f617b-20130326_005503
+Task 05019: You want to find a moderately priced restaurant and it should be in the east part of town. Make sure you get the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i would like to find a moderately priced
+system: Sorry would you like something in the moderate price range or in the cheap price range
+user: yes
+system: Sorry would you like something in the moderate price range or in the cheap price range
+user: moderately
+system: Let me confirm , You are looking for a restaurant in the moderate price range right?
+user: yes
+system: What part of town do you have in mind?
+user: east
+system: What kind of food would you like?
+user: it doesnt matter
+system: pizza hut fen ditton is a nice place in the east of town and the prices are moderate
+user: thank you good bye

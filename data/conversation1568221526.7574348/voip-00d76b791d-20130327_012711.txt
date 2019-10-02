@@ -1,0 +1,9 @@
+voip-00d76b791d-20130327_012711
+Task 04455: You want to find a moderately priced restaurant and it should be in the east part of town. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderately priced restaurant in the east part of town
+system: curry prince is a nice restaurant in the east of town in the moderate price range
+user: address
+system: Sure , curry prince is on 451 Newmarket Road Fen Ditton
+user: thank you good bye

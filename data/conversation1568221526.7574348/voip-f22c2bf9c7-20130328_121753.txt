@@ -1,0 +1,39 @@
+voip-f22c2bf9c7-20130328_121753
+Task 03162: You want to find a moderately priced restaurant and it should be in the north part of town. Make sure you get the address and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: north
+system: What part of town do you have in mind?
+user: north
+system: What part of town do you have in mind?
+user: north
+system: What part of town do you have in mind?
+user: sil
+system: What part of town do you have in mind?
+user: north
+system: Sorry would you like something in the south or in the west
+user: north
+system: Sorry would you like something in the south or in the west
+user: north
+system: Sorry would you like something in the south or in the west
+user: north
+system: Sorry would you like something in the south or in the west
+user: moderate
+system: Sorry would you like something in the south or in the west
+user: moderate
+system: Sorry would you like something in the south or in the west
+user: north
+system: hotel du vin and bistro is in the moderate price range
+user: north
+system: hotel du vin and bistro is a great restaurant
+user: north
+system: hotel du vin and bistro is a great restaurant
+user: address
+system: Sure , hotel du vin and bistro is on 15 - 19 Trumpington Street
+user: sil
+system: hotel du vin and bistro is a great restaurant
+user: address
+system: Sure , hotel du vin and bistro is on 15 - 19 Trumpington Street
+user: postcode
+system: The post code of hotel du vin and bistro is C.B 2, 1 Q.A
+user: thank you goodbye

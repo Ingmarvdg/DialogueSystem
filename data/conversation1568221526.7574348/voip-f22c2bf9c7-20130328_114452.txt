@@ -1,0 +1,21 @@
+voip-f22c2bf9c7-20130328_114452
+Task 10857: You want to find a cheap restaurant and it should serve swedish food. If there is no such venue how about indian type of food. You want to know the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: swedish food
+system: What part of town do you have in mind?
+user: center
+system: What kind of food would you like?
+user: swedish
+system: Sorry there is no swedish restaurant in the centre of town
+user: east
+system: Sorry there is no swedish restaurant in the centre of town
+user: east
+system: Sorry there is no swedish restaurant in the centre of town
+user: india
+system: Sorry there is no swedish restaurant in the centre of town
+user: indian
+system: curry garden is a nice restaurant in the centre of town serving indian food
+user: address
+system: Sure , curry garden is on 106 Regent Street City Centre
+user: thank you good bye

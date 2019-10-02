@@ -1,0 +1,27 @@
+voip-a31ca3e355-20130324_190654
+Task 01713: You are looking for a moderately priced restaurant and it should serve swiss food. If there is no such venue how about british type of food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What part of town do you have in mind?
+user: moderately priced
+system: What part of town do you have in mind?
+user: doesnt matter
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: golden wok is in the moderate price range
+user: swiss food
+system: golden wok is a great restaurant
+user: swiss food
+system: golden wok is a great restaurant
+user: british food
+system: golden wok is a great restaurant
+user: british food
+system: saint johns chop house serves british food in the moderate price range
+user: sil
+system: cotto serves british food in the moderate price range
+user: phone number
+system: cotto is a great restaurant
+user: phone number
+system: The phone number of cotto is 01223 302010 .
+user: thank you good bye

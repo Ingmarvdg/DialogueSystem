@@ -1,0 +1,21 @@
+voip-5749b16764-20130328_150143
+Task 05001: You are looking for a restaurant in any area and it should serve panasian food. If there is no such venue how about international type of food. You want to know the phone number and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in any area and it should serve pan asian food
+system: I'm sorry but there is no restaurant serving panasian food
+user: what about international food
+system: I'm sorry but there is no restaurant serving panasian food
+user: uh international food
+system: Ok , a restaurant in any part of town is that right?
+user: repeat that
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: any range is fine
+system: Let me confirm , You are looking for a restaurant and you dont care about the price range right?
+user: yes
+system: bloomsbury restaurant serves international food
+user: whats the phone number
+system: The phone number of bloomsbury restaurant is 0871 942 9180 .
+user: whats the post code
+system: The post code of bloomsbury restaurant is C.B 2, 3 D.T
+user: thank you good bye

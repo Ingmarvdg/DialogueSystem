@@ -1,0 +1,21 @@
+voip-e8997b10da-20130327_194306
+Task 01302: You want to find a restaurant in the north part of town and it should serve mediterranean food. If there is no such venue how about any area. You want to know the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: uh yes i want to find a restaurant in the north part of town that serves
+system: What part of town do you have in mind?
+user: uh the north
+system: What kind of food would you like?
+user: mediterranean food
+system: I'm sorry but there is no mediterranean restaurant in the north of town
+user: okay how about any area
+system: I'm sorry but there is no mediterranean restaurant in the north of town
+user: okay how about any part of town
+system: shiraz restaurant serves mediterranean food
+user: okay and uh can i get the address
+system: Sure , shiraz restaurant is on 84 Regent Street City Centre
+user: okay and whats the post code
+system: The post code of shiraz restaurant is C.B 2, 1 D.P
+user: okay and uh the phone number
+system: The phone number of shiraz restaurant is 01223 307581 .
+user: okay thank you and good bye

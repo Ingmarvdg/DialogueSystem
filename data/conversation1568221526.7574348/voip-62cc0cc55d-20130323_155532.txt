@@ -1,0 +1,23 @@
+voip-62cc0cc55d-20130323_155532
+Task 08334: You are looking for a cheap restaurant and it should serve chinese food. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for restaurant that serves chinese food
+system: There are 22 restaurants in the cheap price range . What type of food do you want?
+user: chinese
+system: There are 4 restaurants serving chinese in the cheap price range . What area would you like?
+user: it doesnt matter
+system: rice house serves chinese food in the cheap price range
+user: do you have another
+system: rice house is a great restaurant
+user: anything else
+system: golden house serves chinese food in the cheap price range
+user: and anything else
+system: the lucky star serves chinese food in the cheap price range
+user: do you have the address of the lucky star
+system: the lucky star is a great restaurant
+user: the address
+system: Sure , the lucky star is on Cambridge Leisure Park Clifton Way Cherry Hinton
+user: the phone number
+system: The phone number of the lucky star is 01223 244277 .
+user: okay thank you good bye

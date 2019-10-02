@@ -1,0 +1,17 @@
+voip-62cc0cc55d-20130328_143025
+Task 07581: You want to find a restaurant in the west part of town and it should serve jamaican food. If there is no such venue how about italian type of food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want a restaurant in the we
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: it doesnt matter
+system: The price range at saint johns chop house is moderate .
+user: how about one serving jamaican food
+system: I am sorry but there is no jamaican restaurant that matches your request
+user: okay how about the west part of town with italian
+system: Sorry there is no jamaican restaurant in the west of town
+user: the west of town with italian food
+system: prezzo is a nice restaurant in the west of town serving italian food
+user: their phone number
+system: The phone number of prezzo is 01799 521260 .
+user: thank you goodbye

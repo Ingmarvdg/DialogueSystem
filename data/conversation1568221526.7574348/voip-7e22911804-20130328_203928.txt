@@ -1,0 +1,25 @@
+voip-7e22911804-20130328_203928
+Task 02091: You want to find a restaurant in any area and it should serve international food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find international food
+system: What kind of food would you like?
+user: international food
+system: You are looking for a canapes restaurant right?
+user: no international
+system: You are looking for a canapes restaurant right?
+user: im looking for international
+system: Sorry, I can't hear you
+user: any area
+system: Could you please repeat that?
+user: i want to find a restaurant in any area
+system: There are 3 restaurants serving international food . What area do you want?
+user: i dont care
+system: You are looking for a international restaurant right?
+user: yes
+system: There are 3 restaurants serving international food in any part of town . What price range would you like?
+user: i dont care
+system: bloomsbury restaurant serves international food
+user: what is the address and phone number
+system: The phone number of bloomsbury restaurant is 0871 942 9180 and it is on Crowne Plaza Hotel 20 Downing Street .
+user: thank you good bye

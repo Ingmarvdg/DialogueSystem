@@ -1,0 +1,11 @@
+voip-f32f2cfdae-20130327_014457
+Task 12741: You are looking for a restaurant in the west part of town and it should serve english food. If there is no such venue how about italian type of food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for english food in the west part of town
+system: Sorry there is no english restaurant in the west of town
+user: what about italian food
+system: la margherita is a nice restaurant in the west of town serving italian food
+user: whats the phone number
+system: The phone number of la margherita is 01223 315232 .
+user: thank you good bye

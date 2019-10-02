@@ -1,0 +1,13 @@
+voip-ccc459b689-20130327_002947
+Task 02277: You are looking for a cheap restaurant and it should be in the west part of town. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a cheap restaurant in the west part of town
+system: There are 2 restaurants in the cheap price range and the west of town . What type of food would you like?
+user: it doesnt matter
+system: thanh binh is a nice place in the west of town and the prices are cheap
+user: whats the other one
+system: la margherita is a nice place in the west of town and the prices are cheap
+user: um whats the phone number
+system: The phone number of la margherita is 01223 315232 .
+user: thank you goodbye

@@ -1,0 +1,19 @@
+voip-f091d0e461-20130327_211411
+Task 07113: You are looking for a moderately priced restaurant and it should be in the south part of town. You want to know the address and type of food.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cough
+system: What part of town do you have in mind?
+user: the south part
+system: What kind of food would you like?
+user: um i dont know
+system: peking restaurant is a nice place in the south of town
+user: um is that moderately priced
+system: What kind of food would you like?
+user: i dont know
+system: pizza hut cherry hinton is a nice place in the south of town and the prices are moderate
+user: what type of food
+system: pizza hut cherry hinton serves italian food
+user: okay can i have the address
+system: Sure , pizza hut cherry hinton is on G4 Cambridge Leisure Park Clifton Way Cherry Hinton
+user: okay thank you good bye

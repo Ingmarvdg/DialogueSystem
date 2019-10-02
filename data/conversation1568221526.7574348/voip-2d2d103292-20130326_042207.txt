@@ -1,0 +1,23 @@
+voip-2d2d103292-20130326_042207
+Task 00939: You are looking for a restaurant in the north part of town and it should serve welsh food. If there is no such venue how about italian type of food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the north part of town
+system: There are 11 restaurants in the north of town . What type of food do you want?
+user: welsh
+system: I'm sorry but there is no restaurant serving welsh food
+user: how about italian
+system: You are looking for a welsh restaurant right?
+user: no
+system: I'm sorry but there is no restaurant serving welsh food
+user: im looking for italian food
+system: Could you please repeat that?
+user: im looking for a restaurant that serves italian
+system: Did you say you are looking for a restaurant in the north of town?
+user: yes
+system: da vinci pizzeria is a nice place in the north of town serving tasty italian food
+user: what is the address
+system: Sure , da vinci pizzeria is on 20 Milton Road Chesterton
+user: what is the phone number
+system: The phone number of da vinci pizzeria is 01223 351707 .
+user: good bye thank you

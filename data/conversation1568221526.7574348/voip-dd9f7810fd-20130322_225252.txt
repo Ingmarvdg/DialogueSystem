@@ -1,0 +1,19 @@
+voip-dd9f7810fd-20130322_225252
+Task 11991: You want to find a cheap restaurant and it should be in the east part of town. You want to know the phone number and type of food of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: for a cheap restaurant in the east part of town
+system: There are 9 restaurants in the east of town . What type of food do you want?
+user: dont care
+system: There are 9 restaurants in the east of town serving any kind of food . What price range would you like?
+user: cheap
+system: the missing sock is a nice place in the east of town and the prices are cheap
+user: whats the phone number
+system: The phone number of the missing sock is 01223 812660 .
+user: cough
+system: Sorry but there is no other restaurant in the cheap price range and the east of town
+user: whats the phone number
+system: The phone number of the missing sock is 01223 812660 .
+user: what kind of food does it serve
+system: the missing sock serves international food
+user: thank you good bye

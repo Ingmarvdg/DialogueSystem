@@ -1,0 +1,13 @@
+voip-583e7cede5-20130324_062107
+Task 10218: You want to find an expensive restaurant and it should serve european food. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want an expensive restaurant serving european food
+system: What part of town do you have in mind?
+user: it doesnt matter
+system: eraina serves european food in the expensive price range
+user: is there anything else
+system: michaelhouse cafe serves european food in the expensive price range
+user: what is the phone number
+system: The phone number of michaelhouse cafe is 01223 309147 .
+user: thank you good bye

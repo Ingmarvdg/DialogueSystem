@@ -1,0 +1,15 @@
+voip-aaa44b4121-20130327_172225
+Task 12705: You are looking for a cheap restaurant and it should be in the north part of town. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i would like a cheap restaurant in the north part of town
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: is there anything else
+system: You are looking for a restaurant is that right?
+user: yes
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: is there anything else
+system: royal spice is a nice restaurant in the north of town in the cheap price range
+user: what is the address and phone number
+system: The phone number of royal spice is 01733 553355 and it is on Victoria Avenue Chesterton .
+user: thank you goodbye

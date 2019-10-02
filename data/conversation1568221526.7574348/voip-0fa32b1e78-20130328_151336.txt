@@ -1,0 +1,25 @@
+voip-0fa32b1e78-20130328_151336
+Task 03669: You want to find and it should serve singaporean food. You don't care about the price range. If there is no such venue how about north american type of food. You want to know the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: unintelligible
+system: What part of town do you have in mind?
+user: doesnt matter
+system: What part of town do you have in mind?
+user: it doesnt matter
+system: What kind of food would you like?
+user: signaporian
+system: little seoul serves korean food
+user: north american
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: You are looking for a north american restaurant right?
+user: yes
+system: gourmet burger kitchen serves north american food
+user: whats the address
+system: Sure , gourmet burger kitchen is on Regent Street City Centre
+user: and whats the phone number
+system: The phone number of gourmet burger kitchen is 01223 312598 .
+user: and whats the post code
+system: The post code of gourmet burger kitchen is C.B 2, 1 A.B
+user: thank you good bye

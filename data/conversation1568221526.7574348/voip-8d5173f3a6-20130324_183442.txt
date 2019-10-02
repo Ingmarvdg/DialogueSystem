@@ -1,0 +1,15 @@
+voip-8d5173f3a6-20130324_183442
+Task 11325: You are looking for a cheap restaurant and it should serve fusion food. If there is no such venue how about mediterranean type of food. You want to know the phone number and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: restaraunt serving fusion food
+system: I'm sorry but there is no restaurant serving fusion food
+user: how about mediterranean
+system: the lucky star is in the cheap price range
+user: type of food
+system: the lucky star is a great restaurant
+user: medterranean
+system: the gardenia serves mediterranean food in the cheap price range
+user: phone number and post code
+system: The phone number of the gardenia is 01223 356354 and its postcode is C.B 2, 3 L.L .
+user: good bye

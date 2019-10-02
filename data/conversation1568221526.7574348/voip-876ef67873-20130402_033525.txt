@@ -1,0 +1,19 @@
+voip-876ef67873-20130402_033525
+Task 10257: You want to find a restaurant in the west part of town and it should serve creative food. If there is no such venue how about thai type of food. Make sure you get the address, phone number, and price range.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i need a restaurant in the west part of town
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: dont care
+system: What kind of food would you like?
+user: creative food
+system: Sorry there is no creative restaurant in the west of town
+user: what about thai
+system: sala thong is a nice restaurant in the west of town serving thai food
+user: what is the address
+system: Sure , sala thong is on 35 Newnham Road Newnham
+user: phone number
+system: The phone number of sala thong is 01223 323178 .
+user: and price range
+system: sala thong is in the expensive price range
+user: thank you good bye

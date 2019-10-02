@@ -1,0 +1,13 @@
+voip-fdf8b50918-20130327_024718
+Task 12090: You are looking for a cheap restaurant and it should be in the east part of town. Make sure you get the address and type of food of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What part of town do you have in mind?
+user: im looking for a cheap restaurant in the east part of town
+system: the missing sock is a nice place in the east of town and the prices are cheap
+user: what type of food
+system: the missing sock serves international food
+user: what is the address
+system: Sure , the missing sock is on Finders Corner Newmarket Road
+user: thank you good bye

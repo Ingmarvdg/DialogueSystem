@@ -1,0 +1,27 @@
+voip-340dbb333e-20130325_233510
+Task 11328: You want to find an expensive restaurant and it should serve mediterranean food. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address, phone number, and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: expensive mediterranean food
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: expensive
+system: What part of town do you have in mind?
+user: i dont care
+system: panahar is a nice restaurant in the centre of town in the expensive price range
+user: mediterranean food
+system: The price range at panahar is expensive .
+user: what kind of food do they serve
+system: panahar serves indian food
+user: mediterranean food
+system: shiraz restaurant is a nice restaurant in the centre of town serving mediterranean food
+user: is there anything else
+system: la mimosa is a nice restaurant in the centre of town serving mediterranean food
+user: what is the price range
+system: la mimosa is in the expensive price range
+user: what is the address
+system: Sure , la mimosa is on Thompsons Lane Fen Ditton
+user: what is the phone number
+system: The phone number of la mimosa is 01223 362525 .
+user: what area is it in
+system: la mimosa is a nice place in the centre of town
+user: thank you good bye

@@ -1,0 +1,17 @@
+voip-a352cb5ca5-20130401_231236
+Task 03393: You are looking for a restaurant in the west part of town and it should serve australian food. If there is no such venue how about indian type of food. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: unintelligible
+system: What part of town do you have in mind?
+user: west
+system: What kind of food would you like?
+user: australian
+system: I'm sorry but there is no restaurant serving australian food
+user: indian
+system: maharajah tandoori restaurant is a nice place in the west of town serving tasty indian food
+user: the address
+system: Sure , maharajah tandoori restaurant is on 41518 Castle Street City Centre
+user: and the phone number
+system: The phone number of maharajah tandoori restaurant is 01223 358399 .
+user: thank you good bye

@@ -1,0 +1,19 @@
+voip-6dbc3573bc-20130328_192806
+Task 08688: You want to find and it should serve cantonese food. You don't care about the price range. If there is no such venue how about vietnamese type of food. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want cantonese food
+system: I'm sorry but there is no restaurant serving cantonese food
+user: how about vietnamese food
+system: Could you please repeat that?
+user: vietnamese food
+system: thanh binh serves vietnamese food
+user: any price range
+system: Can I help you with anything else?
+user: anything else
+system: I am sorry but there is no other vietnamese restaurant that matches your request
+user: what is the address
+system: Could you please repeat that?
+user: what is the address
+system: Sure , thanh binh is on 17 Magdalene Street City Centre
+user: thank you good bye

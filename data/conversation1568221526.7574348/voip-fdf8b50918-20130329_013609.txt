@@ -1,0 +1,13 @@
+voip-fdf8b50918-20130329_013609
+Task 01203: You are looking for and it should serve european food. You don't care about the price range. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant serving european food
+system: There are 5 restaurants serving european food . What area do you want?
+user: i dont care
+system: There are 5 restaurants serving european food in any part of town . What price range would you like?
+user: i dont care
+system: galleria serves european food
+user: the address
+system: Sure , galleria is on 33 Bridge Street
+user: thank you good bye

@@ -1,0 +1,9 @@
+voip-03c2655d43-20130327_194616
+Task 10176: You are looking for and it should serve korean food. You don't care about the price range. Make sure you get the address, phone number, and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: korean food
+system: little seoul serves korean food
+user: address phone number area
+system: The phone number of little seoul is 01223 308681 and it is on 108 Regent Street City Centre .
+user: thank you good bye

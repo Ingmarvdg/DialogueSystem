@@ -1,0 +1,27 @@
+voip-f22c2bf9c7-20130328_120730
+Task 05121: You are looking for a restaurant in any area and it should serve unusual food. If there is no such venue how about mediterranean type of food. Make sure you get the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: unusual food
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: expensive
+system: What part of town do you have in mind?
+user: centre
+system: What kind of food would you like?
+user: unusual
+system: Sorry there is no expensive restaurant in the centre of town serving unusual food
+user: north
+system: Sorry there is no expensive restaurant in the north of town serving unusual food
+user: south
+system: Sorry there is no expensive restaurant in the south of town serving unusual food
+user: west
+system: Sorry there is no expensive restaurant in the south of town serving unusual food
+user: mediterranean
+system: Sorry there is no expensive restaurant in the south of town serving mediterranean food
+user: moderate
+system: Sorry there is no moderate restaurant in the south of town serving mediterranean food
+user: city centre
+system: Sorry there is no moderate restaurant in the centre of town serving mediterranean food
+user: expensive
+system: Sorry there is no moderate restaurant in the centre of town serving mediterranean food
+user: thank you goodbye

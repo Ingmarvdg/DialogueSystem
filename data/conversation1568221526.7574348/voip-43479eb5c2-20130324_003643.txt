@@ -1,0 +1,13 @@
+voip-43479eb5c2-20130324_003643
+Task 05763: You are looking for a moderately priced restaurant and it should be in the north part of town. You want to know the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderately priced restaurant north part of town
+system: the nirala is a nice restaurant in the north of town in the moderate price range
+user: address and phone number
+system: Sure , the nirala is on 7 Milton Road Chesterton
+user: phone number
+system: The phone number of the nirala is 01223 360966 .
+user: post code
+system: The post code of the nirala is C.B 4, 1 U.Y
+user: thank you good bye

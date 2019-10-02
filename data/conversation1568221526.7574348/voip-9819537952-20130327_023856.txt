@@ -1,0 +1,21 @@
+voip-9819537952-20130327_023856
+Task 09714: You want to find a restaurant in the west part of town and it should serve hungarian food. If there is no such venue how about vietnamese type of food. Make sure you get the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: west part of town
+system: What kind of food would you like?
+user: hungarian food
+system: I'm sorry but there is no restaurant serving hungarian food
+user: vietnamese food
+system: I'm sorry but there is no restaurant serving cantonese food
+user: vietnamese food
+system: You are looking for a vietnamese restaurant right?
+user: yes
+system: thanh binh is a nice place in the west of town serving tasty vietnamese food
+user: phone number
+system: thanh binh is a great restaurant
+user: phone number
+system: The phone number of thanh binh is 01223 362456 .
+user: thank you
+system: thanh binh is a great restaurant
+user: good bye

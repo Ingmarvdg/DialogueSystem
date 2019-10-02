@@ -1,0 +1,21 @@
+voip-bb1fd497eb-20130325_163956
+Task 10935: You are looking for and it should serve vietnamese food. You don't care about the price range. Make sure you get the phone number and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for vietnamese food
+system: You are looking for a restaurant is that right?
+user: yes
+system: the gardenia is a great restaurant
+user: vietnamese food
+system: thanh binh serves vietnamese food .
+user: okay what is the phone number and area of the venue
+system: The phone number of thanh binh is 01223 362456 .
+user: the area
+system: Can I help you with anything else?
+user: where is the area
+system: thanh binh serves vietnamese food .
+user: of the venue
+system: Can I help you with anything else?
+user: where is the area of the venue
+system: thanh binh is a nice place in the west of town
+user: thank you good bye

@@ -1,0 +1,23 @@
+voip-6d6587c57d-20130328_235437
+Task 04701: You are looking for a restaurant in the west part of town and it should serve british food. You want to know the address, phone number, and price range of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: british food in the west part of town
+system: I'm sorry but there is no french restaurant in the west of town
+user: british food in the west part of town
+system: Could you please repeat that?
+user: british
+system: You are looking for a french restaurant right?
+user: noise
+system: I'm sorry but there is no french restaurant in the west of town
+user: is there a british restaurant in the west of town
+system: Could you please repeat that?
+user: im looking for a british restaurant
+system: You are looking for a british restaurant right?
+user: in the west part of town
+system: You are looking for a british restaurant right?
+user: yes
+system: There are 3 restaurants serving british in the west of town . What price range would you like?
+user: cheap
+system: I'm sorry but there is no restaurant serving cheap british food
+user: good bye thank you

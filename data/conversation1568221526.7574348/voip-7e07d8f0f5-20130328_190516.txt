@@ -1,0 +1,31 @@
+voip-7e07d8f0f5-20130328_190516
+Task 06969: You want to find a cheap restaurant and it should be in the north part of town. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: unintelligible
+system: What kind of food would you like?
+user: unintelligible
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: unintelligible
+system: grafton hotel restaurant is in the east part of town .
+user: cheap restaurant west part of town
+system: grafton hotel restaurant is in the east part of town .
+user: thank you good bye
+system: the missing sock is a nice restaurant in the east of town in the cheap price range
+user: uh huh
+system: Can I help you with anything else?
+user: cheap restaurant north part of town
+system: Can I help you with anything else?
+user: yes cheap restaurant
+system: the missing sock is in the cheap price range
+user: north part of town
+system: Can I help you with anything else?
+user: noise address
+system: Sure , the missing sock is on Finders Corner Newmarket Road
+user: noise
+system: Can I help you with anything else?
+user: noise
+system: Can I help you with anything else?
+user: tell me number
+system: Can I help you with anything else?
+user: thank you good bye

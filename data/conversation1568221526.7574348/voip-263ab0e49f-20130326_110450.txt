@@ -1,0 +1,13 @@
+voip-263ab0e49f-20130326_110450
+Task 07728: You are looking for a restaurant in the south part of town and it should serve polynesian food. If there is no such venue how about italian type of food. Make sure you get the phone number and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: polynesian food in the south part of town
+system: Sorry there is no polynesian restaurant in the south of town
+user: italian food
+system: pizza hut cherry hinton is a nice restaurant in the south of town serving italian food
+user: phone number and post code
+system: The phone number of pizza hut cherry hinton is 01223 323737 .
+user: post code
+system: The post code of pizza hut cherry hinton is C.B 1, 7 D.Y
+user: thank you good bye

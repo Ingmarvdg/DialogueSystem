@@ -1,0 +1,27 @@
+voip-da4a08ad84-20130328_154747
+Task 10707: You are looking for and it should serve thai food. You don't care about the price range. You want to know the phone number and address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type .
+user: noise
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: im looking for a thai food restaurant and i dont care the price
+system: The price range at da vinci pizzeria is cheap .
+user: im looking for thai food
+system: da vinci pizzeria is a great restaurant
+user: thai food
+system: da vinci pizzeria is a great restaurant
+user: go back
+system: da vinci pizzeria is a great restaurant
+user: okay
+system: da vinci pizzeria is a great restaurant
+user: i dont want pizza
+system: da vinci pizzeria is a great restaurant
+user: breathing
+system: da vinci pizzeria is a great restaurant
+user: bye
+system: da vinci pizzeria is a great restaurant
+user: thank you good bye
+system: da vinci pizzeria is a great restaurant
+user: holy cow
+system: da vinci pizzeria is a great restaurant
+user: thank you good bye

@@ -1,0 +1,17 @@
+voip-e72dba1759-20130325_205011
+Task 04521: You want to find an expensive restaurant and it should serve english food. If there is no such venue how about european type of food. You want to know the address, phone number, and area.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find a expensive restaurant and it should serve english food
+system: I'm sorry but there is no restaurant serving english food
+user: um how about european food
+system: Could you please repeat that?
+user: how about european food
+system: cambridge lodge restaurant serves european food in the expensive price range
+user: can i get the address phone number and area
+system: The phone number of cambridge lodge restaurant is 01223 355166 and it is on Cambridge Lodge Hotel 139 Huntingdon Road City Centre .
+user: any area
+system: Can I help you with anything else?
+user: yea the area
+system: Can I help you with anything else?
+user: thank you good bye

@@ -1,0 +1,15 @@
+voip-935947e17b-20130328_163520
+Task 05496: You want to find a restaurant in any area and it should serve international food. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: sil
+system: What kind of food would you like?
+user: i would like
+system: the gandhi is a great restaurant
+user: what about international food
+system: the missing sock serves international food .
+user: may i have the address and phone number
+system: The phone number of the missing sock is 01223 812660 and it is on Finders Corner Newmarket Road .
+user: where is the restaurant
+system: the missing sock serves international food .
+user: oh thank you good bye

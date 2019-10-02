@@ -1,0 +1,17 @@
+voip-4a6ecc1f1c-20130328_124224
+Task 09582: You want to find an expensive restaurant and it should serve corsica food. If there is no such venue how about thai type of food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for corsica food in an expensive restaurant
+system: I'm sorry but there is no restaurant serving corsica food
+user: how about thai food thats expensive
+system: Could you please repeat that?
+user: looking for thai food
+system: There are 2 restaurants serving thai in the expensive price range . What area would you like?
+user: i dont care
+system: sala thong serves thai food in the expensive price range
+user: okay whats the address
+system: Sure , sala thong is on 35 Newnham Road Newnham
+user: how about the phone number
+system: The phone number of sala thong is 01223 323178 .
+user: thank you goodbye

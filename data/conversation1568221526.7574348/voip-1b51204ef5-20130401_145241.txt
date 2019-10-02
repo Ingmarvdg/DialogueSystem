@@ -1,0 +1,21 @@
+voip-1b51204ef5-20130401_145241
+Task 02283: You are looking for a restaurant in any area and it should serve steakhouse food. If there is no such venue how about turkish type of food. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: uh id like steakhouse food
+system: What part of town do you have in mind?
+user: any area
+system: What kind of food would you like?
+user: steakhouse
+system: I'm sorry but there is no restaurant serving steakhouse food
+user: uh how about turkish type of food
+system: You are looking for a steakhouse restaurant right?
+user: turkish
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: uh medium
+system: efes restaurant serves turkish food
+user: uh address
+system: efes restaurant is a great restaurant
+user: the address please
+system: Sure , efes restaurant is on King Street City Centre
+user: thank you good bye

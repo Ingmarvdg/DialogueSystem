@@ -1,0 +1,53 @@
+voip-22756d9e8f-20130328_170312
+Task 04122: You want to find a moderately priced restaurant and it should serve canapes food. If there is no such venue how about indian type of food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find a moderately priced restaurant that serves canapes food
+system: What part of town do you have in mind?
+user: tv_noise it doesnt matter
+system: What kind of food would you like?
+user: sil
+system: restaurant one seven is in the moderate price range
+user: sil
+system: pizza hut fen ditton is in the moderate price range
+user: does it serve canapes food noise
+system: pizza hut fen ditton is a great restaurant
+user: tv_noise im looking for a restaurant in the moderately pri
+system: pizza hut fen ditton is a great restaurant
+user: range that serves cana
+system: ali baba is in the moderate price range
+user: does it serve canapes food
+system: ali baba is a great restaurant
+user: how about indian food
+system: ali baba is a great restaurant
+user: noise are there any venues that serve indian type food
+system: ali baba serves lebanese food
+user: is there any restaurants that serve indian food
+system: Ok , a restaurant in any part of town is that right?
+user: is it in the moderate price range
+system: Ok , a restaurant in any part of town is that right?
+user: right
+system: curry prince serves indian food in the moderate price range
+user: may i have the address and phone number
+system: The phone number of curry prince is 01223 566388 and it is on 451 Newmarket Road Fen Ditton .
+user: sil
+system: meghna serves indian food in the moderate price range
+user: sil
+system: meghna is a great restaurant
+user: sil
+system: the nirala serves indian food in the moderate price range
+user: may i have the phone number talking
+system: The phone number of the nirala is 01223 360966 .
+user: sil
+system: rajmahal serves indian food in the moderate price range
+user: sil
+system: I am sorry but there is no other indian restaurant in the moderate price range
+user: may i have the phone number
+system: The phone number of rajmahal is 01223 244955 .
+user: sil
+system: curry prince serves indian food in the moderate price range
+user: sil
+system: meghna serves indian food in the moderate price range
+user: may i have the phone number
+system: The phone number of meghna is 01223 727410 .
+user: thank you goodbye

@@ -1,0 +1,19 @@
+voip-2d3d74d091-20130325_230144
+Task 03744: You are looking for a moderately priced restaurant and it should serve chinese food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type .
+user: noise
+system: What part of town do you have in mind?
+user: unintelligible
+system: meze bar restaurant is a great restaurant
+user: dont care
+system: meze bar restaurant is a great restaurant
+user: moderately priced
+system: meze bar restaurant is a great restaurant
+user: chinese food
+system: rice house serves chinese food .
+user: address
+system: Sure , rice house is on 88 Mill Road City Centre
+user: telephone number
+system: rice house serves chinese food .
+user: thank you good bye

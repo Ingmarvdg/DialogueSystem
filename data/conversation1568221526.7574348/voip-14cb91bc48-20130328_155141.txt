@@ -1,0 +1,41 @@
+voip-14cb91bc48-20130328_155141
+Task 12726: You want to find a restaurant in the east part of town and it should serve hungarian food. If there is no such venue how about indian type of food. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: east
+system: There are 22 restaurants in the cheap price range . What type of food do you want?
+user: hungarian
+system: You are looking for a restaurant serving any kind of food right?
+user: no
+system: You are looking for a restaurant serving any kind of food right?
+user: sil
+system: What part of town do you have in mind?
+user: east
+system: the missing sock is a nice place in the east of town and the prices are cheap
+user: hungarian
+system: the missing sock is a great restaurant
+user: indian
+system: the missing sock is a great restaurant
+user: no
+system: the missing sock is a great restaurant
+user: can you hear me
+system: the missing sock is a great restaurant
+user: okay
+system: the missing sock is a nice place in the east of town and the prices are cheap
+user: back
+system: I'm sorry but there is no restaurant serving basque food
+user: back
+system: I'm sorry but there is no restaurant serving basque food
+user: indian
+system: Can I help you with anything else?
+user: i need a restaurant in the east part of town
+system: I'm sorry but there is no indian restaurant in the east of town and the cheap price range
+user: moderate
+system: curry prince is a great restaurant serving moderate indian food in the east of town .
+user: address
+system: curry prince is a great restaurant
+user: address
+system: Sure , curry prince is on 451 Newmarket Road Fen Ditton
+user: telephone number
+system: curry prince is a great restaurant
+user: thank you good bye

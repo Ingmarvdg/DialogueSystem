@@ -1,0 +1,13 @@
+voip-edb8609855-20130327_183456
+Task 08769: You want to find a cheap restaurant and it should be in the west part of town. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap restaurant
+system: kohinoor is in the cheap price range
+user: west part of town
+system: What kind of food would you like?
+user: dont care
+system: thanh binh is a nice place in the west of town and the prices are cheap
+user: address
+system: Sure , thanh binh is on 17 Magdalene Street City Centre
+user: thank you good bye

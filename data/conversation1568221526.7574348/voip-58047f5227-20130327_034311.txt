@@ -1,0 +1,13 @@
+voip-58047f5227-20130327_034311
+Task 07926: You want to find a restaurant in any area and it should serve seafood. Make sure you get the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant that serves seafood
+system: What part of town do you have in mind?
+user: any
+system: What kind of food would you like?
+user: seafood
+system: loch fyne serves seafood food
+user: can i get the address and phone number
+system: The phone number of loch fyne is 01223 362433 and it is on The Little Rose 37 Trumpington Street .
+user: thank you goodbye

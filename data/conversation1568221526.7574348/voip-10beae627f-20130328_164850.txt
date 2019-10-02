@@ -1,0 +1,13 @@
+voip-10beae627f-20130328_164850
+Task 02868: You are looking for a restaurant in the west part of town and it should serve irish food. If there is no such venue how about italian type of food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What kind of food would you like?
+user: unintelligible
+system: thanh binh is a great restaurant
+user: restaurant in the west part of town
+system: thanh binh is a great restaurant
+user: system irish food
+system: thanh binh is a great restaurant
+user: system

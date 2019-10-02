@@ -1,0 +1,31 @@
+voip-7e22911804-20130328_163017
+Task 02580: You are looking for a moderately priced restaurant and it should be in the west part of town. Make sure you get the phone number and type of food.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find a moderately priced restaurant in the west part town
+system: There are 12 restaurants in the west of town . What type of food do you want?
+user: moderately priced
+system: There are 12 restaurants in the west of town serving any kind of food . What price range would you like?
+user: moderately priced
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: moderate
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: moderate
+system: saint johns chop house is a nice place in the west of town and the prices are moderate
+user: what is the phone number
+system: The phone number of saint johns chop house is 01223 353110 .
+user: what type of food does it have
+system: saint johns chop house is a great restaurant
+user: type of food
+system: saint johns chop house serves british food
+user: thank you
+system: saint johns chop house is a great restaurant
+user: good bye
+system: prezzo is a nice place in the west of town and the prices are moderate
+user: thank you good bye
+system: prezzo is a great restaurant
+user: thank you
+system: prezzo is a great restaurant
+user: good bye
+system: Sorry but there is no other restaurant in the moderate price range and the west of town
+user: thank you good bye

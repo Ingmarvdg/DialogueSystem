@@ -1,0 +1,11 @@
+voip-96f43326a4-20130323_073950
+Task 11469: You are looking for and it should serve mexican food. You don't care about the price range. Make sure you get the phone number and address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant that serves mexican food
+system: chiquito restaurant bar serves mexican food .
+user: whats the price range
+system: chiquito restaurant bar is in the expensive price range
+user: do you have the phone number of the address
+system: The phone number of chiquito restaurant bar is 01223 400170 and it is on 2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton .
+user: thank you good bye

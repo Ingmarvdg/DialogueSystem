@@ -1,0 +1,11 @@
+voip-88b68a9a41-20130324_002417
+Task 03807: You are looking for a restaurant in the centre and it should serve mediterranean food. You want to know the address and phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: id like a restaurant in the center that serves mediterranean food
+system: Sorry there is no kosher restaurant in the centre of town
+user: a restaurant in the center that serves mediterranean food
+system: the gardenia is a nice restaurant in the centre of town serving mediterranean food
+user: could i have the address and phone number please
+system: The phone number of the gardenia is 01223 356354 and it is on 2 Rose Crescent City Centre .
+user: thank you good bye

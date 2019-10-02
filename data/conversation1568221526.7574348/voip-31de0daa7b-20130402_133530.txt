@@ -1,0 +1,23 @@
+voip-31de0daa7b-20130402_133530
+Task 10380: You want to find a restaurant in the south part of town and it should serve creative food. If there is no such venue how about modern european type of food. You want to know the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: creative food
+system: I am sorry but there is no creative restaurant that matches your request
+user: modern european
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: moderate
+system: riverside brasserie is a great restaurant serving modern european food and it is in the moderate price range
+user: south part of town
+system: riverside brasserie is a great restaurant serving modern european food and it is in the moderate price range
+user: address
+system: Sure , riverside brasserie is on Doubletree by Hilton Cambridge Granta Place Mill Lane
+user: noise
+system: riverside brasserie is a great restaurant serving modern european food and it is in the moderate price range
+user: noise
+system: riverside brasserie is a great restaurant serving modern european food and it is in the moderate price range
+user: address
+system: Sure , riverside brasserie is on Doubletree by Hilton Cambridge Granta Place Mill Lane
+user: phone number
+system: The phone number of riverside brasserie is 01223 259988 .
+user: thank you good bye

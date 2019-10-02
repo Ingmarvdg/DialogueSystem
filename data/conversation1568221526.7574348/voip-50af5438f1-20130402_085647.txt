@@ -1,0 +1,29 @@
+voip-50af5438f1-20130402_085647
+Task 08166: You want to find an expensive restaurant and it should serve italian food. Make sure you get the phone number and address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: expensive
+system: What part of town do you have in mind?
+user: any
+system: What kind of food would you like?
+user: italian
+system: Ok , a restaurant in any part of town is that right?
+user: yes
+system: the golden curry is in the expensive price range
+user: italian
+system: restaurant two two is in the expensive price range
+user: italian
+system: restaurant two two is a great restaurant
+user: type of food
+system: restaurant two two serves french food
+user: italian
+system: curry queen is in the expensive price range
+user: italian
+system: don pasquale pizzeria serves italian food in the expensive price range
+user: phone number
+system: don pasquale pizzeria is a great restaurant
+user: phone number
+system: The phone number of don pasquale pizzeria is 01223 350106 .
+user: address
+system: Sure , don pasquale pizzeria is on 12 Market Hill City Centre
+user: thank you goodbye

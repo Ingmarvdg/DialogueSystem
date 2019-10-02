@@ -1,0 +1,13 @@
+voip-aaa44b4121-20130327_171127
+Task 04773: You are looking for an expensive restaurant and it should be in the south part of town. You want to know the address, phone number, and postcode.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: yea im looking for an expensive restaurant in the south part of town
+system: There are 5 restaurants in the expensive price range and the south of town . What type of food would you like?
+user: chinese
+system: peking restaurant is a great restaurant serving expensive chinese food in the south of town .
+user: what is the address and postcode
+system: peking restaurant is on 10 Homerton Street City Centre , C.B 2, 8 N.X
+user: what is the phone number
+system: The phone number of peking restaurant is 01223 354755 .
+user: thank you goodbye

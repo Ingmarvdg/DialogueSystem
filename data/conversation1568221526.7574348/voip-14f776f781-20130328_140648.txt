@@ -1,0 +1,53 @@
+voip-14f776f781-20130328_140648
+Task 12729: You want to find a cheap restaurant and it should be in the north part of town. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a cheap restaurant in the north part of town
+system: You are looking for a greek restaurant right?
+user: cheap restaurant
+system: You are looking for a greek restaurant right?
+user: cheap
+system: I'm sorry but there is no restaurant serving greek food
+user: cheap food
+system: Could you please repeat that?
+user: cheap food
+system: I'm sorry but there is no restaurant serving greek food
+user: cheap
+system: Could you please repeat that?
+user: food
+system: I'm sorry but there is no restaurant serving greek food
+user: noise
+system: Could you please repeat that?
+user: is there anything else
+system: You are looking for a greek restaurant right?
+user: any cheap food
+system: I'm sorry but there is no restaurant serving greek food
+user: thank you is there anything else
+system: I'm sorry but there is no restaurant serving greek food
+user: how about restaurants in the north part of town
+system: Could you please repeat that?
+user: north part of town
+system: You are looking for a greek restaurant right?
+user: any restaurants
+system: I'm sorry but there is no restaurant serving greek food
+user: inaudible
+system: I'm sorry but there is no restaurant serving greek food
+user: noise
+system: I'm sorry but there is no restaurant serving greek food
+user: any food
+system: You are looking for a restaurant serving any kind of food right?
+user: north part of town
+system: You are looking for a restaurant serving any kind of food right?
+user: inexpensive
+system: city stop restaurant is a nice place in the north of town and the prices are expensive
+user: inexpensive
+system: city stop restaurant is a great restaurant
+user: moderately priced
+system: city stop restaurant is a great restaurant
+user: cheap
+system: city stop restaurant is a great restaurant
+user: anything else
+system: hakka is a nice place in the north of town and the prices are expensive
+user: what prices
+system: hakka is a great restaurant
+user: thank you goodbye

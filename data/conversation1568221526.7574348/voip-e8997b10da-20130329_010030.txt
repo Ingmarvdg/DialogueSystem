@@ -1,0 +1,21 @@
+voip-e8997b10da-20130329_010030
+Task 03333: You want to find an expensive restaurant and it should serve gastropub food. Make sure you get the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cough
+system: What kind of food would you like?
+user: uh gastropub
+system: There are 4 restaurants serving gastropub food . What area do you want?
+user: uh expensive
+system: There are 3 restaurants serving gastropub in the expensive price range . What area would you like?
+user: um
+system: What part of town do you have in mind?
+user: center
+system: backstreet bistro is a great restaurant serving expensive gastropub food in the centre of town .
+user: okay can i get the address
+system: backstreet bistro is a great restaurant
+user: okay can i get the address
+system: Sure , backstreet bistro is on 2 Sturton Street City Centre
+user: okay um
+system: the slug and lettuce is a great restaurant serving expensive gastropub food in the centre of town .
+user: thank you and good bye

@@ -1,0 +1,17 @@
+voip-21ec2b7850-20130327_044054
+Task 01464: You are looking for a restaurant in the west part of town and it should serve afghan food. If there is no such venue how about vietnamese type of food. You want to know the phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: restaurant west
+system: What kind of food would you like?
+user: afghan food
+system: I'm sorry but there is no restaurant serving afghan food
+user: vietnamese food
+system: Could you please repeat that?
+user: vietnamese food
+system: thanh binh is a nice place in the west of town serving tasty vietnamese food
+user: phone number
+system: Can I help you with anything else?
+user: phone number
+system: The phone number of thanh binh is 01223 362456 .
+user: thank you good bye

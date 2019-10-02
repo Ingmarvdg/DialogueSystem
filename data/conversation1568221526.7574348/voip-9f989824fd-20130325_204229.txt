@@ -1,0 +1,19 @@
+voip-9f989824fd-20130325_204229
+Task 00636: You want to find a restaurant in the west part of town and it should serve fusion food. If there is no such venue how about vietnamese type of food. Make sure you get the phone number.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: west part of town
+system: Did you say you are looking for a restaurant in the west of town?
+user: yes
+system: prezzo is a nice place in the west of town
+user: fusion food
+system: I'm sorry but there is no restaurant serving fusion food
+user: vietnamese
+system: You are looking for a vietnamese restaurant right?
+user: yes
+system: thanh binh is a nice place in the west of town serving tasty vietnamese food
+user: phone number
+system: thanh binh is a great restaurant
+user: phone number
+system: The phone number of thanh binh is 01223 362456 .
+user: thank you good bye

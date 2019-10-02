@@ -1,0 +1,31 @@
+voip-7e22911804-20130328_162243
+Task 09129: You are looking for a cheap restaurant and it should be in the south part of town. You want to know the address and type of food of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find a cheap restaurant in the south part of town
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: cheap
+system: What kind of food would you like?
+user: thank you
+system: The price range at la margherita is cheap .
+user: in the inner south
+system: la margherita is a nice place in the west of town
+user: no in the south part of town
+system: The price range at la margherita is cheap .
+user: i want something in the south part of town
+system: The price range at la margherita is cheap .
+user: i want something in the south
+system: The price range at the missing sock is cheap .
+user: i want something in the south part of town
+system: nandos is a nice restaurant in the south of town in the cheap price range
+user: what is the address and the type of food
+system: The post code of nandos is C.B 1, 7 D.Y
+user: what is the address
+system: Sure , nandos is on Cambridge Leisure Park Clifton Way
+user: what is the type of food
+system: nandos is a nice restaurant in the south of town in the cheap price range
+user: type of food does it serve
+system: nandos is a nice restaurant in the south of town in the cheap price range
+user: thank you goodbye
+system: nandos is a nice restaurant in the south of town in the cheap price range
+user: thank you goodbye

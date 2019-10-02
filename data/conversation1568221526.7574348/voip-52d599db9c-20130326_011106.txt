@@ -1,0 +1,13 @@
+voip-52d599db9c-20130326_011106
+Task 00168: You are looking for a moderately priced restaurant and it should serve vietnamese food. If there is no such venue how about any price range. Make sure you get the address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find a moderately priced restaurant that serves vietnamese food
+system: What part of town do you have in mind?
+user: any noise
+system: What part of town do you have in mind?
+user: any
+system: golden wok is a nice restaurant in the north of town in the moderate price range
+user: whats the address
+system: Sure , golden wok is on 191 Histon Road Chesterton
+user: thank you goodbye

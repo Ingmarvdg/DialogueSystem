@@ -1,0 +1,15 @@
+voip-e72dba1759-20130325_210742
+Task 05598: You want to find and it should serve basque food. You don't care about the price range. If there is no such venue how about international type of food. You want to know the address of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i dont care about the price range i need bask food
+system: You are looking for a basque restaurant right?
+user: yes barbecue food
+system: I'm sorry but there is no restaurant serving basque food
+user: how about international
+system: I'm sorry but there is no restaurant serving basque food
+user: how about international food
+system: the varsity restaurant serves international food
+user: whats the address
+system: Sure , the varsity restaurant is on 35 Saint Andrews Street City Centre
+user: thank you good bye

@@ -1,0 +1,13 @@
+voip-e30cb521fb-20130328_135454
+Task 10422: You want to find a cheap restaurant and it should be in the south part of town. Make sure you get the phone number and address.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find a cheap restaurant in the south part of town
+system: What part of town do you have in mind?
+user: south
+system: golden house is in the cheap price range
+user: okay could you give me the phone number
+system: The phone number of golden house is 01842 753771 .
+user: okay and what about the address
+system: Sure , golden house is on 12 Lensfield Road City Centre
+user: okay thank you and good bye

@@ -1,0 +1,17 @@
+voip-10beae627f-20130328_165245
+Task 07260: You want to find a moderately priced restaurant and it should be in the south part of town. You want to know the address and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find a moderately priced restaurant and it should be in the
+system: What part of town do you have in mind?
+user: south
+system: What part of town do you have in mind?
+user: south part of town south
+system: What kind of food would you like?
+user: any
+system: pizza hut cherry hinton is a nice place in the south of town and the prices are moderate
+user: whats the address
+system: Sure , pizza hut cherry hinton is on G4 Cambridge Leisure Park Clifton Way Cherry Hinton
+user: and the post code
+system: The post code of pizza hut cherry hinton is C.B 1, 7 D.Y
+user: thank you good bye

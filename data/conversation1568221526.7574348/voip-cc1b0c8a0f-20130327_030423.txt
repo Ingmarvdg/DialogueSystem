@@ -1,0 +1,21 @@
+voip-cc1b0c8a0f-20130327_030423
+Task 03642: You are looking for a restaurant in the south part of town and it should serve mexican food. Make sure you get the address, phone number, and postcode of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the south part of town
+system: There are 9 restaurants in the south of town . What type of food do you want?
+user: mexican food
+system: chiquito restaurant bar is a nice place in the south of town serving tasty mexican food
+user: can i get the address
+system: Sure , chiquito restaurant bar is on 2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton
+user: phone number
+system: The phone number of chiquito restaurant bar is 01223 400170 and its postcode is C.B 1, 7 D.Y .
+user: what is the address
+system: Sure , chiquito restaurant bar is on 2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton
+user: and what is the post code again
+system: The post code of chiquito restaurant bar is C.B 1, 7 D.Y
+user: and the phone number
+system: The phone number of chiquito restaurant bar is 01223 400170 .
+user: is there not a mexican restaurant near by
+system: Sorry, I can't hear you
+user: say thank you good bye

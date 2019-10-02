@@ -1,0 +1,17 @@
+voip-a8649977cf-20130323_161909
+Task 02655: You are looking for a moderately priced restaurant and it should serve british food. Make sure you get the address, phone number, and area of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: modereate
+system: What kind of food would you like?
+user: british
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: moderate
+system: What part of town do you have in mind?
+user: any
+system: cotto is a nice restaurant in the centre of town serving british food
+user: address
+system: Sure , cotto is on 183 East Road City Centre
+user: phone number
+system: The phone number of cotto is 01223 302010 .
+user: good bye

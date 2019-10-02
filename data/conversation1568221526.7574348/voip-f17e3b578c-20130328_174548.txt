@@ -1,0 +1,23 @@
+voip-f17e3b578c-20130328_174548
+Task 02286: You want to find an expensive restaurant and it should be in the east part of town. Make sure you get the address, phone number, and type of food.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: expensive
+system: What part of town do you have in mind?
+user: east
+system: What kind of food would you like?
+user: any
+system: royal standard is a nice place in the east of town and the prices are expensive
+user: food
+system: grafton hotel restaurant is a nice place in the east of town and the prices are expensive
+user: type of food
+system: grafton hotel restaurant is a great restaurant
+user: address
+system: Sure , grafton hotel restaurant is on Grafton Hotel 619 Newmarket Road Fen Ditton
+user: phone number
+system: The phone number of grafton hotel restaurant is 01223 241387 .
+user: type of food served
+system: grafton hotel restaurant serves british food
+user: thank you
+system: grafton hotel restaurant is a great restaurant
+user: good bye

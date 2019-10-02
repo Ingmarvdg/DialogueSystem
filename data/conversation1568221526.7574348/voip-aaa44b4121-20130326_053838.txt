@@ -1,0 +1,15 @@
+voip-aaa44b4121-20130326_053838
+Task 10632: You want to find a cheap restaurant and it should be in the east part of town. Make sure you get the address and phone number of the venue.
+
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: noise
+system: What kind of food would you like?
+user: cheap
+system: There are 22 restaurants in the cheap price range . What type of food do you want?
+user: the east part of town
+system: the missing sock is a nice place in the east of town and the prices are cheap
+user: what is the address
+system: Sure , the missing sock is on Finders Corner Newmarket Road
+user: what is the phone number
+system: The phone number of the missing sock is 01223 812660 .
+user: thank you good bye
