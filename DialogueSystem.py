@@ -18,6 +18,16 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import f1_score
 import sklearn.metrics as metrics
 
+from nltk.tokenize import word_tokenize
+from keras.preprocessing.text import Tokenizer
+from keras.preprocessing.sequence import pad_sequences 
+from keras.models import Sequential
+from keras.layers import Dense, SpatialDropout1D, Flatten, LSTM, GRU, ConvLSTM2D
+from keras.layers.embeddings import Embedding
+from keras.callbacks import EarlyStopping
+from keras.layers.normalization import BatchNormalization
+import tensorflow as tf
+
 import numpy
 import nltk
 
@@ -208,9 +218,9 @@ elif answer == '3':
 
     # pre process all data
     print("Started processing data, this may take a while...")
-    train_data = mlc.preprocess(train_data_path)
+    Corpus_train = mlc.preprocess(train_data_path)
     print("Processing training data complete.")
-    test_data = mlc.preprocess(test_data_path)
+    Corpus_test = mlc.preprocess(test_data_path)
     print("Processing test data complete.")
     hard_test_data = mlc.preprocess(hard_test_data_path)
     print("Processing hard test data complete.")
@@ -218,15 +228,21 @@ elif answer == '3':
     print("Processing negation test data complete")
     print("All processing completed.")
 
-    # split to X and Y
-    train_X, train_Y = train_data['text_final'], train_data['label']
-    test_Y = test_data['label']
-    test_X = test_data['text_final']
+    # Tokenization setup
+    MAX_NB_WORDS, MAX_SEQUENCE_LENGTH, EMBEDDING_DIM = 50000, 1000, 100
+    tokenizer = Tokenizer(num_words=MAX_NB_WORDS, filters='!"#$%&()*+,-./:;<=>?@[\]^_`{|}~', lower=True)
+    tokenizer.fit_on_texts(Corpus_train['text_final'].values)
+    word_index = tokenizer.word_index
+    print('Found %s unique tokens.' % len(word_index))
 
-    # label encoding
-    Encoder = LabelEncoder()
-    train_Y = Encoder.fit_transform(train_Y)
-    test_Y = Encoder.fit_transform(test_Y)
+    # Define X and Y
+    X_tr = tokenizer.texts_to_sequences(Corpus_train['text_final'].values)
+    X_tr = pad_sequences(X_tr, maxlen=MAX_SEQUENCE_LENGTH)
+    X_tt = tokenizer.texts_to_sequences(Corpus_test['text_final'].values)
+    X_tt = pad_sequences(X_tt, maxlen=MAX_SEQUENCE_LENGTH)
+    X = tf.concat([X_tr, X_tt], 0)
+    Y_tr = pd.get_dummies(Corpus_train['label']).values
+    Y_tt = pd.get_dummies(Corpus_test['label']).values
 
     # get predictions for baseline random
     random_test_y = pd.Series(test_Y)
@@ -238,18 +254,48 @@ elif answer == '3':
     rule_preds = Encoder.transform(rule_preds)
 
     # get predictions machine learning model of test set
+    print('Compiling model...')
+    model = Sequential()
+    model.add(Embedding(MAX_NB_WORDS, EMBEDDING_DIM, input_length=X.shape[1]))
+    model.add(SpatialDropout1D(0.2))
+    model.add(LSTM(100, dropout=0.2, recurrent_dropout=0.2))
+    model.add(Dense(15, activation='softmax'))
+    model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+    epochs = 5
+    batch_size = 64
+    print('Training model... this might take a long while (15+ minutes).')
+    history = model.fit(X_tr, Y_tr, epochs=epochs, batch_size=batch_size,validation_split=0.1,callbacks=[EarlyStopping(monitor='val_loss', patience=3, min_delta=0.0001)])
+    print('Training complete!')
 
-    Tfidf_vect = TfidfVectorizer(max_features=5000)
-    Tfidf_vect.fit(train_X)
-    Train_X_Tfidf = Tfidf_vect.transform(train_X)
-    Test_X_Tfidf = Tfidf_vect.transform(test_X)
+    # Accuracy score on train set (test set couldn't because not all label types occur in test set (12/15))
+    accr = model.evaluate(X_tr,Y_tr)
+    print('Test set\n  Loss: {:0.3f}\n  Accuracy: {:0.3f}'.format(accr[0],accr[1]))
+    
+    # Plots
+    # 1) Loss
+    #plt.rcParams['figure.figsize'] = 4.5,3.5
+    #plt.csfont = {'fontname':'Times New Roman'}
+    #plt.title('LSTM Training Loss', **plt.csfont)
+    #plt.plot(history.history['loss'], label='train')
+    #plt.plot(history.history['val_loss'], label='test')
+    #plt.legend()
+    #plt.show();
 
-    Model = naive_bayes.MultinomialNB(alpha=0.43)  # - 58%
-    Model.fit(Train_X_Tfidf, train_Y)
-    predictions_NB = Model.predict(Test_X_Tfidf)
-    print(predictions_NB)
+    # 2) Accuracy per epoch
+    #plt.title('LSTM Accuracy per epoch', **plt.csfont)
+    #plt.plot(history.history['acc'], label='train')
+    #plt.plot(history.history['val_acc'], label='test')
+    #plt.legend()
+    #plt.show();
 
-    ml_preds = Encoder.inverse_transform(predictions_NB)
+    # 3) Plot of Test label set (behold; it does not contain all available label types...)
+    #D = dict(collections.Counter(Corpus_test['label']).items()) # sorted by key, return a list of tuples
+    #plt.barh(range(len(D)), list(D.values()), align='center')
+    #plt.yticks(range(len(D)), list(D.keys()), **plt.csfont)
+    #plt.title('Train label frequencies', **plt.csfont)
+    #plt.show()
+
+
 
     # for each of the predictors print classification report
 
