@@ -4,7 +4,6 @@ from itertools import chain
 import os
 import time
 import random
-import InformedGuesser as ig
 import MLClassifier as mlc
 import nltk
 import numpy as np
@@ -20,9 +19,6 @@ from sklearn.metrics import f1_score
 import sklearn.metrics as metrics
 
 import numpy
-
-import InformedGuesser as ig
-import MLClassifier as mlc
 import nltk
 
 nltk.download('wordnet')
@@ -37,7 +33,6 @@ nltk.download('wordnet')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('punkt')
 nltk.download('stopwords')
-
 
 # function for reading and parsing json to make the conversation readable
 def read_and_parse_json_conversation(log_url, label_url):

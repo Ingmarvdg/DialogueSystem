@@ -57,14 +57,3 @@ def preprocess(datapath):
         Corpus.loc[index,'text_final'] = str(Final_words)
         
     return(Corpus)
-
-# Use accuracy_score function to get the accuracy
-#print("Naive Bayes Accuracy Score -> ",accuracy_score(predictions_NB, Test_Y)*100)
-#print("F1 Scores ->                  ",f1_score(Test_Y, predictions_NB, average="micro")*100)
-
-
-## Side-by-side dataframe comparison of true labels and predictions
-#Corpus = pd.DataFrame(Test_X)
-#predictions_inversed = Encoder.inverse_transform(predictions_NB)
-#true_label = Encoder.inverse_transform(Test_Y)
-#Corpus['label'], Corpus['predict'] = Test_Y, predictions_NB
