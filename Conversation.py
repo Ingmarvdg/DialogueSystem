@@ -4,31 +4,25 @@
 class UserPreference:
 
     def __init__(self):
-        self.food = []
-        self.price_range = []
-        self.area = []
+        self.food = ['italian']
+        self.price_range = ['cheap']
+        self.area = ['south']
+        self.preferences = {"food": self.food, "price_range": self.price_range, "area": self.area}
+        self.suggestion = None
 
-    def addFoodPreference(self, values):
-
-        self.food.extend(values)
-
-        return None
-
-    def addPricePreference(self, values):
-        self.price_range.extend(values)
-
-        return None
-
-    def addAreaPreference(self, values):
-        self.area.extend(values)
+    def updatePreferences(self, keys, values):
 
         return None
 
     def getPreferences(self):
-        preferences = {"food": self.food, "price_range": self.price_range, "area": self.area}
 
         return preferences
 
+    def clearPreferences(self):
+
+        return None
+
+# conversation class
 class conversation:
     sentences = {
         "hello1": "Welcome "
@@ -36,21 +30,194 @@ class conversation:
     }
 
     def __init__(self):
-        self.phase = 'Hello'
-        self.act = 'ack'
+        self.phase = 'gathering'
+        self.act = 'start'
+        self.Message = 'Nothing'
+        self.userPreferences = UserPreference
+        self.query = []
+        self.madeSuggestion = False
+        self.infoGiven = False
+        self.sentences = {
+        "hello1": "Welcome ",
+        "repeat1": 'okokok'
+    }
 
-    def getNextSentence(self, sentence, phase, userPreferences, query):
-        if(phase == 'Hello'):
-            
-            return(sentences("hello1"))
+    def getdialogact(self, sentence):
+        dialogact = 'inform'
+        return dialogact
 
-    def getDialogAct(self, sentence):
+    def getMatches(self, sentence, key='area'):
+
+        return({'area': 'south'})
+
+    def query(self, data, preferences):
+        queriedlist = ['macdonalds', 'kfc']
+        return(queriedlist)
+
+    def getRandom(self, restaurantSubset):
+        restaurant = {'name': 'macdonalds',
+                      'price': 'cheap',
+                      'area': 'south',
+                      'food': 'fast',
+                      'phone': '04905903540',
+                      'addr': 'my house',
+                      'postcode': '2265dd'}
+        return(restaurant)
+
+
+
+    def getNextSentence(self, restaurantSubset, sentence=None):
+
+        # the first message
+        if((self.phase == 'Hello') and (sentence is None)):
+            self.Message = self.sentences["hello1"]
+            return(self.Message)
+
+        # get dialog act
+        self.act = self.getdialogact(sentence)
+
+        # repeat message
+        if(self.act == 'repeat'):
+            return(self.sentences["repeat1"] + self.Message)
+
+        # noise message
+        if(self.act == 'null'):
+            self.Message = self.sentences['noise1']
+            return(self.Message)
+
+        # bye message
+        if(self.act == 'bye'):
+            return(self.sentences['bye1'])
+
+        # restart message
+        if(self.act == 'restart'):
+            self.act = 'start'
+            self.phase = 'Hello'
+            self.Message = None
+            return(self.sentences['restart1'])
+
+        # thankyou message
+        if(self.act == 'thankyou'):
+            return(self.sentences['thankyou1'])
+
+        # hello message
+        if(self.phase =='Hello'):
+            if(self.act == 'hello'):
+                return(self.sentences["hello2"])
+            if(self.act == 'ack' or self.act == 'affirm'):
+                return(self.sentences['ack1'])
+            if(self.act == 'confirm'):
+                return(self.sentences['request1'])
+            if(self.act == 'deny'):
+                return(self.sentences['bye2'])
+            if(self.act == 'reqmore' or self.act == 'request'):
+                return(self.sentences['noise1'])
+            if(self.act == 'inform' or self.act == 'deny' or self.act == 'reqalts'):
+                self.phase = 'gathering'
+
+
+        if(self.phase =='gathering'):
+            self.userPreferences.updatePreferences(getMatches(sentence))
+            # update subset
+            if(restaurantSubset < 1):
+                self.userPreferences.clearPreferences()
+                return(self.sentences['empty1'])
+
+            if(restaurantSubset < 5):
+                self.phase = 'suggestions'
+
+            if(restaurantSubset > 5):
+                if(self.act == 'hello' or self.act =='reqmore'):
+                    return(self.sentences['noise1'])
+
+                if(self.act == 'inform'):
+                    if (self.userPreferences['area'] == []):
+                        return (self.sentences['area1'])
+                    if (self.userPreferences['price_range'] == []):
+                        return (self.sentences['pricerange1'])
+                    if (self.userPreferences['type'] == []):
+                        return (self.sentences['type1'])
+                    else:
+                        self.phase = 'suggestions'
+                if(self.act == 'ack' or self.act == 'affirm' or self.act == 'negate' or self.act == 'reqmore'):
+                    return(self.Message)
+
+                if(self.act =='confirm'):
+                    self.phase = 'confirm'
+
+                if(self.act =='deny'):
+                    self.phase = 'confirm'
+
+                if(self.act == 'reqalts'):
+                    if (self.userPreferences['area'] == []):
+                        return (self.sentences['area1'])
+                    if (self.userPreferences['price_range'] == []):
+                        return (self.sentences['pricerange1'])
+                    if (self.userPreferences['type'] == []):
+                        return (self.sentences['type1'])
+                    else:
+                        self.phase = 'suggestions'
+
+
+        if(self.phase == 'suggestions'):
+            if(self.madeSuggestion == False
+                    or self.act == 'deny'
+                    or self.act == 'negate'
+                    or self.act == 'reqalts'
+                    or self.act == 'reqmore'):
+
+                self.suggestion = self.getRandom(restaurantSubset)
+
+                return(self.sentences['suggest1']
+                       + self.suggestion['name']
+                       + " it's"
+                       + self.suggestion['price']
+                       + " and its in the "
+                       + self.suggestion['area'] )
+
+            if(self.act == 'ack' or self.act == 'affirm'):
+                if(self.infoGiven == False):
+                    return(self.sentences['inform1']
+                           + self.suggestion['name']
+                           + self.suggestion['addr']
+                           + self.suggestion['postcode']
+                           + self.suggestion['phone'])
+                if(self.infoGiven == True):
+                    self.phase = 'goodbye'
+
+            if(self.act == 'confirm'):
+                # get match and check
+                if(True):
+                    return(self.sentences['confirm1'])
+                if(False):
+                    return(self.sentences['deny1'])
+
+            if(self.act == 'hello'):
+                return(self.sentence['noise1'])
+
+            if(self.act == 'inform'):
+                self.phase = 'confirm'
+
+            if(self.act == 'request'):
+                # get match and return info
+                return("this doesnt work yet")
+
+
+        if(self.phase == 'confirm'):
+            return('ok')
+
+
+        if(self.phase == 'goodbye'):
+            return('bye')
 
 
 
 
 
-while():
+
+convo = conversation()
+sent = 'Hello I want to have italian food in center pls'
+print(convo.getNextSentence(sent))
 
 
 

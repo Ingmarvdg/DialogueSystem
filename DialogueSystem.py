@@ -244,7 +244,7 @@ elif answer == '3':
     Train_X_Tfidf = Tfidf_vect.transform(train_X)
     Test_X_Tfidf = Tfidf_vect.transform(test_X)
 
-    Model = naive_bayes.MultinomialNB()  # - 58%
+    Model = naive_bayes.MultinomialNB(alpha=0.43)  # - 58%
     Model.fit(Train_X_Tfidf, train_Y)
     predictions_NB = Model.predict(Test_X_Tfidf)
     print(predictions_NB)
