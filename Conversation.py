@@ -37,10 +37,12 @@ class conversation:
 
     def __init__(self):
         self.phase = 'Hello'
+        self.act = 'ack'
 
     def getNextSentence(self, sentence, phase, userPreferences, query):
         if(phase == 'Hello'):
-            return()
+            
+            return(sentences("hello1"))
 
     def getDialogAct(self, sentence):
 
