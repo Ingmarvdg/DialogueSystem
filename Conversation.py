@@ -1,26 +1,6 @@
 ### FUNCTIONS FOR INTRODUCTION
 
 ### user preference class ###
-class UserPreference:
-
-    def __init__(self):
-        self.food = ['italian']
-        self.price_range = ['cheap']
-        self.area = ['south']
-        self.preferences = {"food": self.food, "price_range": self.price_range, "area": self.area}
-        self.suggestion = None
-
-    def updatePreferences(self, keys, values):
-
-        return None
-
-    def getPreferences(self):
-
-        return preferences
-
-    def clearPreferences(self):
-
-        return None
 
 # conversation class
 class conversation:
@@ -44,33 +24,33 @@ class conversation:
         "confirm1": "Yes,that is correct."
         "deny1": "No."
 
-    }
-
     def __init__(self):
         self.phase = 'gathering'
         self.act = 'start'
-        self.Message = 'Nothing'
-        self.userPreferences = UserPreference
+        self.last_message = 'Nothing'
+        self.userPreferences = {"food": [], "price_range": [], "area": []}
         self.query = []
         self.madeSuggestion = False
         self.infoGiven = False
-        self.sentences = {
-        "hello1": "Welcome ",
-        "repeat1": 'okokok'
-    }
+        self.SENTENCES = {
+        }
 
+    #todo: work in progress
     def getdialogact(self, sentence):
         dialogact = 'inform'
         return dialogact
 
+    #todo: work in progress
     def getMatches(self, sentence, key='area'):
 
         return({'area': 'south'})
 
+    #todo: work in progress
     def query(self, data, preferences):
         queriedlist = ['macdonalds', 'kfc']
         return(queriedlist)
 
+    #todo: work in progress
     def getRandom(self, restaurantSubset):
         restaurant = {'name': 'macdonalds',
                       'price': 'cheap',
@@ -81,83 +61,88 @@ class conversation:
                       'postcode': '2265dd'}
         return(restaurant)
 
-
-
     def getNextSentence(self, restaurantSubset, sentence=None):
+        SUGGESTLIMIT = 5
+        SENTENCES = {
+            "hello1": "Welcome "
 
-        # the first message
-        if((self.phase == 'Hello') and (sentence is None)):
-            self.Message = self.sentences["hello1"]
-            return(self.Message)
+        }
+
+        # initial message
+        if(self.phase == 'hello' and sentence is None):
+            self.last_message = SENTENCES['hello1']
+            return(self.last_message)
 
         # get dialog act
         self.act = self.getdialogact(sentence)
 
         # repeat message
         if(self.act == 'repeat'):
-            return(self.sentences["repeat1"] + self.Message)
+            return(SENTENCES["repeat1"] + self.last_message)
 
         # noise message
         if(self.act == 'null'):
-            self.Message = self.sentences['noise1']
-            return(self.Message)
+            self.last_message = SENTENCES['noise1']
+            return(self.last_message)
 
         # bye message
         if(self.act == 'bye'):
-            return(self.sentences['bye1'])
+            return(SENTENCES['bye1'])
 
         # restart message
         if(self.act == 'restart'):
             self.act = 'start'
-            self.phase = 'Hello'
-            self.Message = None
-            return(self.sentences['restart1'])
+            self.phase = 'hello'
+            self.last_message = None
+            return(SENTENCES['restart1'])
 
-        # thankyou message
+        # thank you message
         if(self.act == 'thankyou'):
-            return(self.sentences['thankyou1'])
+            return(SENTENCES['thankyou1'])
 
-        # hello message
+        # hello phase
         if(self.phase =='Hello'):
             if(self.act == 'hello'):
-                return(self.sentences["hello2"])
+                return(SENTENCES["hello2"])
             if(self.act == 'ack' or self.act == 'affirm'):
-                return(self.sentences['ack1'])
+                return(SENTENCES['ack1'])
             if(self.act == 'confirm'):
-                return(self.sentences['request1'])
+                return(SENTENCES['request1'])
             if(self.act == 'deny'):
-                return(self.sentences['bye2'])
+                return(SENTENCES['bye2'])
             if(self.act == 'reqmore' or self.act == 'request'):
-                return(self.sentences['noise1'])
+                return(SENTENCES['noise1'])
             if(self.act == 'inform' or self.act == 'deny' or self.act == 'reqalts'):
                 self.phase = 'gathering'
 
-
+        # gathering phase
         if(self.phase =='gathering'):
-            self.userPreferences.updatePreferences(getMatches(sentence))
-            # update subset
-            if(restaurantSubset < 1):
-                self.userPreferences.clearPreferences()
-                return(self.sentences['empty1'])
+            # todo: update preferences based on the sentence
+            # todo: update subset
 
-            if(restaurantSubset < 5):
+            if(restaurantSubset < 1):
+                self.userPreferences = {"food": [], "price_range": [], "area": []}
+                return(self.SENTENCES['empty1'])
+
+            if(restaurantSubset < SUGGESTLIMIT):
                 self.phase = 'suggestions'
 
-            if(restaurantSubset > 5):
+            if(restaurantSubset > SUGGESTLIMIT):
                 if(self.act == 'hello' or self.act =='reqmore'):
-                    return(self.sentences['noise1'])
+                    return(self.SENTENCES['noise1'])
 
                 if(self.act == 'inform'):
                     if (self.userPreferences['area'] == []):
-                        return (self.sentences['area1'])
+                        return (self.SENTENCES['area1'])
                     if (self.userPreferences['price_range'] == []):
-                        return (self.sentences['pricerange1'])
+                        return (self.SENTENCES['pricerange1'])
                     if (self.userPreferences['type'] == []):
-                        return (self.sentences['type1'])
+                        return (self.SENTENCES['type1'])
                     else:
                         self.phase = 'suggestions'
+
                 if(self.act == 'ack' or self.act == 'affirm' or self.act == 'negate' or self.act == 'reqmore'):
-                    return(self.Message)
+                    return(self.last_message)
 
                 if(self.act =='confirm'):
                     self.phase = 'confirm'
@@ -167,14 +152,13 @@ class conversation:
 
                 if(self.act == 'reqalts'):
                     if (self.userPreferences['area'] == []):
-                        return (self.sentences['area1'])
+                        return (self.SENTENCES['area1'])
                     if (self.userPreferences['price_range'] == []):
-                        return (self.sentences['pricerange1'])
+                        return (self.SENTENCES['pricerange1'])
                     if (self.userPreferences['type'] == []):
-                        return (self.sentences['type1'])
+                        return (self.SENTENCES['type1'])
                     else:
                         self.phase = 'suggestions'
-
 
         if(self.phase == 'suggestions'):
             if(self.madeSuggestion == False
@@ -185,7 +169,7 @@ class conversation:
 
                 self.suggestion = self.getRandom(restaurantSubset)
 
-                return(self.sentences['suggest1']
+                return(self.SENTENCES['suggest1']
                        + self.suggestion['name']
                        + " it's"
                        + self.suggestion['price']
@@ -194,7 +178,7 @@ class conversation:
 
             if(self.act == 'ack' or self.act == 'affirm'):
                 if(self.infoGiven == False):
-                    return(self.sentences['inform1']
+                    return(self.SENTENCES['inform1']
                            + self.suggestion['name']
                            + self.suggestion['addr']
                            + self.suggestion['postcode']
@@ -205,12 +189,12 @@ class conversation:
             if(self.act == 'confirm'):
                 # get match and check
                 if(True):
-                    return(self.sentences['confirm1'])
+                    return(SENTENCES['confirm1'])
                 if(False):
-                    return(self.sentences['deny1'])
+                    return(SENTENCES['deny1'])
 
             if(self.act == 'hello'):
-                return(self.sentence['noise1'])
+                return(SENTENCES['noise1'])
 
             if(self.act == 'inform'):
                 self.phase = 'confirm'
@@ -226,8 +210,6 @@ class conversation:
 
         if(self.phase == 'goodbye'):
             return('bye')
-
-
 
 
 
