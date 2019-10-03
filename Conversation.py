@@ -25,7 +25,24 @@ class UserPreference:
 # conversation class
 class conversation:
     sentences = {
-        "hello1": "Welcome "
+        "hello1": "Hello! Welcome to the Ambrosia restaurant system. What kind of restaurant are you looking for?",
+        "hello2": "Hi there! You can search for restaurants by area, price range or food type. What would you like?",
+        "empty1": "Sorry, no restaurants matching your criteria were found. Would you like to try something else?",
+        "repeat1": "Oh sorry. I'm gonna repeat that.",
+        "noise1": "I'm sorry, I didn't get that. Could you repeat?",
+        "bye1": "Goodbye!",
+        "bye2": "Bye, maybe next time",
+        "restart1": "Ok! Let's try again!",
+        "thankyou1": "You're welcome!",
+        "ack1": "So, what can I help you with?",
+        "request1": "Please, tell me what kind of restaurant you are looking for.",
+        "inform1": "Here's the restaurant's information: .",
+        "area1": "In which area would you like to go?",
+        "pricerange1": "What kind of price range do you prefer?",
+        "type1": "What type of food would you like?",
+        "suggest1": "What about ",
+        "confirm1": "Yes,that is correct."
+        "deny1": "No."
 
     }
 
