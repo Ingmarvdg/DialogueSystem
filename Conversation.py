@@ -1,9 +1,11 @@
-### FUNCTIONS FOR INTRODUCTION
+# imports
 
-### user preference class ###
+import RulebasedEstimator
+import pandas as pd
+import numpy as np
 
 # conversation class
-class conversation:
+class Conversation:
     SENTENCES = {
         "hello1": "Hello! Welcome to the Ambrosia restaurant system. What kind of restaurant are you looking for?",
         "hello2": "Hi there! You can search for restaurants by area, price range or food type. What would you like?",
@@ -28,7 +30,7 @@ class conversation:
         'ended1': 'The dialog has ended.'
     }
 
-    def __init__(self):
+    def __init__(self, classifier='rule'):
         self.state = 'hello'
         self.response = 'nothing'
         self.userPreferences = {"food": [], "price_range": [], "area": []}
@@ -36,11 +38,16 @@ class conversation:
         self.suggestion = {}
         self.infoGiven = False
         self.topic_at_stake = {}
+        self.classifier = classifier
 
-    #todo: work in progress
-    def getdialogact(self, sentence):
-        dialogact = 'inform'
-        return dialogact
+    def get_dialog_act(self, sentence, classifier):
+        if classifier == 'rule':
+            dialog_act = RulebasedEstimator.predict(sentence)
+        elif isinstance(classifier, pd.core.series):
+            dialog_act = np.random.choice(list(classifier.index.values), 1, list(classifier.values))
+        else:
+            dialog_act = classifier.predict(sentence)
+        return dialog_act
 
     #todo: work in progress
     def getMatches(self, sentence, key='area'):
@@ -53,7 +60,7 @@ class conversation:
         return(queriedlist)
 
     #todo: work in progress
-    def getRandom(self, restaurantSubset):
+    def get_random(self, restaurantSubset):
         restaurant = {'name': 'macdonalds',
                       'price': 'cheap',
                       'area': 'south',
@@ -93,7 +100,7 @@ class conversation:
             new_state = 'request'
             response = self.SENTENCES['request1']
 
-        if(act == 'deny'):
+        if(act == 'negate'):
             new_state = 'bye'
             response = self.SENTENCES['bye2']
 
@@ -117,7 +124,7 @@ class conversation:
             response = self.get_confirm_sent(sentence)
             new_state = 'confirm'
 
-        if (act == 'deny'):
+        if (act == 'deny' or 'negate'):
             response = self.SENTENCES['bye1']
             new_state = 'bye'
 
@@ -216,7 +223,7 @@ class conversation:
 
         return(response, new_state)
 
-    def getNextSentence(self, sentence=None):
+    def get_next_sentence(self, sentence=None):
 
         switcher = {
             "hello": self.state_hello,
@@ -227,35 +234,37 @@ class conversation:
         }
 
         # get dialog act
-        act = self.getdialogact(sentence)
+        act = self.get_dialog_act(sentence, self.classifier)
+
+        print("current state is: " + self.state, "current act is: " + act)
 
         # general responses
-        if(act == 'hello'):
-            new_state = 'request'
-            response = self.SENTENCES['hello2']
+        if (act == 'hello'):
+            self.state = 'request'
+            self.response = self.SENTENCES['hello2']
 
-        if (act == 'repeat'):
+        elif (act == 'repeat'):
             return (self.SENTENCES['repeat1'] + self.response)
 
-        if (act == 'null'):
+        elif (act == 'null'):
             self.response = self.SENTENCES['noise1']
             return (self.response)
 
-        if (act == 'bye'):
+        elif (act == 'bye'):
             return (self.SENTENCES['bye1'])
 
-        if (act == 'restart'):
+        elif (act == 'restart'):
             self.__init__()
             return (self.SENTENCES['restart1'])
 
-        if (act == 'thankyou'):
+        elif (act == 'thankyou'):
             return (self.SENTENCES['thankyou1'])
 
-        func = switcher.get(self.state, lambda: "Invalid State")
-
-        response, new_state = func(sentence, act)
-        self.state = new_state
-        self.response = response
+        else:
+            func = switcher.get(self.state, lambda: "Invalid State")
+            response, new_state = func(sentence, act)
+            self.state = new_state
+            self.response = response
 
         return(self.response)
 
@@ -264,13 +273,13 @@ class conversation:
         print(self.SENTENCES['hello1'])
         sentence = input()
         while(self.state != 'bye'):
-            print(self.getNextSentence(sentence))
+            print(self.get_next_sentence(sentence))
             sentence = input()
 
         return self.SENTENCES['ended1']
 
 
-convo = conversation()
+convo = Conversation(classifier='rule')
 convo.start_conversation()
 
 

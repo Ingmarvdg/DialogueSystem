@@ -131,7 +131,10 @@ header_test = 'data/dstc2_test/data/'
 header_train = 'data/dstc2_traindev/data/'
 
 print('Select an option:')
-answer = input('1)Part 1a: domain modelling. \n2)Part 1b: Produce text files.\n3)Part 1b: Train, Test, Evaluate.\n')
+answer = input('1)Part 1a: domain modelling. \n'
+               '2)Part 1b: Produce text files.\n'
+               '3)Part 1b: Train, Test, Evaluate.\n'
+               '4)Part 1c: run dialog')
 
 if answer == '1':
     print('Parsing data...')
@@ -238,7 +241,6 @@ elif answer == '3':
     rule_preds = Encoder.transform(rule_preds)
 
     # get predictions machine learning model of test set
-
     Tfidf_vect = TfidfVectorizer(max_features=5000)
     Tfidf_vect.fit(train_X)
     Train_X_Tfidf = Tfidf_vect.transform(train_X)
@@ -271,4 +273,9 @@ elif answer == '3':
     negation_test_tfidf = Tfidf_vect.transform(negation_test_X)
     negation_ml_preds = Model.predict(negation_test_tfidf)
     print(f1_score(negation_test_Y, negation_ml_preds, average='weighted'))
+
+elif answer == '4':
+
+
+
 
