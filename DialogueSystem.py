@@ -10,13 +10,11 @@ import numpy as np
 import RulebasedEstimator as rbe
 
 from sklearn.preprocessing import LabelEncoder
-from collections import defaultdict
-from nltk.corpus import wordnet as wn
+
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn import model_selection, naive_bayes, svm, tree
-from sklearn.metrics import accuracy_score
+from sklearn import naive_bayes
+from sklearn.metrics import classification_report
 from sklearn.metrics import f1_score
-import sklearn.metrics as metrics
 
 import numpy
 import nltk
@@ -222,6 +220,8 @@ elif answer == '3':
     train_X, train_Y = train_data['text_final'], train_data['label']
     test_Y = test_data['label']
     test_X = test_data['text_final']
+    hard_test_X, hard_test_Y = hard_test_data['text_final'], hard_test_data['label']
+    negation_test_X, negation_test_Y = negation_test_data['text_final'], negation_test_data['label']
 
     # label encoding
     Encoder = LabelEncoder()
@@ -234,7 +234,7 @@ elif answer == '3':
     random_preds = np.random.choice(list(frequencies.index.values), len(test_Y), list(frequencies.values))
 
     # get predictions for baseline rule based
-    rule_preds = rbe.Classify(train_X)
+    rule_preds = rbe.Classify(test_X)
     rule_preds = Encoder.transform(rule_preds)
 
     # get predictions machine learning model of test set
@@ -246,14 +246,29 @@ elif answer == '3':
 
     Model = naive_bayes.MultinomialNB(alpha=0.43)  # - 58%
     Model.fit(Train_X_Tfidf, train_Y)
-    predictions_NB = Model.predict(Test_X_Tfidf)
-    print(predictions_NB)
+    ml_preds = Model.predict(Test_X_Tfidf)
 
-    ml_preds = Encoder.inverse_transform(predictions_NB)
+    # print classification reports for both baselines and the ml classifier
+    random_report = classification_report(test_Y, random_preds)
+    rule_report = classification_report(test_Y, rule_preds)
+    ml_report = classification_report(test_Y, ml_preds)
+    print(ml_report)
 
-    # for each of the predictors print classification report
+    # make predictions for hard data, not for random since we can assume that performance will remain unchanged
+    hard_rule_preds = rbe.Classify(hard_test_X)
+    negation_rule_preds = Encoder.transform(hard_rule_preds)
+    print(f1_score(hard_test_Y, hard_rule_preds, average='weighted'))
 
-    #  show graph that compares weighted f1 scores, recall and precision of baseline 1, baseline 2 and machine learning model
+    hard_test_tfidf = Tfidf_vect.transform(hard_test_X)
+    hard_ml_preds = Model.predict(hard_test_tfidf)
+    print(f1_score(hard_test_Y, hard_ml_preds, average='weighted'))
 
-    # loop to enter a sentence and let the ml model classify it
+    # make predictions for negation data
+    negation_rule_preds = rbe.Classify(negation_test_X)
+    negation_rule_preds = Encoder.transform(negation_rule_preds)
+    print(f1_score(negation_test_Y, negation_rule_preds, average='weighted'))
+
+    negation_test_tfidf = Tfidf_vect.transform(negation_test_X)
+    negation_ml_preds = Model.predict(negation_test_tfidf)
+    print(f1_score(negation_test_Y, negation_ml_preds, average='weighted'))
 
