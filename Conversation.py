@@ -4,11 +4,11 @@
 
 # conversation class
 class conversation:
-    sentences = {
+    SENTENCES = {
         "hello1": "Hello! Welcome to the Ambrosia restaurant system. What kind of restaurant are you looking for?",
         "hello2": "Hi there! You can search for restaurants by area, price range or food type. What would you like?",
         "empty1": "Sorry, no restaurants matching your criteria were found. Would you like to try something else?",
-        "repeat1": "Oh sorry. I'm gonna repeat that.",
+        "repeat1": "Sorry for not being clear, I said: ",
         "noise1": "I'm sorry, I didn't get that. Could you repeat?",
         "bye1": "Goodbye!",
         "bye2": "Bye, maybe next time",
@@ -20,20 +20,22 @@ class conversation:
         "area1": "In which area would you like to go?",
         "pricerange1": "What kind of price range do you prefer?",
         "type1": "What type of food would you like?",
-        "suggest1": "What about ",
-        "confirm1": "Yes,that is correct."
-        "deny1": "No."
+        "confirm1": "Yes,that is correct.",
+        "deny1": "No.",
+        "noresults1": "I couldnt find any results, lets try again, what is it you are looking for?",
+        "softreset1": "Something else is also fine, what would you like?",
+        "tryagain1": 'Sorry, lets try again, what is it you are looking for?',
+        'ended1': 'The dialog has ended.'
+    }
 
     def __init__(self):
-        self.phase = 'gathering'
-        self.act = 'start'
-        self.last_message = 'Nothing'
+        self.state = 'hello'
+        self.response = 'nothing'
         self.userPreferences = {"food": [], "price_range": [], "area": []}
-        self.query = []
-        self.madeSuggestion = False
+        self.restaurantSet = []
+        self.suggestion = {}
         self.infoGiven = False
-        self.SENTENCES = {
-        }
+        self.topic_at_stake = {}
 
     #todo: work in progress
     def getdialogact(self, sentence):
@@ -61,162 +63,216 @@ class conversation:
                       'postcode': '2265dd'}
         return(restaurant)
 
-    def getNextSentence(self, restaurantSubset, sentence=None):
-        SUGGESTLIMIT = 5
-        SENTENCES = {
-            "hello1": "Welcome "
 
+    def get_request_sent(self, sentence):
+        request = 'what do you want?'
+        return request
+
+    def get_confirm_sent(self, sentence):
+        confirm = "so u want cheese"
+        return confirm
+
+    def get_suggest_sent(self, sentence):
+        suggest = 'suggestion'
+        return suggest
+
+    def get_inform_sent(self, sentence):
+        inform = 'information'
+        return inform
+
+
+    def state_hello(self, sentence, act):
+        response = ''
+        new_state = 'hello'
+
+        if(act == 'ack' or act == 'affirm'):
+            new_state = 'request'
+            response = self.SENTENCES['ack1']
+
+        if(act == 'confirm'):
+            new_state = 'request'
+            response = self.SENTENCES['request1']
+
+        if(act == 'deny'):
+            new_state = 'bye'
+            response = self.SENTENCES['bye2']
+
+        if(act == 'reqmore' or act == 'request'):
+            response = self.SENTENCES['noise1']
+
+        if(act == 'inform' or act == 'deny' or act == 'reqalts'):
+            new_state = 'confirm'
+            response = self.get_confirm_sent(sentence)
+
+        return(response, new_state)
+
+    def state_request(self, sentence, act):
+        response = ''
+        new_state = 'request'
+
+        if (act == 'ack' or act == 'affirm'):
+            response = self.SENTENCES['ack1']
+
+        if (act == 'confirm' or act == 'reqalts' or act == 'inform' or act == 'request'):
+            response = self.get_confirm_sent(sentence)
+            new_state = 'confirm'
+
+        if (act == 'deny'):
+            response = self.SENTENCES['bye1']
+            new_state = 'bye'
+
+        if(act == 'reqmore'):
+            response = self.SENTENCES['noise1']
+
+        return(response, new_state)
+
+    def state_confirm(self, sentence, act):
+        response = ''
+        new_state = 'confirm'
+
+        if(act == 'ack' or act == 'affirm'):
+            # update prefs
+            # update subset
+            # update at stake
+
+            if(len(self.restaurantSet) < 1):
+                response = self.SENTENCES['noresults1']
+                new_state = 'confirm'
+
+            if (len(self.restaurantSet) < 5):
+
+                self.suggestion = self.getRandom(self.restaurantSet)
+
+                name = self.suggestion['name']
+                price = self.suggestion['price']
+                area = self.suggestion['area']
+
+                response = f"What about {name}, its {price} and is in the {area}."
+                new_state = 'inform'
+
+            if (len(self.restaurantSet) >= 5):
+                response = self.get_request_sent(sentence)
+                new_state = 'request'
+
+        if(act == 'confirm' or act == 'inform'):
+            response = self.get_confirm_sent(sentence)
+            new_state = 'confirm'
+
+        if(act == 'reqalts'):
+            response = self.SENTENCES['softreset1']
+            new_state = 'request'
+
+        if(act == 'deny' or 'negate'):
+            # clear at stake slots
+            new_state = 'request'
+            response = self.SENTENCES['tryagain1']
+
+        return(response, new_state)
+
+    def state_inform(self, sentence, act):
+        response = ''
+        new_state = 'inform'
+
+        if(act == 'inform'):
+            response = self.get_confirm_sent(sentence)
+            new_state = 'confirm'
+
+        if(act == 'confirm'):
+            # todo: check query
+            if(True):
+                response = self.SENTENCES['confirm1']
+            if(False):
+                new_state = 'confirm'
+                response = self.get_confirm_sent(sentence)
+
+        if(act == 'deny' or 'negate' or 'reqmore'):
+            self.suggestion = self.getRandom(self.restaurantSet)
+
+            name = self.suggestion['name']
+            price = self.suggestion['price']
+            area =  self.suggestion['area']
+
+            response = f"What about {name}, its {price} and is in the {area}."
+
+        if(act == 'ack' or 'affirm'):
+            if(self.infoGiven == False):
+                response = self.get_inform_sent(sentence)
+
+            if(self.infoGiven == True):
+                response = 'goodbye'
+                new_state = ''
+
+        if(act == 'request'):
+            response = self.get_inform_sent(sentence)
+
+        if(act == 'inform'):
+            new_state = 'confirm'
+
+        return(response, new_state)
+
+    def state_bye(self, sentence):
+        response = self.SENTENCES['bye1']
+        new_state = 'bye'
+
+        return(response, new_state)
+
+    def getNextSentence(self, sentence=None):
+
+        switcher = {
+            "hello": self.state_hello,
+            "request": self.state_request,
+            "confirm": self.state_confirm,
+            "inform": self.state_inform,
+            "bye": self.state_bye
         }
 
-        # initial message
-        if(self.phase == 'hello' and sentence is None):
-            self.last_message = SENTENCES['hello1']
-            return(self.last_message)
-
         # get dialog act
-        self.act = self.getdialogact(sentence)
+        act = self.getdialogact(sentence)
 
-        # repeat message
-        if(self.act == 'repeat'):
-            return(SENTENCES["repeat1"] + self.last_message)
+        # general responses
+        if(act == 'hello'):
+            new_state = 'request'
+            response = self.SENTENCES['hello2']
 
-        # noise message
-        if(self.act == 'null'):
-            self.last_message = SENTENCES['noise1']
-            return(self.last_message)
+        if (act == 'repeat'):
+            return (self.SENTENCES['repeat1'] + self.response)
 
-        # bye message
-        if(self.act == 'bye'):
-            return(SENTENCES['bye1'])
+        if (act == 'null'):
+            self.response = self.SENTENCES['noise1']
+            return (self.response)
 
-        # restart message
-        if(self.act == 'restart'):
-            self.act = 'start'
-            self.phase = 'hello'
-            self.last_message = None
-            return(SENTENCES['restart1'])
+        if (act == 'bye'):
+            return (self.SENTENCES['bye1'])
 
-        # thank you message
-        if(self.act == 'thankyou'):
-            return(SENTENCES['thankyou1'])
+        if (act == 'restart'):
+            self.__init__()
+            return (self.SENTENCES['restart1'])
 
-        # hello phase
-        if(self.phase =='Hello'):
-            if(self.act == 'hello'):
-                return(SENTENCES["hello2"])
-            if(self.act == 'ack' or self.act == 'affirm'):
-                return(SENTENCES['ack1'])
-            if(self.act == 'confirm'):
-                return(SENTENCES['request1'])
-            if(self.act == 'deny'):
-                return(SENTENCES['bye2'])
-            if(self.act == 'reqmore' or self.act == 'request'):
-                return(SENTENCES['noise1'])
-            if(self.act == 'inform' or self.act == 'deny' or self.act == 'reqalts'):
-                self.phase = 'gathering'
+        if (act == 'thankyou'):
+            return (self.SENTENCES['thankyou1'])
 
-        # gathering phase
-        if(self.phase =='gathering'):
-            # todo: update preferences based on the sentence
-            # todo: update subset
+        func = switcher.get(self.state, lambda: "Invalid State")
 
-            if(restaurantSubset < 1):
-                self.userPreferences = {"food": [], "price_range": [], "area": []}
-                return(self.SENTENCES['empty1'])
+        response, new_state = func(sentence, act)
+        self.state = new_state
+        self.response = response
 
-            if(restaurantSubset < SUGGESTLIMIT):
-                self.phase = 'suggestions'
+        return(self.response)
 
-            if(restaurantSubset > SUGGESTLIMIT):
-                if(self.act == 'hello' or self.act =='reqmore'):
-                    return(self.SENTENCES['noise1'])
+    def start_conversation(self):
 
-                if(self.act == 'inform'):
-                    if (self.userPreferences['area'] == []):
-                        return (self.SENTENCES['area1'])
-                    if (self.userPreferences['price_range'] == []):
-                        return (self.SENTENCES['pricerange1'])
-                    if (self.userPreferences['type'] == []):
-                        return (self.SENTENCES['type1'])
-                    else:
-                        self.phase = 'suggestions'
+        print(self.SENTENCES['hello1'])
+        sentence = input()
+        while(self.state != 'bye'):
+            print(self.getNextSentence(sentence))
+            sentence = input()
 
-                if(self.act == 'ack' or self.act == 'affirm' or self.act == 'negate' or self.act == 'reqmore'):
-                    return(self.last_message)
-
-                if(self.act =='confirm'):
-                    self.phase = 'confirm'
-
-                if(self.act =='deny'):
-                    self.phase = 'confirm'
-
-                if(self.act == 'reqalts'):
-                    if (self.userPreferences['area'] == []):
-                        return (self.SENTENCES['area1'])
-                    if (self.userPreferences['price_range'] == []):
-                        return (self.SENTENCES['pricerange1'])
-                    if (self.userPreferences['type'] == []):
-                        return (self.SENTENCES['type1'])
-                    else:
-                        self.phase = 'suggestions'
-
-        if(self.phase == 'suggestions'):
-            if(self.madeSuggestion == False
-                    or self.act == 'deny'
-                    or self.act == 'negate'
-                    or self.act == 'reqalts'
-                    or self.act == 'reqmore'):
-
-                self.suggestion = self.getRandom(restaurantSubset)
-
-                return(self.SENTENCES['suggest1']
-                       + self.suggestion['name']
-                       + " it's"
-                       + self.suggestion['price']
-                       + " and its in the "
-                       + self.suggestion['area'] )
-
-            if(self.act == 'ack' or self.act == 'affirm'):
-                if(self.infoGiven == False):
-                    return(self.SENTENCES['inform1']
-                           + self.suggestion['name']
-                           + self.suggestion['addr']
-                           + self.suggestion['postcode']
-                           + self.suggestion['phone'])
-                if(self.infoGiven == True):
-                    self.phase = 'goodbye'
-
-            if(self.act == 'confirm'):
-                # get match and check
-                if(True):
-                    return(SENTENCES['confirm1'])
-                if(False):
-                    return(SENTENCES['deny1'])
-
-            if(self.act == 'hello'):
-                return(SENTENCES['noise1'])
-
-            if(self.act == 'inform'):
-                self.phase = 'confirm'
-
-            if(self.act == 'request'):
-                # get match and return info
-                return("this doesnt work yet")
-
-
-        if(self.phase == 'confirm'):
-            return('ok')
-
-
-        if(self.phase == 'goodbye'):
-            return('bye')
-
-
+        return self.SENTENCES['ended1']
 
 
 convo = conversation()
-sent = 'Hello I want to have italian food in center pls'
-print(convo.getNextSentence(sent))
+convo.start_conversation()
+
 
 
 
