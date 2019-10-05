@@ -89,6 +89,12 @@ class Conversation:
 
         return {'area': 'south'}
 
+    # method that will update the user preferences with the topic that's at stake
+    def update_preferences(self):
+        for topic in self.topic_at_stake:
+            self.user_preferences[topic].append(self.topic_at_stake[topic])
+        return
+
     # todo: accept the restaurant data and preferences and return a filtered list based on preferences
     def query(self, preferences):
         queriedlist = ['macdonalds', 'kfc']
@@ -183,7 +189,8 @@ class Conversation:
                 response = self.get_confirm_sent()
                 new_state = 'confirm'
             else:
-                # todo: update user preferences
+                self.update_preferences()
+
                 self.restaurantSet = self.query(self.user_preferences)
                 if len(self.restaurantSet) < 1:
                     response = self.SENTENCES['noresults1']
@@ -218,8 +225,7 @@ class Conversation:
         new_state = 'confirm'
 
         if act == 'ack' or act == 'affirm':
-            # todo: update user preferences
-            self.user_preferences = []
+            self.update_preferences()
 
             self.restaurantSet = self.query(self.user_preferences)
             if len(self.restaurantSet) < 1:
@@ -265,7 +271,7 @@ class Conversation:
             new_state = 'confirm'
 
         if act == 'confirm':
-            # todo: check query
+            # todo: get info suggested restaurant
             if(True):
                 response = self.SENTENCES['confirm1']
             if(False):
@@ -359,6 +365,8 @@ class Conversation:
 
         if self.response_uppercase:
             self.response = self.response.upper()
+
+        print("new state is: " + self.state)
 
         return self.response
 
