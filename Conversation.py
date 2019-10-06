@@ -6,6 +6,9 @@ import numpy as np
 
 
 # conversation class
+from OntologyHandler import *
+
+
 class Conversation:
     SENTENCES = {
         "hello1": "Hello! Welcome to the Ambrosia restaurant system. What kind of restaurant are you looking for?",
@@ -63,6 +66,8 @@ class Conversation:
         self.infoGiven = False
         self.topic_at_stake = {}
         self.n_responses = 0
+        self.restaurants = read_csv_database('ontology/restaurantinfo.csv')
+        self.ontology_data = read_json_ontology('ontology/ontology_dstc2.json')
 
         # configuration options
         self.classifier = classifier
@@ -95,9 +100,10 @@ class Conversation:
             self.user_preferences[topic].append(self.topic_at_stake[topic])
         return
 
-    # todo: accept the restaurant data and preferences and return a filtered list based on preferences
     def query(self, preferences):
-        queriedlist = ['macdonalds', 'kfc']
+        queriedlist = get_info_from_restaurant(preferences, self.restaurants)
+        # print(queriedlist)
+        # queriedlist = ['macdonalds', 'kfc']
         return queriedlist
 
     # todo: out of a restaurant subset, return a random restaurant
@@ -191,7 +197,7 @@ class Conversation:
             else:
                 self.update_preferences()
 
-                self.restaurantSet = self.query(self.user_preferences)
+                self.restaurantSet.append(self.query(self.user_preferences))
                 if len(self.restaurantSet) < 1:
                     response = self.SENTENCES['noresults1']
                     self.user_preferences = self.EMPTY_PREFERENCES
@@ -227,7 +233,7 @@ class Conversation:
         if act == 'ack' or act == 'affirm':
             self.update_preferences()
 
-            self.restaurantSet = self.query(self.user_preferences)
+            self.restaurantSet.append(self.query(self.user_preferences))
             if len(self.restaurantSet) < 1:
                 response = self.SENTENCES['noresults1']
                 new_state = 'confirm'
@@ -381,8 +387,8 @@ class Conversation:
         return self.SENTENCES['ended1']
 
 
-convo = Conversation(classifier='rule')
-convo.start_conversation()
+# convo = Conversation(classifier='rule')
+# convo.start_conversation()
 
 
 

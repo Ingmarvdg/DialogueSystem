@@ -1,22 +1,20 @@
 import pandas as pd
-import json
 from itertools import chain
 import os
 import time
-import random
 import MLClassifier as mlc
-import nltk
 import numpy as np
 import RulebasedEstimator as rbe
 
 from sklearn.preprocessing import LabelEncoder
-
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn import naive_bayes
 from sklearn.metrics import classification_report
 from sklearn.metrics import f1_score
 
-import numpy
+from OntologyHandler import *
+from Conversation import Conversation
+
 import nltk
 
 nltk.download('wordnet')
@@ -31,6 +29,7 @@ nltk.download('wordnet')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('punkt')
 nltk.download('stopwords')
+
 
 # function for reading and parsing json to make the conversation readable
 def read_and_parse_json_conversation(log_url, label_url):
@@ -110,7 +109,7 @@ def write_all_convos_to_file(conversations):
 def parse_all_json(header, option):
     conversations = []
     entries = os.listdir(header)
-    print("Parsing data in " + header +' please wait a moment...')
+    print("Parsing data in " + header + ' please wait a moment...')
     for parent_directories in entries:
         if not parent_directories.startswith("."):
             entries_child = os.listdir(header + parent_directories + '/')
@@ -130,11 +129,36 @@ def parse_all_json(header, option):
 header_test = 'data/dstc2_test/data/'
 header_train = 'data/dstc2_traindev/data/'
 
+# Delete after test.
+# Guide on how to use extracting_preferences() function.
+ontology_data = read_json_ontology('ontology/ontology_dstc2.json')
+restaurants = read_csv_database('ontology/restaurantinfo.csv')
+utterance_content = "I'm looking for african food. Also britis food. Also I would love if " \
+                    " the food was cheap."
+# Initialise preferences
+preferences = dict(food=[], pricerange=[], restaurantname=[], area=[])
+# extracting_preferences() will be used only if we want to update the client's preference
+# so when dialog_act is 'inform'.
+dialog_act = 'inform'
+if dialog_act == 'inform':
+    preferences = extracting_preferences(utterance_content, ontology_data, preferences)
+    print(preferences)
+    print(get_info_from_restaurant(preferences, restaurants))
+    # bot will suggest a restaurant based on the preferences
+utterance_content = 'Sorry I also want the restaurant to be in the east area.'
+
+if dialog_act == 'inform':
+    # So here the preference will be updated. In our example, adding the east area.
+    preferences = extracting_preferences(utterance_content, ontology_data, preferences)
+    print(preferences)
+    print(get_info_from_restaurant(preferences, restaurants))
+#########################
+
 print('Select an option:')
-answer = input('1)Part 1a: domain modelling. \n'
+answer = input('1)Part 1a: Domain modelling.\n'
                '2)Part 1b: Produce text files.\n'
                '3)Part 1b: Train, Test, Evaluate.\n'
-               '4)Part 1c: run dialog')
+               '4)Part 1c: Run dialog.\n')
 
 if answer == '1':
     print('Parsing data...')
@@ -274,8 +298,22 @@ elif answer == '3':
     negation_ml_preds = Model.predict(negation_test_tfidf)
     print(f1_score(negation_test_Y, negation_ml_preds, average='weighted'))
 
+
 elif answer == '4':
 
-
-
-
+    print('Importing settings...')
+    while True:
+        print('Select an option:')
+        answer = input('1)Let\'s chat!\n'
+                       '2)Change Settings\n'
+                       '3)Exit\n')
+        if answer == '1':
+            convo = Conversation(classifier='rule')
+            convo.start_conversation()
+            pass
+        elif answer == '2':
+            # todo Menu for settings.
+            # todo Function that change settings in the Conversation class.
+            pass
+        elif answer == '3':
+            break
