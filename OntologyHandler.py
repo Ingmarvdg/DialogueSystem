@@ -48,9 +48,11 @@ def read_json_ontology(filepath):
 
 
 def extracting_preferences(utterance_content, ontology_data, preferences):
+    # No empty sentence.
+    if not utterance_content:
+        return dict(food=[], pricerange=[], restaurantname=[], area=[])
     # Split sentence into a list of words
     words = [word.strip(string.punctuation) for word in utterance_content.split()]
-    print(words)
     food_preferences = []
     pricerange_preferences = []
     name = []
@@ -89,65 +91,86 @@ def extracting_preferences(utterance_content, ontology_data, preferences):
     return preferences
 
 
+# todo (optional) should we create a delete_info_from_preferences()? For example 'I don't want Spanish food.'. We will
+#   delete from the food key the value 'Spanish'.
 def get_info_from_restaurant(preferences, restaurants):
     # If we know the restaurant name we just print their details as it is our primary goal.
     if preferences['restaurantname']:
         for preference_restaurant in preferences['restaurantname']:
             restaurant = next((restaurant for restaurant in restaurants if restaurant['restaurantname'] == preference_restaurant), None)
-            return restaurant
+            if restaurant is not None:
+                return restaurant
 
     # If we don't have the restaurantname info then we search based on the area, price and food. We will return the
     # first restaurant which it will satisfy our query. In order not to get the same results over and over we would
     # also randomise the restaurants.
-    random.shuffle(restaurants)
-    keys_with_value = []
-    for key in preferences:
-        if key == 'restaurantname':
-            continue
-        if preferences[key]:
-            keys_with_value.append(key)
-    for restaurant in restaurants:
-        count = 0
-        for key in keys_with_value:
-            if restaurant[key] in preferences[key]:
-                count += 1
-        if count == len(keys_with_value):
-            return restaurant
+    if preferences['food'] and preferences['area'] and preferences['pricerange']:
+        random.shuffle(restaurants)
+        keys_with_value = []
+        for key in preferences:
+            if key == 'restaurantname':
+                continue
+            if preferences[key]:
+                keys_with_value.append(key)
+        for restaurant in restaurants:
+            count = 0
+            for key in keys_with_value:
+                if restaurant[key] in preferences[key]:
+                    count += 1
+            if count == len(keys_with_value):
+                return restaurant
 
     # If we got here it means that the combination of all the the preferences didn't satisfy our query.
     # We will suggest something based on the pricerange and the food.
-    random.shuffle(restaurants)
-    keys_with_value = []
-    for key in preferences:
-        if key == 'restaurantname' or key == 'area':
-            continue
-        if preferences[key]:
-            keys_with_value.append(key)
-    for restaurant in restaurants:
-        count = 0
-        for key in keys_with_value:
-            if restaurant[key] in preferences[key]:
-                count += 1
-        if count == len(keys_with_value):
-            return restaurant
+    if preferences['food'] and preferences['pricerange']:
+        random.shuffle(restaurants)
+        keys_with_value = []
+        for key in preferences:
+            if key == 'restaurantname' or key == 'area':
+                continue
+            if preferences[key]:
+                keys_with_value.append(key)
+        for restaurant in restaurants:
+            count = 0
+            for key in keys_with_value:
+                if restaurant[key] in preferences[key]:
+                    count += 1
+            if count == len(keys_with_value):
+                return restaurant
+
+    # We will suggest something based on the food and the area.
+    if preferences['food'] and preferences['area']:
+        random.shuffle(restaurants)
+        keys_with_value = []
+        for key in preferences:
+            if key == 'restaurantname' or key == 'pricerange':
+                continue
+            if preferences[key]:
+                keys_with_value.append(key)
+        for restaurant in restaurants:
+            count = 0
+            for key in keys_with_value:
+                if restaurant[key] in preferences[key]:
+                    count += 1
+            if count == len(keys_with_value):
+                return restaurant
 
     # Now we should suggest based on food only then on pricerange and last on the area.
     random.shuffle(restaurants)
     if preferences['food']:
         for preference in preferences['food']:
             restaurant = next((restaurant for restaurant in restaurants if restaurant['food'] == preference), None)
-            return restaurant
+            if restaurant is not None:
+                return restaurant
     if preferences['pricerange']:
         for preference in preferences['pricerange']:
             restaurant = next((restaurant for restaurant in restaurants if restaurant['pricerange'] == preference), None)
-            return restaurant
+            if restaurant is not None:
+                return restaurant
     if preferences['area']:
         for preference in preferences['area']:
             restaurant = next((restaurant for restaurant in restaurants if restaurant['area'] == preference), None)
-            return restaurant
+            if restaurant is not None:
+                return restaurant
 
     return None
-
-
-
-

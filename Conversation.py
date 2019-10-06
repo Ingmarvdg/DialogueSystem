@@ -89,10 +89,12 @@ class Conversation:
             dialog_act = classifier.predict(sentence)
         return dialog_act
 
-    # todo: accept a sentence and return the relevant slot and a value
-    def get_matches(self, sentence):
-
-        return {'area': 'south'}
+    # todo We need to initialize somewhere the preferences variable. Remember if they dialog_act is deny, etc
+    #  it will not work. If we encounter a negative sentence we need to empty the preferences. To initialise the
+    #  preferences write preferences = dict(food=[], pricerange=[], restaurantname=[], area=[])
+    def get_matches(self, sentence, preferences):
+        preferences = extracting_preferences(sentence, self.ontology_data, preferences)
+        return preferences
 
     # method that will update the user preferences with the topic that's at stake
     def update_preferences(self):
@@ -100,21 +102,8 @@ class Conversation:
             self.user_preferences[topic].append(self.topic_at_stake[topic])
         return
 
-    def query(self, preferences):
-        queriedlist = get_info_from_restaurant(preferences, self.restaurants)
-        # print(queriedlist)
-        # queriedlist = ['macdonalds', 'kfc']
-        return queriedlist
-
-    # todo: out of a restaurant subset, return a random restaurant
-    def get_random(self, restaurantSubset):
-        restaurant = {'name': 'macdonalds',
-                      'price': 'cheap',
-                      'area': 'south',
-                      'food': 'fast',
-                      'phone': '04905903540',
-                      'addr': 'my house',
-                      'postcode': '2265dd'}
+    def get_random(self, preferences):
+        restaurant = get_info_from_restaurant(preferences, self.restaurants)
         return restaurant
 
     def get_request_sent(self):

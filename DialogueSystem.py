@@ -133,8 +133,7 @@ header_train = 'data/dstc2_traindev/data/'
 # Guide on how to use extracting_preferences() function.
 ontology_data = read_json_ontology('ontology/ontology_dstc2.json')
 restaurants = read_csv_database('ontology/restaurantinfo.csv')
-utterance_content = "I'm looking for african food. Also britis food. Also I would love if " \
-                    " the food was cheap."
+utterance_content = "I'm looking for african food."
 # Initialise preferences
 preferences = dict(food=[], pricerange=[], restaurantname=[], area=[])
 # extracting_preferences() will be used only if we want to update the client's preference
@@ -145,7 +144,7 @@ if dialog_act == 'inform':
     print(preferences)
     print(get_info_from_restaurant(preferences, restaurants))
     # bot will suggest a restaurant based on the preferences
-utterance_content = 'Sorry I also want the restaurant to be in the east area.'
+utterance_content = 'Sorry I also want the restaurant to be in the north or south area.'
 
 if dialog_act == 'inform':
     # So here the preference will be updated. In our example, adding the east area.
@@ -298,10 +297,7 @@ elif answer == '3':
     negation_ml_preds = Model.predict(negation_test_tfidf)
     print(f1_score(negation_test_Y, negation_ml_preds, average='weighted'))
 
-
 elif answer == '4':
-
-    print('Importing settings...')
     while True:
         print('Select an option:')
         answer = input('1)Let\'s chat!\n'
