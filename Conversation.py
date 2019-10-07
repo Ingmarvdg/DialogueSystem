@@ -4,12 +4,33 @@ import RulebasedEstimator
 import pandas as pd
 import numpy as np
 import string
+import csv
+import json
 from Levenshtein import distance
 from numpy import random
 from Levenshtein import distance
 
-# conversation class
-from OntologyHandler import read_csv_database, read_json_ontology
+
+def read_csv_database(filepath):
+    with open(filepath, 'r') as f:
+        reader = csv.reader(f)
+        restaurants = list(reader)
+        restaurants_header = restaurants.pop(0)
+        dict_restaurant = []
+        for restaurant in restaurants:
+            i = 0
+            temp = {}
+            for header_name in restaurants_header:
+                temp[header_name] = restaurant[i]
+                i += 1
+            dict_restaurant.append(temp)
+        return dict_restaurant
+
+
+def read_json_ontology(filepath):
+    with open(filepath) as json_file:
+        data = json.load(json_file)
+        return data
 
 
 class Conversation:
@@ -113,8 +134,6 @@ class Conversation:
             food_preferences.append(self.get_word_matches(word, 'food'))
             pricerange_preferences.append(self.get_word_matches(word, 'pricerange'))
             area.append(self.get_word_matches(word, 'area'))
-
-
 
         # Some restaurant and foods have in their names more than one word. So here we just check if the information
         # from the ontology exist in the utterance content.
@@ -289,7 +308,6 @@ class Conversation:
                 varying_sents.append('in any area')
             else:
                 varying_sents.append("in the " + ' or '.join(stake['area']))
-
 
         confirm_sent = self.SENTENCES['confirmsent1'] + ' and '.join(varying_sents) + "?"
 
