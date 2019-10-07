@@ -4,7 +4,7 @@ import string
 # If you encounter the following error "Microsoft Visual C++ 14.0 is required"
 # you need to download Visual Studio toolbox
 # https://stackoverflow.com/questions/29846087/microsoft-visual-c-14-0-is-required-unable-to-find-vcvarsall-bat
-# from Levenshtein import distance
+from Levenshtein import distance
 from numpy import random
 
 
@@ -90,10 +90,6 @@ def get_preferences(utterance_content, ontology_data, preferences):
     # Return the updated preferences
     return preferences
 
-
-# todo (optional) should we create a delete_info_from_preferences()? For example 'I don't want Spanish food.'. We will
-#   delete from the food key the value 'Spanish'.
-
 def get_restaurant_suggestion(preferences):
     # If we don't have the restaurantname info then we search based on the area, price and food. We will return the
     # first restaurant which it will satisfy our query. In order not to get the same results over and over we would
@@ -173,7 +169,9 @@ def get_info_from_restaurant(preferences, restaurants):
     # If we know the restaurant name we just print their details as it is our primary goal.
     if preferences['restaurantname']:
         for preference_restaurant in preferences['restaurantname']:
-            restaurant = next((restaurant for restaurant in restaurants if restaurant['restaurantname'] == preference_restaurant), None)
+            restaurant = next(
+                (restaurant for restaurant in restaurants if restaurant['restaurantname'] == preference_restaurant),
+                None)
             if restaurant is not None:
                 return restaurant
 
@@ -240,7 +238,8 @@ def get_info_from_restaurant(preferences, restaurants):
                 return restaurant
     if preferences['pricerange']:
         for preference in preferences['pricerange']:
-            restaurant = next((restaurant for restaurant in restaurants if restaurant['pricerange'] == preference), None)
+            restaurant = next((restaurant for restaurant in restaurants if restaurant['pricerange'] == preference),
+                              None)
             if restaurant is not None:
                 return restaurant
     if preferences['area']:
@@ -250,3 +249,23 @@ def get_info_from_restaurant(preferences, restaurants):
                 return restaurant
 
     return None
+
+
+def check_preferences(preferences, ontology_data, utterance_content):
+    # Split sentence into a list of words
+    words = [word.strip(string.punctuation) for word in utterance_content.split()]
+    keywords = ['food', 'area', 'pricerange', 'name']
+    words_in_ontology_found = 0
+    words_in_preferences_found = 0
+    for word in words:
+        for key in keywords:
+            if get_word_matches(word, ontology_data, key) is not None:
+                words_in_ontology_found += 1
+                if word in preferences.value():
+                    words_in_preferences_found += 1
+
+    if words_in_ontology_found != 0 and words_in_ontology_found == words_in_preferences_found:
+        return True
+    else:
+        return False
+
