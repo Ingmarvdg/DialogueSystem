@@ -45,28 +45,19 @@ class Conversation:
         'reqtype1': 'What type of food are you looking for?',
         'reqprice1': 'What price range are you looking for?',
         'reqmore1': 'Anything else?',
-        'confirmtype1': "So the food you are looking for has to be ",
-        'confirmprice1': "The price has to be ",
-        'confirmarea1': "You want the restaurant to be in the ",
+        'confirmsent1': "So the food you are looking for has to be ",
         'reqone1': " ",
         'sorry2': "I'm afraid I cant do that",
         'maxresponses': "Sorry I couldnt help you within the time limit, goodbye!"
     }
 
-    EMPTY_PREFERENCES = {"food": [], "pricerange": [], "area": [], "name": []}
+    EMPTY_PREFERENCES = {"food": [], "pricerange": [], "area": []}
 
-    RESTAURANT_DATA = []
+    DATABASE_PATH = 'ontology/restaurantinfo.csv'
 
-    def __init__(self, classifier='rule',
-                 database_path='ontology/restaurantinfo.csv',
-                 ontology_path='ontology/ontology_dstc2.json',
-                 confirmation_all=True,
-                 info_per_utt="",
-                 levenshtein_dist=5,
-                 allow_restarts=True,
-                 max_responses=np.inf,
-                 response_uppercase=True,
-                 utt_lowercase=True):
+    ONTOLOGY_PATH = 'ontology/ontology_dstc2.json'
+
+    def __init__(self, options):
 
         self.state = 'hello'
         self.response = 'nothing'
@@ -76,52 +67,52 @@ class Conversation:
         self.infoGiven = False
         self.topic_at_stake = {}
         self.n_responses = 0
-        self.restaurants = read_csv_database(database_path)
-        self.ontology_data = read_json_ontology(ontology_path)
+        self.restaurants = read_csv_database(self.DATABASE_PATH)
+        self.ontology_data = read_json_ontology(self.ONTOLOGY_PATH)
 
         # configuration options
-        self.classifier = classifier
-        self.confirmation_all = confirmation_all
-        self.info_per_utt = info_per_utt  # all: request all at once, empty: any number, one: request one at a time
-        self.levenshtein_dist = levenshtein_dist
-        self.allow_restarts = allow_restarts
-        self.max_responses = max_responses
-        self.response_uppercase = response_uppercase
-        self.utt_lowercase = utt_lowercase
+        self.classifier = options['classifier']
+        self.confirmation_all = options['confirmation_all']
+        self.info_per_utt = options['info_per_utt']  # all: request all at once, empty: any number, one: request one at a time
+        self.levenshtein_dist = options['levenshtein_dist']
+        self.allow_restarts = options['allow_restarts']
+        self.max_responses = options['max_responses']
+        self.responses_uppercase = options['responses_uppercase']
+        self.utt_lowercase = options['utt_lowercase']
 
     #    ONTOLOGY HANDLING HELPER FUNCTIONS      #
 
     def get_word_matches(self, word, field):
+        possibilities = []
         for value in self.ontology_data['informable'][field]:
-            if distance(value, word) <= self.levenshtein_dist:
+            ls_distance = distance(value, word)
+            if ls_distance <= 1:
                 return value
             # For example not to ask unnecessary question such as 'Did you mean west instead of east?'
-            elif distance(value, word) > self.levenshtein_dist and \
-                    word not in self.ontology_data['informable']['food'] and \
-                    word not in self.ontology_data['informable']['pricerange'] and \
-                    word not in self.ontology_data['informable']['name'] and \
-                    word not in self.ontology_data['informable']['area']:
+            elif ls_distance < self.levenshtein_dist:
+                possibilities.append(value)
+
+        for value in possibilities:
                 ask = input("Did you mean " + value + " instead of " + word + "? (yes/no)\n")
                 if ask == 'yes':
                     return value
                 else:
                     continue
+        return None
 
     # update to just return preferences from sentence, and not update the previous preferences
     def get_preferences(self, sentence):
-        preferences = self.user_preferences
+        preferences = self.EMPTY_PREFERENCES
         # Split sentence into a list of words
         words = [word.strip(string.punctuation) for word in sentence.split()]
         food_preferences = []
         pricerange_preferences = []
-        name = []
         area = []
         # Compare each word from the utterance content with the ontology data using the Levenshtein distance
         # and adding to the preference list each word which distance is equal or less than 1.
         for word in words:
             food_preferences.append(self.get_word_matches(word, 'food'))
             pricerange_preferences.append(self.get_word_matches(word, 'pricerange'))
-            name.append(self.get_word_matches(word, 'name'))
             area.append(self.get_word_matches(word, 'area'))
 
         # Some restaurant and foods have in their names more than one word. So here we just check if the information
@@ -131,13 +122,7 @@ class Conversation:
                 food_preferences.append(value)
                 break
 
-        for value in self.ontology_data['informable']['name']:
-            if value in sentence:
-                name.append(value)
-                break
-
         # Make a distinct list
-        name = list(dict.fromkeys(name))
         food_preferences = list(dict.fromkeys(food_preferences))
 
         # Insert list to another
@@ -224,7 +209,7 @@ class Conversation:
                 restaurant = next((restaurant for restaurant in restaurants if restaurant['area'] == preference), None)
                 if restaurant is not None:
                     return restaurant
-        return None
+        return
 
     def check_suggestion(self, suggestions, utterance_content):
         keywords = ['food', 'area', 'price']
@@ -252,7 +237,8 @@ class Conversation:
     # method that will update the user preferences with the topic that's at stake
     def update_preferences(self):
         for topic in self.topic_at_stake:
-            self.user_preferences[topic].append(self.topic_at_stake[topic])
+            self.user_preferences[topic] += self.topic_at_stake[topic]
+        print(self.user_preferences)
         return
 
     #   SENTENCE GENERATION HELPER FUNCTIONS    #
@@ -260,13 +246,13 @@ class Conversation:
     def get_request_sent(self):
         prefs = self.user_preferences
 
-        if not prefs['area'] and not prefs['price_range'] and not prefs['type']:
+        if not prefs['area'] and not prefs['pricerange'] and not prefs['food']:
             request = self.SENTENCES['reqall1']
         elif not prefs['area']:
             request = self.SENTENCES['reqarea1']
-        elif not prefs['type']:
+        elif not prefs['food']:
             request = self.SENTENCES['reqtype1']
-        elif not prefs['price_range']:
+        elif not prefs['pricerange']:
             request = self.SENTENCES['reqprice1']
         else:
             request = self.SENTENCES['reqmore1']
@@ -275,16 +261,18 @@ class Conversation:
 
     def get_confirm_sent(self):
         stake = self.topic_at_stake
-        confirm = '_'
+        varying_sents = []
 
-        if 'type' in stake:
-            confirm = self.SENTENCES['confirmtype1'] + ''.join(stake['type'] + "?")
-        if 'price_range' in stake:
-            confirm = self.SENTENCES['confirmprice1'], stake['price_range']
-        if 'area' in stake:
-            confirm = self.SENTENCES['confirmarea1'] + ' '.join(stake['area']) + "?"
+        if stake['food']:
+            varying_sents.append(' or '.join(stake['food']))
+        if stake['pricerange']:
+            varying_sents.append(' or '.join(stake['pricerange']))
+        if stake['area']:
+            varying_sents.append("in the" + ' or '.join(stake['area']))
 
-        return confirm
+        confirm_sent = self.SENTENCES['confirmsent1'] + ' and '.join(varying_sents) + "?"
+
+        return confirm_sent
 
     def get_inform_sent(self, sentence):
         inform = 'information'
@@ -365,7 +353,7 @@ class Conversation:
 
         return response, new_state
 
-    def state_confirm(self, act):
+    def state_confirm(self, sentence, act):
         response = ''
         new_state = 'confirm'
 
@@ -380,7 +368,9 @@ class Conversation:
                 new_state = 'request'
 
             else:
+                print('ehhh')
                 self.suggestion = self.get_suggestion()
+                print(self.suggestion)
 
                 name = self.suggestion['name']
                 price = self.suggestion['price']
@@ -503,7 +493,7 @@ class Conversation:
             self.state = new_state
             self.response = response
 
-        if self.response_uppercase:
+        if self.responses_uppercase:
             self.response = self.response.upper()
 
         print("new state is: " + self.state)
@@ -519,7 +509,16 @@ class Conversation:
             sentence = input()
 
         return self.SENTENCES['ended1']
+conversation_settings = {'classifier': 'rule',
+                         'confirmation_all': True,
+                         'info_per_utt': "any",
+                         'levenshtein_dist': 2,
+                         'allow_restarts': True,
+                         'max_responses': np.inf,
+                         'responses_uppercase': True,
+                         'utt_lowercase': True
+                         }
 
+convo = Conversation(conversation_settings)
+convo.start_conversation()
 
-#convo = Conversation(classifier='rule')
-#convo.start_conversation()

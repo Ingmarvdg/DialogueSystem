@@ -1,29 +1,22 @@
-import pandas as pd
 from itertools import chain
 import os
 import time
 import MLClassifier as mlc
-import numpy as np
-import RulebasedEstimator as rbe
-
-from sklearn.metrics import f1_score
 
 from Conversation import *
 from OntologyHandler import *
 
-from nltk.tokenize import word_tokenize
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences 
-from keras.layers import Dense, SpatialDropout1D, Flatten, LSTM, GRU, ConvLSTM2D
+from keras.layers import Dense, SpatialDropout1D, LSTM
 from keras.models import Sequential
 from keras.layers.embeddings import Embedding
 from keras.callbacks import EarlyStopping
-from keras.layers.normalization import BatchNormalization
 import tensorflow as tf
+import pickle
 
-import nltk
-
-# nltk downloads
+#import nltk
+#nltk downloads
 #nltk.download('wordnet')
 #nltk.download('averaged_perceptron_tagger')
 #nltk.download('wordnet')
@@ -132,11 +125,19 @@ buttonPressed = True
 dataDirectory = "data/"
 answer = 0
 data_frequencies = None
-dialog_act_model = None
+try:
+    pickled_model = open("model.pickle", "rb")
+    dialog_act_model = pickle.load(pickled_model)
+    pickled_model.close()
+except:
+    dialog_act_model = None
+    print('No model trained, run option 3 to train a model')
+    pass
+
 conversation_settings = {'classifier': 'rule',
                          'confirmation_all': True,
                          'info_per_utt': "any",
-                         'levenshtein_dist': 5,
+                         'levenshtein_dist': 2,
                          'allow_restarts': True,
                          'max_responses': np.inf,
                          'responses_uppercase': True,
@@ -147,14 +148,12 @@ ontology_path = 'ontology/ontology_dstc2.json'
 header_test = 'data/dstc2_test/data/'
 header_train = 'data/dstc2_traindev/data/'
 
-
-
 while True:
 
     print('Select an option:')
     answer = input('1)Part 1a: Domain modelling.\n'
                    '2)Part 1b: Produce text files.\n'
-                   '3)Part 1b: Train, Test, Evaluate.\n'
+                   '3)Part 1b: Train dialog act classification model\n'
                    '4)Part 1c: Run dialog.\n'
                    '5)Part 1c: Change dialog settings.\n'
                    '6)EXIT\n')
@@ -227,28 +226,16 @@ while True:
         train_data_path = r"train_data.txt"
         test_data_path = r"test_data.txt"
 
-        # open hard case data
-        hard_test_data_path = r"Mistakes.txt"
-        negation_test_data_path = r"Negation.txt"
-
         # pre process all data
         print("Started processing data, this may take a while...")
         Corpus_train = mlc.preprocess(train_data_path)
         print("Processing training data complete.")
         Corpus_test = mlc.preprocess(test_data_path)
         print("Processing test data complete.")
-        hard_test_data = mlc.preprocess(hard_test_data_path)
-        print("Processing hard test data complete.")
-        negation_test_data = mlc.preprocess(negation_test_data_path)
-        print("Processing negation test data complete")
-        print("All processing completed.")
 
         # split to X and Y
-        train_X, train_Y = train_data['text_final'], train_data['label']
-        test_Y = test_data['label']
-        test_X = test_data['text_final']
-        hard_test_X, hard_test_Y = hard_test_data['text_final'], hard_test_data['label']
-        negation_test_X, negation_test_Y = negation_test_data['text_final'], negation_test_data['label']
+        test_Y = Corpus_test['label']
+        test_X = Corpus_test['text_final']
         # Tokenization setup
         MAX_NB_WORDS, MAX_SEQUENCE_LENGTH, EMBEDDING_DIM = 50000, 1000, 100
         tokenizer = Tokenizer(num_words=MAX_NB_WORDS, filters='!"#$%&()*+,-./:;<=>?@[\]^_`{|}~', lower=True)
@@ -268,11 +255,6 @@ while True:
         # get predictions for baseline random
         random_test_y = pd.Series(test_Y)
         data_frequencies = random_test_y.value_counts(normalize=True)
-        random_preds = np.random.choice(list(data_frequencies.index.values), len(test_Y), list(data_frequencies.values))
-
-        # get predictions for baseline rule based
-        rule_preds = rbe.Classify(test_X)
-        rule_preds = Encoder.transform(rule_preds)
 
         # get predictions machine learning model of test set
         print('Compiling model...')
@@ -293,25 +275,10 @@ while True:
         print('Test set\n  Loss: {:0.3f}\n  Accuracy: {:0.3f}'.format(accr[0],accr[1]))
 
         # store model to be used in the conversation
-        dialog_act_model = model
-
-    # for each of the predictors print classification report
-
-        hard_test_tfidf = Tfidf_vect.transform(hard_test_X)
-        hard_ml_preds = model.predict(hard_test_tfidf)
-        print(f1_score(hard_test_Y, hard_ml_preds, average='weighted'))
-
-        # make predictions for negation data
-        negation_rule_preds = rbe.Classify(negation_test_X)
-        negation_rule_preds = Encoder.transform(negation_rule_preds)
-        print(f1_score(negation_test_Y, negation_rule_preds, average='weighted'))
-
-        negation_test_tfidf = Tfidf_vect.transform(negation_test_X)
-        negation_ml_preds = Model.predict(negation_test_tfidf)
-        print(f1_score(negation_test_Y, negation_ml_preds, average='weighted'))
+        dialog_act_model = pickle.dump(model, open('model.pickle', 'wb'))
 
     elif answer == '4':
-        convo = Conversation(classifier='rule')
+        convo = Conversation(conversation_settings)
         convo.start_conversation()
         pass
 
@@ -346,7 +313,7 @@ while True:
                 else:
                     conversation_settings["classifier"] = dialog_act_model
 
-        if answer == '4':
+        if answer == '2':
             print('Do you want all uttered information to be confirmed first?')
             answer = input('1)Yes.\n'
                            '2)No.\n'
