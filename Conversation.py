@@ -46,6 +46,8 @@ class Conversation:
 
     EMPTY_PREFERENCES = {"food": [], "pricerange": [], "area": []}
 
+    INDIFFERENT_UTTERANCES = ["dont care", "anything", "doesnt matter", "i dont mind", "whatever", "any"]
+
     DATABASE_PATH = 'ontology/restaurantinfo.csv'
 
     ONTOLOGY_PATH = 'ontology/ontology_dstc2.json'
