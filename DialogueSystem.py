@@ -2,19 +2,39 @@ from itertools import chain
 import os
 import time
 import MLClassifier as mlc
+import numpy as np
+import pandas as pd
 
-from Conversation import *
+#from Conversation import *
 from OntologyHandler import *
 
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras.layers import Dense, SpatialDropout1D, LSTM
-from keras.models import Sequential
+from keras.models import Sequential, load_model
 from keras.layers.embeddings import Embedding
 from keras.callbacks import EarlyStopping
+from keras.backend import set_session
 import tensorflow as tf
 import pickle
 
+<<<<<<< Updated upstream
+=======
+#import nltk
+#nltk downloads
+#nltk.download('wordnet')
+#nltk.download('averaged_perceptron_tagger')
+#nltk.download('wordnet')
+#nltk.download('averaged_perceptron_tagger')
+#nltk.download('punkt')
+#nltk.download('stopwords')
+
+config = tf.ConfigProto( device_count = {'GPU': 1 , 'CPU': 56} )
+sess = tf.Session(config=config)
+set_session(sess)
+
+#   1A and 1B HELPER FUNCTIONS
+>>>>>>> Stashed changes
 
 # function for reading and parsing json to make the conversation readable
 def read_and_parse_json_conversation(log_url, label_url):
@@ -116,10 +136,15 @@ dataDirectory = "data/"
 answer = 0
 data_frequencies = None
 try:
+<<<<<<< Updated upstream
     pickled_model = open("model.pickle", "rb")
     dialog_act_model = pickle.load(pickled_model)
     pickled_model.close()
 except e:
+=======
+    dialog_act_model = load_model('seq_model.h5')
+except:
+>>>>>>> Stashed changes
     dialog_act_model = None
     print('No model trained, run option 3 to train a model')
     print(e)
@@ -268,7 +293,7 @@ while True:
         print('Test set\n  Loss: {:0.3f}\n  Accuracy: {:0.3f}'.format(accr[0], accr[1]))
 
         # store model to be used in the conversation
-        dialog_act_model = pickle.dump(model, open('model.pickle', 'wb'))
+        model.save('seq_model.h5', save_format='tf')
 
     elif answer == '4':
         convo = Conversation(conversation_settings)
@@ -296,15 +321,15 @@ while True:
             if answer == '1':
                 conversation_settings["classifier"] = 'rule'
             if answer == '2':
-                if data_frequencies == None:
+                if not data_frequencies:
                     print("No data frequencies found, please train and test first")
                 else:
                     conversation_settings['classifier'] = data_frequencies
             if answer == '3':
-                if dialog_act_model == None:
+                if not dialog_act_model:
                     print("No classifier found, please train and test first")
                 else:
-                    conversation_settings["classifier"] = dialog_act_model
+                    conversation_settings["classifier"] = load_model('seq_model.h5')
 
         if answer == '2':
             print('Do you want all uttered information to be confirmed first?')
