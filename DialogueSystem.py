@@ -7,7 +7,7 @@ from Conversation import *
 from OntologyHandler import *
 
 from keras.preprocessing.text import Tokenizer
-from keras.preprocessing.sequence import pad_sequences 
+from keras.preprocessing.sequence import pad_sequences
 from keras.layers import Dense, SpatialDropout1D, LSTM
 from keras.models import Sequential
 from keras.layers.embeddings import Embedding
@@ -15,16 +15,6 @@ from keras.callbacks import EarlyStopping
 import tensorflow as tf
 import pickle
 
-#import nltk
-#nltk downloads
-#nltk.download('wordnet')
-#nltk.download('averaged_perceptron_tagger')
-#nltk.download('wordnet')
-#nltk.download('averaged_perceptron_tagger')
-#nltk.download('punkt')
-#nltk.download('stopwords')
-
-#   1A and 1B HELPER FUNCTIONS
 
 # function for reading and parsing json to make the conversation readable
 def read_and_parse_json_conversation(log_url, label_url):
@@ -117,8 +107,8 @@ def parse_all_json(header, option):
                         conversations.append(read_and_parse_json_conversation(json_log, json_label))
                     elif option == '2':
                         conversations.append(read_and_parse_json_dialog_act(json_label))
-    # print(len(conversations))
     return conversations
+
 
 #   START OF PROGRAM
 buttonPressed = True
@@ -129,9 +119,10 @@ try:
     pickled_model = open("model.pickle", "rb")
     dialog_act_model = pickle.load(pickled_model)
     pickled_model.close()
-except:
+except e:
     dialog_act_model = None
     print('No model trained, run option 3 to train a model')
+    print(e)
     pass
 
 conversation_settings = {'classifier': 'rule',
@@ -168,8 +159,9 @@ while True:
 
         currentAmount = 0
         while currentAmount < amount:
-            text = input("Press ENTER to print the next item, write SAVE to save all conversations to files, write DONE "
-                         "to exit the program")
+            text = input(
+                "Press ENTER to print the next item, write SAVE to save all conversations to files, write DONE "
+                "to exit the program")
             if text == "":
                 print("you pressed enter")
                 print("\n".join(all_conversations[currentAmount]))
@@ -267,12 +259,13 @@ while True:
         epochs = 5
         batch_size = 64
         print('Training model... this might take a long while (15+ minutes).')
-        history = model.fit(X_tr, Y_tr, epochs=epochs, batch_size=batch_size,validation_split=0.1,callbacks=[EarlyStopping(monitor='val_loss', patience=3, min_delta=0.0001)])
+        history = model.fit(X_tr, Y_tr, epochs=epochs, batch_size=batch_size, validation_split=0.1,
+                            callbacks=[EarlyStopping(monitor='val_loss', patience=3, min_delta=0.0001)])
         print('Training complete!')
 
         # Accuracy score on train set (test set couldn't because not all label types occur in test set (12/15))
-        accr = model.evaluate(X_tr,Y_tr)
-        print('Test set\n  Loss: {:0.3f}\n  Accuracy: {:0.3f}'.format(accr[0],accr[1]))
+        accr = model.evaluate(X_tr, Y_tr)
+        print('Test set\n  Loss: {:0.3f}\n  Accuracy: {:0.3f}'.format(accr[0], accr[1]))
 
         # store model to be used in the conversation
         dialog_act_model = pickle.dump(model, open('model.pickle', 'wb'))
