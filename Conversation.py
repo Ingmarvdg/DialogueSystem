@@ -268,7 +268,7 @@ class Conversation:
     def update_preferences(self):
         for topic in self.topic_at_stake:
             self.user_preferences[topic] = list(set(self.user_preferences[topic] + self.topic_at_stake[topic]))
-        print(self.user_preferences)
+        # print(self.user_preferences)
         return
 
     #   SENTENCE GENERATION HELPER FUNCTIONS    #
@@ -302,7 +302,7 @@ class Conversation:
             if stake['pricerange'] == ['any']:
                 varying_sents.append('any price range')
             else:
-                varying_sents.append(' or '.join(stake['pricerange']))
+                varying_sents.append(' or '.join(stake['pricerange']) + " price")
         if stake['area']:
             if stake['area'] == ['any']:
                 varying_sents.append('in any area')
@@ -314,7 +314,7 @@ class Conversation:
         return confirm_sent
 
     def get_inform_sent(self, sentence):
-        print(self.suggestion)
+        # print(self.suggestion)
         inform = 'information'
         return inform
 
@@ -355,7 +355,7 @@ class Conversation:
 
         if act == 'confirm' or act == 'reqalts' or act == 'inform' or act == 'request':
             self.topic_at_stake = self.get_preferences(sentence)
-            print(self.topic_at_stake)
+            # print(self.topic_at_stake)
             if self.info_per_utt == "all" and len(self.topic_at_stake) < 3:
                 response = self.SENTENCES['reqall1']
 
@@ -382,7 +382,7 @@ class Conversation:
                     price = self.suggestion['pricerange']
                     area = self.suggestion['area']
 
-                    response = f"What about {name}, its {price} and is in the {area}."
+                    response = f"What about {name}, its {price} price and is in the {area}."
                     new_state = 'inform'
 
         if act == 'deny' or act == 'negate':
@@ -467,7 +467,7 @@ class Conversation:
                 new_state = ''
 
         if act == 'request':
-            print(self.suggestion)
+            # print(self.suggestion)
             response = self.get_inform_sent(sentence)
 
         if act == 'inform':
@@ -496,7 +496,7 @@ class Conversation:
         # get dialog act
         act = self.get_dialog_act(sentence, self.classifier)
 
-        print("current state is: " + self.state, "current act is: " + act)
+        # print("current state is: " + self.state, "current act is: " + act)
 
         # check utt limit
         if self.n_responses > self.max_responses:
@@ -537,7 +537,7 @@ class Conversation:
         if self.responses_uppercase:
             self.response = self.response.upper()
 
-        print("new state is: " + self.state)
+        # print("new state is: " + self.state)
 
         return self.response
 
