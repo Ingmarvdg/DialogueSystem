@@ -6,13 +6,9 @@ import MLClassifier as mlc
 import numpy as np
 import RulebasedEstimator as rbe
 
-from sklearn.preprocessing import LabelEncoder
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn import naive_bayes
-from sklearn.metrics import classification_report
 from sklearn.metrics import f1_score
 
-from Conversation import Conversation
+from Conversation import *
 from OntologyHandler import *
 
 from nltk.tokenize import word_tokenize
@@ -27,19 +23,15 @@ import tensorflow as tf
 
 import nltk
 
-nltk.download('wordnet')
-nltk.download('averaged_perceptron_tagger')
-
-# global variables
-buttonPressed = True
-dataDirectory = "data/"
-
 # nltk downloads
-nltk.download('wordnet')
-nltk.download('averaged_perceptron_tagger')
-nltk.download('punkt')
-nltk.download('stopwords')
+#nltk.download('wordnet')
+#nltk.download('averaged_perceptron_tagger')
+#nltk.download('wordnet')
+#nltk.download('averaged_perceptron_tagger')
+#nltk.download('punkt')
+#nltk.download('stopwords')
 
+#   1A and 1B HELPER FUNCTIONS
 
 # function for reading and parsing json to make the conversation readable
 def read_and_parse_json_conversation(log_url, label_url):
@@ -135,224 +127,292 @@ def parse_all_json(header, option):
     # print(len(conversations))
     return conversations
 
-
+#   START OF PROGRAM
+buttonPressed = True
+dataDirectory = "data/"
+answer = 0
+data_frequencies = None
+dialog_act_model = None
+conversation_settings = {'classifier': 'rule',
+                         'confirmation_all': True,
+                         'info_per_utt': "any",
+                         'levenshtein_dist': 5,
+                         'allow_restarts': True,
+                         'max_responses': np.inf,
+                         'responses_uppercase': True,
+                         'utt_lowercase': True
+                         }
+database_path = 'ontology/restaurantinfo.csv'
+ontology_path = 'ontology/ontology_dstc2.json'
 header_test = 'data/dstc2_test/data/'
 header_train = 'data/dstc2_traindev/data/'
 
-# Delete after test.
-# Guide on how to use extracting_preferences() function.
-ontology_data = read_json_ontology('ontology/ontology_dstc2.json')
-restaurants = read_csv_database('ontology/restaurantinfo.csv')
-utterance_content = "I'm looking for african food."
-# Initialise preferences
-preferences = dict(food=[], pricerange=[], restaurantname=[], area=[])
-# extracting_preferences() will be used only if we want to update the client's preference
-# so when dialog_act is 'inform'.
-dialog_act = 'inform'
-if dialog_act == 'inform':
-    preferences = get_preferences(utterance_content, ontology_data, preferences)
-    print(preferences)
-    print(get_info_from_restaurant(preferences, restaurants))
-    # bot will suggest a restaurant based on the preferences
-utterance_content = 'Sorry I also want the restaurant to be in the north or south area.'
 
-if dialog_act == 'inform':
-    # So here the preference will be updated. In our example, adding the east area.
-    preferences = get_preferences(utterance_content, ontology_data, preferences)
-    print(preferences)
-    print(get_info_from_restaurant(preferences, restaurants))
-#########################
 
-print('Select an option:')
-answer = input('1)Part 1a: Domain modelling.\n'
-               '2)Part 1b: Produce text files.\n'
-               '3)Part 1b: Train, Test, Evaluate.\n'
-               '4)Part 1c: Run dialog.\n')
+while True:
 
-if answer == '1':
-    print('Parsing data...')
-    test_conversations = parse_all_json(header_test, answer)
-    train_conversations = parse_all_json(header_train, answer)
+    print('Select an option:')
+    answer = input('1)Part 1a: Domain modelling.\n'
+                   '2)Part 1b: Produce text files.\n'
+                   '3)Part 1b: Train, Test, Evaluate.\n'
+                   '4)Part 1c: Run dialog.\n'
+                   '5)Part 1c: Change dialog settings.\n'
+                   '6)EXIT\n')
 
-    all_conversations = test_conversations + train_conversations
-    amount = len(all_conversations)
+    if answer == '1':
+        print('Parsing data...')
+        test_conversations = parse_all_json(header_test, answer)
+        train_conversations = parse_all_json(header_train, answer)
 
-    currentAmount = 0
-    while currentAmount < amount:
-        text = input("Press ENTER to print the next item, write SAVE to save all conversations to files, write DONE "
-                     "to exit the program")
-        if text == "":
-            print("you pressed enter")
-            print("\n".join(all_conversations[currentAmount]))
-            currentAmount += 1
-        if text == "DONE":
-            break
-        if text == "SAVE":
-            write_all_convos_to_file(all_conversations)
-        else:
-            print("Dont type anything beforehand if you want to see the next item")
-elif answer == '2':
-    print('Parsing data...')
+        all_conversations = test_conversations + train_conversations
+        amount = len(all_conversations)
 
-    temp_test_conversations = parse_all_json(header_test, answer)
-    temp_train_conversations = parse_all_json(header_train, answer)
+        currentAmount = 0
+        while currentAmount < amount:
+            text = input("Press ENTER to print the next item, write SAVE to save all conversations to files, write DONE "
+                         "to exit the program")
+            if text == "":
+                print("you pressed enter")
+                print("\n".join(all_conversations[currentAmount]))
+                currentAmount += 1
+            if text == "DONE":
+                break
+            if text == "SAVE":
+                write_all_convos_to_file(all_conversations)
+            else:
+                print("Dont type anything beforehand if you want to see the next item")
 
-    all_conversations = temp_test_conversations + temp_train_conversations
+    elif answer == '2':
+        print('Parsing data...')
 
-    random.shuffle(all_conversations)
+        temp_test_conversations = parse_all_json(header_test, answer)
+        temp_train_conversations = parse_all_json(header_train, answer)
 
-    number_training = round(len(all_conversations) * 85 / 100)
-    number_test = round(len(all_conversations) * 15 / 100)
+        all_conversations = temp_test_conversations + temp_train_conversations
 
-    test_conversations = []
-    train_conversations = []
-    for i in range(len(all_conversations)):
-        if i < number_training:
-            for data in all_conversations[i]:
-                train_conversations.append(data)
-        else:
-            for data in all_conversations[i]:
-                test_conversations.append(data)
+        random.shuffle(all_conversations)
 
-    selected_train = []
-    selected_test = []
+        number_training = round(len(all_conversations) * 85 / 100)
+        number_test = round(len(all_conversations) * 15 / 100)
 
-    file = open("train_data.txt", "w")
-    for i in range(len(train_conversations)):
-        file.write('dialog_act:' + train_conversations[i]['dialog_act'] +
-                   ', utterance_content:' + train_conversations[i]['utterance_content'] + '\n')
-    file.close()
-    print('train_data.txt was created successfully!')
+        test_conversations = []
+        train_conversations = []
+        for i in range(len(all_conversations)):
+            if i < number_training:
+                for data in all_conversations[i]:
+                    train_conversations.append(data)
+            else:
+                for data in all_conversations[i]:
+                    test_conversations.append(data)
 
-    file = open("test_data.txt", "w")
-    for i in range(len(test_conversations)):
-        file.write('dialog_act:' + test_conversations[i]['dialog_act'] +
-                   ', utterance_content:' + test_conversations[i]['utterance_content'] + '\n')
-    file.close()
-    print('test_data.txt was created successfully!')
+        selected_train = []
+        selected_test = []
 
-elif answer == '3':
-    # open training and testing data
-    train_data_path = r"train_data.txt"
-    test_data_path = r"test_data.txt"
+        file = open("train_data.txt", "w")
+        for i in range(len(train_conversations)):
+            file.write('dialog_act:' + train_conversations[i]['dialog_act'] +
+                       ', utterance_content:' + train_conversations[i]['utterance_content'] + '\n')
+        file.close()
+        print('train_data.txt was created successfully!')
 
-    # open hard case data
-    hard_test_data_path = r"Mistakes.txt"
-    negation_test_data_path = r"Negation.txt"
+        file = open("test_data.txt", "w")
+        for i in range(len(test_conversations)):
+            file.write('dialog_act:' + test_conversations[i]['dialog_act'] +
+                       ', utterance_content:' + test_conversations[i]['utterance_content'] + '\n')
+        file.close()
+        print('test_data.txt was created successfully!')
 
-    # pre process all data
-    print("Started processing data, this may take a while...")
-    Corpus_train = mlc.preprocess(train_data_path)
-    print("Processing training data complete.")
-    Corpus_test = mlc.preprocess(test_data_path)
-    print("Processing test data complete.")
-    hard_test_data = mlc.preprocess(hard_test_data_path)
-    print("Processing hard test data complete.")
-    negation_test_data = mlc.preprocess(negation_test_data_path)
-    print("Processing negation test data complete")
-    print("All processing completed.")
+    elif answer == '3':
+        # open training and testing data
+        train_data_path = r"train_data.txt"
+        test_data_path = r"test_data.txt"
 
-    # split to X and Y
-    train_X, train_Y = train_data['text_final'], train_data['label']
-    test_Y = test_data['label']
-    test_X = test_data['text_final']
-    hard_test_X, hard_test_Y = hard_test_data['text_final'], hard_test_data['label']
-    negation_test_X, negation_test_Y = negation_test_data['text_final'], negation_test_data['label']
-    # Tokenization setup
-    MAX_NB_WORDS, MAX_SEQUENCE_LENGTH, EMBEDDING_DIM = 50000, 1000, 100
-    tokenizer = Tokenizer(num_words=MAX_NB_WORDS, filters='!"#$%&()*+,-./:;<=>?@[\]^_`{|}~', lower=True)
-    tokenizer.fit_on_texts(Corpus_train['text_final'].values)
-    word_index = tokenizer.word_index
-    print('Found %s unique tokens.' % len(word_index))
+        # open hard case data
+        hard_test_data_path = r"Mistakes.txt"
+        negation_test_data_path = r"Negation.txt"
 
-    # Define X and Y
-    X_tr = tokenizer.texts_to_sequences(Corpus_train['text_final'].values)
-    X_tr = pad_sequences(X_tr, maxlen=MAX_SEQUENCE_LENGTH)
-    X_tt = tokenizer.texts_to_sequences(Corpus_test['text_final'].values)
-    X_tt = pad_sequences(X_tt, maxlen=MAX_SEQUENCE_LENGTH)
-    X = tf.concat([X_tr, X_tt], 0)
-    Y_tr = pd.get_dummies(Corpus_train['label']).values
-    Y_tt = pd.get_dummies(Corpus_test['label']).values
+        # pre process all data
+        print("Started processing data, this may take a while...")
+        Corpus_train = mlc.preprocess(train_data_path)
+        print("Processing training data complete.")
+        Corpus_test = mlc.preprocess(test_data_path)
+        print("Processing test data complete.")
+        hard_test_data = mlc.preprocess(hard_test_data_path)
+        print("Processing hard test data complete.")
+        negation_test_data = mlc.preprocess(negation_test_data_path)
+        print("Processing negation test data complete")
+        print("All processing completed.")
 
-    # get predictions for baseline random
-    random_test_y = pd.Series(test_Y)
-    frequencies = random_test_y.value_counts(normalize=True)
-    random_preds = np.random.choice(list(frequencies.index.values), len(test_Y), list(frequencies.values))
+        # split to X and Y
+        train_X, train_Y = train_data['text_final'], train_data['label']
+        test_Y = test_data['label']
+        test_X = test_data['text_final']
+        hard_test_X, hard_test_Y = hard_test_data['text_final'], hard_test_data['label']
+        negation_test_X, negation_test_Y = negation_test_data['text_final'], negation_test_data['label']
+        # Tokenization setup
+        MAX_NB_WORDS, MAX_SEQUENCE_LENGTH, EMBEDDING_DIM = 50000, 1000, 100
+        tokenizer = Tokenizer(num_words=MAX_NB_WORDS, filters='!"#$%&()*+,-./:;<=>?@[\]^_`{|}~', lower=True)
+        tokenizer.fit_on_texts(Corpus_train['text_final'].values)
+        word_index = tokenizer.word_index
+        print('Found %s unique tokens.' % len(word_index))
 
-    # get predictions for baseline rule based
-    rule_preds = rbe.Classify(test_X)
-    rule_preds = Encoder.transform(rule_preds)
+        # Define X and Y
+        X_tr = tokenizer.texts_to_sequences(Corpus_train['text_final'].values)
+        X_tr = pad_sequences(X_tr, maxlen=MAX_SEQUENCE_LENGTH)
+        X_tt = tokenizer.texts_to_sequences(Corpus_test['text_final'].values)
+        X_tt = pad_sequences(X_tt, maxlen=MAX_SEQUENCE_LENGTH)
+        X = tf.concat([X_tr, X_tt], 0)
+        Y_tr = pd.get_dummies(Corpus_train['label']).values
+        Y_tt = pd.get_dummies(Corpus_test['label']).values
 
-    # get predictions machine learning model of test set
-    print('Compiling model...')
-    model = Sequential()
-    model.add(Embedding(MAX_NB_WORDS, EMBEDDING_DIM, input_length=X.shape[1]))
-    model.add(SpatialDropout1D(0.2))
-    model.add(LSTM(100, dropout=0.2, recurrent_dropout=0.2))
-    model.add(Dense(15, activation='softmax'))
-    model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
-    epochs = 5
-    batch_size = 64
-    print('Training model... this might take a long while (15+ minutes).')
-    history = model.fit(X_tr, Y_tr, epochs=epochs, batch_size=batch_size,validation_split=0.1,callbacks=[EarlyStopping(monitor='val_loss', patience=3, min_delta=0.0001)])
-    print('Training complete!')
+        # get predictions for baseline random
+        random_test_y = pd.Series(test_Y)
+        data_frequencies = random_test_y.value_counts(normalize=True)
+        random_preds = np.random.choice(list(data_frequencies.index.values), len(test_Y), list(data_frequencies.values))
 
-    # Accuracy score on train set (test set couldn't because not all label types occur in test set (12/15))
-    accr = model.evaluate(X_tr,Y_tr)
-    print('Test set\n  Loss: {:0.3f}\n  Accuracy: {:0.3f}'.format(accr[0],accr[1]))
-    
-    # Plots
-    # 1) Loss
-    #plt.rcParams['figure.figsize'] = 4.5,3.5
-    #plt.csfont = {'fontname':'Times New Roman'}
-    #plt.title('LSTM Training Loss', **plt.csfont)
-    #plt.plot(history.history['loss'], label='train')
-    #plt.plot(history.history['val_loss'], label='test')
-    #plt.legend()
-    #plt.show();
+        # get predictions for baseline rule based
+        rule_preds = rbe.Classify(test_X)
+        rule_preds = Encoder.transform(rule_preds)
 
-    # 2) Accuracy per epoch
-    #plt.title('LSTM Accuracy per epoch', **plt.csfont)
-    #plt.plot(history.history['acc'], label='train')
-    #plt.plot(history.history['val_acc'], label='test')
-    #plt.legend()
-    #plt.show();
+        # get predictions machine learning model of test set
+        print('Compiling model...')
+        model = Sequential()
+        model.add(Embedding(MAX_NB_WORDS, EMBEDDING_DIM, input_length=X.shape[1]))
+        model.add(SpatialDropout1D(0.2))
+        model.add(LSTM(100, dropout=0.2, recurrent_dropout=0.2))
+        model.add(Dense(15, activation='softmax'))
+        model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+        epochs = 5
+        batch_size = 64
+        print('Training model... this might take a long while (15+ minutes).')
+        history = model.fit(X_tr, Y_tr, epochs=epochs, batch_size=batch_size,validation_split=0.1,callbacks=[EarlyStopping(monitor='val_loss', patience=3, min_delta=0.0001)])
+        print('Training complete!')
 
-    # 3) Plot of Test label set (behold; it does not contain all available label types...)
-    #D = dict(collections.Counter(Corpus_test['label']).items()) # sorted by key, return a list of tuples
-    #plt.barh(range(len(D)), list(D.values()), align='center')
-    #plt.yticks(range(len(D)), list(D.keys()), **plt.csfont)
-    #plt.title('Train label frequencies', **plt.csfont)
-    #plt.show()
+        # Accuracy score on train set (test set couldn't because not all label types occur in test set (12/15))
+        accr = model.evaluate(X_tr,Y_tr)
+        print('Test set\n  Loss: {:0.3f}\n  Accuracy: {:0.3f}'.format(accr[0],accr[1]))
+
+        # store model to be used in the conversation
+        dialog_act_model = model
 
     # for each of the predictors print classification report
 
-    hard_test_tfidf = Tfidf_vect.transform(hard_test_X)
-    hard_ml_preds = Model.predict(hard_test_tfidf)
-    print(f1_score(hard_test_Y, hard_ml_preds, average='weighted'))
+        hard_test_tfidf = Tfidf_vect.transform(hard_test_X)
+        hard_ml_preds = model.predict(hard_test_tfidf)
+        print(f1_score(hard_test_Y, hard_ml_preds, average='weighted'))
 
-    # make predictions for negation data
-    negation_rule_preds = rbe.Classify(negation_test_X)
-    negation_rule_preds = Encoder.transform(negation_rule_preds)
-    print(f1_score(negation_test_Y, negation_rule_preds, average='weighted'))
+        # make predictions for negation data
+        negation_rule_preds = rbe.Classify(negation_test_X)
+        negation_rule_preds = Encoder.transform(negation_rule_preds)
+        print(f1_score(negation_test_Y, negation_rule_preds, average='weighted'))
 
-    negation_test_tfidf = Tfidf_vect.transform(negation_test_X)
-    negation_ml_preds = Model.predict(negation_test_tfidf)
-    print(f1_score(negation_test_Y, negation_ml_preds, average='weighted'))
+        negation_test_tfidf = Tfidf_vect.transform(negation_test_X)
+        negation_ml_preds = Model.predict(negation_test_tfidf)
+        print(f1_score(negation_test_Y, negation_ml_preds, average='weighted'))
 
-elif answer == '4':
-    while True:
-        print('Select an option:')
-        answer = input('1)Let\'s chat!\n'
-                       '2)Change Settings\n'
-                       '3)Exit\n')
+    elif answer == '4':
+        convo = Conversation(classifier='rule')
+        convo.start_conversation()
+        pass
+
+    elif answer == '5':
+        print('Select which parameter you want to change:')
+        answer = input(f'1)Dialog act classifier, current: {conversation_settings["classifier"]}.\n'
+                       f'2)Confirm all information, current: {conversation_settings["confirmation_all"]}.\n'
+                       f'3)Information per utterance, current: {conversation_settings["info_per_utt"]}.\n'
+                       f'4)Levenshtein distance, current: {conversation_settings["levenshtein_dist"]}.\n'
+                       f'5)Allow restarts?, current: {conversation_settings["allow_restarts"]}.\n'
+                       f'6)Maximum amount of responses, current: {conversation_settings["max_responses"]}.\n'
+                       f'7)Responses in uppercase?, current: {conversation_settings["responses_uppercase"]}.\n'
+                       f'8)Convert utterances to lowercase?, current: {conversation_settings["utt_lowercase"]}.\n'
+                       f'9)Go back.')
+
         if answer == '1':
-            convo = Conversation(classifier='rule')
-            convo.start_conversation()
+            print('Select which Dialog act classifier you want to use')
+            answer = input('1)Rule based classifier.\n'
+                           '2)Random classifier.\n'
+                           '3)Machine learning classifier.\n'
+                           )
+            if answer == '1':
+                conversation_settings["classifier"] = 'rule'
+            if answer == '2':
+                if data_frequencies == None:
+                    print("No data frequencies found, please train and test first")
+                else:
+                    conversation_settings['classifier'] = data_frequencies
+            if answer == '3':
+                if dialog_act_model == None:
+                    print("No classifier found, please train and test first")
+                else:
+                    conversation_settings["classifier"] = dialog_act_model
+
+        if answer == '4':
+            print('Do you want all uttered information to be confirmed first?')
+            answer = input('1)Yes.\n'
+                           '2)No.\n'
+                           )
+            if answer == '1':
+                conversation_settings["confirmation_all"] = True
+            if answer == '2':
+                conversation_settings['confirmation_all'] = False
+
+        if answer == '3':
+            print('How much information should each utterance contain?')
+            answer = input('1)All fields.\n'
+                           '2)One field max.\n'
+                           '3)Any amount of fields'
+                           )
+            if answer == '1':
+                conversation_settings["info_per_utt"] = "all"
+            if answer == '2':
+                conversation_settings['info_per_utt'] = "one"
+            if answer == '3':
+                conversation_settings['info_per_utt'] = 'any'
+
+        if answer == '4':
+            print('What is the maximum levenhstein distance')
+            answer = input()
+            conversation_settings['levenshtein_dist'] = answer
+
+        if answer == '5':
+            print('Allow restarts?')
+            answer = input('1)Yes.\n'
+                           '2)No.\n'
+                           )
+            if answer == '1':
+                conversation_settings['allow_restarts'] = True
+            if answer == '2':
+                conversation_settings['allow_restarts'] = False
+
+        if answer == '6':
+            print('What is the maximum amount of utterances in the conversation?')
+            answer = input()
+            conversation_settings['levenshtein_dist'] = answer
+
+        if answer == '7':
+            print('Respond in uppercase?')
+            answer = input('1)Yes.\n'
+                           '2)No.\n'
+                           )
+            if answer == '2':
+                conversation_settings['responses_uppercase'] = True
+            if answer == '3':
+                conversation_settings['responses_uppercase'] = False
+
+        if answer == '8':
+            print('Convert utterances to lowercase?')
+            answer = input('1)Yes.\n'
+                           '2)No.\n'
+                           )
+            if answer == '1':
+                conversation_settings['utt_lowercase'] = True
+            if answer == '2':
+                conversation_settings['utt_lowercase'] = False
+
+        else:
             pass
-        elif answer == '2':
-            # todo Menu for settings.
-            # todo Function that change settings in the Conversation class.
-            pass
-        elif answer == '3':
-            break
+
+
+
+    elif answer == '6':
+        break

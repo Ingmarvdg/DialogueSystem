@@ -4,17 +4,13 @@ import RulebasedEstimator
 import pandas as pd
 import numpy as np
 import string
-#from Levenshtein import distance
+from Levenshtein import distance
 from numpy import random
+import Levenshtein
 
 # conversation class
 from OntologyHandler import read_csv_database, read_json_ontology, check_preferences
 
-
-# levenstein placeholder
-def distance(a, b):
-
-    return 0
 
 class Conversation:
     SENTENCES = {
@@ -45,7 +41,7 @@ class Conversation:
         'reqprice1': 'What price range are you looking for?',
         'reqmore1': 'Anything else?',
         'confirmtype1': "So the food you are looking for has to be ",
-        'confirmprice1': " ",
+        'confirmprice1': "The price has to be ",
         'confirmarea1': "You want the restaurant to be in the ",
         'reqone1': " ",
         'sorry2': "I'm afraid I cant do that",
@@ -61,7 +57,7 @@ class Conversation:
                  ontology_path='ontology/ontology_dstc2.json',
                  confirmation_all=True,
                  info_per_utt="",
-                 levenshtein_dist=1,
+                 levenshtein_dist=5,
                  allow_restarts=True,
                  max_responses=np.inf,
                  response_uppercase=True,
@@ -511,8 +507,8 @@ class Conversation:
         return self.SENTENCES['ended1']
 
 
-convo = Conversation(classifier='rule')
-convo.start_conversation()
+#convo = Conversation(classifier='rule')
+#convo.start_conversation()
 
 
 
