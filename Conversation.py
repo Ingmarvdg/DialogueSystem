@@ -106,12 +106,15 @@ class Conversation:
         food_preferences = []
         pricerange_preferences = []
         area = []
+
         # Compare each word from the utterance content with the ontology data using the Levenshtein distance
         # and adding to the preference list each word which distance is equal or less than 1.
         for word in words:
             food_preferences.append(self.get_word_matches(word, 'food'))
             pricerange_preferences.append(self.get_word_matches(word, 'pricerange'))
             area.append(self.get_word_matches(word, 'area'))
+
+
 
         # Some restaurant and foods have in their names more than one word. So here we just check if the information
         # from the ontology exist in the utterance content.
@@ -147,13 +150,14 @@ class Conversation:
         # also randomise the restaurants.
         prefs = self.user_preferences
         restaurants = self.restaurants
+
         if prefs['food'] and prefs['area'] and prefs['pricerange']:
             random.shuffle(self.restaurants)
             keys_with_value = []
             for key in prefs:
-                if key == 'restaurantname':
+                if prefs[key] == 'any':
                     continue
-                if prefs[key]:
+                elif prefs[key]:
                     keys_with_value.append(key)
             for restaurant in restaurants:
                 count = 0
