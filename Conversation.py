@@ -126,11 +126,11 @@ class Conversation:
         for indifferent_word in self.INDIFFERENT_UTTERANCES:
             if indifferent_word in sentence:
                 if not preferences['food']:
-                    preferences['food'] = 'any'
+                    preferences['food'] = ['any']
                 if not preferences['pricerange']:
-                    preferences['pricerange'] = 'any'
+                    preferences['pricerange'] = ['any']
                 if not preferences['area']:
-                    preferences['area'] = 'any'
+                    preferences['area'] = ['any']
 
         # Make a distinct list
         food_preferences = list(dict.fromkeys(food_preferences))
@@ -155,7 +155,7 @@ class Conversation:
             random.shuffle(self.restaurants)
             keys_with_value = []
             for key in prefs:
-                if prefs[key] == 'any':
+                if prefs[key] == ['any']:
                     continue
                 elif prefs[key]:
                     keys_with_value.append(key)
@@ -275,11 +275,21 @@ class Conversation:
         varying_sents = []
 
         if stake['food']:
-            varying_sents.append(' or '.join(stake['food']))
+            if stake['food'] == ['any']:
+                varying_sents.append('any food')
+            else:
+                varying_sents.append(' or '.join(stake['food']))
         if stake['pricerange']:
-            varying_sents.append(' or '.join(stake['pricerange']))
+            if stake['pricerange'] == ['any']:
+                varying_sents.append('any price range')
+            else:
+                varying_sents.append(' or '.join(stake['pricerange']))
         if stake['area']:
-            varying_sents.append("in the " + ' or '.join(stake['area']))
+            if stake['area'] == ['any']:
+                varying_sents.append('in any area')
+            else:
+                varying_sents.append("in the " + ' or '.join(stake['area']))
+
 
         confirm_sent = self.SENTENCES['confirmsent1'] + ' and '.join(varying_sents) + "?"
 
