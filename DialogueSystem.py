@@ -4,10 +4,7 @@ import time
 import MLClassifier as mlc
 import numpy as np
 import pandas as pd
-
-#from Conversation import *
-from OntologyHandler import *
-
+from Conversation import Conversation
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras.layers import Dense, SpatialDropout1D, LSTM
@@ -16,25 +13,22 @@ from keras.layers.embeddings import Embedding
 from keras.callbacks import EarlyStopping
 from keras.backend import set_session
 import tensorflow as tf
-import pickle
+import json
 
-<<<<<<< Updated upstream
-=======
-#import nltk
-#nltk downloads
-#nltk.download('wordnet')
-#nltk.download('averaged_perceptron_tagger')
-#nltk.download('wordnet')
-#nltk.download('averaged_perceptron_tagger')
-#nltk.download('punkt')
-#nltk.download('stopwords')
+# import nltk
+# nltk downloads
+# nltk.download('wordnet')
+# nltk.download('averaged_perceptron_tagger')
+# nltk.download('wordnet')
+# nltk.download('averaged_perceptron_tagger')
+# nltk.download('punkt')
+# nltk.download('stopwords')
 
 config = tf.ConfigProto( device_count = {'GPU': 1 , 'CPU': 56} )
 sess = tf.Session(config=config)
 set_session(sess)
 
 #   1A and 1B HELPER FUNCTIONS
->>>>>>> Stashed changes
 
 # function for reading and parsing json to make the conversation readable
 def read_and_parse_json_conversation(log_url, label_url):
@@ -136,18 +130,9 @@ dataDirectory = "data/"
 answer = 0
 data_frequencies = None
 try:
-<<<<<<< Updated upstream
-    pickled_model = open("model.pickle", "rb")
-    dialog_act_model = pickle.load(pickled_model)
-    pickled_model.close()
-except e:
-=======
     dialog_act_model = load_model('seq_model.h5')
 except:
->>>>>>> Stashed changes
-    dialog_act_model = None
     print('No model trained, run option 3 to train a model')
-    print(e)
     pass
 
 conversation_settings = {'classifier': 'rule',

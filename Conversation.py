@@ -6,10 +6,8 @@ import numpy as np
 import string
 import csv
 import json
-from Levenshtein import distance
 from numpy import random
 from Levenshtein import distance
-
 
 def read_csv_database(filepath):
     with open(filepath, 'r') as f:
@@ -550,17 +548,3 @@ class Conversation:
             sentence = input()
 
         return self.SENTENCES['ended1']
-
-
-conversation_settings = {'classifier': 'rule',
-                         'confirmation_all': True,
-                         'info_per_utt': "any",
-                         'levenshtein_dist': 1,
-                         'allow_restarts': True,
-                         'max_responses': np.inf,
-                         'responses_uppercase': True,
-                         'utt_lowercase': True
-                         }
-
-convo = Conversation(conversation_settings)
-convo.start_conversation()
