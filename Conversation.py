@@ -10,7 +10,7 @@ from Levenshtein import distance
 from numpy import random
 from Levenshtein import distance
 
-
+# Reading database helper classes
 def read_csv_database(filepath):
     with open(filepath, 'r') as f:
         reader = csv.reader(f)
@@ -250,10 +250,6 @@ class Conversation:
                         return True
         return False
 
-    def get_restaurant_information(self, restaurant):
-
-        return restaurant
-
     @staticmethod
     def get_dialog_act(sentence, classifier):
         if classifier == 'rule':
@@ -312,11 +308,6 @@ class Conversation:
         confirm_sent = self.SENTENCES['confirmsent1'] + ' and '.join(varying_sents) + "?"
 
         return confirm_sent
-
-    def get_inform_sent(self, sentence):
-        # print(self.suggestion)
-        inform = 'information'
-        return inform
 
     #   STATE FUNCTIONS     #
 
@@ -465,10 +456,6 @@ class Conversation:
             else:
                 response = 'goodbye'
                 new_state = ''
-
-        if act == 'request':
-            # print(self.suggestion)
-            response = self.get_inform_sent(sentence)
 
         if act == 'inform':
             new_state = 'confirm'
