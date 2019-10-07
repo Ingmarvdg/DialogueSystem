@@ -1,34 +1,30 @@
 import pandas as pd
-import json
 from itertools import chain
 import os
 import time
-import random
 import MLClassifier as mlc
-import nltk
 import numpy as np
 import RulebasedEstimator as rbe
 
 from sklearn.preprocessing import LabelEncoder
-from collections import defaultdict
-from nltk.corpus import wordnet as wn
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn import model_selection, naive_bayes, svm, tree
-from sklearn.metrics import accuracy_score
+from sklearn import naive_bayes
+from sklearn.metrics import classification_report
 from sklearn.metrics import f1_score
-import sklearn.metrics as metrics
+
+from Conversation import Conversation
+from OntologyHandler import *
 
 from nltk.tokenize import word_tokenize
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences 
-from keras.models import Sequential
 from keras.layers import Dense, SpatialDropout1D, Flatten, LSTM, GRU, ConvLSTM2D
+from keras.models import Sequential
 from keras.layers.embeddings import Embedding
 from keras.callbacks import EarlyStopping
 from keras.layers.normalization import BatchNormalization
 import tensorflow as tf
 
-import numpy
 import nltk
 
 nltk.download('wordnet')
@@ -43,6 +39,7 @@ nltk.download('wordnet')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('punkt')
 nltk.download('stopwords')
+
 
 # function for reading and parsing json to make the conversation readable
 def read_and_parse_json_conversation(log_url, label_url):
@@ -122,7 +119,7 @@ def write_all_convos_to_file(conversations):
 def parse_all_json(header, option):
     conversations = []
     entries = os.listdir(header)
-    print("Parsing data in " + header +' please wait a moment...')
+    print("Parsing data in " + header + ' please wait a moment...')
     for parent_directories in entries:
         if not parent_directories.startswith("."):
             entries_child = os.listdir(header + parent_directories + '/')
@@ -142,8 +139,35 @@ def parse_all_json(header, option):
 header_test = 'data/dstc2_test/data/'
 header_train = 'data/dstc2_traindev/data/'
 
+# Delete after test.
+# Guide on how to use extracting_preferences() function.
+ontology_data = read_json_ontology('ontology/ontology_dstc2.json')
+restaurants = read_csv_database('ontology/restaurantinfo.csv')
+utterance_content = "I'm looking for african food."
+# Initialise preferences
+preferences = dict(food=[], pricerange=[], restaurantname=[], area=[])
+# extracting_preferences() will be used only if we want to update the client's preference
+# so when dialog_act is 'inform'.
+dialog_act = 'inform'
+if dialog_act == 'inform':
+    preferences = get_preferences(utterance_content, ontology_data, preferences)
+    print(preferences)
+    print(get_info_from_restaurant(preferences, restaurants))
+    # bot will suggest a restaurant based on the preferences
+utterance_content = 'Sorry I also want the restaurant to be in the north or south area.'
+
+if dialog_act == 'inform':
+    # So here the preference will be updated. In our example, adding the east area.
+    preferences = get_preferences(utterance_content, ontology_data, preferences)
+    print(preferences)
+    print(get_info_from_restaurant(preferences, restaurants))
+#########################
+
 print('Select an option:')
-answer = input('1)Part 1a: domain modelling. \n2)Part 1b: Produce text files.\n3)Part 1b: Train, Test, Evaluate.\n')
+answer = input('1)Part 1a: Domain modelling.\n'
+               '2)Part 1b: Produce text files.\n'
+               '3)Part 1b: Train, Test, Evaluate.\n'
+               '4)Part 1c: Run dialog.\n')
 
 if answer == '1':
     print('Parsing data...')
@@ -228,6 +252,12 @@ elif answer == '3':
     print("Processing negation test data complete")
     print("All processing completed.")
 
+    # split to X and Y
+    train_X, train_Y = train_data['text_final'], train_data['label']
+    test_Y = test_data['label']
+    test_X = test_data['text_final']
+    hard_test_X, hard_test_Y = hard_test_data['text_final'], hard_test_data['label']
+    negation_test_X, negation_test_Y = negation_test_data['text_final'], negation_test_data['label']
     # Tokenization setup
     MAX_NB_WORDS, MAX_SEQUENCE_LENGTH, EMBEDDING_DIM = 50000, 1000, 100
     tokenizer = Tokenizer(num_words=MAX_NB_WORDS, filters='!"#$%&()*+,-./:;<=>?@[\]^_`{|}~', lower=True)
@@ -250,7 +280,7 @@ elif answer == '3':
     random_preds = np.random.choice(list(frequencies.index.values), len(test_Y), list(frequencies.values))
 
     # get predictions for baseline rule based
-    rule_preds = rbe.Classify(train_X)
+    rule_preds = rbe.Classify(test_X)
     rule_preds = Encoder.transform(rule_preds)
 
     # get predictions machine learning model of test set
@@ -295,11 +325,34 @@ elif answer == '3':
     #plt.title('Train label frequencies', **plt.csfont)
     #plt.show()
 
-
-
     # for each of the predictors print classification report
 
-    #  show graph that compares weighted f1 scores, recall and precision of baseline 1, baseline 2 and machine learning model
+    hard_test_tfidf = Tfidf_vect.transform(hard_test_X)
+    hard_ml_preds = Model.predict(hard_test_tfidf)
+    print(f1_score(hard_test_Y, hard_ml_preds, average='weighted'))
 
-    # loop to enter a sentence and let the ml model classify it
+    # make predictions for negation data
+    negation_rule_preds = rbe.Classify(negation_test_X)
+    negation_rule_preds = Encoder.transform(negation_rule_preds)
+    print(f1_score(negation_test_Y, negation_rule_preds, average='weighted'))
 
+    negation_test_tfidf = Tfidf_vect.transform(negation_test_X)
+    negation_ml_preds = Model.predict(negation_test_tfidf)
+    print(f1_score(negation_test_Y, negation_ml_preds, average='weighted'))
+
+elif answer == '4':
+    while True:
+        print('Select an option:')
+        answer = input('1)Let\'s chat!\n'
+                       '2)Change Settings\n'
+                       '3)Exit\n')
+        if answer == '1':
+            convo = Conversation(classifier='rule')
+            convo.start_conversation()
+            pass
+        elif answer == '2':
+            # todo Menu for settings.
+            # todo Function that change settings in the Conversation class.
+            pass
+        elif answer == '3':
+            break
