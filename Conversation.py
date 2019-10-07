@@ -190,7 +190,7 @@ class Conversation:
             random.shuffle(restaurants)
             keys_with_value = []
             for key in prefs:
-                if key == 'restaurantname' or key == 'area':
+                if key == 'restaurantname' or key == 'area' or prefs[key] == ['any']:
                     continue
                 if prefs[key]:
                     keys_with_value.append(key)
@@ -207,7 +207,7 @@ class Conversation:
             random.shuffle(restaurants)
             keys_with_value = []
             for key in prefs:
-                if key == 'restaurantname' or key == 'pricerange':
+                if key == 'restaurantname' or key == 'pricerange' or prefs[key] == ['any']:
                     continue
                 if prefs[key]:
                     keys_with_value.append(key)
@@ -226,17 +226,25 @@ class Conversation:
                 restaurant = next((restaurant for restaurant in restaurants if restaurant['food'] == preference), None)
                 if restaurant is not None:
                     return restaurant
+
+        random.shuffle(restaurants)
         if prefs['pricerange']:
             for preference in prefs['pricerange']:
                 restaurant = next((restaurant for restaurant in restaurants if restaurant['pricerange'] == preference),
                                   None)
                 if restaurant is not None:
                     return restaurant
+                if restaurant is None and prefs['pricerange'] == ['any']:
+                    return restaurants[0]
+
+        random.shuffle(restaurants)
         if prefs['area']:
             for preference in prefs['area']:
                 restaurant = next((restaurant for restaurant in restaurants if restaurant['area'] == preference), None)
                 if restaurant is not None:
                     return restaurant
+                if restaurant is None and prefs['area'] == ['any']:
+                    return restaurants[0]
         return
 
     def check_suggestion(self, suggestions, utterance_content):
