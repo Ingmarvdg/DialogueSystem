@@ -8,7 +8,7 @@ import string
 from numpy import random
 
 # conversation class
-from OntologyHandler import read_csv_database, read_json_ontology
+from OntologyHandler import read_csv_database, read_json_ontology, check_preferences
 
 
 # levenstein placeholder
@@ -403,10 +403,9 @@ class Conversation:
             new_state = 'confirm'
 
         if act == 'confirm':
-            # todo: get info suggested restaurant
-            if(True):
+            if check_preferences(self.user_preferences, self.ontology_data, sentence):
                 response = self.SENTENCES['confirm1']
-            if(False):
+            else:
                 new_state = 'confirm'
                 response = self.get_confirm_sent(sentence)
 
