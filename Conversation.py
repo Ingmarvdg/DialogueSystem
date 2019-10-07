@@ -4,7 +4,6 @@ import RulebasedEstimator
 import pandas as pd
 import numpy as np
 
-
 # conversation class
 from OntologyHandler import *
 
@@ -45,7 +44,7 @@ class Conversation:
         'maxresponses': "Sorry I couldnt help you within the time limit, goodbye!"
     }
 
-    EMPTY_PREFERENCES = {"food": [], "price_range": [], "area": []}
+    EMPTY_PREFERENCES = {"food": [], "pricerange": [], "area": [], "name": []}
 
     RESTAURANT_DATA = []
 
@@ -184,9 +183,11 @@ class Conversation:
                 response = self.get_confirm_sent()
                 new_state = 'confirm'
             else:
+                # todo: change this too
                 self.update_preferences()
 
                 self.restaurantSet.append(self.query(self.user_preferences))
+
                 if len(self.restaurantSet) < 1:
                     response = self.SENTENCES['noresults1']
                     self.user_preferences = self.EMPTY_PREFERENCES
@@ -220,6 +221,7 @@ class Conversation:
         new_state = 'confirm'
 
         if act == 'ack' or act == 'affirm':
+            # todo: change this
             self.update_preferences()
 
             self.restaurantSet.append(self.query(self.user_preferences))
@@ -347,7 +349,6 @@ class Conversation:
                 return self.SENTENCES['restart1']
             else:
                 return self.SENTENCES['sorry2']
-
 
         elif act == 'thankyou':
             return self.SENTENCES['thankyou1']
