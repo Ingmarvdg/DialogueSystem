@@ -379,7 +379,5 @@ while True:
         else:
             pass
 
-
-
     elif answer == '6':
         break

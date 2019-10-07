@@ -80,8 +80,6 @@ class Conversation:
         for value in self.ontology_data['informable'][field]:
             ls_distance = distance(value, word)
             if ls_distance == 0:
-                print(ls_distance)
-                print(value, word)
                 return value
             # For example not to ask unnecessary question such as 'Did you mean west instead of east?'
             elif ls_distance < self.levenshtein_dist:
@@ -232,7 +230,7 @@ class Conversation:
     # method that will update the user preferences with the topic that's at stake
     def update_preferences(self):
         for topic in self.topic_at_stake:
-            self.user_preferences[topic] = self.user_preferences[topic] + self.topic_at_stake[topic]
+            self.user_preferences[topic] = list(set(self.user_preferences[topic] + self.topic_at_stake[topic]))
         print(self.user_preferences)
         return
 
@@ -363,7 +361,6 @@ class Conversation:
                 new_state = 'request'
 
             else:
-                print('ehhh')
                 self.suggestion = self.get_suggestion()
                 print(self.suggestion)
 
@@ -382,7 +379,7 @@ class Conversation:
             response = self.SENTENCES['softreset1']
             new_state = 'request'
 
-        if act == 'deny' or 'negate':
+        if act == 'deny' or act == 'negate':
             self.topic_at_stake = {}
             new_state = 'request'
             response = self.SENTENCES['tryagain1']
@@ -404,7 +401,7 @@ class Conversation:
                 new_state = 'confirm'
                 response = self.get_confirm_sent(sentence)
 
-        if act == 'deny' or 'negate' or 'reqmore':
+        if act == 'deny' or act == 'negate' or act == 'reqmore':
             self.suggestion = self.get_suggestion()
 
             name = self.suggestion['name']
