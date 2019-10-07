@@ -250,22 +250,3 @@ def get_info_from_restaurant(preferences, restaurants):
 
     return None
 
-
-def check_preferences(preferences, ontology_data, utterance_content):
-    # Split sentence into a list of words
-    words = [word.strip(string.punctuation) for word in utterance_content.split()]
-    keywords = ['food', 'area', 'pricerange', 'name']
-    words_in_ontology_found = 0
-    words_in_preferences_found = 0
-    for word in words:
-        for key in keywords:
-            if get_word_matches(word, ontology_data, key) is not None:
-                words_in_ontology_found += 1
-                if word in preferences.value():
-                    words_in_preferences_found += 1
-
-    if words_in_ontology_found != 0 and words_in_ontology_found == words_in_preferences_found:
-        return True
-    else:
-        return False
-

@@ -4,12 +4,17 @@ import RulebasedEstimator
 import pandas as pd
 import numpy as np
 import string
-from Levenshtein import distance
+# from Levenshtein import distance
 from numpy import random
 import Levenshtein
 
 # conversation class
-from OntologyHandler import read_csv_database, read_json_ontology, check_preferences
+from OntologyHandler import read_csv_database, read_json_ontology
+
+
+# levenstein placeholder
+def distance(a, b):
+    return 0
 
 
 class Conversation:
@@ -221,6 +226,15 @@ class Conversation:
                     return restaurant
         return None
 
+    def check_suggestion(self, suggestions, utterance_content):
+        keywords = ['food', 'area', 'price']
+        for key in keywords:
+            if key in utterance_content:
+                for suggestion in suggestions[key]:
+                    if suggestion in utterance_content:
+                        return True
+        return False
+
     def get_restaurant_information(self, restaurant):
 
         return restaurant
@@ -399,7 +413,7 @@ class Conversation:
             new_state = 'confirm'
 
         if act == 'confirm':
-            if check_preferences(self.user_preferences, self.ontology_data, sentence):
+            if self.check_suggestion(self.suggestion, sentence):
                 response = self.SENTENCES['confirm1']
             else:
                 new_state = 'confirm'
@@ -509,11 +523,3 @@ class Conversation:
 
 #convo = Conversation(classifier='rule')
 #convo.start_conversation()
-
-
-
-
-
-
-
-
