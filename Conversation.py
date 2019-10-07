@@ -4,11 +4,13 @@ import RulebasedEstimator
 import pandas as pd
 import numpy as np
 import string
+from Levenshtein import distance
 from numpy import random
 from Levenshtein import distance
 
 # conversation class
 from OntologyHandler import read_csv_database, read_json_ontology
+
 
 class Conversation:
     SENTENCES = {
@@ -68,7 +70,8 @@ class Conversation:
         # configuration options
         self.classifier = options['classifier']
         self.confirmation_all = options['confirmation_all']
-        self.info_per_utt = options['info_per_utt']  # all: request all at once, empty: any number, one: request one at a time
+        self.info_per_utt = options[
+            'info_per_utt']  # all: request all at once, empty: any number, one: request one at a time
         self.levenshtein_dist = options['levenshtein_dist']
         self.allow_restarts = options['allow_restarts']
         self.max_responses = options['max_responses']
@@ -84,15 +87,15 @@ class Conversation:
             if ls_distance == 0:
                 return value
             # For example not to ask unnecessary question such as 'Did you mean west instead of east?'
-            elif ls_distance < self.levenshtein_dist:
+            elif ls_distance <= self.levenshtein_dist:
                 possibilities.append(value)
 
         for value in possibilities:
-                ask = input("Did you mean " + value + " instead of " + word + "? (yes/no)\n")
-                if ask == 'yes':
-                    return value
-                else:
-                    continue
+            ask = input("Did you mean " + value + " instead of " + word + "? (yes/no)\n")
+            if ask == 'yes':
+                return value
+            else:
+                continue
         return None
 
     # update to just return preferences from sentence, and not update the previous preferences
@@ -116,6 +119,15 @@ class Conversation:
             if value in sentence:
                 food_preferences.append(value)
                 break
+
+        for indifferent_word in self.INDIFFERENT_UTTERANCES:
+            if indifferent_word in sentence:
+                if not preferences['food']:
+                    preferences['food'] = 'any'
+                if not preferences['pricerange']:
+                    preferences['pricerange'] = 'any'
+                if not preferences['area']:
+                    preferences['area'] = 'any'
 
         # Make a distinct list
         food_preferences = list(dict.fromkeys(food_preferences))
@@ -270,6 +282,7 @@ class Conversation:
         return confirm_sent
 
     def get_inform_sent(self, sentence):
+        print(self.suggestion)
         inform = 'information'
         return inform
 
@@ -310,6 +323,7 @@ class Conversation:
 
         if act == 'confirm' or act == 'reqalts' or act == 'inform' or act == 'request':
             self.topic_at_stake = self.get_preferences(sentence)
+            print(self.topic_at_stake)
             if self.info_per_utt == "all" and len(self.topic_at_stake) < 3:
                 response = self.SENTENCES['reqall1']
 
@@ -332,8 +346,8 @@ class Conversation:
                 else:
                     self.suggestion = self.get_suggestion()
 
-                    name = self.suggestion['name']
-                    price = self.suggestion['price']
+                    name = self.suggestion['restaurantname']
+                    price = self.suggestion['pricerange']
                     area = self.suggestion['area']
 
                     response = f"What about {name}, its {price} and is in the {area}."
@@ -364,7 +378,6 @@ class Conversation:
 
             else:
                 self.suggestion = self.get_suggestion()
-                print(self.suggestion)
 
                 name = self.suggestion['restaurantname']
                 price = self.suggestion['pricerange']
@@ -406,13 +419,13 @@ class Conversation:
         if act == 'deny' or act == 'negate' or act == 'reqmore':
             self.suggestion = self.get_suggestion()
 
-            name = self.suggestion['name']
-            price = self.suggestion['price']
+            name = self.suggestion['restaurantname']
+            price = self.suggestion['pricerange']
             area = self.suggestion['area']
 
             response = f"What about {name}, its {price} and is in the {area}."
 
-        if act == 'ack' or 'affirm':
+        if act == 'ack' or act == 'affirm':
             if not self.infoGiven:
                 response = f"The restaurants  phone number is {self.suggestion['phone']}," \
                            f" the address is {self.suggestion['addr']}, {self.suggestion['postcode']}."
@@ -422,6 +435,7 @@ class Conversation:
                 new_state = ''
 
         if act == 'request':
+            print(self.suggestion)
             response = self.get_inform_sent(sentence)
 
         if act == 'inform':
@@ -504,10 +518,12 @@ class Conversation:
             sentence = input()
 
         return self.SENTENCES['ended1']
+
+
 conversation_settings = {'classifier': 'rule',
                          'confirmation_all': True,
                          'info_per_utt': "any",
-                         'levenshtein_dist': 0,
+                         'levenshtein_dist': 1,
                          'allow_restarts': True,
                          'max_responses': np.inf,
                          'responses_uppercase': True,
@@ -516,4 +532,3 @@ conversation_settings = {'classifier': 'rule',
 
 convo = Conversation(conversation_settings)
 convo.start_conversation()
-
