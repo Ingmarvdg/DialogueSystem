@@ -261,7 +261,7 @@ class Conversation:
         if stake['pricerange']:
             varying_sents.append(' or '.join(stake['pricerange']))
         if stake['area']:
-            varying_sents.append("in the" + ' or '.join(stake['area']))
+            varying_sents.append("in the " + ' or '.join(stake['area']))
 
         confirm_sent = self.SENTENCES['confirmsent1'] + ' and '.join(varying_sents) + "?"
 
@@ -337,7 +337,7 @@ class Conversation:
                     response = f"What about {name}, its {price} and is in the {area}."
                     new_state = 'inform'
 
-        if act == 'deny' or 'negate':
+        if act == 'deny' or act == 'negate':
             response = self.SENTENCES['bye1']
             new_state = 'bye'
 
@@ -364,8 +364,8 @@ class Conversation:
                 self.suggestion = self.get_suggestion()
                 print(self.suggestion)
 
-                name = self.suggestion['name']
-                price = self.suggestion['price']
+                name = self.suggestion['restaurantname']
+                price = self.suggestion['pricerange']
                 area = self.suggestion['area']
 
                 response = f"What about {name}, its {price} and is in the {area}."
@@ -412,9 +412,10 @@ class Conversation:
 
         if act == 'ack' or 'affirm':
             if not self.infoGiven:
-                response = self.get_inform_sent(sentence)
-
-            if self.infoGiven:
+                response = f"The restaurants  phone number is {self.suggestion['phone']}," \
+                           f" the address is {self.suggestion['addr']}, {self.suggestion['postcode']}."
+                self.infoGiven = True
+            else:
                 response = 'goodbye'
                 new_state = ''
 
@@ -427,7 +428,7 @@ class Conversation:
         return response, new_state
 
     def state_bye(self, sentence):
-        response = self.SENTENCES['bye1']
+        response = self.SENTENCES['bye2']
         new_state = 'bye'
 
         return response, new_state
