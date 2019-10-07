@@ -4,18 +4,11 @@ import RulebasedEstimator
 import pandas as pd
 import numpy as np
 import string
-# from Levenshtein import distance
 from numpy import random
-import Levenshtein
+from Levenshtein import distance
 
 # conversation class
 from OntologyHandler import read_csv_database, read_json_ontology
-
-
-# levenstein placeholder
-def distance(a, b):
-    return 0
-
 
 class Conversation:
     SENTENCES = {
@@ -86,7 +79,9 @@ class Conversation:
         possibilities = []
         for value in self.ontology_data['informable'][field]:
             ls_distance = distance(value, word)
-            if ls_distance <= 1:
+            if ls_distance == 0:
+                print(ls_distance)
+                print(value, word)
                 return value
             # For example not to ask unnecessary question such as 'Did you mean west instead of east?'
             elif ls_distance < self.levenshtein_dist:
@@ -237,7 +232,7 @@ class Conversation:
     # method that will update the user preferences with the topic that's at stake
     def update_preferences(self):
         for topic in self.topic_at_stake:
-            self.user_preferences[topic] += self.topic_at_stake[topic]
+            self.user_preferences[topic] = self.user_preferences[topic] + self.topic_at_stake[topic]
         print(self.user_preferences)
         return
 
@@ -512,7 +507,7 @@ class Conversation:
 conversation_settings = {'classifier': 'rule',
                          'confirmation_all': True,
                          'info_per_utt': "any",
-                         'levenshtein_dist': 2,
+                         'levenshtein_dist': 0,
                          'allow_restarts': True,
                          'max_responses': np.inf,
                          'responses_uppercase': True,
