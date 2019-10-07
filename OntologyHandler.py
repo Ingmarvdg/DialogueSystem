@@ -4,11 +4,11 @@ import string
 # If you encounter the following error "Microsoft Visual C++ 14.0 is required"
 # you need to download Visual Studio toolbox
 # https://stackoverflow.com/questions/29846087/microsoft-visual-c-14-0-is-required-unable-to-find-vcvarsall-bat
-from Levenshtein import distance
-from Lib import random
+# from Levenshtein import distance
+from numpy import random
 
 
-def get_update_preference_data(word, ontology_data, type):
+def get_word_matches(word, ontology_data, type):
     for value in ontology_data['informable'][type]:
         if distance(value, word) == 0:
             return value
@@ -47,7 +47,7 @@ def read_json_ontology(filepath):
         return data
 
 
-def extracting_preferences(utterance_content, ontology_data, preferences):
+def get_preferences(utterance_content, ontology_data, preferences):
     # No empty sentence.
     if not utterance_content:
         return dict(food=[], pricerange=[], restaurantname=[], area=[])
@@ -60,10 +60,10 @@ def extracting_preferences(utterance_content, ontology_data, preferences):
     # Compare each word from the utterance content with the ontology data using the Levenshtein distance
     # and adding to the preference list each word which distance is equal or less than 1.
     for word in words:
-        food_preferences.append(get_update_preference_data(word, ontology_data, 'food'))
-        pricerange_preferences.append(get_update_preference_data(word, ontology_data, 'pricerange'))
-        name.append(get_update_preference_data(word, ontology_data, 'name'))
-        area.append(get_update_preference_data(word, ontology_data, 'area'))
+        food_preferences.append(get_word_matches(word, ontology_data, 'food'))
+        pricerange_preferences.append(get_word_matches(word, ontology_data, 'pricerange'))
+        name.append(get_word_matches(word, ontology_data, 'name'))
+        area.append(get_word_matches(word, ontology_data, 'area'))
 
     # Some restaurant and foods have in their names more than one word. So here we just check if the information
     # from the ontology exist in the utterance content.
@@ -93,6 +93,82 @@ def extracting_preferences(utterance_content, ontology_data, preferences):
 
 # todo (optional) should we create a delete_info_from_preferences()? For example 'I don't want Spanish food.'. We will
 #   delete from the food key the value 'Spanish'.
+
+def get_restaurant_suggestion(preferences):
+    # If we don't have the restaurantname info then we search based on the area, price and food. We will return the
+    # first restaurant which it will satisfy our query. In order not to get the same results over and over we would
+    # also randomise the restaurants.
+    if preferences['food'] and preferences['area'] and preferences['pricerange']:
+        random.shuffle(restaurants)
+        keys_with_value = []
+        for key in preferences:
+            if key == 'restaurantname':
+                continue
+            if preferences[key]:
+                keys_with_value.append(key)
+        for restaurant in restaurants:
+            count = 0
+            for key in keys_with_value:
+                if restaurant[key] in preferences[key]:
+                    count += 1
+            if count == len(keys_with_value):
+                return restaurant
+
+    # If we got here it means that the combination of all the the preferences didn't satisfy our query.
+    # We will suggest something based on the pricerange and the food.
+    if preferences['food'] and preferences['pricerange']:
+        random.shuffle(restaurants)
+        keys_with_value = []
+        for key in preferences:
+            if key == 'restaurantname' or key == 'area':
+                continue
+            if preferences[key]:
+                keys_with_value.append(key)
+        for restaurant in restaurants:
+            count = 0
+            for key in keys_with_value:
+                if restaurant[key] in preferences[key]:
+                    count += 1
+            if count == len(keys_with_value):
+                return restaurant
+
+    # We will suggest something based on the food and the area.
+    if preferences['food'] and preferences['area']:
+        random.shuffle(restaurants)
+        keys_with_value = []
+        for key in preferences:
+            if key == 'restaurantname' or key == 'pricerange':
+                continue
+            if preferences[key]:
+                keys_with_value.append(key)
+        for restaurant in restaurants:
+            count = 0
+            for key in keys_with_value:
+                if restaurant[key] in preferences[key]:
+                    count += 1
+            if count == len(keys_with_value):
+                return restaurant
+
+    # Now we should suggest based on food only then on pricerange and last on the area.
+    random.shuffle(restaurants)
+    if preferences['food']:
+        for preference in preferences['food']:
+            restaurant = next((restaurant for restaurant in restaurants if restaurant['food'] == preference), None)
+            if restaurant is not None:
+                return restaurant
+    if preferences['pricerange']:
+        for preference in preferences['pricerange']:
+            restaurant = next((restaurant for restaurant in restaurants if restaurant['pricerange'] == preference),
+                              None)
+            if restaurant is not None:
+                return restaurant
+    if preferences['area']:
+        for preference in preferences['area']:
+            restaurant = next((restaurant for restaurant in restaurants if restaurant['area'] == preference), None)
+            if restaurant is not None:
+                return restaurant
+
+
 def get_info_from_restaurant(preferences, restaurants):
     # If we know the restaurant name we just print their details as it is our primary goal.
     if preferences['restaurantname']:

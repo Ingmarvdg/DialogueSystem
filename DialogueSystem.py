@@ -140,7 +140,7 @@ preferences = dict(food=[], pricerange=[], restaurantname=[], area=[])
 # so when dialog_act is 'inform'.
 dialog_act = 'inform'
 if dialog_act == 'inform':
-    preferences = extracting_preferences(utterance_content, ontology_data, preferences)
+    preferences = get_preferences(utterance_content, ontology_data, preferences)
     print(preferences)
     print(get_info_from_restaurant(preferences, restaurants))
     # bot will suggest a restaurant based on the preferences
@@ -148,7 +148,7 @@ utterance_content = 'Sorry I also want the restaurant to be in the north or sout
 
 if dialog_act == 'inform':
     # So here the preference will be updated. In our example, adding the east area.
-    preferences = extracting_preferences(utterance_content, ontology_data, preferences)
+    preferences = get_preferences(utterance_content, ontology_data, preferences)
     print(preferences)
     print(get_info_from_restaurant(preferences, restaurants))
 #########################

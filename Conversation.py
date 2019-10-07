@@ -3,10 +3,18 @@
 import RulebasedEstimator
 import pandas as pd
 import numpy as np
+import string
+#from Levenshtein import distance
+from numpy import random
 
 # conversation class
-from OntologyHandler import *
+from OntologyHandler import read_csv_database, read_json_ontology
 
+
+# levenstein placeholder
+def distance(a, b):
+
+    return 0
 
 class Conversation:
     SENTENCES = {
@@ -38,7 +46,7 @@ class Conversation:
         'reqmore1': 'Anything else?',
         'confirmtype1': "So the food you are looking for has to be ",
         'confirmprice1': " ",
-        'confirmarea1': " ",
+        'confirmarea1': "You want the restaurant to be in the ",
         'reqone1': " ",
         'sorry2': "I'm afraid I cant do that",
         'maxresponses': "Sorry I couldnt help you within the time limit, goodbye!"
@@ -49,6 +57,8 @@ class Conversation:
     RESTAURANT_DATA = []
 
     def __init__(self, classifier='rule',
+                 database_path='ontology/restaurantinfo.csv',
+                 ontology_path='ontology/ontology_dstc2.json',
                  confirmation_all=True,
                  info_per_utt="",
                  levenshtein_dist=1,
@@ -65,8 +75,8 @@ class Conversation:
         self.infoGiven = False
         self.topic_at_stake = {}
         self.n_responses = 0
-        self.restaurants = read_csv_database('ontology/restaurantinfo.csv')
-        self.ontology_data = read_json_ontology('ontology/ontology_dstc2.json')
+        self.restaurants = read_csv_database(database_path)
+        self.ontology_data = read_json_ontology(ontology_path)
 
         # configuration options
         self.classifier = classifier
@@ -78,6 +88,147 @@ class Conversation:
         self.response_uppercase = response_uppercase
         self.utt_lowercase = utt_lowercase
 
+    #    ONTOLOGY HANDLING HELPER FUNCTIONS      #
+
+    def get_word_matches(self, word, field):
+        for value in self.ontology_data['informable'][field]:
+            if distance(value, word) <= self.levenshtein_dist:
+                return value
+            # For example not to ask unnecessary question such as 'Did you mean west instead of east?'
+            elif distance(value, word) > self.levenshtein_dist and \
+                    word not in self.ontology_data['informable']['food'] and \
+                    word not in self.ontology_data['informable']['pricerange'] and \
+                    word not in self.ontology_data['informable']['name'] and \
+                    word not in self.ontology_data['informable']['area']:
+                ask = input("Did you mean " + value + " instead of " + word + "? (yes/no)\n")
+                if ask == 'yes':
+                    return value
+                else:
+                    continue
+
+    # update to just return preferences from sentence, and not update the previous preferences
+    def get_preferences(self, sentence):
+        preferences = self.user_preferences
+        # Split sentence into a list of words
+        words = [word.strip(string.punctuation) for word in sentence.split()]
+        food_preferences = []
+        pricerange_preferences = []
+        name = []
+        area = []
+        # Compare each word from the utterance content with the ontology data using the Levenshtein distance
+        # and adding to the preference list each word which distance is equal or less than 1.
+        for word in words:
+            food_preferences.append(self.get_word_matches(word, 'food'))
+            pricerange_preferences.append(self.get_word_matches(word, 'pricerange'))
+            name.append(self.get_word_matches(word, 'name'))
+            area.append(self.get_word_matches(word, 'area'))
+
+        # Some restaurant and foods have in their names more than one word. So here we just check if the information
+        # from the ontology exist in the utterance content.
+        for value in self.ontology_data['informable']['food']:
+            if value in sentence:
+                food_preferences.append(value)
+                break
+
+        for value in self.ontology_data['informable']['name']:
+            if value in sentence:
+                name.append(value)
+                break
+
+        # Make a distinct list
+        name = list(dict.fromkeys(name))
+        food_preferences = list(dict.fromkeys(food_preferences))
+
+        # Insert list to another
+        preferences['food'][-1:-1] = list(filter(None, food_preferences))
+        preferences['pricerange'][-1:-1] = list(filter(None, pricerange_preferences))
+        # preferences['restaurantname'][-1:-1] = list(filter(None, name))
+        preferences['area'][-1:-1] = list(filter(None, area))
+
+        # Return the updated preferences
+        return preferences
+
+    def get_suggestion(self):
+        # We search based on the area, price and food. We will return the
+        # first restaurant which it will satisfy our query. In order not to get the same results over and over we would
+        # also randomise the restaurants.
+        prefs = self.user_preferences
+        restaurants = self.restaurants
+        if prefs['food'] and prefs['area'] and prefs['pricerange']:
+            random.shuffle(self.restaurants)
+            keys_with_value = []
+            for key in prefs:
+                if key == 'restaurantname':
+                    continue
+                if prefs[key]:
+                    keys_with_value.append(key)
+            for restaurant in restaurants:
+                count = 0
+                for key in keys_with_value:
+                    if restaurant[key] in prefs[key]:
+                        count += 1
+                if count == len(keys_with_value):
+                    return restaurant
+
+        # If we got here it means that the combination of all the the preferences didn't satisfy our query.
+        # We will suggest something based on the pricerange and the food.
+        if prefs['food'] and prefs['pricerange']:
+            random.shuffle(restaurants)
+            keys_with_value = []
+            for key in prefs:
+                if key == 'restaurantname' or key == 'area':
+                    continue
+                if prefs[key]:
+                    keys_with_value.append(key)
+            for restaurant in restaurants:
+                count = 0
+                for key in keys_with_value:
+                    if restaurant[key] in prefs[key]:
+                        count += 1
+                if count == len(keys_with_value):
+                    return restaurant
+
+        # We will suggest something based on the food and the area.
+        if prefs['food'] and prefs['area']:
+            random.shuffle(restaurants)
+            keys_with_value = []
+            for key in prefs:
+                if key == 'restaurantname' or key == 'pricerange':
+                    continue
+                if prefs[key]:
+                    keys_with_value.append(key)
+            for restaurant in restaurants:
+                count = 0
+                for key in keys_with_value:
+                    if restaurant[key] in prefs[key]:
+                        count += 1
+                if count == len(keys_with_value):
+                    return restaurant
+
+        # Now we should suggest based on food only then on pricerange and last on the area.
+        random.shuffle(restaurants)
+        if prefs['food']:
+            for preference in prefs['food']:
+                restaurant = next((restaurant for restaurant in restaurants if restaurant['food'] == preference), None)
+                if restaurant is not None:
+                    return restaurant
+        if prefs['pricerange']:
+            for preference in prefs['pricerange']:
+                restaurant = next((restaurant for restaurant in restaurants if restaurant['pricerange'] == preference),
+                                  None)
+                if restaurant is not None:
+                    return restaurant
+        if prefs['area']:
+            for preference in prefs['area']:
+                restaurant = next((restaurant for restaurant in restaurants if restaurant['area'] == preference), None)
+                if restaurant is not None:
+                    return restaurant
+        return None
+
+    def get_restaurant_information(self, restaurant):
+
+        return restaurant
+
     @staticmethod
     def get_dialog_act(sentence, classifier):
         if classifier == 'rule':
@@ -88,22 +239,13 @@ class Conversation:
             dialog_act = classifier.predict(sentence)
         return dialog_act
 
-    # todo We need to initialize somewhere the preferences variable. Remember if they dialog_act is deny, etc
-    #  it will not work. If we encounter a negative sentence we need to empty the preferences. To initialise the
-    #  preferences write preferences = dict(food=[], pricerange=[], restaurantname=[], area=[])
-    def get_matches(self, sentence, preferences):
-        preferences = extracting_preferences(sentence, self.ontology_data, preferences)
-        return preferences
-
     # method that will update the user preferences with the topic that's at stake
     def update_preferences(self):
         for topic in self.topic_at_stake:
             self.user_preferences[topic].append(self.topic_at_stake[topic])
         return
 
-    def get_random(self, preferences):
-        restaurant = get_info_from_restaurant(preferences, self.restaurants)
-        return restaurant
+    #   SENTENCE GENERATION HELPER FUNCTIONS    #
 
     def get_request_sent(self):
         prefs = self.user_preferences
@@ -126,17 +268,19 @@ class Conversation:
         confirm = '_'
 
         if 'type' in stake:
-            confirm = self.SENTENCES['confirmtype1'] + stake['type']
+            confirm = self.SENTENCES['confirmtype1'] + ''.join(stake['type'] + "?")
         if 'price_range' in stake:
-            confirm = self.SENTENCES['confirmprice1'] + stake['price_range']
+            confirm = self.SENTENCES['confirmprice1'], stake['price_range']
         if 'area' in stake:
-            confirm = self.SENTENCES['confirmarea1'] + stake['area']
+            confirm = self.SENTENCES['confirmarea1'] + ' '.join(stake['area']) + "?"
 
         return confirm
 
     def get_inform_sent(self, sentence):
         inform = 'information'
         return inform
+
+    #   STATE FUNCTIONS     #
 
     def state_hello(self, sentence, act):
         response = ''
@@ -158,7 +302,7 @@ class Conversation:
             response = self.SENTENCES['noise1']
 
         if act == 'inform' or act == 'deny' or act == 'reqalts':
-            self.topic_at_stake = self.get_matches(sentence)
+            self.topic_at_stake = self.get_preferences(sentence)
             new_state = 'confirm'
             response = self.get_confirm_sent()
 
@@ -172,7 +316,7 @@ class Conversation:
             response = self.SENTENCES['ack1']
 
         if act == 'confirm' or act == 'reqalts' or act == 'inform' or act == 'request':
-            self.topic_at_stake = self.get_matches(sentence)
+            self.topic_at_stake = self.get_preferences(sentence)
             if self.info_per_utt == "all" and len(self.topic_at_stake) < 3:
                 response = self.SENTENCES['reqall1']
 
@@ -183,18 +327,17 @@ class Conversation:
                 response = self.get_confirm_sent()
                 new_state = 'confirm'
             else:
-                # todo: change this too
                 self.update_preferences()
 
-                self.restaurantSet.append(self.query(self.user_preferences))
+                if not self.user_preferences['area'] \
+                        or not self.user_preferences['pricerange'] \
+                        or not self.user_preferences['food']:
 
-                if len(self.restaurantSet) < 1:
-                    response = self.SENTENCES['noresults1']
-                    self.user_preferences = self.EMPTY_PREFERENCES
+                    response = self.get_request_sent()
                     new_state = 'request'
 
-                if len(self.restaurantSet) < 5:
-                    self.suggestion = self.get_random(self.restaurantSet)
+                else:
+                    self.suggestion = self.get_suggestion()
 
                     name = self.suggestion['name']
                     price = self.suggestion['price']
@@ -202,10 +345,6 @@ class Conversation:
 
                     response = f"What about {name}, its {price} and is in the {area}."
                     new_state = 'inform'
-
-                if len(self.restaurantSet) >= 5:
-                    response = self.get_request_sent()
-                    new_state = 'request'
 
         if act == 'deny' or 'negate':
             response = self.SENTENCES['bye1']
@@ -216,22 +355,22 @@ class Conversation:
 
         return response, new_state
 
-    def state_confirm(self, sentence, act):
+    def state_confirm(self, act):
         response = ''
         new_state = 'confirm'
 
         if act == 'ack' or act == 'affirm':
-            # todo: change this
             self.update_preferences()
 
-            self.restaurantSet.append(self.query(self.user_preferences))
-            if len(self.restaurantSet) < 1:
-                response = self.SENTENCES['noresults1']
-                new_state = 'confirm'
+            if not self.user_preferences['area'] \
+                    or not self.user_preferences['pricerange'] \
+                    or not self.user_preferences['food']:
 
-            if len(self.restaurantSet) < 5:
+                response = self.get_request_sent()
+                new_state = 'request'
 
-                self.suggestion = self.get_random(self.restaurantSet)
+            else:
+                self.suggestion = self.get_suggestion()
 
                 name = self.suggestion['name']
                 price = self.suggestion['price']
@@ -239,10 +378,6 @@ class Conversation:
 
                 response = f"What about {name}, its {price} and is in the {area}."
                 new_state = 'inform'
-
-            if len(self.restaurantSet) >= 5:
-                response = self.get_request_sent()
-                new_state = 'request'
 
         if act == 'confirm' or act == 'inform':
             response = self.get_confirm_sent()
@@ -276,7 +411,7 @@ class Conversation:
                 response = self.get_confirm_sent(sentence)
 
         if act == 'deny' or 'negate' or 'reqmore':
-            self.suggestion = self.get_random(self.restaurantSet)
+            self.suggestion = self.get_suggestion()
 
             name = self.suggestion['name']
             price = self.suggestion['price']
@@ -377,8 +512,8 @@ class Conversation:
         return self.SENTENCES['ended1']
 
 
-# convo = Conversation(classifier='rule')
-# convo.start_conversation()
+convo = Conversation(classifier='rule')
+convo.start_conversation()
 
 
 
