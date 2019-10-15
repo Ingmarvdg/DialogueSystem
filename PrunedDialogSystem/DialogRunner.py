@@ -11,9 +11,11 @@ from keras.callbacks import EarlyStopping
 from keras.backend import set_session
 import tensorflow as tf
 
-config = tf.ConfigProto( device_count = {'GPU': 1 , 'CPU': 56} )
+config = tf.ConfigProto(device_count={'GPU': 1, 'CPU': 56})
 sess = tf.Session(config=config)
 set_session(sess)
+
+classifier = None
 
 while True:
     print('select an option')
@@ -37,7 +39,7 @@ while True:
         test_Y = Corpus_test['label']
         test_X = Corpus_test['text_final']
         # Tokenization setup
-        MAX_NB_WORDS, MAX_SEQUENCE_LENGTH, EMBEDDING_DIM = 50000, 1000, 100
+        MAX_NB_WORDS, MAX_SEQUENCE_LENGTH, EMBEDDING_DIM = 50000, 25, 100
         tokenizer = Tokenizer(num_words=MAX_NB_WORDS, filters='!"#$%&()*+,-./:;<=>?@[\]^_`{|}~', lower=True)
         tokenizer.fit_on_texts(Corpus_train['text_final'].values)
         word_index = tokenizer.word_index
@@ -78,15 +80,17 @@ while True:
         # store model to be used in the conversation
         model.save('seq_model.h5', save_format='tf')
 
+        classifier = model
+
     if answer == '2':
-        classifier = None
         case = True
 
-        try:
-            classifier = load_model('seq_model.h5')
-        except OSError:
-            print('no classifier found, train it first by choosing option 1')
-            raise
+        if not classifier:
+            try:
+                classifier = load_model('seq_model.h5')
+            except OSError:
+                print('no classifier found, train it first by choosing option 1')
+                raise
 
         print('select a case')
         answer = input('1) Case 1\n'

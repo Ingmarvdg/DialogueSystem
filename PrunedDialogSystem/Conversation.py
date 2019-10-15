@@ -489,6 +489,7 @@ class Conversation:
             return self.response
 
         elif act == 'bye':
+            print(self.n_responses)
             return self.SENTENCES['bye1']
 
         elif act == 'restart':
@@ -503,6 +504,8 @@ class Conversation:
             response, new_state = func(sentence, act)
             self.state = new_state
             self.response = response
+
+        self.n_responses = self.n_responses + 1
 
         return self.response
 
