@@ -239,7 +239,7 @@ while True:
         test_Y = Corpus_test['label']
         test_X = Corpus_test['text_final']
         # Tokenization setup
-        MAX_NB_WORDS, MAX_SEQUENCE_LENGTH, EMBEDDING_DIM = 50000, 1000, 100
+        MAX_NB_WORDS, MAX_SEQUENCE_LENGTH, EMBEDDING_DIM = 50000, 15, 100
         tokenizer = Tokenizer(num_words=MAX_NB_WORDS, filters='!"#$%&()*+,-./:;<=>?@[\]^_`{|}~', lower=True)
         tokenizer.fit_on_texts(Corpus_train['text_final'].values)
         word_index = tokenizer.word_index

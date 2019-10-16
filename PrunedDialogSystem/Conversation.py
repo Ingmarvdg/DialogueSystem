@@ -8,6 +8,7 @@ import csv
 import json
 from numpy import random
 from Levenshtein import distance
+import MLClassifier as mlc
 
 
 def read_csv_database(filepath):
@@ -258,7 +259,7 @@ class Conversation:
         elif isinstance(classifier, pd.core.series):
             dialog_act = np.random.choice(list(classifier.index.values), 1, list(classifier.values))
         else:
-            dialog_act = classifier.predict(sentence)
+            dialog_act = mlc.label_single(sentence)
         return dialog_act
 
     # method that will update the user preferences with the topic that's at stake
