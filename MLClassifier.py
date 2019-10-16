@@ -7,6 +7,7 @@ from nltk import pos_tag
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from sklearn.preprocessing import LabelEncoder
+from keras.preprocessing.text import Tokenizer
 from collections import defaultdict
 from nltk.corpus import wordnet as wn
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -21,14 +22,25 @@ train_data = r"DialogueSystem/train_data.txt"
 test_data = r"DialogueSystem/test_data.txt"
 
 # Preprocessing function
-def preprocess(datapath):
-    # Read & Preprocess
+def load_data(datapath):
     Corpus = pd.read_csv(datapath, encoding='latin-1', header=None, names=['label', 'text'])
     new = Corpus["label"].str.split(":", n = 1, expand = True)
     Corpus["label"]= new[1] 
     new = Corpus["text"].str.split(":", n = 1, expand = True)
     Corpus["text"]= new[1]
+    return(Corpus)
 
+df_train = load_data(train_data)
+df_test = load_data(test_data)
+
+# Special preprocess function for single utterances
+def load_single(str_sentence):
+    Corpus = pd.DataFrame(np.array([["", ""]]), columns=["label", "text"])
+    Corpus["text"][0] = str_sentence
+    return(Corpus)
+
+def preprocess(Corpus):
+    # Read & Preprocess
     #Step - a : Remove blank rows if any.
     Corpus['text'].dropna(inplace=True)
     # Step - b : Change all the text to lower case. This is required as python interprets 'dog' and 'DOG' differently
@@ -57,3 +69,45 @@ def preprocess(datapath):
         Corpus.loc[index,'text_final'] = str(Final_words)
         
     return(Corpus)
+
+    
+def revert_predictions(predictions):
+    list_predicts = []
+    for i in range(len(predictions)):
+        if predictions[i].argmax() == 14: list_predicts.append('thankyou')
+        elif predictions[i].argmax() == 13: list_predicts.append('restart')
+        elif predictions[i].argmax() == 12: list_predicts.append('request')
+        elif predictions[i].argmax() == 11: list_predicts.append('reqmore')
+        elif predictions[i].argmax() == 10: list_predicts.append('reqalts')
+        elif predictions[i].argmax() == 9: list_predicts.append('repeat')
+        elif predictions[i].argmax() == 8: list_predicts.append('null')
+        elif predictions[i].argmax() == 7: list_predicts.append('negate')
+        elif predictions[i].argmax() == 6: list_predicts.append('inform')
+        elif predictions[i].argmax() == 5: list_predicts.append('hello')
+        elif predictions[i].argmax() == 4: list_predicts.append('deny')
+        elif predictions[i].argmax() == 3: list_predicts.append('confirm')
+        elif predictions[i].argmax() == 2: list_predicts.append('bye')
+        elif predictions[i].argmax() == 1: list_predicts.append('affirm')
+        elif predictions[i].argmax() == 0: list_predicts.append('ack')
+        else: list_predicts.append('')
+
+    return(list_predicts)  
+
+
+def label_single(string):
+    # preprocessing using custom function
+    string_prp = preprocess(load_single(string))
+    
+    # Fit tokenizer to this text bit
+    tokenizer.fit_on_texts(string_prp['text_final'].values)
+    X_single = tokenizer.texts_to_sequences(single['text_final'].values)
+    X_single = pad_sequences(X_single, maxlen=MAX_SEQUENCE_LENGTH)
+    
+    # Make model prediction
+    X_pred = model.predict(X_single)
+    
+    # Put the tokenizer back to fit on the normal text again
+    tokenizer.fit_on_texts(Corpus_train['text_final'].values)
+    
+    # Revert Keras' encoding back to label
+    return(revert_predictions(X_pred)[0])
